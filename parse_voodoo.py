@@ -588,6 +588,8 @@ def main():
     
     output = {"entries": all_entries}
     
+    import os
+    os.makedirs('data', exist_ok=True)
     with open('data/drinks.json', 'w') as f:
         json.dump(output, f, indent=2, ensure_ascii=False)
     

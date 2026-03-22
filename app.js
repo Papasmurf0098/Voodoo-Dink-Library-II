@@ -442,9 +442,12 @@ function renderDetail(drinkId) {
   [
     ['Producer', entry.producer],
     ['Origin', entry.origin?.display],
-    ['Subtype', entry.subtype || entry.varietal],
+    ['Subtype', entry.subtype],
+    ['Varietal', entry.varietal],
     [strengthLabel, formatStrength(entry.strength)],
     ['Proof', entry.strength?.proofDisplay || entry.strength?.proof?.toString()],
+    ['Confirmation', entry.strength?.confirmation && entry.strength.confirmation !== 'exact' ? startCase(entry.strength.confirmation) : null],
+    ['Strength note', entry.strength?.note],
   ].filter(([, value]) => value).forEach(([label, value]) => detailFacts.appendChild(createFact(label, value)));
 
   const profileFields = fragment.querySelector('#profileFields');
@@ -463,6 +466,32 @@ function renderDetail(drinkId) {
     div.innerHTML = `<strong>${startCase(key)}</strong><p>${escapeHtml(values.join(', '))}</p>`;
     pairingsGrid.appendChild(div);
   });
+
+  const tagsSection = fragment.querySelector('#tagsSection');
+  if (entry.tags?.length) {
+    const tagsContainer = fragment.querySelector('#tagsList');
+    entry.tags.forEach(tag => {
+      const span = document.createElement('span');
+      span.className = 'badge tag-badge';
+      span.textContent = humanizeBadge(tag);
+      tagsContainer.appendChild(span);
+    });
+  } else {
+    tagsSection.remove();
+  }
+
+  const whiskeySection = fragment.querySelector('#whiskeySection');
+  if (entry.whiskey?.styleTerms?.length) {
+    const termsContainer = fragment.querySelector('#whiskeyStyleTerms');
+    entry.whiskey.styleTerms.forEach(term => {
+      const span = document.createElement('span');
+      span.className = 'badge style-term-badge';
+      span.textContent = term;
+      termsContainer.appendChild(span);
+    });
+  } else {
+    whiskeySection.remove();
+  }
 
   const signatureSection = fragment.querySelector('#signatureSection');
   if (entry.signatureTraits?.length) {
@@ -541,11 +570,9 @@ function joinList(values) {
 
 function formatStrength(strength) {
   if (!strength) return '';
+  if (strength.abvDisplay) return strength.abvDisplay;
   if (strength.display) return strength.display;
-  const parts = [];
-  if (strength.abvDisplay) parts.push(strength.abvDisplay);
-  if (strength.note) parts.push(strength.note);
-  return parts.join(' · ');
+  return '';
 }
 
 const displayKeyMap = {
