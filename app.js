@@ -570,11 +570,9 @@ function joinList(values) {
 
 function formatStrength(strength) {
   if (!strength) return '';
+  if (strength.abvDisplay) return strength.abvDisplay;
   if (strength.display) return strength.display;
-  const parts = [];
-  if (strength.abvDisplay) parts.push(strength.abvDisplay);
-  if (strength.note) parts.push(strength.note);
-  return parts.join(' · ');
+  return '';
 }
 
 const displayKeyMap = {
