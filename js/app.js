@@ -134,7 +134,7 @@ function renderShell() {
           </div>
           <div class="stage-header__tools">
             <button class="text-button" data-action="random">${icon('spark')} Discover</button>
-            <button id="filterToggle" class="text-button" data-action="toggle-filters" aria-expanded="false">${icon('sliders')} Refine</button>
+            <button id="filterToggle" aria-controls="filterDrawer" class="text-button" data-action="toggle-filters" aria-expanded="false">${icon('sliders')} Refine</button>
           </div>
         </header>
 
@@ -191,7 +191,7 @@ function renderShell() {
         </section>
 
         <div class="result-bar">
-          <p id="resultCount" role="status" aria-live="polite"></p>
+          <p id="resultCount" tabindex="-1" role="status" aria-live="polite"></p>
           <div id="activeFilters" class="active-filters"></div>
         </div>
 
@@ -320,12 +320,20 @@ function handleClick(event) {
     elements.filterDrawer.setAttribute('aria-hidden', String(!open));
     elements.filterDrawer.inert = !open;
     elements.filterToggle.setAttribute('aria-expanded', String(open));
+  } else if (action === 'remove-filter') {
+    const key = actionTarget.dataset.filter;
+    if (Object.hasOwn(FILTER_DEFAULTS, key)) {
+      state[key] = FILTER_DEFAULTS[key];
+      if (key === 'family') state.category = 'All';
+      state.visible = PAGE_STEP; clearTimeout(searchTimer); syncUrl(); renderAll();
+      elements.resultCount.focus({ preventScroll: true });
+    }
   } else if (action === 'clear-filters') {
     clearFilters();
   } else if (action === 'load-more') {
     const nextIndex = state.visible;
     state.visible += PAGE_STEP;
-    renderResults();
+    renderResults({ appendFrom: nextIndex });
     elements.catalogDeck.querySelectorAll('.card-open')[nextIndex]?.focus();
   } else if (action === 'close-profile') {
     closeProfile();
@@ -406,6 +414,8 @@ function renderAll({ fromHistory = false } = {}) {
 }
 
 function renderLibrary() {
+  const focused = document.activeElement;
+  const focusKey = ['family', 'category', 'scope', 'density'].find((key) => focused?.dataset?.[key]);
   document.body.dataset.family = state.selectedId ? state.entries.find((entry) => entry.id === state.selectedId)?.family : state.family;
   document.body.dataset.density = state.density;
   const dish = state.food.find((item) => item.id === state.dish);
@@ -420,6 +430,11 @@ function renderLibrary() {
   renderResults();
   renderDensityControl();
   updateFavoriteUI();
+  const noResults = getFiltered().length === 0;
+  document.querySelectorAll('[data-action="random"]').forEach((button) => { button.disabled = noResults; });
+  if (focusKey && !focused.isConnected) {
+    [...document.querySelectorAll(`[data-${focusKey}]`)].find((node) => node.dataset[focusKey] === focused.dataset[focusKey])?.focus({ preventScroll: true });
+  }
 }
 
 function renderFamilyTabs() {
@@ -438,9 +453,9 @@ function renderFamilyTabs() {
 function renderCategories() {
   const categories = getCategories(state.entries, state.family);
   elements.categoryTabs.innerHTML = [
-    `<button class="category-tab ${state.category === 'All' ? 'is-active' : ''}" data-category="All">All</button>`,
+    `<button class="category-tab ${state.category === 'All' ? 'is-active' : ''}" data-category="All" aria-pressed="${state.category === 'All'}">All</button>`,
     ...categories.map(({ name, count }) => `
-      <button class="category-tab ${state.category === name ? 'is-active' : ''}" data-category="${escapeAttribute(name)}">
+      <button class="category-tab ${state.category === name ? 'is-active' : ''}" data-category="${escapeAttribute(name)}" aria-pressed="${state.category === name}">
         ${escapeHtml(name)} <span>${count}</span>
       </button>`),
   ].join('');
@@ -470,32 +485,31 @@ function renderScopeTabs() {
 
 function renderActiveFilters() {
   const filters = [];
-  if (state.query) filters.push(['Search', state.query]);
-  if (state.category !== 'All') filters.push(['Category', state.category]);
-  if (state.confidence !== 'All') filters.push(['Confidence', state.confidence]);
-  if (state.pairingsOnly) filters.push(['Pairings', 'Required']);
-  if (state.caveatsOnly) filters.push(['Caveats', 'Present']);
-  if (state.dish) filters.push(['Dish', state.food.find((dish) => dish.id === state.dish)?.name || state.dish]);
-  if (state.flavor) filters.push(['Flavor', state.flavor]);
-  if (state.menu) filters.push(['Menu', state.menu === 'listed' ? 'Listed' : 'Not found']);
-
-  elements.activeFilters.innerHTML = filters.map(([label, value]) => `
-    <span class="active-filter"><small>${escapeHtml(label)}</small>${escapeHtml(value)}</span>
+  if (state.query) filters.push(['query', 'Search', state.query]);
+  if (state.family !== 'All') filters.push(['family', 'Family', state.family]);
+  if (state.category !== 'All') filters.push(['category', 'Category', state.category]);
+  if (state.confidence !== 'All') filters.push(['confidence', 'Confidence', state.confidence]);
+  if (state.pairingsOnly) filters.push(['pairingsOnly', 'Pairings', 'Required']);
+  if (state.caveatsOnly) filters.push(['caveatsOnly', 'Caveats', 'Present']);
+  if (state.dish) filters.push(['dish', 'Dish', state.food.find((dish) => dish.id === state.dish)?.name || state.dish]);
+  if (state.flavor) filters.push(['flavor', 'Flavor', state.flavor]);
+  if (state.menu) filters.push(['menu', 'Menu', state.menu === 'listed' ? 'Listed' : 'Not found']);
+  elements.activeFilters.innerHTML = filters.map(([key, label, value]) => `
+    <button class="active-filter" data-action="remove-filter" data-filter="${key}" aria-label="Remove ${escapeAttribute(label)} filter: ${escapeAttribute(value)}"><small>${label}</small><span>${escapeHtml(value)}</span>${icon('x')}</button>
   `).join('');
 }
 
-function renderResults() {
+function renderResults({ appendFrom = 0 } = {}) {
   const results = getFiltered();
   const visible = results.slice(0, state.visible);
   elements.resultCount.textContent = `${results.length} ${results.length === 1 ? 'profile' : 'profiles'}`;
-
   if (!results.length) {
     elements.catalogDeck.innerHTML = emptyState();
     elements.loadMoreWrap.innerHTML = '';
     return;
   }
-
-  elements.catalogDeck.innerHTML = visible.map((entry, index) => cardMarkup(entry, index)).join('');
+  if (appendFrom) elements.catalogDeck.insertAdjacentHTML('beforeend', visible.slice(appendFrom).map((entry, index) => cardMarkup(entry, index)).join(''));
+  else elements.catalogDeck.innerHTML = visible.map((entry, index) => cardMarkup(entry, index)).join('');
   elements.loadMoreWrap.innerHTML = results.length > visible.length
     ? `<button class="load-more" data-action="load-more">Show ${Math.min(PAGE_STEP, results.length - visible.length)} more <span>${visible.length} / ${results.length}</span></button>`
     : `<div class="end-mark"><span>V</span><small>End of selection</small></div>`;
@@ -530,6 +544,7 @@ function cardMarkup(entry, index) {
 function renderDensityControl() {
   document.querySelectorAll('[data-density]').forEach((button) => {
     button.classList.toggle('is-active', button.dataset.density === state.density);
+    button.setAttribute('aria-pressed', String(button.dataset.density === state.density));
   });
 }
 
@@ -576,6 +591,10 @@ function renderProfile(id, { fromHistory = false } = {}) {
       </div>
     </header>
 
+    <div class="share-link" id="shareLink" hidden>
+      <label for="profileLink">Profile link</label>
+      <input id="profileLink" type="url" readonly value="${escapeAttribute(profileUrl(location.href, entry.id))}" />
+    </div>
     <div class="profile-scroll">
       <section class="profile-hero">
         <div class="profile-hero__index">${String(entry._index + 1).padStart(3, '0')}</div>
@@ -672,19 +691,14 @@ function setScope(scope) {
 }
 
 function clearFilters() {
-  state.query = '';
-  state.category = 'All';
-  state.confidence = 'All';
-  state.pairingsOnly = false;
-  state.caveatsOnly = false;
-  state.dish = ''; state.flavor = ''; state.menu = '';
-  state.visible = PAGE_STEP;
-  elements.searchInput.value = '';
-  syncUrl({ replace: true });
+  clearTimeout(searchTimer);
+  Object.assign(state, FILTER_DEFAULTS, { visible: PAGE_STEP });
+  syncUrl();
   renderAll();
 }
 
 function resetState() {
+  clearTimeout(searchTimer);
   Object.assign(state, {
     query: '', family: 'All', category: 'All', confidence: 'All',
     pairingsOnly: false, caveatsOnly: false, scope: 'all', visible: PAGE_STEP, selectedId: null,
@@ -730,8 +744,7 @@ function updateFavoriteUI() {
 
 function openRandomProfile() {
   const pool = getFiltered();
-  const source = pool.length ? pool : state.entries;
-  const entry = source[Math.floor(Math.random() * source.length)];
+  const entry = pool[Math.floor(Math.random() * pool.length)];
   if (entry) openProfile(entry.id);
 }
 
@@ -765,15 +778,22 @@ async function shareCurrentProfile() {
   const entry = state.entries.find((item) => item.id === state.selectedId);
   if (!entry) return;
   const url = profileUrl(window.location.href, entry.id);
-  try {
-    if (navigator.share) {
+  if (navigator.share) {
+    try {
       await navigator.share({ title: entry.name, text: `${entry.name} — Voodoo Drink Library`, url });
-    } else {
-      await navigator.clipboard.writeText(url);
-      showToast('Profile link copied');
-    }
-  } catch (error) {
-    if (error?.name !== 'AbortError') showToast('Unable to share this profile');
+      return;
+    } catch (error) { if (error?.name === 'AbortError') return; }
+  }
+  try {
+    await navigator.clipboard.writeText(url);
+    showToast('Profile link copied');
+  } catch {
+    if (state.selectedId !== entry.id) return;
+    const panel = elements.profilePanel.querySelector('#shareLink');
+    panel.hidden = false;
+    const input = panel.querySelector('input');
+    input.focus(); input.select();
+    showToast('Select and copy this profile link');
   }
 }
 
@@ -881,18 +901,17 @@ function cardTags(entry) {
 }
 
 function emptyState() {
-  const scopeCopy = state.scope === 'favorites'
-    ? ['Nothing saved yet', 'Use the bookmark on any profile to build a personal tasting list.']
-    : state.scope === 'recent'
-      ? ['No recent profiles', 'Open a drink and it will appear here for quick return.']
-      : ['No matching profiles', 'Try removing a filter or searching with a broader flavor, style, or producer.'];
-  return `
-    <div class="empty-state">
-      <span>${icon(state.scope === 'favorites' ? 'bookmark' : 'search')}</span>
-      <h2>${scopeCopy[0]}</h2>
-      <p>${scopeCopy[1]}</p>
-      ${state.scope === 'all' ? '<button class="button" data-action="clear-filters">Clear filters</button>' : ''}
-    </div>`;
+  const isEmptyCollection = state.scope === 'favorites' ? state.favorites.size === 0 : state.scope === 'recent' ? state.recent.length === 0 : false;
+  const copy = isEmptyCollection
+    ? state.scope === 'favorites'
+      ? ['Nothing saved yet', 'Bookmark a profile to keep it here.']
+      : ['No recent profiles', 'Profiles you open will appear here.']
+    : ['No matching profiles', `Try clearing filters${state.scope === 'all' ? '' : ' to see the rest of this collection'}.`];
+  return `<div class="empty-state">
+    <span>${icon(state.scope === 'favorites' ? 'bookmark' : 'search')}</span>
+    <h2>${copy[0]}</h2><p>${copy[1]}</p>
+    <button class="button" data-action="${isEmptyCollection ? 'reset' : 'clear-filters'}">${isEmptyCollection ? 'Browse all profiles' : 'Clear filters'}</button>
+  </div>`;
 }
 
 function formatStrength(strength) {
@@ -909,19 +928,6 @@ function cleanSources(values) {
   return values.map((value) => String(value).replace(/^\s*:\s*/, '')).join(', ');
 }
 
-function displayKey(key) {
-  const map = {
-    proteins: 'Proteins',
-    spices_flavor_companions: 'Flavor companions',
-    cheeses: 'Cheeses',
-    cuisines: 'Cuisines',
-  };
-  return map[key] || humanize(key);
-}
-
-function humanize(value = '') {
-  return String(value).replace(/_/g, ' ').replace(/\b\w/g, (char) => char.toUpperCase());
-}
 
 function showToast(message) {
   elements.toast.textContent = message;

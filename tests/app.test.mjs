@@ -86,3 +86,63 @@ test('modified shortcuts do not open profiles, plain R does', async () => {
 });
 
 export { mount, pause, until };
+
+test('Saved distinguishes empty collections from filters that hide saved profiles', async () => {
+  const ui = await mount('?scope=favorites&family=Whiskey&q=zzzz', { storage: { 'nightcap:v2:favorites': ['bourbon-peach-tea'] } });
+  try {
+    assert.equal(ui.$('.empty-state h2').textContent, 'No matching profiles');
+    assert.equal(ui.$('[data-action="random"]').disabled, true);
+    ui.click('.empty-state [data-action="clear-filters"]');
+    assert.equal(ui.$('.card-open').textContent, 'Bourbon Peach Tea');
+    assert.equal(ui.win.location.search, '?scope=favorites');
+    assert.equal(ui.$('[data-action="random"]').disabled, false);
+    ui.click('.card-save');
+    assert.equal(ui.$('.empty-state h2').textContent, 'Nothing saved yet');
+    ui.click('.empty-state [data-action="reset"]');
+    assert.equal(ui.$('#resultCount').textContent, '358 profiles');
+  } finally { ui.close(); }
+});
+
+test('removing a single filter preserves other selections and updates controls and URL', async () => {
+  const ui = await mount('?family=Cocktail&flavor=Citrus&menu=listed');
+  try {
+    ui.click('[data-filter="flavor"]');
+    assert.equal(ui.$('#flavorSelect').value, '');
+    assert.equal(ui.$('#menuSelect').value, 'listed');
+    assert.equal(ui.win.location.search, '?family=Cocktail&menu=listed');
+    assert.equal(ui.win.document.activeElement, ui.$('#resultCount'));
+    const family = ui.click('.family-tab[data-family="Whiskey"]');
+    assert.equal(ui.win.document.activeElement.dataset.family, family.dataset.family);
+  } finally { ui.close(); }
+});
+
+test('loading more retains existing cards and focuses the first new profile', async () => {
+  const ui = await mount();
+  try {
+    const first = ui.$('.catalog-card');
+    ui.click('[data-action="load-more"]');
+    assert.equal(ui.$('.catalog-card'), first);
+    assert.equal(ui.$('#catalogDeck').children.length, 84);
+    assert.equal(ui.win.document.activeElement, ui.$('#catalogDeck').children[42].querySelector('.card-open'));
+  } finally { ui.close(); }
+});
+
+test('a direct link can explore related profiles and still close into the library', async () => {
+  const ui = await mount('?drink=bourbon-peach-tea');
+  try {
+    ui.click('.related-card');
+    ui.click('.profile-back');
+    assert.equal(ui.$('#profileLayer').getAttribute('aria-hidden'), 'true');
+    assert.equal(ui.win.location.search, '');
+  } finally { ui.close(); }
+});
+
+test('sharing has a selectable canonical link when native sharing and clipboard are unavailable', async () => {
+  const ui = await mount('?drink=bourbon-peach-tea&scope=favorites&q=tea');
+  try {
+    ui.click('[data-action="share-profile"]');
+    await until(() => !ui.$('#shareLink').hidden);
+    assert.equal(ui.$('#profileLink').value, 'https://example.com/library/?drink=bourbon-peach-tea');
+    assert.equal(ui.win.document.activeElement, ui.$('#profileLink'));
+  } finally { ui.close(); }
+});
