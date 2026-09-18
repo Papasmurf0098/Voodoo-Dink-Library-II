@@ -1,4 +1,5 @@
 import { loadCatalog, loadFood } from './data.js';
+import { pairingGuidance, profileGuidance, PAIRING_PRINCIPLES } from './pairing-guidance.js';
 import { FILTER_DEFAULTS, readRoute, routeUrl, profileUrl } from './route.js';
 import {
   FAMILY_ORDER,
@@ -890,9 +891,11 @@ function pairingsMarkup(entry) {
         <div class="pairing-group">
           <h3>${escapeHtml(pair.name)}</h3>
           <p>${escapeHtml(pair.reason)}</p>
+          ${pairingGuidance(entry, pair).map((note) => `<p class="pairing-caution"><strong>Consider:</strong> ${escapeHtml(note)}</p>`).join('')}
           <button class="pairing-explore" ${state.foodUnavailable ? 'disabled' : ''} data-action="pair-dish" data-dish="${escapeAttribute(pair.dishId)}">Other drinks for this dish</button>
         </div>`).join('')}</div>
       <a class="menu-link" href="https://voodoobayou.com/menu/" target="_blank" rel="noopener noreferrer">Food menu ↗</a>
+      ${pairs.length ? `<details class="pairing-method"><summary>How to use these pairings</summary><p>${escapeHtml(profileGuidance(entry))}</p><p>Background principles, not evidence that these specific combinations were tasted:</p><ul>${PAIRING_PRINCIPLES.map((source) => `<li><a href="${escapeAttribute(source.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(source.title)}</a></li>`).join('')}</ul></details>` : ''}
     </section>`;
 }
 
@@ -933,6 +936,7 @@ function researchFields(entry) {
     ['Profile level', entry.research?.profileLevel],
     ['Reviewed', entry.research?.reviewedAt],
     ['Tasting basis', entry.research?.tastingBasis],
+    ['Latest source check', entry.research?.flavorCheck?.summary],
     ['Source types', cleanSources(entry.research?.sourceTypesConsulted)],
     ['Conflicts', entry.research?.conflictsFound],
     ['Resolution', entry.research?.resolution],

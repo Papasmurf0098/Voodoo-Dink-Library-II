@@ -1,5 +1,33 @@
 # Drink and pairing audit — September 6, 2026
 
+## September 18 follow-up — flavor and pairing sweep
+
+Completed a structural and editorial-rule sweep of all 359 stored records (358 distinct profiles) and 696 visible pairing suggestions. This is **not** independent re-verification of every tasting claim. Six profiles received targeted fresh source checks; 353 stored records retain earlier evidence and are explicitly marked as not independently reverified in this pass. No confidence ratings were promoted. All 11 unresolved profiles/flights remain unpaired.
+
+The per-record coverage, corrections and remaining questions are in `data/flavor-audit.json`. Run `node scripts/audit-flavors-2026-09-18.mjs` to check the dated migration outputs; `--write` regenerates them after review. Do not reuse this dated migration for future source verification.
+
+### Fresh source-backed corrections
+
+- [Angel’s Envy](https://www.angelsenvy.com/us/en/whiskeys/signature-series/port-wine-finished-bourbon/): restored the producer’s lingering sweet impression; removed the pairing’s unsupported dry-finish claim. Aromatic sweetness is not a sugar measurement.
+- [Balcones Texas Pot Still](https://www.breakingbourbon.com/review/balcones-texas-pot-still-bourbon): separated nose, palate and finish more faithfully to the published sample review, rather than treating them as interchangeable.
+- [Chopin Potato](https://chopinvodka.com/product/chopin-potato-vodka/): removed an unsupported grain descriptor. This does not resolve which Chopin expression the venue stocks.
+- Verdita: added ingredient-led expectations from [Breckenridge Gin](https://breckenridgedistillery.com/spirits/breckenridge-gin/) and [Cocchi Americano](https://www.cocchi.it/en/wines/americano/), with unknown proportions still explicit.
+- Gris-Gris Rita and Jameo’retto Sour: included a botanical citrus/spice expectation from [Munyon’s ingredient list](https://munyonspawpaw.com/our-recipe/). The [venue menu](https://voodoobayou.com/menu/) confirms these named ingredients, not sensory intensity or finished ABV.
+
+### Pairing corrections and safeguards
+
+Removed the generic dry-finish assertion from whiskey/chocolate pairings, an unsupported smoke assumption for Los Vecinos, duplicated honey-butter wording, and blanket light-tannin/earthy assertions for Pinot Noir. The richer Meiomi and Belle Glos references now suggest roast chicken instead of using the generic light-Pinot/fish rationale. Hop Gun’s corn-rib explanation now identifies malt, hops and chipotle explicitly.
+
+The UI now supplies contextual cautions for spirits with delicate dishes, alcoholic drinks with explicitly chile-bearing dishes, and sweet dishes with potentially drier drinks. These are editorial risk flags, not a complete chemical or sensory model. Alcohol or hop bitterness can intensify heat; sweet dishes can shift perceived balance. See [WSET’s component-based guidance](https://www.wsetglobal.com/knowledge-centre/blog/2023/july/13/four-rules-to-masterful-food-and-wine-pairing), [WSET on sweetness and heat](https://www.wsetglobal.com/knowledge-centre/blog/2020/december/21/winter-wine-and-food-matching), and [CraftBeer.com’s sensory discussion](https://www.craftbeer.com/beer-and-food/science-says-youre-wrong-about-pairing-ipas-and-spicy-foods). None of these sources tested the app’s specific combinations.
+
+Flavor descriptors are not ingredient or allergen declarations. Citrus aroma does not establish acidity; vanilla and caramel aromas do not establish sweetness. Preparation, temperature, dilution and personal preference matter.
+
+### Gaps that remain open
+
+Independent source re-verification remains outstanding for 353 records. Thirty distinct profiles still carry Low confidence. Exact bottles/releases, flight contents, unspecified cocktail quantities, wine vintages, and live inventory require venue confirmation; do not fill them by guessing. Published notes also do not verify the actual poured sample. Food item-level review dates were not blanket-updated merely because the location-linked menu was re-read.
+
+This release adds automated data, guidance and DOM coverage, including offline caching of the new module. It does not claim an in-person tasting, a complete current venue inventory, or desktop/mobile visual verification.
+
 ## September 7 follow-up — current menu corrections
 
 The [same location-linked menu](https://voodoobayou.com/menu/) returned refreshed content on September 7 after an initial retrieval still returned the older page. The newer version explicitly lists **Bourbon Peach Tea** and **Garden District Ceviche**. This resolves their omission; it does not establish the restaurant's precise menu-change date. The separate PBG endpoint remains unavailable.

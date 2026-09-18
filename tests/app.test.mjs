@@ -87,6 +87,19 @@ test('modified shortcuts do not open profiles, plain R does', async () => {
 
 export { mount, pause, until };
 
+test('profile exposes pairing cautions and honest source-check scope', async () => {
+  const ui = await mount('?drink=funky-buddha-hop-gun');
+  try {
+    await pause();
+    assert.match(ui.$('#profilePanel').textContent, /Hop bitterness and alcohol may intensify/);
+    assert.match(ui.$('.research-panel').textContent, /not independently reverified/);
+    const guide = ui.$('.pairing-method');
+    assert.ok(guide);
+    assert.equal(guide.querySelectorAll('a').length, 3);
+    assert.match(guide.textContent, /not ingredient or allergen declarations/);
+  } finally { ui.close(); }
+});
+
 test('Saved distinguishes empty collections from filters that hide saved profiles', async () => {
   const ui = await mount('?scope=favorites&family=Whiskey&q=zzzz', { storage: { 'nightcap:v2:favorites': ['bourbon-peach-tea'] } });
   try {

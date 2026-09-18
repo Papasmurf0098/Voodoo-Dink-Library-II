@@ -1,6 +1,10 @@
 # Internal release iterations — September 18, 2026
 
-These iterations build on the merged September 7 catalog and velvet-purple design. The reviewed drink/food JSON, tasting claims, evidence, and pairings are unchanged.
+Iterations 1–5 build on the merged September 7 catalog and velvet-purple design and left tasting data unchanged. The flavor follow-up below changes that data separately.
+
+## Flavor and pairing follow-up
+
+Catalog-wide structural/rule checks now cover 359 records and 696 visible suggestions. Six profiles received fresh tasting/ingredient-source corrections; the other 353 retain prior evidence with explicit re-verification gaps. Added contextual pairing cautions, supporting principles, per-record audit coverage and source-check scope in the profile UI. Corrected unsupported dry-finish, smoke and light-Pinot assertions. Preserved unresolved identities, all IDs and historical routes. Added the new module to required offline assets. See `RESEARCH_AUDIT.md` for exact scope and limitations.
 
 ## 1. Navigation and reading continuity
 
