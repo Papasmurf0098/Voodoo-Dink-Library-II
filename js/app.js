@@ -42,6 +42,7 @@ const state = {
   food: [],
   foodUnavailable: false,
   foodLoading: false,
+  pendingDish: '',
   favorites: loadFavorites(),
   recent: loadRecent(),
   scrollY: 0,
@@ -259,7 +260,7 @@ function bindEvents() {
     state.query = event.target.value;
     searchTimer = setTimeout(() => {
       state.visible = PAGE_STEP;
-      syncUrl({ replace: true });
+      syncUrl();
       renderLibrary();
     }, 90);
   });
@@ -267,6 +268,8 @@ function bindEvents() {
   document.addEventListener('click', handleClick);
   document.addEventListener('change', handleChange);
   document.addEventListener('keydown', handleKeydown);
+  elements.profilePanel.addEventListener('scroll', rememberProfilePosition, true);
+  elements.profilePanel.addEventListener('toggle', rememberProfilePosition, true);
   window.addEventListener('online', updateConnectionStatus);
   window.addEventListener('offline', updateConnectionStatus);
   window.addEventListener('storage', syncDeviceStorage);
@@ -309,7 +312,7 @@ function handleClick(event) {
   if (categoryTarget) {
     state.category = categoryTarget.dataset.category;
     state.visible = PAGE_STEP;
-    syncUrl({ replace: true });
+    syncUrl();
     renderLibrary();
     return;
   }
@@ -343,6 +346,7 @@ function handleClick(event) {
   } else if (action === 'remove-filter') {
     const key = actionTarget.dataset.filter;
     if (Object.hasOwn(FILTER_DEFAULTS, key)) {
+      if (key === 'dish') state.pendingDish = '';
       state[key] = FILTER_DEFAULTS[key];
       if (key === 'family') state.category = 'All';
       state.visible = PAGE_STEP; clearTimeout(searchTimer); syncUrl(); renderAll();
@@ -375,7 +379,7 @@ function handleClick(event) {
   } else if (action === 'pair-dish') {
     state.dish = actionTarget.dataset.dish;
     state.family = 'All'; state.category = 'All'; state.scope = 'all'; state.query = ''; state.flavor = ''; state.menu = ''; state.confidence = 'All'; state.pairingsOnly = false; state.caveatsOnly = false;
-    state.selectedId = null; state.visible = PAGE_STEP; state.scrollY = 0;
+    state.selectedId = null; state.visible = PAGE_STEP; state.scrollY = 0; state.pendingDish = '';
     syncUrl({ push: true, depth: 0 }); renderAll();
     elements.dishSelect.focus(); window.scrollTo({ top: 0, behavior: 'instant' });
   }
@@ -384,7 +388,7 @@ function handleClick(event) {
 function handleChange(event) {
   if (event.target.id === 'backupInput') { restoreSaved(event.target); return; }
   if (event.target === elements.dishSelect) {
-    state.dish = event.target.value;
+    state.dish = event.target.value; state.pendingDish = '';
   } else if (event.target === elements.flavorSelect) {
     state.flavor = event.target.value;
   } else if (event.target === elements.menuSelect) {
@@ -403,7 +407,7 @@ function handleChange(event) {
     return;
   }
   state.visible = PAGE_STEP;
-  syncUrl({ replace: true });
+  syncUrl();
   renderLibrary();
 }
 
@@ -462,6 +466,8 @@ function renderLibrary() {
   renderStageHeader();
   renderScopeTabs();
   renderCollectionTools();
+  elements.sortSelect.disabled = state.scope === 'recent';
+  elements.sortSelect.title = state.scope === 'recent' ? 'Newest viewed first' : '';
   renderActiveFilters();
   renderResults();
   renderDensityControl();
@@ -527,7 +533,7 @@ function renderActiveFilters() {
   if (state.confidence !== 'All') filters.push(['confidence', 'Confidence', state.confidence]);
   if (state.pairingsOnly) filters.push(['pairingsOnly', 'Pairings', 'Required']);
   if (state.caveatsOnly) filters.push(['caveatsOnly', 'Caveats', 'Present']);
-  if (state.dish) filters.push(['dish', 'Dish', state.food.find((dish) => dish.id === state.dish)?.name || state.dish]);
+  if (state.dish || state.pendingDish) filters.push(['dish', 'Dish', state.food.find((dish) => dish.id === state.dish)?.name || 'Waiting for food menu']);
   if (state.flavor) filters.push(['flavor', 'Flavor', state.flavor]);
   if (state.menu) filters.push(['menu', 'Menu', state.menu === 'listed' ? 'Listed' : 'Not found']);
   elements.activeFilters.innerHTML = filters.map(([key, label, value]) => `
@@ -605,7 +611,7 @@ function renderProfile(id, { fromHistory = false } = {}) {
   const entry = state.entries.find((item) => item.id === id);
   if (!entry) {
     state.selectedId = null;
-    syncUrl({ replace: true });
+    syncUrl();
     hideProfile({ restoreScroll: false });
     return;
   }
@@ -678,8 +684,14 @@ function renderProfile(id, { fromHistory = false } = {}) {
   elements.profileLayer.inert = false;
   document.querySelector('.workspace').inert = true;
   document.querySelector('.masthead').inert = true;
+  document.querySelector('.skip-link').inert = true;
   document.body.classList.add('profile-open');
   document.body.dataset.family = entry.family || state.family;
+  const position = history.state?.voodoo;
+  if (position?.selectedId === id) {
+    elements.profilePanel.querySelector('.profile-scroll').scrollTop = position.profileScroll || 0;
+    elements.profilePanel.querySelector('.research-panel').open = Boolean(position.researchOpen);
+  }
   requestAnimationFrame(() => { if (state.selectedId === id) elements.profilePanel.querySelector('.profile-back')?.focus({ preventScroll: true }); });
   updateFavoriteUI();
 }
@@ -705,6 +717,7 @@ function hideProfile({ restoreScroll = true } = {}) {
   if (elements.profileLayer) elements.profileLayer.inert = true;
   document.querySelector('.workspace').inert = false;
   document.querySelector('.masthead').inert = false;
+  document.querySelector('.skip-link').inert = false;
   document.body.classList.remove('profile-open');
   document.title = 'Voodoo · Drink Library II';
   document.body.dataset.family = state.family;
@@ -715,20 +728,20 @@ function setFamily(family) {
   state.family = FAMILY_ORDER.includes(family) ? family : 'All';
   state.category = 'All';
   state.visible = PAGE_STEP;
-  syncUrl({ replace: true });
+  syncUrl();
   renderLibrary();
 }
 
 function setScope(scope) {
   state.scope = ['all', 'favorites', 'recent'].includes(scope) ? scope : 'all';
   state.visible = PAGE_STEP;
-  syncUrl({ replace: true });
+  syncUrl();
   renderLibrary();
 }
 
 function clearFilters() {
   clearTimeout(searchTimer);
-  Object.assign(state, FILTER_DEFAULTS, { visible: PAGE_STEP });
+  Object.assign(state, FILTER_DEFAULTS, { visible: PAGE_STEP, pendingDish: '' });
   syncUrl();
   renderAll();
 }
@@ -738,9 +751,9 @@ function resetState() {
   Object.assign(state, {
     query: '', family: 'All', category: 'All', confidence: 'All',
     pairingsOnly: false, caveatsOnly: false, scope: 'all', visible: PAGE_STEP, selectedId: null,
-    dish: '', flavor: '', menu: '',
+    dish: '', flavor: '', menu: '', pendingDish: '',
   });
-  syncUrl({ replace: true });
+  syncUrl();
   renderAll();
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
@@ -795,8 +808,17 @@ function getFiltered() {
   return sortCatalog(filtered, state.sort);
 }
 
+function rememberProfilePosition() {
+  if (!state.selectedId || history.state?.voodoo?.selectedId !== state.selectedId) return;
+  const scroll = elements.profilePanel.querySelector('.profile-scroll');
+  const research = elements.profilePanel.querySelector('.research-panel');
+  if (!scroll || !research) return;
+  history.replaceState({ voodoo: { ...history.state.voodoo, profileScroll: scroll.scrollTop, researchOpen: research.open } }, '');
+}
+
 function hydrateFromUrl({ initial = false } = {}) {
   Object.assign(state, readRoute(location.search, state.entries, state.food, initial && !location.search ? preferences.sort : 'name'));
+  state.pendingDish = state.foodUnavailable ? new URLSearchParams(location.search).get('dish') || '' : '';
   const snapshot = history.state?.voodoo;
   state.visible = Math.max(PAGE_STEP, Math.min(state.entries.length, Number(snapshot?.visible) || PAGE_STEP));
   state.scrollY = Math.max(0, Number(snapshot?.scrollY) || 0);
@@ -804,10 +826,13 @@ function hydrateFromUrl({ initial = false } = {}) {
 }
 
 function syncUrl({ push = false, depth } = {}) {
-  const url = routeUrl(location.pathname, state);
+  const url = routeUrl(location.pathname, { ...state, dish: state.pendingDish || state.dish });
+  const previous = history.state?.voodoo;
   const snapshot = {
     depth: depth ?? (state.selectedId ? history.state?.voodoo?.depth || 0 : 0),
-    visible: state.visible, scrollY: state.scrollY, returnId,
+    visible: state.visible, scrollY: state.scrollY, returnId, selectedId: state.selectedId,
+    profileScroll: previous?.selectedId === state.selectedId ? previous?.profileScroll || 0 : 0,
+    researchOpen: previous?.selectedId === state.selectedId ? Boolean(previous?.researchOpen) : false,
   };
   history[push ? 'pushState' : 'replaceState']({ voodoo: snapshot }, '', url);
 }
@@ -1061,6 +1086,11 @@ async function retryFood() {
     elements.dishSelect.innerHTML = '<option value="">Any dish</option>' + state.food.map((dish) => `<option value="${escapeAttribute(dish.id)}">${escapeHtml(dish.name)}${dish.service === 'Brunch' ? ' · Brunch' : ''}</option>`).join('');
     elements.dishSelect.disabled = false;
     document.querySelector('#foodStatus').hidden = true;
+    if (state.pendingDish) {
+      state.dish = state.food.find((dish) => dish.id === state.pendingDish || dish.legacyIds.includes(state.pendingDish))?.id || '';
+      state.pendingDish = ''; syncUrl();
+    }
+    renderAll({ fromHistory: true });
     elements.dishSelect.focus();
     showToast('Food menu restored');
   } catch {

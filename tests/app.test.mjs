@@ -228,3 +228,50 @@ test('recent-history clearing and bookmark removal can be undone', async () => {
     assert.equal(ui.$('.card-open').textContent, 'Verdita');
   } finally { ui.close(); }
 });
+
+test('Back restores the previous profile reading position and expanded sources', async () => {
+  const ui = await mount();
+  try {
+    ui.click('.card-open');
+    await pause();
+    const name = ui.$('#profileTitle').textContent;
+    ui.$('.research-panel').open = true;
+    ui.$('.profile-scroll').scrollTop = 480;
+    ui.$('.profile-scroll').dispatchEvent(new ui.win.Event('scroll'));
+    await pause();
+    ui.click('.related-card');
+    ui.win.history.back();
+    await until(() => ui.$('#profileTitle').textContent === name);
+    assert.equal(ui.$('.profile-scroll').scrollTop, 480);
+    assert.equal(ui.$('.research-panel').open, true);
+  } finally { ui.close(); }
+});
+
+test('dish deep links survive food-menu failure and resolve after retry', async () => {
+  let foodFails = true;
+  const ui = await mount('?dish=garden-district-ceviche', { fetch: async (path) => path.includes('food') && foodFails
+    ? new Response('', { status: 503 }) : new Response(readFileSync(new URL(path, root), 'utf8')) });
+  try {
+    assert.equal(new URL(ui.win.location.href).searchParams.get('dish'), 'garden-district-ceviche');
+    foodFails = false;
+    ui.click('[data-action="retry-food"]');
+    await until(() => ui.$('#foodStatus').hidden);
+    assert.equal(ui.$('#dishSelect').value, 'garden-district-ceviche');
+    assert.match(ui.$('#selectedDish').textContent, /Garden District Ceviche/);
+  } finally { ui.close(); }
+});
+
+test('backup download contains every saved profile, including those hidden by filters', async () => {
+  const { resolveObjectURL } = await import('node:buffer');
+  const ui = await mount('?scope=favorites&q=peach', { storage: { 'nightcap:v2:favorites': ['bourbon-peach-tea', 'verdita'] } });
+  try {
+    let blob;
+    let filename;
+    ui.win.document.addEventListener('click', (event) => {
+      if (event.target.download) { event.preventDefault(); filename = event.target.download; blob = resolveObjectURL(event.target.href); }
+    });
+    ui.click('[data-action="backup-saved"]');
+    assert.match(filename, /^voodoo-saved-\d{4}-\d{2}-\d{2}\.json$/);
+    assert.deepEqual(JSON.parse(await blob.text()).favorites, ['bourbon-peach-tea', 'verdita']);
+  } finally { ui.close(); }
+});

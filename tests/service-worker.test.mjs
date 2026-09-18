@@ -47,3 +47,22 @@ test('service worker refreshes online, resolves offline deep links and leaves ot
   assert.equal(await request('https://external.example/data.json'), undefined);
   assert.equal(await request(scope, 'POST'), undefined);
 });
+
+test('offline installation covers runtime modules and tolerates optional asset failures', async () => {
+  const scope = 'https://example.com/library/';
+  const listeners = {};
+  let required;
+  let skipped = false;
+  const context = vm.createContext({
+    self: { registration: { scope }, location: { origin: 'https://example.com' }, addEventListener: (name, handler) => { listeners[name] = handler; }, skipWaiting: async () => { skipped = true; } },
+    caches: { open: async () => ({ addAll: async (paths) => { required = paths; }, add: async () => { throw new Error('optional resource failed'); } }) },
+    URL, Set,
+  });
+  vm.runInContext(readFileSync(new URL('../sw.js', import.meta.url), 'utf8'), context);
+  let install;
+  listeners.install({ waitUntil: (promise) => { install = promise; } });
+  await install;
+  const imports = [...readFileSync(new URL('../js/app.js', import.meta.url), 'utf8').matchAll(/from '\.\/([^']+)'/g)].map((match) => `./js/${match[1]}`);
+  for (const path of ['./js/app.js', ...imports, './data/drinks.json']) assert.ok(required.includes(path), path);
+  assert.equal(skipped, true);
+});

@@ -137,3 +137,16 @@ test('refreshed recipes are distinct, searchable and paired with current dishes'
   for (const dish of food.dishes.filter((dish) => dish.replacedBy)) assert.equal(food.dishes.find((next) => next.id === dish.replacedBy)?.status, 'listed');
   for (const entry of entries) for (const pair of entry.pairings.restaurant) if (pair.dishId === 'cornbread') assert.ok(!/molasses/i.test(pair.reason));
 });
+
+test('install manifest icons exist at the declared sizes and stay within the app scope', () => {
+  const manifest = JSON.parse(read('manifest.webmanifest'));
+  assert.equal(manifest.id, './');
+  assert.equal(manifest.scope, './');
+  for (const icon of manifest.icons) {
+    const bytes = readFileSync(new URL(icon.src, root));
+    const [width, height] = icon.sizes.split('x').map(Number);
+    assert.equal(bytes.readUInt32BE(16), width);
+    assert.equal(bytes.readUInt32BE(20), height);
+  }
+  assert.ok(read('index.html').includes('rel="apple-touch-icon"'));
+});
