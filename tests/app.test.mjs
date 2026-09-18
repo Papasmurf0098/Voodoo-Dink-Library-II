@@ -170,3 +170,61 @@ test('a malformed catalog presents a recoverable error instead of an empty colle
     assert.equal(ui.$('.fatal-state button').textContent, 'Try again');
   } finally { ui.close(); }
 });
+
+test('storage failures preserve session bookmarks and display a persistent notice', async () => {
+  const ui = await mount();
+  try {
+    Object.defineProperty(globalThis, 'localStorage', { value: { setItem() { throw new Error('quota'); }, getItem() { return null; } }, configurable: true });
+    const button = ui.click('.card-save');
+    assert.equal(button.getAttribute('aria-pressed'), 'true');
+    assert.equal(ui.$('#storageStatus').hidden, false);
+    assert.match(ui.$('#toastMessage').textContent, /this session/);
+    ui.click('.view-chip[data-scope="favorites"]');
+    assert.equal(ui.$('#catalogDeck').children.length, 1);
+  } finally { ui.close(); }
+});
+
+test('cross-tab saves update the collection without replacing an open profile', async () => {
+  const ui = await mount('?drink=bourbon-peach-tea');
+  try {
+    const scroll = ui.$('.profile-scroll');
+    ui.win.localStorage.setItem('nightcap:v2:favorites', '["bourbon-peach-tea"]');
+    ui.win.dispatchEvent(new ui.win.StorageEvent('storage', { key: 'nightcap:v2:favorites', storageArea: ui.win.localStorage }));
+    assert.equal(ui.$('#profilePanel [data-favorite-id]').getAttribute('aria-pressed'), 'true');
+    assert.equal(ui.$('.profile-scroll'), scroll);
+  } finally { ui.close(); }
+});
+
+test('restoring a backup merges profiles and malformed files leave saved data intact', async () => {
+  const ui = await mount('?scope=favorites', { storage: { 'nightcap:v2:favorites': ['bourbon-peach-tea'] } });
+  try {
+    const input = ui.$('#backupInput');
+    const restore = async (text) => {
+      Object.defineProperty(input, 'files', { configurable: true, value: [{ size: text.length, text: async () => text }] });
+      input.dispatchEvent(new ui.win.Event('change', { bubbles: true }));
+      await pause();
+    };
+    await restore(JSON.stringify({ format: 'voodoo-saved-profiles', version: 1, favorites: ['verdita', 'missing'] }));
+    assert.equal(ui.$('#favoriteCount').textContent, '2');
+    assert.match(ui.$('#toastMessage').textContent, /1 saved profile added · 1 unavailable/);
+    await restore('{bad');
+    assert.equal(ui.$('#favoriteCount').textContent, '2');
+    assert.match(ui.$('#toastMessage').textContent, /not a valid/);
+    assert.deepEqual(JSON.parse(ui.win.localStorage.getItem('nightcap:v2:favorites')), ['bourbon-peach-tea', 'verdita']);
+  } finally { ui.close(); }
+});
+
+test('recent-history clearing and bookmark removal can be undone', async () => {
+  const ui = await mount('?scope=recent', { storage: { 'nightcap:v2:recent': ['verdita'], 'nightcap:v2:favorites': ['verdita'] } });
+  try {
+    ui.click('[data-action="clear-recent"]');
+    assert.equal(ui.$('.empty-state h2').textContent, 'No recent profiles');
+    ui.click('[data-action="undo"]');
+    assert.equal(ui.$('.card-open').textContent, 'Verdita');
+    ui.click('.view-chip[data-scope="favorites"]');
+    ui.click('.card-save');
+    assert.equal(ui.$('.empty-state h2').textContent, 'Nothing saved yet');
+    ui.click('[data-action="undo"]');
+    assert.equal(ui.$('.card-open').textContent, 'Verdita');
+  } finally { ui.close(); }
+});

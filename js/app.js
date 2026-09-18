@@ -11,6 +11,7 @@ import {
   sortCatalog,
 } from './catalog.js';
 import {
+  STORAGE_KEYS, storageWritable, canonicalIds, createSavedBackup, readSavedBackup, saveRecent,
   loadFavorites,
   loadPreferences,
   loadRecent,
@@ -56,6 +57,8 @@ let returnFocus = null;
 let returnId = null;
 let closingProfile = false;
 let searchTimer;
+let undoAction = null;
+let restoringBackup = false;
 
 boot();
 
@@ -66,10 +69,8 @@ async function boot() {
     state.entries = catalog.value;
     state.food = food.status === 'fulfilled' ? food.value : [];
     state.foodUnavailable = food.status === 'rejected';
-    const canonicalId = (id) => state.entries.find((entry) => entry.id === id || entry.legacyIds.includes(id))?.id;
-    state.favorites = new Set([...state.favorites].map(canonicalId).filter(Boolean));
-    state.recent = [...new Set(state.recent.map(canonicalId).filter(Boolean))];
-    saveFavorites(state.favorites);
+    state.favorites = new Set(canonicalIds([...state.favorites], state.entries));
+    state.recent = canonicalIds(state.recent, state.entries);
     facets = deriveFacets(state.entries);
     hydrateFromUrl({ initial: true });
     syncUrl();
@@ -78,6 +79,7 @@ async function boot() {
     renderAll();
     registerServiceWorker();
     updateConnectionStatus();
+    updateStorageStatus();
     if (state.missingDrink) showToast('That profile is unavailable. Browse the library below.');
   } catch (error) {
     console.error(error);
@@ -118,6 +120,7 @@ function renderShell() {
     </header>
 
     <div id="connectionStatus" class="connection-status" role="status" hidden>Offline · Browsing the saved library</div>
+    <div id="storageStatus" class="connection-status" role="status" hidden>Changes are kept for this session. Device storage is unavailable. Back up your saved profiles before leaving.</div>
     <main class="workspace" id="mainContent" tabindex="-1">
       <aside class="family-rack" aria-label="Drink families">
         <div class="family-rack__label">Library</div>
@@ -147,6 +150,12 @@ function renderShell() {
           <button class="view-chip" data-scope="recent">${icon('clock')} Recent</button>
         </div>
 
+        <div id="collectionTools" class="collection-tools" hidden>
+          <button class="text-button" data-action="backup-saved">Back up saved</button>
+          <button class="text-button" data-action="restore-saved">Restore saved</button>
+          <button class="text-button" data-action="clear-recent">Clear history</button>
+        </div>
+        <input id="backupInput" type="file" accept=".json,application/json" hidden />
         <div id="foodStatus" class="inline-status" role="status" ${state.foodUnavailable ? '' : 'hidden'}>
           <span>Dish details are unavailable. Drink profiles are still available.</span>
           <button class="text-button" data-action="retry-food">Retry food menu</button>
@@ -213,7 +222,7 @@ function renderShell() {
       <article id="profilePanel" class="profile-panel" role="dialog" aria-modal="true" aria-labelledby="profileTitle"></article>
     </div>
 
-    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    <div id="toast" class="toast"><span id="toastMessage" role="status" aria-live="polite"></span><button data-action="undo" hidden>Undo</button></div>
   `;
 
   elements = {
@@ -260,6 +269,7 @@ function bindEvents() {
   document.addEventListener('keydown', handleKeydown);
   window.addEventListener('online', updateConnectionStatus);
   window.addEventListener('offline', updateConnectionStatus);
+  window.addEventListener('storage', syncDeviceStorage);
   window.addEventListener('popstate', () => {
     clearTimeout(searchTimer);
     const wasOpen = Boolean(state.selectedId);
@@ -312,6 +322,7 @@ function handleClick(event) {
   if (densityTarget) {
     state.density = densityTarget.dataset.density;
     savePreferences({ sort: state.sort, density: state.density });
+    updateStorageStatus();
     renderLibrary();
     return;
   }
@@ -346,6 +357,17 @@ function handleClick(event) {
     elements.catalogDeck.querySelectorAll('.card-open')[nextIndex]?.focus();
   } else if (action === 'close-profile') {
     closeProfile();
+  } else if (action === 'backup-saved') {
+    exportSaved();
+  } else if (action === 'restore-saved') {
+    document.querySelector('#backupInput').click();
+  } else if (action === 'clear-recent') {
+    const previous = [...state.recent];
+    state.recent = []; saveRecent(state.recent); renderLibrary(); updateStorageStatus();
+    showToast('Recent history cleared', () => { state.recent = previous; saveRecent(previous); renderLibrary(); updateStorageStatus(); });
+  } else if (action === 'undo') {
+    const undo = undoAction; undoAction = null; undo?.(); showToast('Restored');
+    if (!state.selectedId) elements.resultCount.focus({ preventScroll: true });
   } else if (action === 'retry-food') {
     retryFood();
   } else if (action === 'share-profile') {
@@ -360,6 +382,7 @@ function handleClick(event) {
 }
 
 function handleChange(event) {
+  if (event.target.id === 'backupInput') { restoreSaved(event.target); return; }
   if (event.target === elements.dishSelect) {
     state.dish = event.target.value;
   } else if (event.target === elements.flavorSelect) {
@@ -371,6 +394,7 @@ function handleChange(event) {
   } else if (event.target === elements.sortSelect) {
     state.sort = event.target.value;
     savePreferences({ sort: state.sort, density: state.density });
+    updateStorageStatus();
   } else if (event.target === elements.pairingsOnly) {
     state.pairingsOnly = event.target.checked;
   } else if (event.target === elements.caveatsOnly) {
@@ -437,6 +461,7 @@ function renderLibrary() {
   renderCategories();
   renderStageHeader();
   renderScopeTabs();
+  renderCollectionTools();
   renderActiveFilters();
   renderResults();
   renderDensityControl();
@@ -585,7 +610,7 @@ function renderProfile(id, { fromHistory = false } = {}) {
     return;
   }
 
-  if (!fromHistory) state.recent = pushRecent(state.recent, id);
+  if (!fromHistory) { state.recent = pushRecent(state.recent, id); updateStorageStatus(); }
   document.title = `${entry.name} · Voodoo`;
   const related = getRelated(state.entries, entry, 6);
   const saved = state.favorites.has(entry.id);
@@ -724,12 +749,14 @@ function toggleFavorite(id) {
   if (!state.entries.some((entry) => entry.id === id)) return;
   if (state.favorites.has(id)) {
     state.favorites.delete(id);
-    showToast('Removed from saved');
+    showToast('Removed from saved', state.selectedId ? null : () => { state.favorites.add(id); saveFavorites(state.favorites); updateFavoriteUI(); renderLibrary(); updateStorageStatus(); });
   } else {
     state.favorites.add(id);
     showToast('Saved to your library');
   }
-  saveFavorites(state.favorites);
+  const persisted = saveFavorites(state.favorites);
+  updateStorageStatus();
+  if (!persisted && state.favorites.has(id)) showToast('Saved for this session. Device storage is unavailable.');
   // Mutate only bookmark controls: preserve the reader's scroll, focus and details.
   updateFavoriteUI();
   if (state.scope === 'favorites') {
@@ -940,11 +967,79 @@ function cleanSources(values) {
 }
 
 
-function showToast(message) {
-  elements.toast.textContent = message;
+function showToast(message, undo = null) {
+  elements.toast.querySelector('#toastMessage').textContent = message;
+  undoAction = undo;
+  const button = elements.toast.querySelector('[data-action="undo"]');
+  button.hidden = !undo;
   elements.toast.classList.add('is-visible');
-  clearTimeout(showToast.timer);
-  showToast.timer = setTimeout(() => elements.toast.classList.remove('is-visible'), 1800);
+  window.clearTimeout(showToast.timer);
+  showToast.timer = window.setTimeout(() => {
+    if (document.activeElement === button) return;
+    elements.toast.classList.remove('is-visible');
+    button.hidden = true;
+    undoAction = null;
+  }, undo ? 10000 : 4000);
+}
+
+function renderCollectionTools() {
+  const panel = document.querySelector('#collectionTools');
+  panel.hidden = state.scope === 'all';
+  panel.querySelector('[data-action="backup-saved"]').hidden = state.scope !== 'favorites';
+  panel.querySelector('[data-action="backup-saved"]').disabled = state.favorites.size === 0;
+  panel.querySelector('[data-action="restore-saved"]').hidden = state.scope !== 'favorites';
+  panel.querySelector('[data-action="clear-recent"]').hidden = state.scope !== 'recent';
+  panel.querySelector('[data-action="clear-recent"]').disabled = state.recent.length === 0;
+}
+
+function updateStorageStatus() {
+  const status = document.querySelector('#storageStatus');
+  if (status) status.hidden = storageWritable;
+}
+
+function syncDeviceStorage(event) {
+  if (event.storageArea && event.storageArea !== localStorage) return;
+  if (event.key && !Object.values(STORAGE_KEYS).includes(event.key)) return;
+  // Refresh only the changed domain; avoid resetting a route-selected sort on a save.
+  if (!event.key || event.key === STORAGE_KEYS.favorites) state.favorites = new Set(canonicalIds([...loadFavorites()], state.entries));
+  if (!event.key || event.key === STORAGE_KEYS.recent) state.recent = canonicalIds(loadRecent(), state.entries);
+  if (!event.key || event.key === STORAGE_KEYS.preferences) {
+    Object.assign(state, loadPreferences()); syncUrl();
+    elements.sortSelect.value = state.sort;
+  }
+  renderLibrary(); updateFavoriteUI(); updateStorageStatus();
+}
+
+function exportSaved() {
+  if (!state.favorites.size) return;
+  let url;
+  try {
+    url = URL.createObjectURL(new Blob([createSavedBackup(state.favorites)], { type: 'application/json' }));
+    const link = document.createElement('a');
+    link.href = url; link.download = `voodoo-saved-${new Date().toISOString().slice(0, 10)}.json`;
+    document.body.append(link); link.click(); link.remove();
+    showToast('Saved-profile backup prepared');
+  } catch { showToast('Backup could not be downloaded. Try another browser.'); }
+  finally { if (url) setTimeout(() => URL.revokeObjectURL(url), 1000); }
+}
+
+async function restoreSaved(input) {
+  if (restoringBackup) return;
+  const file = input.files?.[0];
+  input.value = '';
+  if (!file) return;
+  restoringBackup = true;
+  try {
+    if (file.size > 262144) throw new Error('Choose a saved-profile backup smaller than 256 KB.');
+    const { ids, unavailable } = readSavedBackup(await file.text(), state.entries);
+    const before = state.favorites.size;
+    // Restore always merges. Existing saved profiles cannot be erased by a backup.
+    for (const id of ids) state.favorites.add(id);
+    saveFavorites(state.favorites); renderLibrary(); updateStorageStatus();
+    const added = state.favorites.size - before;
+    showToast(`${added} saved ${added === 1 ? 'profile' : 'profiles'} added${unavailable ? ` · ${unavailable} unavailable` : ''}${storageWritable ? '' : ' · this session only'}`);
+  } catch (error) { showToast(error.message || 'This backup could not be restored.'); }
+  finally { restoringBackup = false; }
 }
 
 function isTypingTarget(target) {

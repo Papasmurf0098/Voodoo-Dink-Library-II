@@ -343,3 +343,10 @@ button:disabled { cursor: default; opacity: .45; }
   .profile-scroll { padding-bottom: max(40px, calc(env(safe-area-inset-bottom) + 20px)); }
   .profile-toolbar { padding-left: max(17px, env(safe-area-inset-left)); padding-right: max(17px, env(safe-area-inset-right)); }
 }
+
+.collection-tools { display: flex; flex-wrap: wrap; gap: 9px; padding-top: 16px; }
+.collection-tools[hidden],.collection-tools button[hidden] { display: none; }
+.toast { display: flex; align-items: center; gap: 16px; pointer-events: auto; visibility: hidden; }
+.toast.is-visible { visibility: visible; }
+.toast button { min-height: 44px; color: var(--gold); text-decoration: underline; text-underline-offset: 4px; flex-shrink: 0; }
+.toast button[hidden] { display: none; }

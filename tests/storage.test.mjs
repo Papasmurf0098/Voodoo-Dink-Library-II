@@ -22,3 +22,16 @@ test('local preferences tolerate malformed and unavailable storage', () => {
   assert.equal(loadFavorites().size, 0);
   assert.doesNotThrow(() => saveFavorites(new Set(['one'])));
 });
+
+test('saved backups validate format, merge canonical IDs and report unavailable profiles', async () => {
+  const { createSavedBackup, readSavedBackup, cleanIds, saveRecent } = await import('../js/storage.js');
+  const entries = [{ id: 'one', legacyIds: ['old-one'] }, { id: 'two', legacyIds: [] }];
+  const backup = createSavedBackup(new Set(['old-one', 'one', 'missing']), new Date('2026-09-18T00:00:00Z'));
+  assert.deepEqual(readSavedBackup(backup, entries), { ids: ['one'], unavailable: 1 });
+  assert.deepEqual(cleanIds([null, 3, '', 'one', 'one', {}, 'two']), ['one', 'two']);
+  for (const text of ['null', '{bad', '{}', JSON.stringify({ format: 'voodoo-saved-profiles', version: 9, favorites: [] }), JSON.stringify({ format: 'voodoo-saved-profiles', version: 1, favorites: [null] }), 'x'.repeat(262145)]) {
+    assert.throws(() => readSavedBackup(text, entries));
+  }
+  assert.equal(saveRecent(['one']), false);
+  assert.equal(saveFavorites(new Set(['one'])), false);
+});
