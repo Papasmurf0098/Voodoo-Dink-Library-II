@@ -146,3 +146,27 @@ test('sharing has a selectable canonical link when native sharing and clipboard 
     assert.equal(ui.win.document.activeElement, ui.$('#profileLink'));
   } finally { ui.close(); }
 });
+
+test('a failed food menu leaves drinks usable and can be retried without resetting search', async () => {
+  let foodFails = true;
+  const ui = await mount('?q=peach', { fetch: async (path) => path.includes('food') && foodFails
+    ? new Response('', { status: 503 }) : new Response(readFileSync(new URL(path, root), 'utf8')) });
+  try {
+    assert.ok(ui.$('.card-open'));
+    assert.equal(ui.$('#foodStatus').hidden, false);
+    assert.equal(ui.$('#dishSelect').disabled, true);
+    foodFails = false;
+    ui.click('[data-action="retry-food"]');
+    await until(() => ui.$('#foodStatus').hidden);
+    assert.equal(ui.$('#dishSelect').options.length, 42);
+    assert.equal(ui.$('#searchInput').value, 'peach');
+  } finally { ui.close(); }
+});
+
+test('a malformed catalog presents a recoverable error instead of an empty collection', async () => {
+  const ui = await mount('', { fetch: async (path) => new Response(path.includes('drinks') ? '{"entries":[]}' : readFileSync(new URL(path, root), 'utf8')) });
+  try {
+    assert.equal(ui.$('.fatal-state h1').textContent, 'Library unavailable');
+    assert.equal(ui.$('.fatal-state button').textContent, 'Try again');
+  } finally { ui.close(); }
+});

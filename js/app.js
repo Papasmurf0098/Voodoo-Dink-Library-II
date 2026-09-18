@@ -1,3 +1,4 @@
+import { loadCatalog, loadFood } from './data.js';
 import { FILTER_DEFAULTS, readRoute, routeUrl, profileUrl } from './route.js';
 import {
   FAMILY_ORDER,
@@ -7,7 +8,6 @@ import {
   filterCatalog,
   getCategories,
   getRelated,
-  normalizeCatalog,
   sortCatalog,
 } from './catalog.js';
 import {
@@ -39,6 +39,8 @@ const state = {
   flavor: '',
   menu: '',
   food: [],
+  foodUnavailable: false,
+  foodLoading: false,
   favorites: loadFavorites(),
   recent: loadRecent(),
   scrollY: 0,
@@ -59,13 +61,11 @@ boot();
 
 async function boot() {
   try {
-    const response = await fetch('./data/drinks.json');
-    if (!response.ok) throw new Error(`Catalog request failed (${response.status})`);
-    state.entries = normalizeCatalog(await response.json());
-    const foodResponse = await fetch('./data/food.json');
-    if (!foodResponse.ok) throw new Error('Food menu unavailable');
-    const dishes = (await foodResponse.json()).dishes;
-    state.food = dishes.filter((dish) => dish.status !== 'not-found').map((dish) => ({ ...dish, legacyIds: dishes.filter((old) => old.replacedBy === dish.id).map((old) => old.id) })).sort((a, b) => a.name.localeCompare(b.name));
+    const [catalog, food] = await Promise.allSettled([loadCatalog(), loadFood()]);
+    if (catalog.status === 'rejected') throw catalog.reason;
+    state.entries = catalog.value;
+    state.food = food.status === 'fulfilled' ? food.value : [];
+    state.foodUnavailable = food.status === 'rejected';
     const canonicalId = (id) => state.entries.find((entry) => entry.id === id || entry.legacyIds.includes(id))?.id;
     state.favorites = new Set([...state.favorites].map(canonicalId).filter(Boolean));
     state.recent = [...new Set(state.recent.map(canonicalId).filter(Boolean))];
@@ -77,6 +77,7 @@ async function boot() {
     bindEvents();
     renderAll();
     registerServiceWorker();
+    updateConnectionStatus();
     if (state.missingDrink) showToast('That profile is unavailable. Browse the library below.');
   } catch (error) {
     console.error(error);
@@ -84,7 +85,7 @@ async function boot() {
       <section class="fatal-state">
         <span class="fatal-state__mark">V</span>
         <h1>Library unavailable</h1>
-        <p>${escapeHtml(error.message)}</p>
+        <p>The drink library could not be loaded. Check your connection and try again.</p>
         <button class="button button--primary" onclick="location.reload()">Try again</button>
       </section>`;
   }
@@ -93,6 +94,7 @@ async function boot() {
 function renderShell() {
   const stats = catalogStats(state.entries);
   app.innerHTML = `
+    <a class="skip-link" href="#mainContent">Skip to profiles</a>
     <header class="masthead">
       <a class="brand" href="${escapeAttribute(window.location.pathname)}" data-action="reset" aria-label="Voodoo Drink Library home">
         <span class="brand__monogram">V</span>
@@ -115,7 +117,8 @@ function renderShell() {
       </nav>
     </header>
 
-    <main class="workspace">
+    <div id="connectionStatus" class="connection-status" role="status" hidden>Offline · Browsing the saved library</div>
+    <main class="workspace" id="mainContent" tabindex="-1">
       <aside class="family-rack" aria-label="Drink families">
         <div class="family-rack__label">Library</div>
         <div id="familyTabs" class="family-rack__tabs"></div>
@@ -144,8 +147,12 @@ function renderShell() {
           <button class="view-chip" data-scope="recent">${icon('clock')} Recent</button>
         </div>
 
+        <div id="foodStatus" class="inline-status" role="status" ${state.foodUnavailable ? '' : 'hidden'}>
+          <span>Dish details are unavailable. Drink profiles are still available.</span>
+          <button class="text-button" data-action="retry-food">Retry food menu</button>
+        </div>
         <section class="pairing-finder" aria-label="Find a drink">
-          <div><label for="dishSelect">Pair with</label><select id="dishSelect" class="select-control"><option value="">Any dish</option>${state.food.map((dish) => `<option value="${escapeAttribute(dish.id)}">${escapeHtml(dish.name)}${dish.service === 'Brunch' ? ' · Brunch' : ''}</option>`).join('')}</select></div>
+          <div><label for="dishSelect">Pair with</label><select id="dishSelect" ${state.foodUnavailable ? 'disabled' : ''} class="select-control"><option value="">Any dish</option>${state.food.map((dish) => `<option value="${escapeAttribute(dish.id)}">${escapeHtml(dish.name)}${dish.service === 'Brunch' ? ' · Brunch' : ''}</option>`).join('')}</select></div>
           <div><label for="flavorSelect">Flavor</label><select id="flavorSelect" class="select-control"><option value="">Any profile</option>${Object.keys(FLAVOR_FILTERS).map((flavor) => `<option>${flavor}</option>`).join('')}</select></div>
           <a class="menu-link" href="https://voodoobayou.com/menu/" target="_blank" rel="noopener noreferrer">Voodoo Bayou menu ↗</a>
           <div id="selectedDish" class="selected-dish" hidden></div>
@@ -251,6 +258,8 @@ function bindEvents() {
   document.addEventListener('click', handleClick);
   document.addEventListener('change', handleChange);
   document.addEventListener('keydown', handleKeydown);
+  window.addEventListener('online', updateConnectionStatus);
+  window.addEventListener('offline', updateConnectionStatus);
   window.addEventListener('popstate', () => {
     clearTimeout(searchTimer);
     const wasOpen = Boolean(state.selectedId);
@@ -337,6 +346,8 @@ function handleClick(event) {
     elements.catalogDeck.querySelectorAll('.card-open')[nextIndex]?.focus();
   } else if (action === 'close-profile') {
     closeProfile();
+  } else if (action === 'retry-food') {
+    retryFood();
   } else if (action === 'share-profile') {
     shareCurrentProfile();
   } else if (action === 'pair-dish') {
@@ -827,7 +838,7 @@ function pairingsMarkup(entry) {
         <div class="pairing-group">
           <h3>${escapeHtml(pair.name)}</h3>
           <p>${escapeHtml(pair.reason)}</p>
-          <button class="pairing-explore" data-action="pair-dish" data-dish="${escapeAttribute(pair.dishId)}">Other drinks for this dish</button>
+          <button class="pairing-explore" ${state.foodUnavailable ? 'disabled' : ''} data-action="pair-dish" data-dish="${escapeAttribute(pair.dishId)}">Other drinks for this dish</button>
         </div>`).join('')}</div>
       <a class="menu-link" href="https://voodoobayou.com/menu/" target="_blank" rel="noopener noreferrer">Food menu ↗</a>
     </section>`;
@@ -938,6 +949,31 @@ function showToast(message) {
 
 function isTypingTarget(target) {
   return ['INPUT', 'TEXTAREA', 'SELECT'].includes(target?.tagName) || target?.isContentEditable;
+}
+
+function updateConnectionStatus() {
+  document.querySelector('#connectionStatus').hidden = navigator.onLine !== false;
+}
+
+async function retryFood() {
+  if (state.foodLoading) return;
+  state.foodLoading = true;
+  const button = document.querySelector('[data-action="retry-food"]');
+  button.disabled = true; button.textContent = 'Loading…';
+  try {
+    state.food = await loadFood();
+    state.foodUnavailable = false;
+    elements.dishSelect.innerHTML = '<option value="">Any dish</option>' + state.food.map((dish) => `<option value="${escapeAttribute(dish.id)}">${escapeHtml(dish.name)}${dish.service === 'Brunch' ? ' · Brunch' : ''}</option>`).join('');
+    elements.dishSelect.disabled = false;
+    document.querySelector('#foodStatus').hidden = true;
+    elements.dishSelect.focus();
+    showToast('Food menu restored');
+  } catch {
+    showToast('Food menu is still unavailable. Try again when connected.');
+  } finally {
+    state.foodLoading = false;
+    button.disabled = false; button.textContent = 'Retry food menu';
+  }
 }
 
 function registerServiceWorker() {
