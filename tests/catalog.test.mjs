@@ -23,7 +23,7 @@ test('catalog copies match and duplicate keeps a legacy route', () => {
 
 test('every record has scoped evidence, a review date and a strength qualification', () => {
   for (const entry of payload.entries) {
-    assert.ok(['2026-09-06', '2026-09-07'].includes(entry.research.reviewedAt), entry.id);
+    assert.ok(['2026-09-06', '2026-09-07', '2026-09-18'].includes(entry.research.reviewedAt), entry.id);
     assert.ok(entry.research.tastingBasis, entry.id);
     assert.ok(entry.research.sources.length, entry.id);
     assert.ok(entry.strength.confirmation, entry.id);

@@ -350,3 +350,7 @@ button:disabled { cursor: default; opacity: .45; }
 .toast.is-visible { visibility: visible; }
 .toast button { min-height: 44px; color: var(--gold); text-decoration: underline; text-underline-offset: 4px; flex-shrink: 0; }
 .toast button[hidden] { display: none; }
+.pairing-caution { font-size: .85rem; line-height: 1.6; }
+.pairing-method { margin-top: 1rem; font-size: .875rem; line-height: 1.6; }
+.pairing-method summary { cursor: pointer; padding: .5rem 0; }
+.pairing-method a { text-decoration: underline; }

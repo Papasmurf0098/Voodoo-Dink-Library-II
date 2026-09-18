@@ -9,6 +9,7 @@ test('service worker refreshes online, resolves offline deep links and leaves ot
   const stored = new Map();
   const deleted = [];
   const prefix = `voodoo-library:${scope}:`;
+  let activeCache;
   const cache = {
     put: async (key, response) => stored.set(key, response),
     match: async (key) => stored.get(key)?.clone(),
@@ -18,11 +19,12 @@ test('service worker refreshes online, resolves offline deep links and leaves ot
   let status = 200;
   const context = vm.createContext({
     self: { registration: { scope }, location: { origin: 'https://example.com' }, clients: { claim: async () => {} }, skipWaiting: async () => {}, addEventListener: (name, handler) => { listeners[name] = handler; } },
-    caches: { open: async () => cache, keys: async () => [`${prefix}old`, `${prefix}2026-09-18-v5`, 'another-app'], delete: async (key) => deleted.push(key) },
+    caches: { open: async () => cache, keys: async () => [`${prefix}old`, activeCache, 'another-app'], delete: async (key) => deleted.push(key) },
     fetch: async () => { if (offline) throw new Error('offline'); return new Response('fresh', { status }); },
     URL, Response, Set, AbortController, setTimeout, clearTimeout,
   });
   vm.runInContext(readFileSync(new URL('../sw.js', import.meta.url), 'utf8'), context);
+  activeCache = vm.runInContext('CACHE', context);
   let activation;
   listeners.activate({ waitUntil: (promise) => { activation = promise; } });
   await activation;
