@@ -1,3 +1,5 @@
+import { loadCatalog, loadFood } from './data.js';
+import { FILTER_DEFAULTS, readRoute, routeUrl, profileUrl } from './route.js';
 import {
   FAMILY_ORDER,
   FLAVOR_FILTERS,
@@ -6,10 +8,10 @@ import {
   filterCatalog,
   getCategories,
   getRelated,
-  normalizeCatalog,
   sortCatalog,
 } from './catalog.js';
 import {
+  STORAGE_KEYS, storageWritable, canonicalIds, createSavedBackup, readSavedBackup, saveRecent,
   loadFavorites,
   loadPreferences,
   loadRecent,
@@ -38,6 +40,9 @@ const state = {
   flavor: '',
   menu: '',
   food: [],
+  foodUnavailable: false,
+  foodLoading: false,
+  pendingDish: '',
   favorites: loadFavorites(),
   recent: loadRecent(),
   scrollY: 0,
@@ -50,35 +55,40 @@ state.density = preferences.density;
 let facets = null;
 let elements = {};
 let returnFocus = null;
+let returnId = null;
+let closingProfile = false;
+let searchTimer;
+let undoAction = null;
+let restoringBackup = false;
 
 boot();
 
 async function boot() {
   try {
-    const response = await fetch('./data/drinks.json');
-    if (!response.ok) throw new Error(`Catalog request failed (${response.status})`);
-    state.entries = normalizeCatalog(await response.json());
-    const foodResponse = await fetch('./data/food.json');
-    if (!foodResponse.ok) throw new Error('Food menu unavailable');
-    const dishes = (await foodResponse.json()).dishes;
-    state.food = dishes.filter((dish) => dish.status !== 'not-found').map((dish) => ({ ...dish, legacyIds: dishes.filter((old) => old.replacedBy === dish.id).map((old) => old.id) })).sort((a, b) => a.name.localeCompare(b.name));
-    const canonicalId = (id) => state.entries.find((entry) => entry.id === id || entry.legacyIds.includes(id))?.id;
-    state.favorites = new Set([...state.favorites].map(canonicalId).filter(Boolean));
-    state.recent = [...new Set(state.recent.map(canonicalId).filter(Boolean))];
-    saveFavorites(state.favorites);
+    const [catalog, food] = await Promise.allSettled([loadCatalog(), loadFood()]);
+    if (catalog.status === 'rejected') throw catalog.reason;
+    state.entries = catalog.value;
+    state.food = food.status === 'fulfilled' ? food.value : [];
+    state.foodUnavailable = food.status === 'rejected';
+    state.favorites = new Set(canonicalIds([...state.favorites], state.entries));
+    state.recent = canonicalIds(state.recent, state.entries);
     facets = deriveFacets(state.entries);
-    hydrateFromUrl();
+    hydrateFromUrl({ initial: true });
+    syncUrl();
     renderShell();
     bindEvents();
     renderAll();
     registerServiceWorker();
+    updateConnectionStatus();
+    updateStorageStatus();
+    if (state.missingDrink) showToast('That profile is unavailable. Browse the library below.');
   } catch (error) {
     console.error(error);
     app.innerHTML = `
       <section class="fatal-state">
         <span class="fatal-state__mark">V</span>
         <h1>Library unavailable</h1>
-        <p>${escapeHtml(error.message)}</p>
+        <p>The drink library could not be loaded. Check your connection and try again.</p>
         <button class="button button--primary" onclick="location.reload()">Try again</button>
       </section>`;
   }
@@ -87,6 +97,7 @@ async function boot() {
 function renderShell() {
   const stats = catalogStats(state.entries);
   app.innerHTML = `
+    <a class="skip-link" href="#mainContent">Skip to profiles</a>
     <header class="masthead">
       <a class="brand" href="${escapeAttribute(window.location.pathname)}" data-action="reset" aria-label="Voodoo Drink Library home">
         <span class="brand__monogram">V</span>
@@ -109,7 +120,9 @@ function renderShell() {
       </nav>
     </header>
 
-    <main class="workspace">
+    <div id="connectionStatus" class="connection-status" role="status" hidden>Offline · Browsing the saved library</div>
+    <div id="storageStatus" class="connection-status" role="status" hidden>Changes are kept for this session. Device storage is unavailable. Back up your saved profiles before leaving.</div>
+    <main class="workspace" id="mainContent" tabindex="-1">
       <aside class="family-rack" aria-label="Drink families">
         <div class="family-rack__label">Library</div>
         <div id="familyTabs" class="family-rack__tabs"></div>
@@ -128,7 +141,7 @@ function renderShell() {
           </div>
           <div class="stage-header__tools">
             <button class="text-button" data-action="random">${icon('spark')} Discover</button>
-            <button id="filterToggle" class="text-button" data-action="toggle-filters" aria-expanded="false">${icon('sliders')} Refine</button>
+            <button id="filterToggle" aria-controls="filterDrawer" class="text-button" data-action="toggle-filters" aria-expanded="false">${icon('sliders')} Refine</button>
           </div>
         </header>
 
@@ -138,8 +151,18 @@ function renderShell() {
           <button class="view-chip" data-scope="recent">${icon('clock')} Recent</button>
         </div>
 
+        <div id="collectionTools" class="collection-tools" hidden>
+          <button class="text-button" data-action="backup-saved">Back up saved</button>
+          <button class="text-button" data-action="restore-saved">Restore saved</button>
+          <button class="text-button" data-action="clear-recent">Clear history</button>
+        </div>
+        <input id="backupInput" type="file" accept=".json,application/json" hidden />
+        <div id="foodStatus" class="inline-status" role="status" ${state.foodUnavailable ? '' : 'hidden'}>
+          <span>Dish details are unavailable. Drink profiles are still available.</span>
+          <button class="text-button" data-action="retry-food">Retry food menu</button>
+        </div>
         <section class="pairing-finder" aria-label="Find a drink">
-          <div><label for="dishSelect">Pair with</label><select id="dishSelect" class="select-control"><option value="">Any dish</option>${state.food.map((dish) => `<option value="${escapeAttribute(dish.id)}">${escapeHtml(dish.name)}${dish.service === 'Brunch' ? ' · Brunch' : ''}</option>`).join('')}</select></div>
+          <div><label for="dishSelect">Pair with</label><select id="dishSelect" ${state.foodUnavailable ? 'disabled' : ''} class="select-control"><option value="">Any dish</option>${state.food.map((dish) => `<option value="${escapeAttribute(dish.id)}">${escapeHtml(dish.name)}${dish.service === 'Brunch' ? ' · Brunch' : ''}</option>`).join('')}</select></div>
           <div><label for="flavorSelect">Flavor</label><select id="flavorSelect" class="select-control"><option value="">Any profile</option>${Object.keys(FLAVOR_FILTERS).map((flavor) => `<option>${flavor}</option>`).join('')}</select></div>
           <a class="menu-link" href="https://voodoobayou.com/menu/" target="_blank" rel="noopener noreferrer">Voodoo Bayou menu ↗</a>
           <div id="selectedDish" class="selected-dish" hidden></div>
@@ -185,7 +208,7 @@ function renderShell() {
         </section>
 
         <div class="result-bar">
-          <p id="resultCount" role="status" aria-live="polite"></p>
+          <p id="resultCount" tabindex="-1" role="status" aria-live="polite"></p>
           <div id="activeFilters" class="active-filters"></div>
         </div>
 
@@ -200,7 +223,7 @@ function renderShell() {
       <article id="profilePanel" class="profile-panel" role="dialog" aria-modal="true" aria-labelledby="profileTitle"></article>
     </div>
 
-    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    <div id="toast" class="toast"><span id="toastMessage" role="status" aria-live="polite"></span><button data-action="undo" hidden>Undo</button></div>
   `;
 
   elements = {
@@ -232,13 +255,12 @@ function renderShell() {
 }
 
 function bindEvents() {
-  let searchTimer;
   elements.searchInput.addEventListener('input', (event) => {
     clearTimeout(searchTimer);
+    state.query = event.target.value;
     searchTimer = setTimeout(() => {
-      state.query = event.target.value;
       state.visible = PAGE_STEP;
-      syncUrl({ replace: true });
+      syncUrl();
       renderLibrary();
     }, 90);
   });
@@ -246,9 +268,18 @@ function bindEvents() {
   document.addEventListener('click', handleClick);
   document.addEventListener('change', handleChange);
   document.addEventListener('keydown', handleKeydown);
+  elements.profilePanel.addEventListener('scroll', rememberProfilePosition, true);
+  elements.profilePanel.addEventListener('toggle', rememberProfilePosition, true);
+  window.addEventListener('online', updateConnectionStatus);
+  window.addEventListener('offline', updateConnectionStatus);
+  window.addEventListener('storage', syncDeviceStorage);
   window.addEventListener('popstate', () => {
+    clearTimeout(searchTimer);
+    const wasOpen = Boolean(state.selectedId);
+    closingProfile = false;
     hydrateFromUrl();
     renderAll({ fromHistory: true });
+    if (wasOpen && !state.selectedId) hideProfile();
   });
 }
 
@@ -269,7 +300,7 @@ function handleClick(event) {
   }
 
   if (drinkTarget) {
-    openProfile(drinkTarget.dataset.drinkId);
+    openProfile(drinkTarget.dataset.drinkId, drinkTarget);
     return;
   }
 
@@ -281,7 +312,7 @@ function handleClick(event) {
   if (categoryTarget) {
     state.category = categoryTarget.dataset.category;
     state.visible = PAGE_STEP;
-    syncUrl({ replace: true });
+    syncUrl();
     renderLibrary();
     return;
   }
@@ -294,6 +325,7 @@ function handleClick(event) {
   if (densityTarget) {
     state.density = densityTarget.dataset.density;
     savePreferences({ sort: state.sort, density: state.density });
+    updateStorageStatus();
     renderLibrary();
     return;
   }
@@ -311,25 +343,52 @@ function handleClick(event) {
     elements.filterDrawer.setAttribute('aria-hidden', String(!open));
     elements.filterDrawer.inert = !open;
     elements.filterToggle.setAttribute('aria-expanded', String(open));
+  } else if (action === 'remove-filter') {
+    const key = actionTarget.dataset.filter;
+    if (Object.hasOwn(FILTER_DEFAULTS, key)) {
+      if (key === 'dish') state.pendingDish = '';
+      state[key] = FILTER_DEFAULTS[key];
+      if (key === 'family') state.category = 'All';
+      state.visible = PAGE_STEP; clearTimeout(searchTimer); syncUrl(); renderAll();
+      elements.resultCount.focus({ preventScroll: true });
+    }
   } else if (action === 'clear-filters') {
     clearFilters();
   } else if (action === 'load-more') {
+    const nextIndex = state.visible;
     state.visible += PAGE_STEP;
-    renderResults();
+    renderResults({ appendFrom: nextIndex });
+    elements.catalogDeck.querySelectorAll('.card-open')[nextIndex]?.focus();
   } else if (action === 'close-profile') {
     closeProfile();
+  } else if (action === 'backup-saved') {
+    exportSaved();
+  } else if (action === 'restore-saved') {
+    document.querySelector('#backupInput').click();
+  } else if (action === 'clear-recent') {
+    const previous = [...state.recent];
+    state.recent = []; saveRecent(state.recent); renderLibrary(); updateStorageStatus();
+    showToast('Recent history cleared', () => { state.recent = previous; saveRecent(previous); renderLibrary(); updateStorageStatus(); });
+  } else if (action === 'undo') {
+    const undo = undoAction; undoAction = null; undo?.(); showToast('Restored');
+    if (!state.selectedId) elements.resultCount.focus({ preventScroll: true });
+  } else if (action === 'retry-food') {
+    retryFood();
   } else if (action === 'share-profile') {
     shareCurrentProfile();
   } else if (action === 'pair-dish') {
     state.dish = actionTarget.dataset.dish;
     state.family = 'All'; state.category = 'All'; state.scope = 'all'; state.query = ''; state.flavor = ''; state.menu = ''; state.confidence = 'All'; state.pairingsOnly = false; state.caveatsOnly = false;
-    closeProfile(); state.visible = PAGE_STEP; syncUrl({ replace: true }); renderAll();
+    state.selectedId = null; state.visible = PAGE_STEP; state.scrollY = 0; state.pendingDish = '';
+    syncUrl({ push: true, depth: 0 }); renderAll();
+    elements.dishSelect.focus(); window.scrollTo({ top: 0, behavior: 'instant' });
   }
 }
 
 function handleChange(event) {
+  if (event.target.id === 'backupInput') { restoreSaved(event.target); return; }
   if (event.target === elements.dishSelect) {
-    state.dish = event.target.value;
+    state.dish = event.target.value; state.pendingDish = '';
   } else if (event.target === elements.flavorSelect) {
     state.flavor = event.target.value;
   } else if (event.target === elements.menuSelect) {
@@ -339,6 +398,7 @@ function handleChange(event) {
   } else if (event.target === elements.sortSelect) {
     state.sort = event.target.value;
     savePreferences({ sort: state.sort, density: state.density });
+    updateStorageStatus();
   } else if (event.target === elements.pairingsOnly) {
     state.pairingsOnly = event.target.checked;
   } else if (event.target === elements.caveatsOnly) {
@@ -347,22 +407,17 @@ function handleChange(event) {
     return;
   }
   state.visible = PAGE_STEP;
-  syncUrl({ replace: true });
+  syncUrl();
   renderLibrary();
 }
 
 function handleKeydown(event) {
+  if (event.metaKey || event.ctrlKey || event.altKey || event.isComposing) return;
   if (state.selectedId && event.key === 'Tab') {
     const focusable = [...elements.profilePanel.querySelectorAll('button, a[href], summary, input, select, [tabindex="0"]')].filter((node) => node.getClientRects().length);
     const first = focusable[0], last = focusable.at(-1);
     if (event.shiftKey && (document.activeElement === first || !elements.profilePanel.contains(document.activeElement))) { event.preventDefault(); last?.focus(); }
     else if (!event.shiftKey && (document.activeElement === last || !elements.profilePanel.contains(document.activeElement))) { event.preventDefault(); first?.focus(); }
-  }
-  const keyboardCard = event.target.closest?.('[data-drink-id]');
-  if (keyboardCard && (event.key === 'Enter' || event.key === ' ') && !event.target.closest('button')) {
-    event.preventDefault();
-    openProfile(keyboardCard.dataset.drinkId);
-    return;
   }
   if (event.key === '/' && !isTypingTarget(event.target) && !state.selectedId) {
     event.preventDefault();
@@ -398,7 +453,9 @@ function renderAll({ fromHistory = false } = {}) {
 }
 
 function renderLibrary() {
-  document.body.dataset.family = state.family;
+  const focused = document.activeElement;
+  const focusKey = ['family', 'category', 'scope', 'density'].find((key) => focused?.dataset?.[key]);
+  document.body.dataset.family = state.selectedId ? state.entries.find((entry) => entry.id === state.selectedId)?.family : state.family;
   document.body.dataset.density = state.density;
   const dish = state.food.find((item) => item.id === state.dish);
   const dishDetail = document.querySelector('#selectedDish');
@@ -408,10 +465,18 @@ function renderLibrary() {
   renderCategories();
   renderStageHeader();
   renderScopeTabs();
+  renderCollectionTools();
+  elements.sortSelect.disabled = state.scope === 'recent';
+  elements.sortSelect.title = state.scope === 'recent' ? 'Newest viewed first' : '';
   renderActiveFilters();
   renderResults();
   renderDensityControl();
   updateFavoriteUI();
+  const noResults = getFiltered().length === 0;
+  document.querySelectorAll('[data-action="random"]').forEach((button) => { button.disabled = noResults; });
+  if (focusKey && !focused.isConnected) {
+    [...document.querySelectorAll(`[data-${focusKey}]`)].find((node) => node.dataset[focusKey] === focused.dataset[focusKey])?.focus({ preventScroll: true });
+  }
 }
 
 function renderFamilyTabs() {
@@ -429,11 +494,10 @@ function renderFamilyTabs() {
 
 function renderCategories() {
   const categories = getCategories(state.entries, state.family);
-  if (state.category !== 'All' && !categories.some((item) => item.name === state.category)) state.category = 'All';
   elements.categoryTabs.innerHTML = [
-    `<button class="category-tab ${state.category === 'All' ? 'is-active' : ''}" data-category="All">All</button>`,
+    `<button class="category-tab ${state.category === 'All' ? 'is-active' : ''}" data-category="All" aria-pressed="${state.category === 'All'}">All</button>`,
     ...categories.map(({ name, count }) => `
-      <button class="category-tab ${state.category === name ? 'is-active' : ''}" data-category="${escapeAttribute(name)}">
+      <button class="category-tab ${state.category === name ? 'is-active' : ''}" data-category="${escapeAttribute(name)}" aria-pressed="${state.category === name}">
         ${escapeHtml(name)} <span>${count}</span>
       </button>`),
   ].join('');
@@ -463,32 +527,31 @@ function renderScopeTabs() {
 
 function renderActiveFilters() {
   const filters = [];
-  if (state.query) filters.push(['Search', state.query]);
-  if (state.category !== 'All') filters.push(['Category', state.category]);
-  if (state.confidence !== 'All') filters.push(['Confidence', state.confidence]);
-  if (state.pairingsOnly) filters.push(['Pairings', 'Required']);
-  if (state.caveatsOnly) filters.push(['Caveats', 'Present']);
-  if (state.dish) filters.push(['Dish', state.food.find((dish) => dish.id === state.dish)?.name || state.dish]);
-  if (state.flavor) filters.push(['Flavor', state.flavor]);
-  if (state.menu) filters.push(['Menu', state.menu === 'listed' ? 'Listed' : 'Not found']);
-
-  elements.activeFilters.innerHTML = filters.map(([label, value]) => `
-    <span class="active-filter"><small>${escapeHtml(label)}</small>${escapeHtml(value)}</span>
+  if (state.query) filters.push(['query', 'Search', state.query]);
+  if (state.family !== 'All') filters.push(['family', 'Family', state.family]);
+  if (state.category !== 'All') filters.push(['category', 'Category', state.category]);
+  if (state.confidence !== 'All') filters.push(['confidence', 'Confidence', state.confidence]);
+  if (state.pairingsOnly) filters.push(['pairingsOnly', 'Pairings', 'Required']);
+  if (state.caveatsOnly) filters.push(['caveatsOnly', 'Caveats', 'Present']);
+  if (state.dish || state.pendingDish) filters.push(['dish', 'Dish', state.food.find((dish) => dish.id === state.dish)?.name || 'Waiting for food menu']);
+  if (state.flavor) filters.push(['flavor', 'Flavor', state.flavor]);
+  if (state.menu) filters.push(['menu', 'Menu', state.menu === 'listed' ? 'Listed' : 'Not found']);
+  elements.activeFilters.innerHTML = filters.map(([key, label, value]) => `
+    <button class="active-filter" data-action="remove-filter" data-filter="${key}" aria-label="Remove ${escapeAttribute(label)} filter: ${escapeAttribute(value)}"><small>${label}</small><span>${escapeHtml(value)}</span>${icon('x')}</button>
   `).join('');
 }
 
-function renderResults() {
+function renderResults({ appendFrom = 0 } = {}) {
   const results = getFiltered();
   const visible = results.slice(0, state.visible);
   elements.resultCount.textContent = `${results.length} ${results.length === 1 ? 'profile' : 'profiles'}`;
-
   if (!results.length) {
     elements.catalogDeck.innerHTML = emptyState();
     elements.loadMoreWrap.innerHTML = '';
     return;
   }
-
-  elements.catalogDeck.innerHTML = visible.map((entry, index) => cardMarkup(entry, index)).join('');
+  if (appendFrom) elements.catalogDeck.insertAdjacentHTML('beforeend', visible.slice(appendFrom).map((entry, index) => cardMarkup(entry, index)).join(''));
+  else elements.catalogDeck.innerHTML = visible.map((entry, index) => cardMarkup(entry, index)).join('');
   elements.loadMoreWrap.innerHTML = results.length > visible.length
     ? `<button class="load-more" data-action="load-more">Show ${Math.min(PAGE_STEP, results.length - visible.length)} more <span>${visible.length} / ${results.length}</span></button>`
     : `<div class="end-mark"><span>V</span><small>End of selection</small></div>`;
@@ -500,15 +563,15 @@ function cardMarkup(entry, index) {
   const saved = state.favorites.has(entry.id);
   const subtitle = [entry.subtype || entry.varietal, entry.producer].filter(Boolean).join(' · ');
   return `
-    <article class="catalog-card" data-drink-id="${escapeAttribute(entry.id)}" tabindex="0" aria-label="Open ${escapeAttribute(entry.name)}" style="--card-order:${index % 8}">
+    <article class="catalog-card" data-card-id="${escapeAttribute(entry.id)}" style="--card-order:${index % 8}">
       <div class="catalog-card__edge" aria-hidden="true"></div>
       <div class="catalog-card__topline">
         <span class="catalog-card__category">${escapeHtml(entry.category)}</span>
-        <button class="card-save ${saved ? 'is-saved' : ''}" data-favorite-id="${escapeAttribute(entry.id)}" aria-label="${saved ? 'Remove from saved' : 'Save profile'}">${icon('bookmark')}</button>
+        <button class="card-save ${saved ? 'is-saved' : ''}" data-favorite-id="${escapeAttribute(entry.id)}" aria-pressed="${saved}" aria-label="${saved ? 'Remove from saved' : 'Save profile'}">${icon('bookmark')}</button>
       </div>
       <div class="catalog-card__body">
         <p class="catalog-card__family">${escapeHtml(entry.family)}</p>
-        <h2>${escapeHtml(entry.name)}</h2>
+        <h2><button class="card-open" data-drink-id="${escapeAttribute(entry.id)}" aria-label="Open ${escapeAttribute(entry.name)}">${escapeHtml(entry.name)}</button></h2>
         ${subtitle ? `<p class="catalog-card__meta">${escapeHtml(subtitle)}</p>` : ''}
         <p class="catalog-card__preview">${escapeHtml(entry._preview)}</p>
         ${entry.pairings?.restaurant?.length ? `<p class="catalog-card__pairing">With ${escapeHtml(entry.pairings.restaurant[0].name)}</p>` : ''}
@@ -523,15 +586,24 @@ function cardMarkup(entry, index) {
 function renderDensityControl() {
   document.querySelectorAll('[data-density]').forEach((button) => {
     button.classList.toggle('is-active', button.dataset.density === state.density);
+    button.setAttribute('aria-pressed', String(button.dataset.density === state.density));
   });
 }
 
-function openProfile(id) {
-  if (!state.entries.some((entry) => entry.id === id)) return;
-  if (!state.selectedId) { state.scrollY = window.scrollY; returnFocus = document.activeElement; }
+function openProfile(id, trigger = document.activeElement) {
+  if (closingProfile || state.selectedId === id || !state.entries.some((entry) => entry.id === id)) return;
+  clearTimeout(searchTimer);
+  if (!state.selectedId) {
+    state.scrollY = window.scrollY;
+    returnFocus = trigger;
+    returnId = id;
+    // Keep the complete collection position on the entry beneath the dialog.
+    syncUrl();
+  }
+  const currentDepth = history.state?.voodoo?.depth || 0;
+  const depth = state.selectedId ? (currentDepth ? currentDepth + 1 : 0) : 1;
   state.selectedId = id;
-  state.recent = pushRecent(state.recent, id);
-  syncUrl({ push: true });
+  syncUrl({ push: depth > 0, depth });
   renderProfile(id);
 }
 
@@ -539,12 +611,13 @@ function renderProfile(id, { fromHistory = false } = {}) {
   const entry = state.entries.find((item) => item.id === id);
   if (!entry) {
     state.selectedId = null;
-    syncUrl({ replace: true });
+    syncUrl();
     hideProfile({ restoreScroll: false });
     return;
   }
 
-  if (!fromHistory) state.recent = pushRecent(state.recent, id);
+  if (!fromHistory) { state.recent = pushRecent(state.recent, id); updateStorageStatus(); }
+  document.title = `${entry.name} · Voodoo`;
   const related = getRelated(state.entries, entry, 6);
   const saved = state.favorites.has(entry.id);
   const strength = formatStrength(entry.strength);
@@ -554,12 +627,16 @@ function renderProfile(id, { fromHistory = false } = {}) {
     <header class="profile-toolbar">
       <button class="profile-back" data-action="close-profile">${icon('arrow-left')} Library</button>
       <div class="profile-toolbar__actions">
-        <button class="icon-button ${saved ? 'is-saved' : ''}" data-favorite-id="${escapeAttribute(entry.id)}" title="${saved ? 'Remove from saved' : 'Save profile'}">${icon('bookmark')}</button>
-        <button class="icon-button" data-action="share-profile" title="Share profile">${icon('share')}</button>
-        <button class="icon-button" data-action="close-profile" title="Close profile">${icon('x')}</button>
+        <button class="icon-button ${saved ? 'is-saved' : ''}" data-favorite-id="${escapeAttribute(entry.id)}" aria-pressed="${saved}" aria-label="${saved ? 'Remove from saved' : 'Save profile'}" title="${saved ? 'Remove from saved' : 'Save profile'}">${icon('bookmark')}</button>
+        <button class="icon-button" data-action="share-profile" aria-label="Share profile" title="Share profile">${icon('share')}</button>
+        <button class="icon-button" data-action="close-profile" aria-label="Close profile" title="Close profile">${icon('x')}</button>
       </div>
     </header>
 
+    <div class="share-link" id="shareLink" hidden>
+      <label for="profileLink">Profile link</label>
+      <input id="profileLink" type="url" readonly value="${escapeAttribute(profileUrl(location.href, entry.id))}" />
+    </div>
     <div class="profile-scroll">
       <section class="profile-hero">
         <div class="profile-hero__index">${String(entry._index + 1).padStart(3, '0')}</div>
@@ -581,11 +658,11 @@ function renderProfile(id, { fromHistory = false } = {}) {
       </section>
 
       <div class="profile-grid">
-        <main class="profile-main">
+        <div class="profile-main">
           ${tastingMarkup(entry)}
           ${pairingsMarkup(entry)}
           ${relatedMarkup(related)}
-        </main>
+        </div>
 
         <aside class="profile-aside">
           ${quickReadMarkup(entry)}
@@ -607,17 +684,31 @@ function renderProfile(id, { fromHistory = false } = {}) {
   elements.profileLayer.inert = false;
   document.querySelector('.workspace').inert = true;
   document.querySelector('.masthead').inert = true;
+  document.querySelector('.skip-link').inert = true;
   document.body.classList.add('profile-open');
   document.body.dataset.family = entry.family || state.family;
-  requestAnimationFrame(() => elements.profilePanel.querySelector('.profile-back')?.focus({ preventScroll: true }));
+  const position = history.state?.voodoo;
+  if (position?.selectedId === id) {
+    elements.profilePanel.querySelector('.profile-scroll').scrollTop = position.profileScroll || 0;
+    elements.profilePanel.querySelector('.research-panel').open = Boolean(position.researchOpen);
+  }
+  requestAnimationFrame(() => { if (state.selectedId === id) elements.profilePanel.querySelector('.profile-back')?.focus({ preventScroll: true }); });
   updateFavoriteUI();
 }
 
 function closeProfile() {
-  if (!state.selectedId) return;
+  if (!state.selectedId || closingProfile) return;
+  const depth = history.state?.voodoo?.depth || 0;
+  if (depth > 0) {
+    closingProfile = true;
+    history.go(-depth);
+    return;
+  }
+  // A directly opened link has no in-app collection entry to go back to.
   state.selectedId = null;
-  syncUrl({ push: true });
-  hideProfile({ restoreScroll: true });
+  syncUrl();
+  renderLibrary();
+  hideProfile();
 }
 
 function hideProfile({ restoreScroll = true } = {}) {
@@ -626,75 +717,85 @@ function hideProfile({ restoreScroll = true } = {}) {
   if (elements.profileLayer) elements.profileLayer.inert = true;
   document.querySelector('.workspace').inert = false;
   document.querySelector('.masthead').inert = false;
+  document.querySelector('.skip-link').inert = false;
   document.body.classList.remove('profile-open');
+  document.title = 'Voodoo · Drink Library II';
   document.body.dataset.family = state.family;
-  if (restoreScroll) requestAnimationFrame(() => { window.scrollTo({ top: state.scrollY, behavior: 'auto' }); (returnFocus?.isConnected ? returnFocus : elements.searchInput)?.focus({ preventScroll: true }); });
+  if (restoreScroll) requestAnimationFrame(() => { window.scrollTo({ top: state.scrollY, behavior: 'auto' }); const trigger = [...elements.catalogDeck.querySelectorAll('.card-open')].find((node) => node.dataset.drinkId === returnId); (returnFocus?.isConnected ? returnFocus : trigger || elements.searchInput)?.focus({ preventScroll: true }); });
 }
 
 function setFamily(family) {
   state.family = FAMILY_ORDER.includes(family) ? family : 'All';
   state.category = 'All';
   state.visible = PAGE_STEP;
-  syncUrl({ replace: true });
+  syncUrl();
   renderLibrary();
 }
 
 function setScope(scope) {
   state.scope = ['all', 'favorites', 'recent'].includes(scope) ? scope : 'all';
   state.visible = PAGE_STEP;
-  syncUrl({ replace: true });
+  syncUrl();
   renderLibrary();
 }
 
 function clearFilters() {
-  state.query = '';
-  state.category = 'All';
-  state.confidence = 'All';
-  state.pairingsOnly = false;
-  state.caveatsOnly = false;
-  state.dish = ''; state.flavor = ''; state.menu = '';
-  state.visible = PAGE_STEP;
-  elements.searchInput.value = '';
-  syncUrl({ replace: true });
+  clearTimeout(searchTimer);
+  Object.assign(state, FILTER_DEFAULTS, { visible: PAGE_STEP, pendingDish: '' });
+  syncUrl();
   renderAll();
 }
 
 function resetState() {
+  clearTimeout(searchTimer);
   Object.assign(state, {
     query: '', family: 'All', category: 'All', confidence: 'All',
     pairingsOnly: false, caveatsOnly: false, scope: 'all', visible: PAGE_STEP, selectedId: null,
-    dish: '', flavor: '', menu: '',
+    dish: '', flavor: '', menu: '', pendingDish: '',
   });
-  syncUrl({ replace: true });
+  syncUrl();
   renderAll();
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 function toggleFavorite(id) {
+  if (!state.entries.some((entry) => entry.id === id)) return;
   if (state.favorites.has(id)) {
     state.favorites.delete(id);
-    showToast('Removed from saved');
+    showToast('Removed from saved', state.selectedId ? null : () => { state.favorites.add(id); saveFavorites(state.favorites); updateFavoriteUI(); renderLibrary(); updateStorageStatus(); });
   } else {
     state.favorites.add(id);
     showToast('Saved to your library');
   }
-  saveFavorites(state.favorites);
+  const persisted = saveFavorites(state.favorites);
+  updateStorageStatus();
+  if (!persisted && state.favorites.has(id)) showToast('Saved for this session. Device storage is unavailable.');
+  // Mutate only bookmark controls: preserve the reader's scroll, focus and details.
   updateFavoriteUI();
-  if (state.scope === 'favorites') renderLibrary();
-  if (state.selectedId === id) renderProfile(id, { fromHistory: true });
-  else renderResults();
+  if (state.scope === 'favorites') {
+    const controls = [...elements.catalogDeck.querySelectorAll('[data-favorite-id]')];
+    const index = controls.indexOf(document.activeElement);
+    renderLibrary();
+    if (index >= 0) (elements.catalogDeck.querySelectorAll('[data-favorite-id]')[Math.min(index, state.favorites.size - 1)] || elements.searchInput).focus({ preventScroll: true });
+  }
 }
 
 function updateFavoriteUI() {
   if (!elements.favoriteCount) return;
   elements.favoriteCount.textContent = state.favorites.size;
   elements.savedChipCount.textContent = state.favorites.size;
+  document.querySelectorAll('[data-favorite-id]').forEach((button) => {
+    const saved = state.favorites.has(button.dataset.favoriteId);
+    button.classList.toggle('is-saved', saved);
+    button.setAttribute('aria-pressed', String(saved));
+    button.setAttribute('aria-label', saved ? 'Remove from saved' : 'Save profile');
+    button.title = saved ? 'Remove from saved' : 'Save profile';
+  });
 }
 
 function openRandomProfile() {
   const pool = getFiltered();
-  const source = pool.length ? pool : state.entries;
-  const entry = source[Math.floor(Math.random() * source.length)];
+  const entry = pool[Math.floor(Math.random() * pool.length)];
   if (entry) openProfile(entry.id);
 }
 
@@ -707,58 +808,55 @@ function getFiltered() {
   return sortCatalog(filtered, state.sort);
 }
 
-function hydrateFromUrl() {
-  const params = new URLSearchParams(window.location.search);
-  state.query = params.get('q') || '';
-  state.family = FAMILY_ORDER.includes(params.get('family')) ? params.get('family') : 'All';
-  state.category = params.get('category') || 'All';
-  state.confidence = ['High', 'Medium', 'Low'].includes(params.get('confidence')) ? params.get('confidence') : 'All';
-  state.scope = ['favorites', 'recent'].includes(params.get('scope')) ? params.get('scope') : 'all';
-  state.pairingsOnly = params.get('pairings') === '1';
-  state.caveatsOnly = params.get('caveats') === '1';
-  state.sort = ['name', 'name-desc', 'family', 'confidence', 'original'].includes(params.get('sort')) ? params.get('sort') : state.sort;
-  state.selectedId = params.get('drink');
-  const legacyMatch = state.entries.find((entry) => entry.legacyIds.includes(state.selectedId));
-  if (legacyMatch) state.selectedId = legacyMatch.id;
-  state.dish = state.food.find((dish) => dish.id === params.get('dish') || dish.legacyIds.includes(params.get('dish')))?.id || '';
-  state.flavor = Object.hasOwn(FLAVOR_FILTERS, params.get('flavor')) ? params.get('flavor') : '';
-  state.menu = ['listed', 'not-found'].includes(params.get('menu')) ? params.get('menu') : '';
-  state.visible = PAGE_STEP;
+function rememberProfilePosition() {
+  if (!state.selectedId || history.state?.voodoo?.selectedId !== state.selectedId) return;
+  const scroll = elements.profilePanel.querySelector('.profile-scroll');
+  const research = elements.profilePanel.querySelector('.research-panel');
+  if (!scroll || !research) return;
+  history.replaceState({ voodoo: { ...history.state.voodoo, profileScroll: scroll.scrollTop, researchOpen: research.open } }, '');
 }
 
-function syncUrl({ push = false, replace = false } = {}) {
-  const params = new URLSearchParams();
-  if (state.query) params.set('q', state.query);
-  if (state.family !== 'All') params.set('family', state.family);
-  if (state.category !== 'All') params.set('category', state.category);
-  if (state.confidence !== 'All') params.set('confidence', state.confidence);
-  if (state.scope !== 'all') params.set('scope', state.scope);
-  if (state.pairingsOnly) params.set('pairings', '1');
-  if (state.caveatsOnly) params.set('caveats', '1');
-  if (state.sort !== 'name') params.set('sort', state.sort);
-  if (state.selectedId) params.set('drink', state.selectedId);
-  if (state.dish) params.set('dish', state.dish);
-  if (state.flavor) params.set('flavor', state.flavor);
-  if (state.menu) params.set('menu', state.menu);
-  const url = `${window.location.pathname}${params.size ? `?${params}` : ''}`;
-  if (push) history.pushState({}, '', url);
-  else if (replace) history.replaceState({}, '', url);
-  else history.replaceState({}, '', url);
+function hydrateFromUrl({ initial = false } = {}) {
+  Object.assign(state, readRoute(location.search, state.entries, state.food, initial && !location.search ? preferences.sort : 'name'));
+  state.pendingDish = state.foodUnavailable ? new URLSearchParams(location.search).get('dish') || '' : '';
+  const snapshot = history.state?.voodoo;
+  state.visible = Math.max(PAGE_STEP, Math.min(state.entries.length, Number(snapshot?.visible) || PAGE_STEP));
+  state.scrollY = Math.max(0, Number(snapshot?.scrollY) || 0);
+  returnId = snapshot?.returnId || returnId;
+}
+
+function syncUrl({ push = false, depth } = {}) {
+  const url = routeUrl(location.pathname, { ...state, dish: state.pendingDish || state.dish });
+  const previous = history.state?.voodoo;
+  const snapshot = {
+    depth: depth ?? (state.selectedId ? history.state?.voodoo?.depth || 0 : 0),
+    visible: state.visible, scrollY: state.scrollY, returnId, selectedId: state.selectedId,
+    profileScroll: previous?.selectedId === state.selectedId ? previous?.profileScroll || 0 : 0,
+    researchOpen: previous?.selectedId === state.selectedId ? Boolean(previous?.researchOpen) : false,
+  };
+  history[push ? 'pushState' : 'replaceState']({ voodoo: snapshot }, '', url);
 }
 
 async function shareCurrentProfile() {
   const entry = state.entries.find((item) => item.id === state.selectedId);
   if (!entry) return;
-  const url = window.location.href;
-  try {
-    if (navigator.share) {
+  const url = profileUrl(window.location.href, entry.id);
+  if (navigator.share) {
+    try {
       await navigator.share({ title: entry.name, text: `${entry.name} — Voodoo Drink Library`, url });
-    } else {
-      await navigator.clipboard.writeText(url);
-      showToast('Profile link copied');
-    }
-  } catch (error) {
-    if (error?.name !== 'AbortError') showToast('Unable to share this profile');
+      return;
+    } catch (error) { if (error?.name === 'AbortError') return; }
+  }
+  try {
+    await navigator.clipboard.writeText(url);
+    showToast('Profile link copied');
+  } catch {
+    if (state.selectedId !== entry.id) return;
+    const panel = elements.profilePanel.querySelector('#shareLink');
+    panel.hidden = false;
+    const input = panel.querySelector('input');
+    input.focus(); input.select();
+    showToast('Select and copy this profile link');
   }
 }
 
@@ -792,7 +890,7 @@ function pairingsMarkup(entry) {
         <div class="pairing-group">
           <h3>${escapeHtml(pair.name)}</h3>
           <p>${escapeHtml(pair.reason)}</p>
-          <button class="pairing-explore" data-action="pair-dish" data-dish="${escapeAttribute(pair.dishId)}">Other drinks for this dish</button>
+          <button class="pairing-explore" ${state.foodUnavailable ? 'disabled' : ''} data-action="pair-dish" data-dish="${escapeAttribute(pair.dishId)}">Other drinks for this dish</button>
         </div>`).join('')}</div>
       <a class="menu-link" href="https://voodoobayou.com/menu/" target="_blank" rel="noopener noreferrer">Food menu ↗</a>
     </section>`;
@@ -866,18 +964,17 @@ function cardTags(entry) {
 }
 
 function emptyState() {
-  const scopeCopy = state.scope === 'favorites'
-    ? ['Nothing saved yet', 'Use the bookmark on any profile to build a personal tasting list.']
-    : state.scope === 'recent'
-      ? ['No recent profiles', 'Open a drink and it will appear here for quick return.']
-      : ['No matching profiles', 'Try removing a filter or searching with a broader flavor, style, or producer.'];
-  return `
-    <div class="empty-state">
-      <span>${icon(state.scope === 'favorites' ? 'bookmark' : 'search')}</span>
-      <h2>${scopeCopy[0]}</h2>
-      <p>${scopeCopy[1]}</p>
-      ${state.scope === 'all' ? '<button class="button" data-action="clear-filters">Clear filters</button>' : ''}
-    </div>`;
+  const isEmptyCollection = state.scope === 'favorites' ? state.favorites.size === 0 : state.scope === 'recent' ? state.recent.length === 0 : false;
+  const copy = isEmptyCollection
+    ? state.scope === 'favorites'
+      ? ['Nothing saved yet', 'Bookmark a profile to keep it here.']
+      : ['No recent profiles', 'Profiles you open will appear here.']
+    : ['No matching profiles', `Try clearing filters${state.scope === 'all' ? '' : ' to see the rest of this collection'}.`];
+  return `<div class="empty-state">
+    <span>${icon(state.scope === 'favorites' ? 'bookmark' : 'search')}</span>
+    <h2>${copy[0]}</h2><p>${copy[1]}</p>
+    <button class="button" data-action="${isEmptyCollection ? 'reset' : 'clear-filters'}">${isEmptyCollection ? 'Browse all profiles' : 'Clear filters'}</button>
+  </div>`;
 }
 
 function formatStrength(strength) {
@@ -894,29 +991,114 @@ function cleanSources(values) {
   return values.map((value) => String(value).replace(/^\s*:\s*/, '')).join(', ');
 }
 
-function displayKey(key) {
-  const map = {
-    proteins: 'Proteins',
-    spices_flavor_companions: 'Flavor companions',
-    cheeses: 'Cheeses',
-    cuisines: 'Cuisines',
-  };
-  return map[key] || humanize(key);
-}
 
-function humanize(value = '') {
-  return String(value).replace(/_/g, ' ').replace(/\b\w/g, (char) => char.toUpperCase());
-}
-
-function showToast(message) {
-  elements.toast.textContent = message;
+function showToast(message, undo = null) {
+  elements.toast.querySelector('#toastMessage').textContent = message;
+  undoAction = undo;
+  const button = elements.toast.querySelector('[data-action="undo"]');
+  button.hidden = !undo;
   elements.toast.classList.add('is-visible');
-  clearTimeout(showToast.timer);
-  showToast.timer = setTimeout(() => elements.toast.classList.remove('is-visible'), 1800);
+  window.clearTimeout(showToast.timer);
+  showToast.timer = window.setTimeout(() => {
+    if (document.activeElement === button) return;
+    elements.toast.classList.remove('is-visible');
+    button.hidden = true;
+    undoAction = null;
+  }, undo ? 10000 : 4000);
+}
+
+function renderCollectionTools() {
+  const panel = document.querySelector('#collectionTools');
+  panel.hidden = state.scope === 'all';
+  panel.querySelector('[data-action="backup-saved"]').hidden = state.scope !== 'favorites';
+  panel.querySelector('[data-action="backup-saved"]').disabled = state.favorites.size === 0;
+  panel.querySelector('[data-action="restore-saved"]').hidden = state.scope !== 'favorites';
+  panel.querySelector('[data-action="clear-recent"]').hidden = state.scope !== 'recent';
+  panel.querySelector('[data-action="clear-recent"]').disabled = state.recent.length === 0;
+}
+
+function updateStorageStatus() {
+  const status = document.querySelector('#storageStatus');
+  if (status) status.hidden = storageWritable;
+}
+
+function syncDeviceStorage(event) {
+  if (event.storageArea && event.storageArea !== localStorage) return;
+  if (event.key && !Object.values(STORAGE_KEYS).includes(event.key)) return;
+  // Refresh only the changed domain; avoid resetting a route-selected sort on a save.
+  if (!event.key || event.key === STORAGE_KEYS.favorites) state.favorites = new Set(canonicalIds([...loadFavorites()], state.entries));
+  if (!event.key || event.key === STORAGE_KEYS.recent) state.recent = canonicalIds(loadRecent(), state.entries);
+  if (!event.key || event.key === STORAGE_KEYS.preferences) {
+    Object.assign(state, loadPreferences()); syncUrl();
+    elements.sortSelect.value = state.sort;
+  }
+  renderLibrary(); updateFavoriteUI(); updateStorageStatus();
+}
+
+function exportSaved() {
+  if (!state.favorites.size) return;
+  let url;
+  try {
+    url = URL.createObjectURL(new Blob([createSavedBackup(state.favorites)], { type: 'application/json' }));
+    const link = document.createElement('a');
+    link.href = url; link.download = `voodoo-saved-${new Date().toISOString().slice(0, 10)}.json`;
+    document.body.append(link); link.click(); link.remove();
+    showToast('Saved-profile backup prepared');
+  } catch { showToast('Backup could not be downloaded. Try another browser.'); }
+  finally { if (url) setTimeout(() => URL.revokeObjectURL(url), 1000); }
+}
+
+async function restoreSaved(input) {
+  if (restoringBackup) return;
+  const file = input.files?.[0];
+  input.value = '';
+  if (!file) return;
+  restoringBackup = true;
+  try {
+    if (file.size > 262144) throw new Error('Choose a saved-profile backup smaller than 256 KB.');
+    const { ids, unavailable } = readSavedBackup(await file.text(), state.entries);
+    const before = state.favorites.size;
+    // Restore always merges. Existing saved profiles cannot be erased by a backup.
+    for (const id of ids) state.favorites.add(id);
+    saveFavorites(state.favorites); renderLibrary(); updateStorageStatus();
+    const added = state.favorites.size - before;
+    showToast(`${added} saved ${added === 1 ? 'profile' : 'profiles'} added${unavailable ? ` · ${unavailable} unavailable` : ''}${storageWritable ? '' : ' · this session only'}`);
+  } catch (error) { showToast(error.message || 'This backup could not be restored.'); }
+  finally { restoringBackup = false; }
 }
 
 function isTypingTarget(target) {
   return ['INPUT', 'TEXTAREA', 'SELECT'].includes(target?.tagName) || target?.isContentEditable;
+}
+
+function updateConnectionStatus() {
+  document.querySelector('#connectionStatus').hidden = navigator.onLine !== false;
+}
+
+async function retryFood() {
+  if (state.foodLoading) return;
+  state.foodLoading = true;
+  const button = document.querySelector('[data-action="retry-food"]');
+  button.disabled = true; button.textContent = 'Loading…';
+  try {
+    state.food = await loadFood();
+    state.foodUnavailable = false;
+    elements.dishSelect.innerHTML = '<option value="">Any dish</option>' + state.food.map((dish) => `<option value="${escapeAttribute(dish.id)}">${escapeHtml(dish.name)}${dish.service === 'Brunch' ? ' · Brunch' : ''}</option>`).join('');
+    elements.dishSelect.disabled = false;
+    document.querySelector('#foodStatus').hidden = true;
+    if (state.pendingDish) {
+      state.dish = state.food.find((dish) => dish.id === state.pendingDish || dish.legacyIds.includes(state.pendingDish))?.id || '';
+      state.pendingDish = ''; syncUrl();
+    }
+    renderAll({ fromHistory: true });
+    elements.dishSelect.focus();
+    showToast('Food menu restored');
+  } catch {
+    showToast('Food menu is still unavailable. Try again when connected.');
+  } finally {
+    state.foodLoading = false;
+    button.disabled = false; button.textContent = 'Retry food menu';
+  }
 }
 
 function registerServiceWorker() {
