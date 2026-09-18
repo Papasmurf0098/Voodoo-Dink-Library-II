@@ -1,6 +1,6 @@
 const PREFIX = `voodoo-library:${self.registration.scope}:`;
 const CACHE = `${PREFIX}2026-09-07-v4`;
-const SHELL = ['./', './index.html', './styles.css', './js/app.js', './js/catalog.js', './js/storage.js', './data/drinks.json', './data/food.json', './manifest.webmanifest', './ASSET_CREDITS.md', './assets/whiskey-rocks.jpg', './assets/citrus-cocktail.jpg', './assets/wine-service.jpg'];
+const SHELL = ['./', './index.html', './styles.css', './js/app.js', './js/catalog.js', './js/route.js', './js/storage.js', './data/drinks.json', './data/food.json', './manifest.webmanifest', './ASSET_CREDITS.md', './assets/whiskey-rocks.jpg', './assets/citrus-cocktail.jpg', './assets/wine-service.jpg'];
 const ASSET_PATHS = new Set(SHELL.map((path) => new URL(path, self.registration.scope).pathname));
 
 self.addEventListener('install', (event) => {

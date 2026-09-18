@@ -311,3 +311,10 @@ body[data-density="compact"] .catalog-card__preview { display: -webkit-box; -web
 .selected-dish strong { color: var(--ink); font: 22px var(--serif); }
 .selected-dish p { color: #e6d9ed; font-size: 16px; margin: 8px 0; }
 .selected-dish small { color: var(--muted); font-size: 13px; }
+
+/* Native card buttons keep profile navigation and bookmarking separate. */
+.card-open { font: inherit; letter-spacing: inherit; text-align: left; padding: 0; min-height: 0; }
+.card-open::after { content: ''; position: absolute; inset: 0; border-radius: inherit; }
+.card-open:focus-visible { outline: none; }
+.catalog-card:has(.card-open:focus-visible) { outline: 2px solid var(--green); outline-offset: 5px; }
+.card-save { position: relative; z-index: 1; flex-shrink: 0; }
