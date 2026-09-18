@@ -87,6 +87,47 @@ test('modified shortcuts do not open profiles, plain R does', async () => {
 
 export { mount, pause, until };
 
+test('drink-tray hotspots open complete collections, clear stale filters and focus results', async () => {
+  const ui = await mount('?scope=favorites&q=missing&dish=pear&flavor=Smoke');
+  try {
+    assert.equal(ui.win.document.querySelectorAll('.tray-hotspot').length, 4);
+    for (const [family, title] of [['Wine', 'Wine'], ['Spirit', 'Spirits'], ['Whiskey', 'Whiskey'], ['Cocktail', 'Cocktails']]) {
+      const link = ui.$(`.tray-hotspot[data-tray-family="${family}"]`);
+      assert.equal(new URL(link.href).searchParams.get('family'), family);
+      link.click();
+      assert.equal(ui.$('#stageTitle').textContent, title);
+      assert.equal(ui.$('#searchInput').value, '');
+      assert.ok(ui.$('#catalogDeck').children.length > 0);
+      assert.equal(ui.win.document.activeElement.id, 'stageTitle');
+      assert.equal(new URL(ui.win.location.href).searchParams.get('scope'), null);
+      assert.equal(new URL(ui.win.location.href).searchParams.get('dish'), null);
+    }
+    ui.click('.tray-mobile-key [data-tray-family="Wine"]');
+    assert.equal(ui.$('#stageTitle').textContent, 'Wine');
+    ui.click('.card-open');
+    assert.equal(ui.$('#mainContent').inert, true);
+    ui.click('.profile-back');
+    await until(() => ui.$('#mainContent').inert === false);
+  } finally { ui.close(); }
+});
+
+test('tray native links preserve modified-click behavior and route history', async () => {
+  const ui = await mount('?family=Beer');
+  try {
+    const link = ui.$('.tray-hotspot[data-tray-family="Wine"]');
+    const modified = new ui.win.MouseEvent('click', { bubbles: true, cancelable: true, ctrlKey: true });
+    let intercepted;
+    // Observe app behavior, then suppress jsdom's unsupported native new-tab navigation.
+    ui.win.addEventListener('click', (event) => { intercepted = event.defaultPrevented; event.preventDefault(); }, { once: true });
+    link.dispatchEvent(modified);
+    assert.equal(intercepted, false);
+    assert.equal(ui.$('#stageTitle').textContent, 'Beer');
+    link.click();
+    ui.win.history.back();
+    await until(() => ui.$('#stageTitle').textContent === 'Beer');
+  } finally { ui.close(); }
+});
+
 test('profile exposes pairing cautions and honest source-check scope', async () => {
   const ui = await mount('?drink=funky-buddha-hop-gun');
   try {

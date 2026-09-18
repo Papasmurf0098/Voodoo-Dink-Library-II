@@ -1,7 +1,7 @@
 const PREFIX = `voodoo-library:${self.registration.scope}:`;
-const CACHE = `${PREFIX}2026-09-18-v6`;
+const CACHE = `${PREFIX}2026-09-18-v7`;
 const REQUIRED = ['./', './index.html', './styles.css', './js/app.js', './js/catalog.js', './js/storage.js', './js/route.js', './js/data.js', './js/pairing-guidance.js', './data/drinks.json', './manifest.webmanifest', './assets/icons/voodoo.svg', './assets/icons/voodoo-180.png', './assets/icons/voodoo-192.png', './assets/icons/voodoo-512.png'];
-const OPTIONAL = ['./data/food.json', './ASSET_CREDITS.md', './RESEARCH_AUDIT.md', './assets/whiskey-rocks.jpg', './assets/citrus-cocktail.jpg', './assets/wine-service.jpg'];
+const OPTIONAL = ['./data/food.json', './ASSET_CREDITS.md', './RESEARCH_AUDIT.md', './assets/drink-tray.webp', './assets/whiskey-rocks.jpg', './assets/citrus-cocktail.jpg', './assets/wine-service.jpg'];
 const ASSET_PATHS = new Set([...REQUIRED, ...OPTIONAL].map((path) => new URL(path, self.registration.scope).pathname));
 
 self.addEventListener('install', (event) => {

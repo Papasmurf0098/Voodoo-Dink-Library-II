@@ -124,6 +124,26 @@ function renderShell() {
     <div id="connectionStatus" class="connection-status" role="status" hidden>Offline · Browsing the saved library</div>
     <div id="storageStatus" class="connection-status" role="status" hidden>Changes are kept for this session. Device storage is unavailable. Back up your saved profiles before leaving.</div>
     <main class="workspace" id="mainContent" tabindex="-1">
+      <section class="tray-hero" aria-labelledby="trayTitle">
+        <div class="tray-hero__stars" aria-hidden="true"></div>
+        <div class="tray-hero__copy">
+          <p class="tray-eyebrow">Voodoo Bayou</p>
+          <h2 id="trayTitle">The Drink<br> <em>Library.</em></h2>
+          <p class="tray-hero__hint">Choose your glass.</p>
+          <a class="tray-browse" href="#stageTitle">Explore the collection ${icon('arrow-right')}</a>
+          <div class="tray-stats"><div><strong>${stats.total}</strong><span>Drink profiles</span></div><div><strong>${stats.families}</strong><span>Collections</span></div></div>
+        </div>
+        <div class="tray-hero__visual">
+          <img src="./assets/drink-tray.webp" width="1536" height="1024" fetchpriority="high" alt="A silver tray holding red wine, a clear spirit shot, an old fashioned, and a golden cocktail." />
+          <nav class="tray-hotspots" aria-label="Explore drinks by glass">
+            ${[['Wine', 'Wine', 'wine'], ['Spirit', 'Spirits', 'shot'], ['Whiskey', 'Whiskey', 'rocks'], ['Cocktail', 'Cocktails', 'coupe']].map(([family, label, glass], index) => `
+              <a class="tray-hotspot tray-hotspot--${glass}" href="${escapeAttribute(window.location.pathname)}?family=${family}#stageTitle" data-tray-family="${family}" aria-label="Browse ${label}"><span class="tray-hotspot__dot" aria-hidden="true">${index + 1}</span><span class="tray-hotspot__label">${label}</span></a>`).join('')}
+          </nav>
+        </div>
+        <nav class="tray-mobile-key" aria-label="Drink tray categories">
+          ${[['Wine', 'Wine'], ['Spirit', 'Spirits'], ['Whiskey', 'Whiskey'], ['Cocktail', 'Cocktails']].map(([family, label], index) => `<a href="${escapeAttribute(window.location.pathname)}?family=${family}#stageTitle" data-tray-family="${family}"><span>${index + 1}</span>${label}${icon('arrow-right')}</a>`).join('')}
+        </nav>
+      </section>
       <aside class="family-rack" aria-label="Drink families">
         <div class="family-rack__label">Library</div>
         <div id="familyTabs" class="family-rack__tabs"></div>
@@ -137,7 +157,7 @@ function renderShell() {
         <header class="stage-header">
           <div>
             <p id="stageKicker" class="stage-kicker">Full collection</p>
-            <h1 id="stageTitle">The Bar</h1>
+            <h1 id="stageTitle" tabindex="-1">The Bar</h1>
             <p id="stageSummary" class="stage-summary"></p>
           </div>
           <div class="stage-header__tools">
@@ -285,6 +305,18 @@ function bindEvents() {
 }
 
 function handleClick(event) {
+  const trayTarget = event.target.closest('[data-tray-family]');
+  if (trayTarget) {
+    if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey || event.button > 0) return;
+    event.preventDefault();
+    clearTimeout(searchTimer);
+    Object.assign(state, FILTER_DEFAULTS, { family: trayTarget.dataset.trayFamily, scope: 'all', visible: PAGE_STEP, pendingDish: '' });
+    syncUrl({ push: true, depth: 0 });
+    renderAll();
+    elements.stageTitle.focus({ preventScroll: true });
+    elements.stageTitle.scrollIntoView?.({ block: 'start', behavior: 'instant' });
+    return;
+  }
   const actionTarget = event.target.closest('[data-action]');
   const familyTarget = event.target.closest('.family-tab[data-family]');
   const categoryTarget = event.target.closest('[data-category]');
@@ -1138,6 +1170,7 @@ function icon(name) {
     sliders: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h10M18 7h2M4 17h2M10 17h10"/><circle cx="16" cy="7" r="2"/><circle cx="8" cy="17" r="2"/></svg>',
     clock: '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M12 8v5l3 2"/></svg>',
     'arrow-left': '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m14 6-6 6 6 6"/></svg>',
+    'arrow-right': '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg>',
     share: '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="18" cy="5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="m8.2 10.8 7.6-4.4M8.2 13.2l7.6 4.4"/></svg>',
     x: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg>',
     'chevron-down': '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m7 10 5 5 5-5"/></svg>',

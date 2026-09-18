@@ -1,5 +1,16 @@
 # Internal release iterations — September 18, 2026
 
+## Obsidian glass / interactive drink tray
+
+- Added a photographic-style tray hero inspired by the supplied composition, replacing the human centerpiece with four glasses. Wine → Wine; shot → Spirits; old fashioned → Whiskey; coupe → Cocktails. Hotspots use native, named links and clear stale collection filters on ordinary activation.
+- Retained all family tabs, search, filters, Saved/Recent, pairing discovery, evidence disclosures and profile functionality. No drink or food data changed.
+- Introduced near-black purple surfaces, translucent glossy borders, yellow-gold and green accents, rounded cards and soft star shimmer. Reduced-motion preferences disable shimmer. Mobile uses numbered photo hotspots and a separate two-column category key; the photo is never cropped, so hotspot alignment does not depend on viewport size.
+- New generated hero asset: `assets/drink-tray.webp`, 1536 × 1024, 111,064 bytes. Built-in image generation; full prompt and provenance are in `ASSET_CREDITS.md`. It depicts illustrative drinks, not venue recipes.
+- Native labels remain usable without the photo. The optional image is cached for offline use without making successful image retrieval a prerequisite for app installation. Updated service-worker cache version.
+- Validation: 41 local automated tests pass, including four hotspot destinations, clearing stale filters, focus, browser history, modified clicks and existing regression checks. Browser visual QA is outstanding: the provided cloud browser returned `ERR_BLOCKED_BY_CLIENT` for the local preview. No rendered desktop/mobile or real-device verification is claimed.
+
+Before merging, visually inspect the hero at 320, 390, 768 and 1440 px; check labels and glass positions, mobile category key, 200% zoom, reduced motion, image-failure fallback and VoiceOver navigation.
+
 Iterations 1–5 build on the merged September 7 catalog and velvet-purple design and left tasting data unchanged. The flavor follow-up below changes that data separately.
 
 ## Flavor and pairing follow-up
