@@ -1,4 +1,5 @@
 import { loadCatalog, loadFood } from './data.js';
+import { getBuildSheet } from './build-sheets.js';
 import { pairingGuidance, profileGuidance, PAIRING_PRINCIPLES } from './pairing-guidance.js';
 import { FILTER_DEFAULTS, readRoute, routeUrl, profileUrl } from './route.js';
 import {
@@ -682,6 +683,7 @@ function renderProfile(id, { fromHistory = false } = {}) {
         <div class="profile-hero__copy">
           <p>${escapeHtml(entry.family)} <span>·</span> ${escapeHtml(entry.category)}</p>
           <h1 id="profileTitle">${escapeHtml(entry.name)}</h1>
+          ${buildSheetMarkup(entry)}
           <div class="profile-badges">${profileBadges(entry).map((badge) => `<span>${escapeHtml(badge)}</span>`).join('')}</div>
         </div>
         <div class="profile-hero__strength">
@@ -913,6 +915,18 @@ function tastingMarkup(entry) {
         ${entry.tasting?.finish ? `<div><small>Finish</small><p>${escapeHtml(entry.tasting.finish)}</p></div>` : ''}
       </div>
     </section>`;
+}
+
+function buildSheetMarkup(entry) {
+  if (entry.family !== 'Cocktail') return '';
+  const sheet = getBuildSheet(entry);
+  if (!sheet) return '<p class="build-sheet-missing">Build sheet not supplied for this cocktail.</p>';
+  return `<div class="build-sheet">
+    <a class="build-sheet-link" href="${escapeAttribute(sheet.href)}" target="_blank" rel="noopener noreferrer" aria-label="View ${escapeAttribute(entry.name)} build sheet (PDF, opens in a new tab)">View build sheet <span>PDF ↗</span></a>
+    <p>Original training page ${sheet.page} · Full source page${entry.menu?.status === 'not-found' ? ' · Historical reference' : ''}</p>
+    ${sheet.note ? `<p class="build-sheet-note">${escapeHtml(sheet.note)}</p>` : ''}
+    <details><summary>Source details</summary><p>From “25 Update lates 9-18.pdf”. Original quantities, build, ice, glassware and garnish are preserved as supplied. House batch, syrup and infusion preparation may not be included; ingredient measures and batch pours are not interchangeable. Confirm current service instructions. Open online before relying on offline access.</p></details>
+  </div>`;
 }
 
 function noteGroup(label, notes) {

@@ -1,8 +1,11 @@
 const PREFIX = `voodoo-library:${self.registration.scope}:`;
-const CACHE = `${PREFIX}2026-09-20-v8`;
+const CACHE = `${PREFIX}2026-09-20-v9`;
 const REQUIRED = ['./', './index.html', './styles.css', './js/app.js', './js/catalog.js', './js/storage.js', './js/route.js', './js/data.js', './js/pairing-guidance.js', './data/drinks.json', './manifest.webmanifest', './assets/icons/voodoo.svg', './assets/icons/voodoo-180.png', './assets/icons/voodoo-192.png', './assets/icons/voodoo-512.png'];
 const OPTIONAL = ['./data/food.json', './ASSET_CREDITS.md', './RESEARCH_AUDIT.md', './assets/drink-tray.webp', './assets/whiskey-rocks.jpg', './assets/citrus-cocktail.jpg', './assets/wine-service.jpg'];
 const ASSET_PATHS = new Set([...REQUIRED, ...OPTIONAL].map((path) => new URL(path, self.registration.scope).pathname));
+REQUIRED.push('./js/build-sheets.js');
+ASSET_PATHS.add(new URL('./js/build-sheets.js', self.registration.scope).pathname);
+const BUILD_SHEET_PATH = new URL('./assets/build-sheets/', self.registration.scope).pathname;
 
 self.addEventListener('install', (event) => {
   event.waitUntil((async () => {
@@ -24,7 +27,8 @@ self.addEventListener('activate', (event) => {
 
 self.addEventListener('fetch', (event) => {
   const url = new URL(event.request.url);
-  if (event.request.method !== 'GET' || url.origin !== self.location.origin || !ASSET_PATHS.has(url.pathname)) return;
+  const isBuildSheet = url.pathname.startsWith(BUILD_SHEET_PATH) && /^[a-z0-9-]+\.pdf$/.test(url.pathname.slice(BUILD_SHEET_PATH.length));
+  if (event.request.method !== 'GET' || url.origin !== self.location.origin || (!ASSET_PATHS.has(url.pathname) && !isBuildSheet)) return;
   const cacheKey = new URL(url.pathname, url.origin).href;
   event.respondWith((async () => {
     let cache;

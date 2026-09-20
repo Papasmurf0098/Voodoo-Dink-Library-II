@@ -87,6 +87,31 @@ test('modified shortcuts do not open profiles, plain R does', async () => {
 
 export { mount, pause, until };
 
+test('cocktail profile links directly to its own build PDF with source context', async () => {
+  const ui = await mount('?drink=verdita');
+  try {
+    const link = ui.$('.build-sheet-link');
+    assert.equal(link.getAttribute('href'), './assets/build-sheets/verdita.pdf');
+    assert.equal(link.target, '_blank');
+    assert.match(link.rel, /noopener/);
+    assert.match(link.getAttribute('aria-label'), /Verdita.*PDF/);
+    assert.match(ui.$('.build-sheet').textContent, /Original training page 3/);
+  } finally { ui.close(); }
+});
+
+test('missing cocktail build is explicit and non-cocktail profiles have no build section', async () => {
+  const cocktail = await mount('?drink=bellini');
+  try {
+    assert.equal(cocktail.$('.build-sheet-link'), null);
+    assert.match(cocktail.$('.build-sheet-missing').textContent, /not supplied/);
+  } finally { cocktail.close(); }
+  const spirit = await mount('?drink=chopin-potato-vodka');
+  try {
+    assert.equal(spirit.$('.build-sheet'), null);
+    assert.equal(spirit.$('.build-sheet-missing'), null);
+  } finally { spirit.close(); }
+});
+
 test('spirit menu sections remain available outside Refine and filter the correct profiles', async () => {
   const ui = await mount('?family=Spirit');
   try {
