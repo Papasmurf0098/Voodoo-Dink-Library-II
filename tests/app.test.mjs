@@ -87,6 +87,40 @@ test('modified shortcuts do not open profiles, plain R does', async () => {
 
 export { mount, pause, until };
 
+test('spirit menu sections remain available outside Refine and filter the correct profiles', async () => {
+  const ui = await mount('?family=Spirit');
+  try {
+    const categories = [...ui.win.document.querySelectorAll('#categoryTabs [data-category]')];
+    assert.deepEqual(categories.map((node) => node.dataset.category), ['All', 'Vodka', 'Gin', 'Rum', 'Aperitif', 'Tequila', 'Mezcal', 'Liqueur']);
+    assert.equal(ui.$('#categoryTabs').closest('#filterDrawer'), null);
+    assert.equal(ui.$('#filterToggle').getAttribute('aria-expanded'), 'false');
+    assert.match(ui.$('[data-category="Aperitif"]').textContent, /Aperitifs/);
+    for (const category of ['Vodka', 'Gin', 'Rum', 'Aperitif', 'Tequila', 'Mezcal', 'Liqueur']) {
+      ui.click(`[data-category="${category}"]`);
+      assert.equal(new URL(ui.win.location.href).searchParams.get('category'), category);
+      assert.ok(ui.$('#catalogDeck').children.length > 0);
+      assert.ok([...ui.win.document.querySelectorAll('.catalog-card__category')].every((node) => node.textContent === category));
+      assert.equal(ui.$(`[data-category="${category}"]`).getAttribute('aria-pressed'), 'true');
+      assert.equal(ui.win.document.activeElement.dataset.category, category);
+    }
+    ui.click('.family-tab[data-family="Wine"]');
+    assert.equal(ui.$('[data-category="All"]').getAttribute('aria-pressed'), 'true');
+    assert.equal(ui.$('[data-category="Vodka"]'), null);
+  } finally { ui.close(); }
+});
+
+test('spirit subcategory deep links preserve category on opening and closing a profile', async () => {
+  const ui = await mount('?family=Spirit&category=Tequila');
+  try {
+    assert.equal(ui.$('[data-category="Tequila"]').getAttribute('aria-pressed'), 'true');
+    ui.click('.card-open');
+    ui.click('.profile-back');
+    await until(() => !ui.$('#profileLayer').classList.contains('is-open'));
+    assert.equal(ui.$('[data-category="Tequila"]').getAttribute('aria-pressed'), 'true');
+    assert.equal(new URL(ui.win.location.href).searchParams.get('category'), 'Tequila');
+  } finally { ui.close(); }
+});
+
 test('drink-tray hotspots open complete collections, clear stale filters and focus results', async () => {
   const ui = await mount('?scope=favorites&q=missing&dish=pear&flavor=Smoke');
   try {

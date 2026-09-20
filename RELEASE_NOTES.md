@@ -1,5 +1,13 @@
 # Internal release iterations — September 18, 2026
 
+## September 20 — menu subcategories and app-wide obsidian surfaces
+
+- Moved category navigation out of the collapsed Refine drawer into its own always-accessible section above the collection views. Spirits use the order in the [venue menu](https://voodoobayou.com/menu/), checked September 20: Vodka, Gin, Rum, Aperitifs, Tequila, Mezcal. The additional retained sloe-gin reference remains under Other liqueurs. These counts describe library records, not confirmed venue inventory.
+- Preserved internal category keys and existing deep links; Aperitif is displayed as Aperitifs. Switching family resets the category. Subcategory selection remains intact when a drink profile is opened and closed.
+- Extended shared obsidian surface tokens to navigation, filters, native selects, Saved/Recent controls, profile facts, tasting notes, pairings, related drinks, Accuracy & Sources, sharing, notifications, empty/error states and controls. Green and gold remain functional accents against dark purple surfaces, with readable opaque fallback backgrounds for browsers without blur support.
+- Mobile categories use two columns and 44-pixel minimum button height. Existing focus indicators, reduced-motion behavior and drink-tray navigation remain intact.
+- All 43 local tests pass. No catalog or pairing data changed. Updated the offline cache version. Rendered visual and real-device verification remain outstanding; the previously provided preview browser blocked local access. This update does not claim a new visual browser check.
+
 ## Obsidian glass / interactive drink tray
 
 - Added a photographic-style tray hero inspired by the supplied composition, replacing the human centerpiece with four glasses. Wine → Wine; shot → Spirits; old fashioned → Whiskey; coupe → Cocktails. Hotspots use native, named links and clear stale collection filters on ordinary activation.

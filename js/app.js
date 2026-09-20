@@ -166,6 +166,10 @@ function renderShell() {
           </div>
         </header>
 
+        <nav class="category-browser" aria-label="Drink subcategories">
+          <p id="categoryHeading" class="category-browser__heading">Browse categories</p>
+          <div id="categoryTabs" class="category-tabs"></div>
+        </nav>
         <div class="view-strip" role="navigation" aria-label="Library views">
           <button class="view-chip" data-scope="all">All</button>
           <button class="view-chip" data-scope="favorites">${icon('bookmark')} Saved <span id="savedChipCount">0</span></button>
@@ -190,10 +194,6 @@ function renderShell() {
         </section>
 
         <section id="filterDrawer" class="filter-drawer" aria-hidden="true" inert>
-          <div class="filter-group filter-group--wide">
-            <span class="filter-label">Category</span>
-            <div id="categoryTabs" class="category-tabs"></div>
-          </div>
           <div class="filter-group">
             <label class="filter-label" for="confidenceSelect">Confidence</label>
             <select id="confidenceSelect" class="select-control">
@@ -527,11 +527,17 @@ function renderFamilyTabs() {
 
 function renderCategories() {
   const categories = getCategories(state.entries, state.family);
+  const spiritOrder = ['Vodka', 'Gin', 'Rum', 'Aperitif', 'Tequila', 'Mezcal', 'Liqueur'];
+  if (state.family === 'Spirit') categories.sort((a, b) => {
+    const rank = (name) => spiritOrder.includes(name) ? spiritOrder.indexOf(name) : spiritOrder.length;
+    return rank(a.name) - rank(b.name) || a.name.localeCompare(b.name);
+  });
+  document.querySelector('#categoryHeading').textContent = state.family === 'Spirit' ? 'Spirits · Menu sections' : 'Browse categories';
   elements.categoryTabs.innerHTML = [
     `<button class="category-tab ${state.category === 'All' ? 'is-active' : ''}" data-category="All" aria-pressed="${state.category === 'All'}">All</button>`,
     ...categories.map(({ name, count }) => `
       <button class="category-tab ${state.category === name ? 'is-active' : ''}" data-category="${escapeAttribute(name)}" aria-pressed="${state.category === name}">
-        ${escapeHtml(name)} <span>${count}</span>
+        ${escapeHtml(name === 'Aperitif' ? 'Aperitifs' : name === 'Liqueur' && state.family === 'Spirit' ? 'Other liqueurs' : name)} <span>${count}</span>
       </button>`),
   ].join('');
 }
