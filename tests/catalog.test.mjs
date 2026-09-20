@@ -150,3 +150,21 @@ test('install manifest icons exist at the declared sizes and stay within the app
   }
   assert.ok(read('index.html').includes('rel="apple-touch-icon"'));
 });
+
+test('ABV sorting is numeric, preserves zero, and puts unknown strengths last both ways', () => {
+  const drinks = [
+    { name: 'Whiskey', strength: { abv: 40 } },
+    { name: 'Beer', strength: { abv: 9 } },
+    { name: 'Zero', strength: { abv: 0 } },
+    { name: 'Ale', strength: { abv: 9 } },
+    { name: 'Unknown', strength: { abvDisplay: '12–15% ABV' } },
+    ...[null, '', '40', NaN, Infinity, -1, 101, undefined].map((abv, i) => ({ name: `Missing ${i}`, strength: { abv } })),
+  ];
+  const original = [...drinks];
+  for (const [sort, expected] of [['abv-asc', ['Zero', 'Ale', 'Beer', 'Whiskey']], ['abv-desc', ['Whiskey', 'Ale', 'Beer', 'Zero']]]) {
+    const sorted = sortCatalog(drinks, sort);
+    assert.deepEqual(sorted.slice(0, 4).map(({ name }) => name), expected);
+    assert.deepEqual(sorted.slice(4).map(({ name }) => name), [...drinks.slice(4)].map(({ name }) => name).sort());
+  }
+  assert.deepEqual(drinks, original);
+});

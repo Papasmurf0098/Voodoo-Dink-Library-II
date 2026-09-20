@@ -10,6 +10,7 @@ A drink reference for Voodoo Bayou, Palm Beach Gardens: tasting profiles, qualif
 - 696 pairing suggestions across 347 visible profiles and 41 currently listed dishes. Eleven unresolved bottles/flights remain unpaired. Three superseded food records are retained for old links, with updated dish destinations.
 - Dish-first discovery, ingredient and accent-insensitive search, flavor filters, and menu-status filters.
 - Dark velvet-purple surfaces, higher-contrast glass filing tabs, gold and emerald accents, real illustrative photography, and front-to-back profile motion.
+- ABV sorting from low to high or high to low in the library and Saved collections. Uses numeric catalog ABV only; unknown strengths remain last, with alphabetical ties. Recent stays newest viewed first.
 - Saved profiles, recent history, deep links, sharing, random discovery, and compact/comfortable views.
 
 Read [the research audit](RESEARCH_AUDIT.md) for verification limits and corrections. Read [photo credits](ASSET_CREDITS.md) for sources and licenses. The photography does not depict the restaurant or certify individual drinks.
