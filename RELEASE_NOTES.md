@@ -1,5 +1,15 @@
 # Internal release iterations — September 18, 2026
 
+## Cocktail-specific build-sheet links
+
+- Added individual PDF links below the cocktail profile title for all 25 existing cocktails with recipe pages in the user-supplied `25 Update lates 9-18.pdf`. Each PDF preserves its complete original page, including photograph, ingredient quantities, preparation, ice, glassware/garnish and highlighted annotations where present. No inferred measures or substitute classic recipes were added.
+- Eight existing cocktail profiles have no individual recipe sheet in this source: Voodoo Private Barrel Old Fashioned, Bellini, Aperol Spritz, Mimosa, Boujie Mimosa, Endless Bloody Mary, Happy Hour Margarita and Old Fashioned. Each explicitly displays “Build sheet not supplied” instead of a misleading link.
+- The source also includes two mocktails, a brunch price overview, and Witches Brew (not an existing profile). These were not added or published because this change is limited to matching existing cocktails. Historical Pimp Chalice, Voodoo Child, Blanche Vol. 2 and DePeache Mode remain historical; Vol. 2 and Vol. 3 use different source pages.
+- Ingredient data, flavor profiles, pairings, menu status and all other drink families are unchanged. Notes identify the Big Lebowski cream conflict, Breakfast Old Fashioned sugar conflict, unspecified frozen-drink batch quantities, missing Borghetti unit and selected batched-pour ambiguities. The source details caution that a complete source page is not necessarily a complete upstream syrup/infusion/batch recipe.
+- Recipe mapping: `js/build-sheets.js`. Source SHA-256: `319da5fbec8567b37b3e514f5c412cc1ded7e60ee5dddc0bd36d04f1331b690c`. Reproduce using `python scripts/extract-build-sheets.py /path/to/source.pdf` with pypdf. Verify with `python scripts/verify-build-sheets.py /path/to/source.pdf` using Poppler and Pillow.
+- PDFs load only when opened, not on application startup. Successful full responses are cached on demand for offline reuse; first access requires connectivity. The new runtime module is part of required offline installation. No third-party document hosting is used.
+- Validation: 47 automated tests; all extracted pages checked against original text and page bounds, rendered for review, and pixel-compared to their corresponding source page. Original PDF syntax warnings do not change the rendered pages. Real-browser PDF-viewer and mobile visual QA remain outstanding.
+
 ## September 20 — menu subcategories and app-wide obsidian surfaces
 
 - Moved category navigation out of the collapsed Refine drawer into its own always-accessible section above the collection views. Spirits use the order in the [venue menu](https://voodoobayou.com/menu/), checked September 20: Vodka, Gin, Rum, Aperitifs, Tequila, Mezcal. The additional retained sloe-gin reference remains under Other liqueurs. These counts describe library records, not confirmed venue inventory.

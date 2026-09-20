@@ -444,6 +444,13 @@ body { background: #09060f; }
 }
 
 /* Shared obsidian surfaces across navigation, discovery, profiles and system states. */
+.build-sheet { margin: 0 0 20px; max-width: 620px; }
+.build-sheet-link { display: inline-flex; align-items: center; gap: 16px; min-height: 48px; padding: 10px 16px; border: 1px solid var(--gold); border-radius: 12px; background: var(--glass); color: var(--gold); font-size: 14px; text-decoration: none; }
+.build-sheet-link:hover { border-color: var(--green); color: var(--green); }
+.build-sheet-link span { font-size: 11px; }
+.build-sheet p,.build-sheet-missing { margin: 8px 0; color: var(--muted); font-size: 12px; line-height: 1.6; }
+.build-sheet .build-sheet-note { color: var(--gold); }
+.build-sheet summary { cursor: pointer; font-size: 12px; color: var(--green); padding: 8px 0; }
 html { scrollbar-color: #6f5685 var(--obsidian); }
 body { background-color: var(--obsidian); }
 .category-browser { margin-bottom: 22px; padding: 18px; border: 1px solid var(--glass-line); border-radius: 20px; background: var(--glass); box-shadow: var(--glass-shadow); }

@@ -37,12 +37,17 @@ test('service worker refreshes online, resolves offline deep links and leaves ot
   const online = await request(`${scope}?drink=voodoo-child`);
   assert.equal(await online.text(), 'fresh');
   assert.ok(stored.has(scope));
+  const sheetUrl = `${scope}assets/build-sheets/verdita.pdf`;
+  assert.equal(await (await request(sheetUrl)).text(), 'fresh');
+  assert.ok(stored.has(sheetUrl));
   status = 503;
   const fallback = await request(`${scope}?drink=anything`);
   assert.equal(fallback.status, 200);
   assert.equal(await fallback.text(), 'fresh');
   status = 200;
   offline = true;
+  assert.equal(await (await request(sheetUrl)).text(), 'fresh');
+  assert.equal(await request(`${scope}assets/build-sheets/other/nested.pdf`), undefined);
   assert.equal(await (await request(`${scope}?dish=gumbo`)).text(), 'fresh');
   assert.equal((await request(`${scope}data/food.json`)).status, 503);
   assert.equal(await request('https://example.com/another-app/data.json'), undefined);
