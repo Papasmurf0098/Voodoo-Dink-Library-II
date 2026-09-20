@@ -4,7 +4,7 @@ export const FILTER_DEFAULTS = Object.freeze({
   query: '', family: 'All', category: 'All', confidence: 'All',
   pairingsOnly: false, caveatsOnly: false, dish: '', flavor: '', menu: '',
 });
-const SORTS = ['name', 'name-desc', 'family', 'confidence', 'original'];
+const SORTS = ['name', 'name-desc', 'abv-asc', 'abv-desc', 'family', 'confidence', 'original'];
 
 export function readRoute(search, entries, food, defaultSort = 'name') {
   const params = new URLSearchParams(search);

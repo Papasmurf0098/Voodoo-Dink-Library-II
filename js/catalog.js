@@ -117,6 +117,18 @@ export function filterCatalog(entries, state) {
 export function sortCatalog(entries, sort) {
   const result = [...entries];
   switch (sort) {
+    case 'abv-asc':
+    case 'abv-desc':
+      return result.sort((a, b) => {
+        const aAbv = a.strength?.abv;
+        const bAbv = b.strength?.abv;
+        const aKnown = Number.isFinite(aAbv) && aAbv >= 0 && aAbv <= 100;
+        const bKnown = Number.isFinite(bAbv) && bAbv >= 0 && bAbv <= 100;
+        // Unknown strength stays last in either direction; 0% is a known ABV.
+        if (aKnown !== bKnown) return aKnown ? -1 : 1;
+        const difference = aKnown && bKnown ? (aAbv - bAbv) * (sort === 'abv-desc' ? -1 : 1) : 0;
+        return difference || a.name.localeCompare(b.name);
+      });
     case 'name-desc':
       return result.sort((a, b) => b.name.localeCompare(a.name));
     case 'family':

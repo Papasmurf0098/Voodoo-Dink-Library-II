@@ -21,7 +21,7 @@ export function pushRecent(list, id) {
 export function loadPreferences() {
   const raw = read(STORAGE_KEYS.preferences, {});
   return {
-    sort: ['name', 'name-desc', 'family', 'confidence', 'original'].includes(raw?.sort) ? raw.sort : 'name',
+    sort: ['name', 'name-desc', 'abv-asc', 'abv-desc', 'family', 'confidence', 'original'].includes(raw?.sort) ? raw.sort : 'name',
     density: raw?.density === 'compact' ? 'compact' : 'comfortable',
   };
 }

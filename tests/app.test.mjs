@@ -388,3 +388,28 @@ test('backup download contains every saved profile, including those hidden by fi
     assert.deepEqual(JSON.parse(await blob.text()).favorites, ['bourbon-peach-tea', 'verdita']);
   } finally { ui.close(); }
 });
+
+test('ABV selection orders cards numerically, updates the URL, and survives reload', async () => {
+  const records = JSON.parse(readFileSync(new URL('data/drinks.json', root), 'utf8')).entries;
+  const known = records.filter((entry) => !entry.duplicateOf && Number.isFinite(entry.strength?.abv));
+  const ui = await mount();
+  let preferences;
+  try {
+    for (const sort of ['abv-asc', 'abv-desc']) {
+      const select = ui.$('#sortSelect');
+      select.value = sort;
+      select.dispatchEvent(new ui.win.Event('change', { bubbles: true }));
+      assert.equal(new URL(ui.win.location.href).searchParams.get('sort'), sort);
+      const expected = [...known].sort((a, b) => (a.strength.abv - b.strength.abv) * (sort === 'abv-desc' ? -1 : 1) || a.name.localeCompare(b.name));
+      const cards = [...ui.win.document.querySelectorAll('#catalogDeck .card-open')];
+      assert.ok(cards.length > 0);
+      assert.deepEqual(cards.map((card) => card.dataset.drinkId), expected.slice(0, cards.length).map((entry) => entry.id));
+    }
+    preferences = JSON.parse(ui.win.localStorage.getItem('nightcap:v2:preferences'));
+    assert.equal(preferences.sort, 'abv-desc');
+  } finally { ui.close(); }
+  const restored = await mount('', { storage: { 'nightcap:v2:preferences': preferences } });
+  try { assert.equal(restored.$('#sortSelect').value, 'abv-desc'); } finally { restored.close(); }
+  const linked = await mount('?sort=abv-asc');
+  try { assert.equal(linked.$('#sortSelect').value, 'abv-asc'); } finally { linked.close(); }
+});

@@ -209,6 +209,8 @@ function renderShell() {
             <select id="sortSelect" class="select-control">
               <option value="name">A–Z</option>
               <option value="name-desc">Z–A</option>
+              <option value="abv-asc">ABV: Low to high</option>
+              <option value="abv-desc">ABV: High to low</option>
               <option value="family">Family</option>
               <option value="confidence">Confidence</option>
               <option value="original">Source order</option>
