@@ -193,10 +193,8 @@ test('profile exposes pairing cautions and honest source-check scope', async () 
     await pause();
     assert.match(ui.$('#profilePanel').textContent, /Hop bitterness and alcohol may intensify/);
     assert.match(ui.$('.research-panel').textContent, /not independently reverified/);
-    const guide = ui.$('.pairing-method');
-    assert.ok(guide);
-    assert.equal(guide.querySelectorAll('a').length, 3);
-    assert.match(guide.textContent, /not ingredient or allergen declarations/);
+    assert.equal(ui.$('.pairing-method'), null);
+    assert.doesNotMatch(ui.$('#profilePanel').textContent, /How to use these pairings/);
   } finally { ui.close(); }
 });
 
