@@ -1,0 +1,2013 @@
+{
+  "entries": [
+    {
+      "id": "stella",
+      "tasting": {
+        "aroma": [],
+        "flavor": [
+          "malt",
+          "light bitterness"
+        ],
+        "body": "Not independently documented.",
+        "finish": "Crisp"
+      },
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Product-specific reference",
+        "ambiguityStatus": "Producer reference supports broad flavor only; market ABV differs from venue 5.2%, served label not inspected.",
+        "caveats": [
+          "U.S. reference 5.0% versus venue 5.2%; market/formulation not confirmed.",
+          "Current producer search excerpt available; direct page age-gated."
+        ],
+        "sources": [
+          {
+            "url": "https://www.anheuser-busch.com/newsroom/celebrating-their-shared-premium-european-heritage-stella-artoi",
+            "title": "Stella Artois \u2014 primary reference",
+            "supports": "Producer search excerpt supports malt, mild bitterness and crisp finish; direct page is age-gated.",
+            "type": "producer",
+            "accessed": "2026-10-03"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou menu",
+            "supports": "Menu listing only; current stock not confirmed",
+            "type": "venue",
+            "accessed": "2026-10-03"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "producer",
+          "venue"
+        ],
+        "tastingBasis": "Documented identity/components; descriptors marked as expectations are editorial sensory inferences, not producer tasting notes or a tasting of the venue service.",
+        "resolution": "Producer search excerpt supports malt, mild bitterness and crisp finish; direct page is age-gated.",
+        "conflictsFound": "The venue menu lists 5.2%; the current U.S. producer page lists 5.0%. Confirm the served keg or bottle.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "conditional-reference-reviewed",
+          "summary": "Producer search excerpt supports malt, mild bitterness and crisp finish; direct page is age-gated."
+        }
+      },
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "frenchmen-fried-oysters",
+            "name": "Frenchmen Fried Oysters",
+            "reason": "Freshness and carbonation or acidity contrast with the fried coating; honeydew and green goddess add fruit and herbal notes.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "bbq-shrimp",
+            "name": "BBQ Shrimp",
+            "reason": "Malt offers an editorial link to grilled baguette; a crisp lager is a contrasting accompaniment to garlic and NOLA BBQ sauce.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial suggestions based on documented reference flavors or explicitly conditional sensory expectations and the published venue menu; not restaurant endorsements or confirmed inventory.",
+        "conditional": true,
+        "rulesCheckedAt": "2026-10-03"
+      },
+      "signatureTraits": [
+        "malt \u00b7 light bitterness"
+      ],
+      "tags": [
+        "Beer",
+        "malt",
+        "light bitterness"
+      ]
+    },
+    {
+      "id": "singin-in-havana",
+      "tasting": {
+        "aroma": [
+          "guava"
+        ],
+        "flavor": [
+          "guava"
+        ],
+        "body": "Light",
+        "finish": "Dry and crisp"
+      },
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "High",
+        "profileLevel": "Product-specific reference",
+        "ambiguityStatus": "Venue bottle/release not inspected",
+        "caveats": [],
+        "sources": [
+          {
+            "url": "https://shop.barrelofmonks.com/products/single-in-havana-4pk",
+            "title": "Single in Havana \u2014 primary reference",
+            "supports": "Producer explicitly identifies guava aroma and flavor, light blonde ale, and fermentation aimed at avoiding excessive sweetness.",
+            "type": "producer",
+            "accessed": "2026-10-03"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou menu",
+            "supports": "Menu listing only; current stock not confirmed",
+            "type": "venue",
+            "accessed": "2026-10-03"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "producer",
+          "venue"
+        ],
+        "tastingBasis": "Documented producer sensory notes for the reference product; aroma/body/finish omitted where not documented.",
+        "resolution": "Producer explicitly identifies guava aroma and flavor, light blonde ale, and fermentation aimed at avoiding excessive sweetness.",
+        "conflictsFound": "No material conflict in the retained core descriptors.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "primary-reference-reviewed",
+          "summary": "Producer explicitly identifies guava aroma and flavor, light blonde ale, and fermentation aimed at avoiding excessive sweetness."
+        }
+      },
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "roasted-peach-salad",
+            "name": "Roasted Peach Salad",
+            "reason": "Fruit notes complement roasted peach; lemon-thyme vinaigrette adds brightness against the drink and creamy ricotta.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "gator",
+            "name": "Shakey\u2019s Gator Tail",
+            "reason": "Guava offers fruit contrast to fried gator; the dry beer is an editorial accompaniment to charred lemon and chipotle aioli.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial suggestions based on documented reference flavors or explicitly conditional sensory expectations and the published venue menu; not restaurant endorsements or confirmed inventory.",
+        "conditional": false,
+        "rulesCheckedAt": "2026-10-03"
+      },
+      "signatureTraits": [
+        "guava"
+      ],
+      "tags": [
+        "Beer",
+        "guava"
+      ]
+    },
+    {
+      "id": "funky-buddha-floridian",
+      "tasting": {
+        "aroma": [],
+        "flavor": [
+          "banana",
+          "citrus",
+          "clove"
+        ],
+        "body": "Smooth wheat body",
+        "finish": "Not independently documented."
+      },
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "High",
+        "profileLevel": "Product-specific reference",
+        "ambiguityStatus": "Venue bottle/release not inspected",
+        "caveats": [],
+        "sources": [
+          {
+            "url": "https://funkybuddha.com/beer/floridian/",
+            "title": "Funky Buddha Floridian \u2014 primary reference",
+            "supports": "Producer flavor tiles identify banana, citrus and clove; description supports smooth wheat body.",
+            "type": "producer",
+            "accessed": "2026-10-03"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou menu",
+            "supports": "Menu listing only; current stock not confirmed",
+            "type": "venue",
+            "accessed": "2026-10-03"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "producer",
+          "venue"
+        ],
+        "tastingBasis": "Documented producer sensory notes for the reference product; aroma/body/finish omitted where not documented.",
+        "resolution": "Producer flavor tiles identify banana, citrus and clove; description supports smooth wheat body.",
+        "conflictsFound": "No material conflict in the retained core descriptors.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "primary-reference-reviewed",
+          "summary": "Producer flavor tiles identify banana, citrus and clove; description supports smooth wheat body."
+        }
+      },
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "fried-chicken",
+            "name": "Chicken and Biscuit",
+            "reason": "Wheat softness and banana-like yeast fruit suit the fried crust and hot honey.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "cornbread",
+            "name": "Famous Cornbread",
+            "reason": "Wheat malt and clove-like notes connect with cornbread and honey butter.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial suggestions based on documented reference flavors or explicitly conditional sensory expectations and the published venue menu; not restaurant endorsements or confirmed inventory.",
+        "conditional": false,
+        "rulesCheckedAt": "2026-10-03"
+      },
+      "signatureTraits": [
+        "banana \u00b7 citrus \u00b7 clove"
+      ],
+      "tags": [
+        "Beer",
+        "banana",
+        "citrus",
+        "clove"
+      ]
+    },
+    {
+      "id": "abita-purple-haze",
+      "tasting": {
+        "aroma": [],
+        "flavor": [
+          "raspberry"
+        ],
+        "body": "Not independently documented.",
+        "finish": "Not independently documented."
+      },
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "High",
+        "profileLevel": "Product-specific reference",
+        "ambiguityStatus": "Venue bottle/release not inspected",
+        "caveats": [],
+        "sources": [
+          {
+            "url": "https://abita.com/brew/purple-haze/",
+            "title": "Abita Purple Haze \u2014 primary reference",
+            "supports": "Current producer page reports increased raspberry character; old precision on light malt and finish is not independently supported.",
+            "type": "producer",
+            "accessed": "2026-10-03"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou menu",
+            "supports": "Menu listing only; current stock not confirmed",
+            "type": "venue",
+            "accessed": "2026-10-03"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "producer",
+          "venue"
+        ],
+        "tastingBasis": "Documented producer sensory notes for the reference product; aroma/body/finish omitted where not documented.",
+        "resolution": "Current producer page reports increased raspberry character; old precision on light malt and finish is not independently supported.",
+        "conflictsFound": "No material conflict in the retained core descriptors.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "primary-reference-reviewed",
+          "summary": "Current producer page reports increased raspberry character; old precision on light malt and finish is not independently supported."
+        }
+      },
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "pear",
+            "name": "Pear & Pecan Salad",
+            "reason": "Raspberry fruit connects with black cherry and balances tangy goat cheese.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "fried-chicken",
+            "name": "Chicken and Biscuit",
+            "reason": "Fruity lager contrasts with the savory fried chicken.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial suggestions based on documented reference flavors or explicitly conditional sensory expectations and the published venue menu; not restaurant endorsements or confirmed inventory.",
+        "conditional": false,
+        "rulesCheckedAt": "2026-10-03"
+      },
+      "signatureTraits": [
+        "raspberry"
+      ],
+      "tags": [
+        "Beer",
+        "raspberry"
+      ]
+    },
+    {
+      "id": "funky-buddha-hop-gun",
+      "tasting": {
+        "aroma": [],
+        "flavor": [
+          "grapefruit",
+          "pineapple",
+          "caramel malt"
+        ],
+        "body": "Not independently documented.",
+        "finish": "Caramel malt balances the hop character"
+      },
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "High",
+        "profileLevel": "Product-specific reference",
+        "ambiguityStatus": "Venue bottle/release not inspected",
+        "caveats": [],
+        "sources": [
+          {
+            "url": "https://funkybuddha.com/beer/hop-gun-ipa/",
+            "title": "Funky Buddha Hop Gun \u2014 primary reference",
+            "supports": "Producer identifies grapefruit and pineapple hop flavors and caramel malt balancing the finish.",
+            "type": "producer",
+            "accessed": "2026-10-03"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou menu",
+            "supports": "Menu listing only; current stock not confirmed",
+            "type": "venue",
+            "accessed": "2026-10-03"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "producer",
+          "venue"
+        ],
+        "tastingBasis": "Documented producer sensory notes for the reference product; aroma/body/finish omitted where not documented.",
+        "resolution": "Producer identifies grapefruit and pineapple hop flavors and caramel malt balancing the finish.",
+        "conflictsFound": "No material conflict in the retained core descriptors.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "primary-reference-reviewed",
+          "summary": "Producer identifies grapefruit and pineapple hop flavors and caramel malt balancing the finish."
+        }
+      },
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "burger",
+            "name": "Voodoo Smash Burger",
+            "reason": "Caramel malt meets browned beef, while grapefruit hops offset cheddar and aioli.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "corn-ribs",
+            "name": "Corn Ribs",
+            "reason": "Caramel malt offers a link to cooked corn; grapefruit and pineapple notes contrast with Parmesan and cane-vinegar aioli. Blackening may make bitterness a less comfortable match.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial suggestions based on documented reference flavors or explicitly conditional sensory expectations and the published venue menu; not restaurant endorsements or confirmed inventory.",
+        "conditional": false,
+        "rulesCheckedAt": "2026-10-03"
+      },
+      "signatureTraits": [
+        "grapefruit \u00b7 pineapple \u00b7 caramel malt"
+      ],
+      "tags": [
+        "Beer",
+        "grapefruit",
+        "pineapple",
+        "caramel malt"
+      ]
+    },
+    {
+      "id": "spearfish-amber",
+      "tasting": {
+        "aroma": [],
+        "flavor": [
+          "balanced malt and hop character (style expectation)"
+        ],
+        "body": "Not independently documented.",
+        "finish": "Not independently documented."
+      },
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Identified product; conditional style expectations",
+        "ambiguityStatus": "Producer confirms balanced American amber and hop backbone; exact aroma, caramel/toast/earthy notes, body weight and finish are not documented.",
+        "caveats": [
+          "The menu lists 5.4%. Sensory evidence is an older named review; freshness and batch can affect the served beer.",
+          "Sensory profile is conditional; detailed producer tasting evidence is unavailable."
+        ],
+        "sources": [
+          {
+            "url": "https://floridakeysbrewingco.com/seasonal-brews/",
+            "title": "Spearfish Amber \u2014 primary reference",
+            "supports": "Producer confirms balanced American amber with hop backbone, 5.4%; does not substantiate caramel, toast or earthy aroma.",
+            "type": "producer",
+            "accessed": "2026-10-03"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou menu",
+            "supports": "Menu listing only; current stock not confirmed",
+            "type": "venue",
+            "accessed": "2026-10-03"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "producer",
+          "venue"
+        ],
+        "tastingBasis": "Documented identity/components; descriptors marked as expectations are editorial sensory inferences, not producer tasting notes or a tasting of the venue service.",
+        "resolution": "Producer confirms balanced American amber with hop backbone, 5.4%; does not substantiate caramel, toast or earthy aroma.",
+        "conflictsFound": "The menu lists 5.4%. Sensory evidence is an older named review; freshness and batch can affect the served beer.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "conditional-reference-reviewed",
+          "summary": "Producer confirms balanced American amber with hop backbone, 5.4%; does not substantiate caramel, toast or earthy aroma."
+        }
+      },
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "roast-chicken",
+            "name": "Brick Oven Roasted Chicken",
+            "reason": "If the served amber shows balanced malt and hops as the producer describes, it may accompany roast chicken; caramel and toast flavors are not verified.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "jambalaya",
+            "name": "Jambalaya",
+            "reason": "A balanced amber is a conditional accompaniment to the dish\u2019s andouille, chicken and rice; hop bitterness may emphasize the stated spicy character.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial suggestions based on documented reference flavors or explicitly conditional sensory expectations and the published venue menu; not restaurant endorsements or confirmed inventory.",
+        "conditional": true,
+        "rulesCheckedAt": "2026-10-03"
+      },
+      "signatureTraits": [
+        "balanced malt and hop character (style expectation)"
+      ],
+      "tags": [
+        "Beer",
+        "balanced malt and hop character (style expectation)"
+      ]
+    },
+    {
+      "id": "la-fin-du-monde",
+      "tasting": {
+        "aroma": [
+          "flowers",
+          "fresh bread",
+          "honey",
+          "coriander",
+          "malt"
+        ],
+        "flavor": [
+          "grain",
+          "fruit",
+          "spice",
+          "mild hop bitterness"
+        ],
+        "body": "Not independently documented.",
+        "finish": "Smooth and dry"
+      },
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "High",
+        "profileLevel": "Product-specific reference",
+        "ambiguityStatus": "Venue bottle/release not inspected",
+        "caveats": [],
+        "sources": [
+          {
+            "url": "https://www.unibroue.com/en-ca/beers/classics/la-fin-du-monde",
+            "title": "La Fin du Monde \u2014 primary reference",
+            "supports": "Producer separates floral/bread/honey/coriander/malt nose from grain/fruit/spice palate and smooth dry finish.",
+            "type": "producer",
+            "accessed": "2026-10-03"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou menu",
+            "supports": "Menu listing only; current stock not confirmed",
+            "type": "venue",
+            "accessed": "2026-10-03"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "producer",
+          "venue"
+        ],
+        "tastingBasis": "Documented producer sensory notes for the reference product; aroma/body/finish omitted where not documented.",
+        "resolution": "Producer separates floral/bread/honey/coriander/malt nose from grain/fruit/spice palate and smooth dry finish.",
+        "conflictsFound": "No material conflict in the retained core descriptors.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "primary-reference-reviewed",
+          "summary": "Producer separates floral/bread/honey/coriander/malt nose from grain/fruit/spice palate and smooth dry finish."
+        }
+      },
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "voodoo-krewe-snapper",
+            "name": "Voodoo Krewe Snapper",
+            "reason": "Documented grain and spice notes offer an editorial link to crawfish-cornbread stuffing, with fruit character contrasting with Creole sauce.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "crab",
+            "name": "Jumbo Lump Crab Cake",
+            "reason": "The tripel\u2019s fruit-and-spice profile can stand beside Creole mustard and crab cake.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial suggestions based on documented reference flavors or explicitly conditional sensory expectations and the published venue menu; not restaurant endorsements or confirmed inventory.",
+        "conditional": false,
+        "rulesCheckedAt": "2026-10-03"
+      },
+      "signatureTraits": [
+        "grain \u00b7 fruit \u00b7 spice"
+      ],
+      "tags": [
+        "Beer",
+        "grain",
+        "fruit",
+        "spice",
+        "mild hop bitterness"
+      ]
+    },
+    {
+      "id": "voodoo-ranger",
+      "tasting": {
+        "aroma": [
+          "tropical fruit"
+        ],
+        "flavor": [
+          "citrus"
+        ],
+        "body": "Not independently documented.",
+        "finish": "Smooth"
+      },
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "High",
+        "profileLevel": "Product-specific reference",
+        "ambiguityStatus": "Venue bottle/release not inspected",
+        "caveats": [],
+        "sources": [
+          {
+            "url": "https://www.newbelgium.com/beer/voodoo-ranger-juicy-haze-ipa/",
+            "title": "Voodoo Ranger Juicy Haze IPA \u2014 primary reference",
+            "supports": "Producer documents tropical aroma, citrus flavor and smooth finish; soft hop bitterness was not in current description.",
+            "type": "producer",
+            "accessed": "2026-10-03"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou menu",
+            "supports": "Menu listing only; current stock not confirmed",
+            "type": "venue",
+            "accessed": "2026-10-03"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "producer",
+          "venue"
+        ],
+        "tastingBasis": "Documented producer sensory notes for the reference product; aroma/body/finish omitted where not documented.",
+        "resolution": "Producer documents tropical aroma, citrus flavor and smooth finish; soft hop bitterness was not in current description.",
+        "conflictsFound": "No material conflict in the retained core descriptors.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "primary-reference-reviewed",
+          "summary": "Producer documents tropical aroma, citrus flavor and smooth finish; soft hop bitterness was not in current description."
+        }
+      },
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "gator",
+            "name": "Shakey\u2019s Gator Tail",
+            "reason": "Citrus-hop character connects with charred lemon; carbonation contrasts with the fried coating.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "burger",
+            "name": "Voodoo Smash Burger",
+            "reason": "Documented citrus flavor offers a contrast to cheddar and Cajun aioli; hop bitterness, if noticeable in service, may emphasize spicy seasoning.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial suggestions based on documented reference flavors or explicitly conditional sensory expectations and the published venue menu; not restaurant endorsements or confirmed inventory.",
+        "conditional": false,
+        "rulesCheckedAt": "2026-10-03"
+      },
+      "signatureTraits": [
+        "citrus"
+      ],
+      "tags": [
+        "Beer",
+        "citrus"
+      ]
+    },
+    {
+      "id": "bud-light",
+      "tasting": {
+        "aroma": [],
+        "flavor": [
+          "light lager malt and hop character (style expectation)"
+        ],
+        "body": "Light (style expectation)",
+        "finish": "Crisp and clean"
+      },
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Product-specific reference",
+        "ambiguityStatus": "The venue menu lists 5.0%; Bud Light\u2019s producer lists 4.2%. Producer ABV retained.",
+        "caveats": [
+          "The venue menu lists 5.0%; Bud Light\u2019s producer lists 4.2%. Producer ABV retained."
+        ],
+        "sources": [
+          {
+            "url": "https://www.anheuser-busch.com/newsroom/Anheuser-Busch-Grants-$200000-Agriculture",
+            "title": "Bud Light \u2014 primary reference",
+            "supports": "Producer search excerpt explicitly names Bud Light and Michelob ULTRA as having crisp clean finish; product page confirms Bud Light identity and 4.2%.",
+            "type": "producer",
+            "accessed": "2026-10-03"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou menu",
+            "supports": "Menu listing only; current stock not confirmed",
+            "type": "venue",
+            "accessed": "2026-10-03"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "producer",
+          "venue"
+        ],
+        "tastingBasis": "Documented identity/components; descriptors marked as expectations are editorial sensory inferences, not producer tasting notes or a tasting of the venue service.",
+        "resolution": "Producer search excerpt explicitly names Bud Light and Michelob ULTRA as having crisp clean finish; product page confirms Bud Light identity and 4.2%.",
+        "conflictsFound": "The venue menu lists 5.0%; Bud Light\u2019s producer lists 4.2%. Producer ABV retained.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "conditional-reference-reviewed",
+          "summary": "Producer search excerpt explicitly names Bud Light and Michelob ULTRA as having crisp clean finish; product page confirms Bud Light identity and 4.2%."
+        }
+      },
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "fried-chicken",
+            "name": "Chicken and Biscuit",
+            "reason": "A light, carbonated lager refreshes between bites without crowding the chicken\u2019s flavor.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "gumbo",
+            "name": "Gumbo Ya Ya",
+            "reason": "A light, restrained malt profile leaves room for shrimp, andouille and the gumbo\u2019s savory seasoning; this is not a claim that beer reduces chile heat.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial suggestions based on documented reference flavors or explicitly conditional sensory expectations and the published venue menu; not restaurant endorsements or confirmed inventory.",
+        "conditional": true,
+        "rulesCheckedAt": "2026-10-03"
+      },
+      "signatureTraits": [
+        "light lager malt and hop character (style expectation)"
+      ],
+      "tags": [
+        "Beer",
+        "light lager malt and hop character (style expectation)"
+      ]
+    },
+    {
+      "id": "michelob-ultra",
+      "tasting": {
+        "aroma": [],
+        "flavor": [
+          "light lager malt and hop character (style expectation)"
+        ],
+        "body": "Light (style expectation)",
+        "finish": "Crisp and clean"
+      },
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Product-specific reference",
+        "ambiguityStatus": "Venue bottle/release not inspected",
+        "caveats": [],
+        "sources": [
+          {
+            "url": "https://www.anheuser-busch.com/newsroom/Anheuser-Busch-Grants-$200000-Agriculture",
+            "title": "Michelob ULTRA \u2014 primary reference",
+            "supports": "Producer search excerpt supports crisp clean finish; exact grain aroma and restrained hop notes not substantiated.",
+            "type": "producer",
+            "accessed": "2026-10-03"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou menu",
+            "supports": "Menu listing only; current stock not confirmed",
+            "type": "venue",
+            "accessed": "2026-10-03"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "producer",
+          "venue"
+        ],
+        "tastingBasis": "Documented identity/components; descriptors marked as expectations are editorial sensory inferences, not producer tasting notes or a tasting of the venue service.",
+        "resolution": "Producer search excerpt supports crisp clean finish; exact grain aroma and restrained hop notes not substantiated.",
+        "conflictsFound": "No material conflict in the retained core descriptors.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "conditional-reference-reviewed",
+          "summary": "Producer search excerpt supports crisp clean finish; exact grain aroma and restrained hop notes not substantiated."
+        }
+      },
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "crab",
+            "name": "Jumbo Lump Crab Cake",
+            "reason": "Light malt and carbonation leave room for crab and mustard sauce.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "frenchmen-fried-oysters",
+            "name": "Frenchmen Fried Oysters",
+            "reason": "Freshness and carbonation or acidity contrast with the fried coating; honeydew and green goddess add fruit and herbal notes.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial suggestions based on documented reference flavors or explicitly conditional sensory expectations and the published venue menu; not restaurant endorsements or confirmed inventory.",
+        "conditional": true,
+        "rulesCheckedAt": "2026-10-03"
+      },
+      "signatureTraits": [
+        "light lager malt and hop character (style expectation)"
+      ],
+      "tags": [
+        "Beer",
+        "light lager malt and hop character (style expectation)"
+      ]
+    },
+    {
+      "id": "corona-light",
+      "tasting": {
+        "aroma": [
+          "fruit",
+          "honey",
+          "malt"
+        ],
+        "flavor": [
+          "hops",
+          "malt"
+        ],
+        "body": "Light",
+        "finish": "Crisp and clean"
+      },
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "High",
+        "profileLevel": "Product-specific reference",
+        "ambiguityStatus": "The venue menu lists 4.1%; Corona\u2019s current U.S. page lists 4.0%. Producer ABV retained.",
+        "caveats": [
+          "The venue menu lists 4.1%; Corona\u2019s current U.S. page lists 4.0%. Producer ABV retained."
+        ],
+        "sources": [
+          {
+            "url": "https://www.coronausa.com/pages/corona-light",
+            "title": "Corona Light \u2014 primary reference",
+            "supports": "Producer explicitly separates fruit/honey/malt aroma and hops/malt flavor with light crisp clean character.",
+            "type": "producer",
+            "accessed": "2026-10-03"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou menu",
+            "supports": "Menu listing only; current stock not confirmed",
+            "type": "venue",
+            "accessed": "2026-10-03"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "producer",
+          "venue"
+        ],
+        "tastingBasis": "Documented producer sensory notes for the reference product; aroma/body/finish omitted where not documented.",
+        "resolution": "Producer explicitly separates fruit/honey/malt aroma and hops/malt flavor with light crisp clean character.",
+        "conflictsFound": "The venue menu lists 4.1%; Corona\u2019s current U.S. page lists 4.0%. Producer ABV retained.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "primary-reference-reviewed",
+          "summary": "Producer explicitly separates fruit/honey/malt aroma and hops/malt flavor with light crisp clean character."
+        }
+      },
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "redfish",
+            "name": "Redfish",
+            "reason": "Light malt and a crisp finish suit charred lemon and fish.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "gator",
+            "name": "Shakey\u2019s Gator Tail",
+            "reason": "The producer\u2019s crisp, clean lager is an editorial contrasting accompaniment to fried gator; hop bitterness intensity is not independently specified.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial suggestions based on documented reference flavors or explicitly conditional sensory expectations and the published venue menu; not restaurant endorsements or confirmed inventory.",
+        "conditional": false,
+        "rulesCheckedAt": "2026-10-03"
+      },
+      "signatureTraits": [
+        "hops \u00b7 malt"
+      ],
+      "tags": [
+        "Beer",
+        "hops",
+        "malt"
+      ]
+    },
+    {
+      "id": "victory-golden-monkey",
+      "tasting": {
+        "aroma": [
+          "banana",
+          "clove"
+        ],
+        "flavor": [
+          "orange",
+          "spice",
+          "light earthy hops"
+        ],
+        "body": "Fruity character; weight not specified",
+        "finish": "Dry"
+      },
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "High",
+        "profileLevel": "Product-specific reference",
+        "ambiguityStatus": "The venue menu lists 9.0%; Victory lists 9.5%. Producer ABV retained.",
+        "caveats": [
+          "The venue menu lists 9.0%; Victory lists 9.5%. Producer ABV retained."
+        ],
+        "sources": [
+          {
+            "url": "https://victorybeer.com/beers/golden-monkey/",
+            "title": "Victory Golden Monkey \u2014 primary reference",
+            "supports": "Producer documents banana/clove nose, fruity body, orange/spice palate, light earthy hops, dry finish.",
+            "type": "producer",
+            "accessed": "2026-10-03"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou menu",
+            "supports": "Menu listing only; current stock not confirmed",
+            "type": "venue",
+            "accessed": "2026-10-03"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "producer",
+          "venue"
+        ],
+        "tastingBasis": "Documented producer sensory notes for the reference product; aroma/body/finish omitted where not documented.",
+        "resolution": "Producer documents banana/clove nose, fruity body, orange/spice palate, light earthy hops, dry finish.",
+        "conflictsFound": "The venue menu lists 9.0%; Victory lists 9.5%. Producer ABV retained.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "primary-reference-reviewed",
+          "summary": "Producer documents banana/clove nose, fruity body, orange/spice palate, light earthy hops, dry finish."
+        }
+      },
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "voodoo-krewe-snapper",
+            "name": "Voodoo Krewe Snapper",
+            "reason": "Documented orange and spice notes offer an editorial contrast to Creole sauce alongside crawfish-cornbread stuffing.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "waffles",
+            "name": "Chicken and Waffles",
+            "reason": "Yeast spice and fruit connect with maple syrup; the dry finish contrasts with the sweet waffle.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial suggestions based on documented reference flavors or explicitly conditional sensory expectations and the published venue menu; not restaurant endorsements or confirmed inventory.",
+        "conditional": false,
+        "rulesCheckedAt": "2026-10-03"
+      },
+      "signatureTraits": [
+        "orange \u00b7 spice \u00b7 light earthy hops"
+      ],
+      "tags": [
+        "Beer",
+        "orange",
+        "spice",
+        "light earthy hops"
+      ]
+    },
+    {
+      "id": "abita-andygator",
+      "tasting": {
+        "aroma": [],
+        "flavor": [
+          "slight sweetness",
+          "malt character (style expectation)"
+        ],
+        "body": "Smooth",
+        "finish": "Not independently documented."
+      },
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Product-specific reference",
+        "ambiguityStatus": "Venue bottle/release not inspected",
+        "caveats": [],
+        "sources": [
+          {
+            "url": "https://abita.com/brew/andygator/",
+            "title": "Abita AndyGator \u2014 primary reference",
+            "supports": "Producer supports slight sweetness and smooth texture but no fresh fruit/citrus notes. Pilsner malt/hops are ingredients, not a measured tasting.",
+            "type": "producer",
+            "accessed": "2026-10-03"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou menu",
+            "supports": "Menu listing only; current stock not confirmed",
+            "type": "venue",
+            "accessed": "2026-10-03"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "producer",
+          "venue"
+        ],
+        "tastingBasis": "Documented identity/components; descriptors marked as expectations are editorial sensory inferences, not producer tasting notes or a tasting of the venue service.",
+        "resolution": "Producer supports slight sweetness and smooth texture but no fresh fruit/citrus notes. Pilsner malt/hops are ingredients, not a measured tasting.",
+        "conflictsFound": "No material conflict in the retained core descriptors.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "conditional-reference-reviewed",
+          "summary": "Producer supports slight sweetness and smooth texture but no fresh fruit/citrus notes. Pilsner malt/hops are ingredients, not a measured tasting."
+        }
+      },
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "fried-chicken",
+            "name": "Chicken and Biscuit",
+            "reason": "Pale malt sweetness complements the crust and hot honey.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "voodoo-krewe-snapper",
+            "name": "Voodoo Krewe Snapper",
+            "reason": "The producer\u2019s slightly sweet, smooth lager is a suggested accompaniment to crawfish-cornbread stuffing; fruit and citrus notes are not documented.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial suggestions based on documented reference flavors or explicitly conditional sensory expectations and the published venue menu; not restaurant endorsements or confirmed inventory.",
+        "conditional": true,
+        "rulesCheckedAt": "2026-10-03"
+      },
+      "signatureTraits": [
+        "slight sweetness \u00b7 malt character (style expectation)"
+      ],
+      "tags": [
+        "Beer",
+        "slight sweetness",
+        "malt character (style expectation)"
+      ]
+    },
+    {
+      "id": "high-noon-black-cherry",
+      "tasting": {
+        "aroma": [],
+        "flavor": [
+          "black cherry",
+          "red cherry"
+        ],
+        "body": "Light and sparkling",
+        "finish": "Not independently documented."
+      },
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "High",
+        "profileLevel": "Product-specific reference",
+        "ambiguityStatus": "Venue bottle/release not inspected",
+        "caveats": [],
+        "sources": [
+          {
+            "url": "https://www.highnoonspirits.com/black-cherry-vodka-seltzer.html",
+            "title": "High Noon Black Cherry Vodka Seltzer \u2014 primary reference",
+            "supports": "Producer flavor profile specifies black cherry with red cherry hints in crisp lively sparkling drink; acid and finish precision removed.",
+            "type": "producer",
+            "accessed": "2026-10-03"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou menu",
+            "supports": "Menu listing only; current stock not confirmed",
+            "type": "venue",
+            "accessed": "2026-10-03"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "producer",
+          "venue"
+        ],
+        "tastingBasis": "Documented producer sensory notes for the reference product; aroma/body/finish omitted where not documented.",
+        "resolution": "Producer flavor profile specifies black cherry with red cherry hints in crisp lively sparkling drink; acid and finish precision removed.",
+        "conflictsFound": "No material conflict in the retained core descriptors.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "primary-reference-reviewed",
+          "summary": "Producer flavor profile specifies black cherry with red cherry hints in crisp lively sparkling drink; acid and finish precision removed."
+        }
+      },
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "pear",
+            "name": "Pear & Pecan Salad",
+            "reason": "Black cherry flavor connects with the salad\u2019s cherries; sparkling water contrasts with goat cheese.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "roasted-peach-salad",
+            "name": "Roasted Peach Salad",
+            "reason": "Fruit notes complement roasted peach; lemon-thyme vinaigrette adds brightness against the drink and creamy ricotta.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial suggestions based on documented reference flavors or explicitly conditional sensory expectations and the published venue menu; not restaurant endorsements or confirmed inventory.",
+        "conditional": false,
+        "rulesCheckedAt": "2026-10-03"
+      },
+      "signatureTraits": [
+        "black cherry \u00b7 red cherry"
+      ],
+      "tags": [
+        "RTD",
+        "Ready-to-drink cocktail / hard seltzer",
+        "black cherry",
+        "red cherry"
+      ]
+    },
+    {
+      "id": "vicki-vallencourt",
+      "tasting": {
+        "aroma": [
+          "strawberry",
+          "lemon",
+          "basil (recipe expectation)"
+        ],
+        "flavor": [
+          "strawberry",
+          "lemon tartness",
+          "honey sweetness",
+          "subtle basil (recipe expectation)"
+        ],
+        "body": "Not independently documented.",
+        "finish": "Not independently documented."
+      },
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Supplied recipe; conditional sensory expectations",
+        "ambiguityStatus": "Supplied ingredient list and BUILD instructions disagree on measures; exact service recipe unresolved.",
+        "caveats": [
+          "Flavor is a recipe expectation, not a direct tasting.",
+          "Ingredient-list and BUILD measures disagree; no exact sweetness, body, dilution or finish is asserted."
+        ],
+        "sources": [
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Vicki Vallencourt \u2014 primary reference",
+            "supports": "Venue lists strawberries, lemon and honey only; no proportions or texture evidence.",
+            "type": "venue",
+            "accessed": "2026-10-03"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "venue",
+          "user-supplied recipe PDF"
+        ],
+        "tastingBasis": "Ingredient-driven expectations from the supplied original recipe PDF and venue menu; not a direct tasting. Measures conflict within the PDF.",
+        "resolution": "Recovered full recipe components from supplied PDF; retained ingredient/build discrepancy and omitted unsupported texture and finish.",
+        "conflictsFound": "Ingredient-list and BUILD measures disagree in supplied PDF.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "recipe-reviewed-conditional",
+          "summary": "Recovered full recipe components from supplied PDF; retained ingredient/build discrepancy and omitted unsupported texture and finish."
+        },
+        "recipeEvidence": {
+          "filename": "25 Update lates 9-18.pdf",
+          "libraryFileId": "libfile_9b83c14ac64c8191aeb79616de5863ed",
+          "page": 18,
+          "ingredientList": {
+            "strawberry puree": "1 oz",
+            "lemon": ".5 oz",
+            "honey syrup": ".5 oz",
+            "basil": "5 leaves",
+            "water": "2 oz"
+          },
+          "build": {
+            "batch": "3 oz",
+            "water": "1.5 oz",
+            "lemon": "1 oz"
+          },
+          "reviewedAt": "2026-10-03",
+          "status": "internal-measure-conflict"
+        }
+      },
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "roasted-peach-salad",
+            "name": "Roasted Peach Salad",
+            "reason": "Fruit notes complement roasted peach; lemon-thyme vinaigrette adds brightness against the drink and creamy ricotta.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "crab",
+            "name": "Jumbo Lump Crab Cake",
+            "reason": "Lemon freshness balances the crab cake, while honey adds a sweet contrast.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial suggestions based on documented reference flavors or explicitly conditional sensory expectations and the published venue menu; not restaurant endorsements or confirmed inventory.",
+        "conditional": true,
+        "rulesCheckedAt": "2026-10-03"
+      },
+      "signatureTraits": [
+        "strawberry \u00b7 lemon \u00b7 honey \u00b7 basil (recipe expectation)"
+      ],
+      "tags": [
+        "Mocktail",
+        "strawberry",
+        "lemon tartness",
+        "honey sweetness",
+        "subtle basil (recipe expectation)"
+      ]
+    },
+    {
+      "id": "blackberry-lemonade",
+      "tasting": {
+        "aroma": [
+          "blackberry",
+          "lemon",
+          "rosemary (recipe expectation)"
+        ],
+        "flavor": [
+          "blackberry",
+          "lemon tartness",
+          "rosemary syrup (recipe expectation)"
+        ],
+        "body": "Not independently documented.",
+        "finish": "Not independently documented."
+      },
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Supplied recipe; conditional sensory expectations",
+        "ambiguityStatus": "Supplied ingredient list and BUILD instructions disagree on measures; exact service recipe unresolved.",
+        "caveats": [
+          "Flavor is a recipe expectation, not a direct tasting.",
+          "Ingredient-list and BUILD measures disagree; no exact sweetness, body, dilution or finish is asserted."
+        ],
+        "sources": [
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Blackberry Lemonade \u2014 primary reference",
+            "supports": "Venue lists blackberries, lemon and torched rosemary only; no proportions or body/finish evidence.",
+            "type": "venue",
+            "accessed": "2026-10-03"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "venue",
+          "user-supplied recipe PDF"
+        ],
+        "tastingBasis": "Ingredient-driven expectations from the supplied original recipe PDF and venue menu; not a direct tasting. Measures conflict within the PDF.",
+        "resolution": "Recovered full recipe components from supplied PDF; retained ingredient/build discrepancy and omitted unsupported texture and finish.",
+        "conflictsFound": "Ingredient-list and BUILD measures disagree in supplied PDF.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "recipe-reviewed-conditional",
+          "summary": "Recovered full recipe components from supplied PDF; retained ingredient/build discrepancy and omitted unsupported texture and finish."
+        },
+        "recipeEvidence": {
+          "filename": "25 Update lates 9-18.pdf",
+          "libraryFileId": "libfile_9b83c14ac64c8191aeb79616de5863ed",
+          "page": 19,
+          "ingredientList": {
+            "blackberries": "6",
+            "lemon": ".75 oz",
+            "rosemary syrup": ".75 oz",
+            "water": "2 oz"
+          },
+          "build": {
+            "Black Magic Syrup": "2.5 oz",
+            "water": "1.5 oz",
+            "lemon": "1 oz"
+          },
+          "reviewedAt": "2026-10-03",
+          "status": "internal-measure-conflict"
+        }
+      },
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "roast-chicken",
+            "name": "Brick Oven Roasted Chicken",
+            "reason": "Rosemary connects with herb butter; blackberry and lemon contrast with the rich jus.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "pear",
+            "name": "Pear & Pecan Salad",
+            "reason": "Blackberry complements black cherry and lemon meets the goat cheese\u2019s tang.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial suggestions based on documented reference flavors or explicitly conditional sensory expectations and the published venue menu; not restaurant endorsements or confirmed inventory.",
+        "conditional": true,
+        "rulesCheckedAt": "2026-10-03"
+      },
+      "signatureTraits": [
+        "blackberry \u00b7 lemon \u00b7 rosemary (recipe expectation)"
+      ],
+      "tags": [
+        "Mocktail",
+        "blackberry",
+        "lemon tartness",
+        "rosemary syrup (recipe expectation)"
+      ]
+    },
+    {
+      "id": "iced-tea",
+      "tasting": {
+        "aroma": [
+          "brewed tea (style expectation)"
+        ],
+        "flavor": [
+          "tea character (style expectation)"
+        ],
+        "body": "Not independently documented.",
+        "finish": "Depends on tea and sweetening; not documented"
+      },
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Low",
+        "profileLevel": "Identified product/category; conditional sensory expectations",
+        "ambiguityStatus": "Tea brand, brew concentration and garnish are not published. No citrus or floral additions are assumed.",
+        "caveats": [
+          "Tea brand, brew concentration and garnish are not published. No citrus or floral additions are assumed.",
+          "Sensory profile is conditional; detailed producer tasting evidence is unavailable."
+        ],
+        "sources": [
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Iced Tea \u2014 primary reference",
+            "supports": "Venue identifies iced tea only; tea variety, steeping, sweetening and finish not specified.",
+            "type": "venue",
+            "accessed": "2026-10-03"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "venue"
+        ],
+        "tastingBasis": "Documented identity/components; descriptors marked as expectations are editorial sensory inferences, not producer tasting notes or a tasting of the venue service.",
+        "resolution": "Venue identifies iced tea only; tea variety, steeping, sweetening and finish not specified.",
+        "conflictsFound": "Tea brand, brew concentration and garnish are not published. No citrus or floral additions are assumed.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "conditional-reference-reviewed",
+          "summary": "Venue identifies iced tea only; tea variety, steeping, sweetening and finish not specified."
+        }
+      },
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "fried-chicken",
+            "name": "Chicken and Biscuit",
+            "reason": "Tea character is a conditional contrast to the fried coating; sweetening and tea strength should be confirmed.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "burger",
+            "name": "Voodoo Smash Burger",
+            "reason": "If the served tea is unsweetened, tea character may contrast with beef and cheddar; tannin intensity and sweetening are not verified.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial suggestions based on documented reference flavors or explicitly conditional sensory expectations and the published venue menu; not restaurant endorsements or confirmed inventory.",
+        "conditional": true,
+        "rulesCheckedAt": "2026-10-03"
+      },
+      "signatureTraits": [
+        "tea character (style expectation)"
+      ],
+      "tags": [
+        "Soft Drink",
+        "Non-alcoholic beverage",
+        "tea character (style expectation)"
+      ]
+    },
+    {
+      "id": "southern-sweet-tea",
+      "tasting": {
+        "aroma": [
+          "brewed tea (style expectation)"
+        ],
+        "flavor": [
+          "sweetened tea (style expectation)"
+        ],
+        "body": "Not independently documented.",
+        "finish": "Not independently documented."
+      },
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Low",
+        "profileLevel": "Identified product/category; conditional sensory expectations",
+        "ambiguityStatus": "The menu confirms sweet tea, but sugar quantity and tea blend are not published.",
+        "caveats": [
+          "The menu confirms sweet tea, but sugar quantity and tea blend are not published.",
+          "Sensory profile is conditional; detailed producer tasting evidence is unavailable."
+        ],
+        "sources": [
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Southern Sweet Tea \u2014 primary reference",
+            "supports": "Venue identifies Southern Sweet Tea only; sweetness intensity, steeping and finish not specified.",
+            "type": "venue",
+            "accessed": "2026-10-03"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "venue"
+        ],
+        "tastingBasis": "Documented identity/components; descriptors marked as expectations are editorial sensory inferences, not producer tasting notes or a tasting of the venue service.",
+        "resolution": "Venue identifies Southern Sweet Tea only; sweetness intensity, steeping and finish not specified.",
+        "conflictsFound": "The menu confirms sweet tea, but sugar quantity and tea blend are not published.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "conditional-reference-reviewed",
+          "summary": "Venue identifies Southern Sweet Tea only; sweetness intensity, steeping and finish not specified."
+        }
+      },
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "fried-chicken",
+            "name": "Chicken and Biscuit",
+            "reason": "Tea provides a familiar contrast to fried crust; sweet tea also connects with hot honey.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "burger",
+            "name": "Voodoo Smash Burger",
+            "reason": "Sweetened tea offers an editorial sweet contrast to beef and cheddar; tannin strength is not documented.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial suggestions based on documented reference flavors or explicitly conditional sensory expectations and the published venue menu; not restaurant endorsements or confirmed inventory.",
+        "conditional": true,
+        "rulesCheckedAt": "2026-10-03"
+      },
+      "signatureTraits": [
+        "sweetened tea (style expectation)"
+      ],
+      "tags": [
+        "Soft Drink",
+        "Non-alcoholic beverage",
+        "sweetened tea (style expectation)"
+      ]
+    },
+    {
+      "id": "bottled-coca-cola",
+      "tasting": {
+        "aroma": [
+          "cola (style expectation)"
+        ],
+        "flavor": [
+          "sweet cola (style expectation)"
+        ],
+        "body": "Carbonated (product style)",
+        "finish": "Not independently documented."
+      },
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Product-specific reference",
+        "ambiguityStatus": "Bottle origin, sweetener formulation and size are not published. No specific sugar formulation is assumed.",
+        "caveats": [
+          "Bottle origin, sweetener formulation and size are not published. No specific sugar formulation is assumed."
+        ],
+        "sources": [
+          {
+            "url": "https://www.coca-cola.com/us/en/brands/coca-cola/products",
+            "title": "Coca-Cola Original Taste (bottled service) \u2014 primary reference",
+            "supports": "Producer confirms Original cola identity and crisp refreshing taste; venue bottle formula not inspected.",
+            "type": "producer",
+            "accessed": "2026-10-03"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou menu",
+            "supports": "Menu listing only; current stock not confirmed",
+            "type": "venue",
+            "accessed": "2026-10-03"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "producer",
+          "venue"
+        ],
+        "tastingBasis": "Documented identity/components; descriptors marked as expectations are editorial sensory inferences, not producer tasting notes or a tasting of the venue service.",
+        "resolution": "Producer confirms Original cola identity and crisp refreshing taste; venue bottle formula not inspected.",
+        "conflictsFound": "Bottle origin, sweetener formulation and size are not published. No specific sugar formulation is assumed.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "conditional-reference-reviewed",
+          "summary": "Producer confirms Original cola identity and crisp refreshing taste; venue bottle formula not inspected."
+        }
+      },
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "burger",
+            "name": "Voodoo Smash Burger",
+            "reason": "Sweet, acidic cola contrasts with beef, cheddar and pickles.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "fried-chicken",
+            "name": "Chicken and Biscuit",
+            "reason": "Carbonation and cola acidity contrast with the fried crust.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial suggestions based on documented reference flavors or explicitly conditional sensory expectations and the published venue menu; not restaurant endorsements or confirmed inventory.",
+        "conditional": true,
+        "rulesCheckedAt": "2026-10-03"
+      },
+      "signatureTraits": [
+        "sweet cola (style expectation)"
+      ],
+      "tags": [
+        "Soft Drink",
+        "Soft drink",
+        "sweet cola (style expectation)"
+      ]
+    },
+    {
+      "id": "abita-root-beer",
+      "tasting": {
+        "aroma": [],
+        "flavor": [
+          "cane-sugar sweetness",
+          "root-beer character"
+        ],
+        "body": "Rich and creamy",
+        "finish": "Not independently documented."
+      },
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "High",
+        "profileLevel": "Product-specific reference",
+        "ambiguityStatus": "Venue bottle/release not inspected",
+        "caveats": [],
+        "sources": [
+          {
+            "url": "https://abita.com/brew/root-beer/",
+            "title": "Abita Root Beer \u2014 primary reference",
+            "supports": "Current producer describes rich creamy root beer sweetened with cane sugar; vanilla/herbs and finish not independently documented.",
+            "type": "producer",
+            "accessed": "2026-10-03"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou menu",
+            "supports": "Menu listing only; current stock not confirmed",
+            "type": "venue",
+            "accessed": "2026-10-03"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "producer",
+          "venue"
+        ],
+        "tastingBasis": "Documented producer sensory notes for the reference product; aroma/body/finish omitted where not documented.",
+        "resolution": "Current producer describes rich creamy root beer sweetened with cane sugar; vanilla/herbs and finish not independently documented.",
+        "conflictsFound": "No material conflict in the retained core descriptors.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "primary-reference-reviewed",
+          "summary": "Current producer describes rich creamy root beer sweetened with cane sugar; vanilla/herbs and finish not independently documented."
+        }
+      },
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "waffles",
+            "name": "Chicken and Waffles",
+            "reason": "Cane-sugar sweetness and rich root-beer character may complement bourbon maple syrup; this is a sweet-on-sweet suggestion and can feel overly sweet.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "elvis",
+            "name": "The Elvis",
+            "reason": "Rich root-beer character and cane-sugar sweetness may accompany banana bread pudding and peanut-butter caramel; this sweet-on-sweet match may be overly sweet.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial suggestions based on documented reference flavors or explicitly conditional sensory expectations and the published venue menu; not restaurant endorsements or confirmed inventory.",
+        "conditional": false,
+        "rulesCheckedAt": "2026-10-03"
+      },
+      "signatureTraits": [
+        "cane-sugar sweetness \u00b7 root-beer character"
+      ],
+      "tags": [
+        "Soft Drink",
+        "Soft drink",
+        "cane-sugar sweetness",
+        "root-beer character"
+      ]
+    },
+    {
+      "id": "aqua-panna",
+      "tasting": {
+        "aroma": [],
+        "flavor": [
+          "balanced mineral character"
+        ],
+        "body": "Still water (product style)",
+        "finish": "Not independently documented."
+      },
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Product-specific reference",
+        "ambiguityStatus": "Venue bottle/release not inspected",
+        "caveats": [],
+        "sources": [
+          {
+            "url": "https://www.acquapanna.com/us/",
+            "title": "Acqua Panna Natural Spring Water \u2014 primary reference",
+            "supports": "Producer describes balanced taste from mineral composition; does not substantiate subtle mineral intensity or neutral finish.",
+            "type": "producer",
+            "accessed": "2026-10-03"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou menu",
+            "supports": "Menu listing only; current stock not confirmed",
+            "type": "venue",
+            "accessed": "2026-10-03"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "producer",
+          "venue"
+        ],
+        "tastingBasis": "Documented identity/components; descriptors marked as expectations are editorial sensory inferences, not producer tasting notes or a tasting of the venue service.",
+        "resolution": "Producer describes balanced taste from mineral composition; does not substantiate subtle mineral intensity or neutral finish.",
+        "conflictsFound": "No material conflict in the retained core descriptors.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "conditional-reference-reviewed",
+          "summary": "Producer describes balanced taste from mineral composition; does not substantiate subtle mineral intensity or neutral finish."
+        }
+      },
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "raw-oysters",
+            "name": "Raw Oysters",
+            "reason": "Water keeps the oyster\u2019s salinity central without sweetness or competing aromas.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "filet",
+            "name": "Filet",
+            "reason": "Still water is an editorial accompaniment that adds no documented fruit or spice flavors alongside beef.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "watermelon",
+            "name": "Watermelon Salad",
+            "reason": "Water leaves the brunch side\u2019s fruit flavors central. Its current dressing and other ingredients are not specified.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial suggestions based on documented reference flavors or explicitly conditional sensory expectations and the published venue menu; not restaurant endorsements or confirmed inventory.",
+        "conditional": true,
+        "rulesCheckedAt": "2026-10-03"
+      },
+      "signatureTraits": [
+        "balanced mineral character"
+      ],
+      "tags": [
+        "Water",
+        "balanced mineral character"
+      ]
+    },
+    {
+      "id": "san-pellegrino",
+      "tasting": {
+        "aroma": [],
+        "flavor": [
+          "mineral character",
+          "carbonation acidity"
+        ],
+        "body": "Gentle bubbles",
+        "finish": "Slightly bitter"
+      },
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "High",
+        "profileLevel": "Product-specific reference",
+        "ambiguityStatus": "Venue bottle/release not inspected",
+        "caveats": [],
+        "sources": [
+          {
+            "url": "https://www.sanpellegrino.com/us/s.pellegrino-water/origins",
+            "title": "S.Pellegrino Sparkling Natural Mineral Water \u2014 primary reference",
+            "supports": "Producer documents gentle bubbles, mineral balance, carbonation acidity and slight bitter finish.",
+            "type": "producer",
+            "accessed": "2026-10-03"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou menu",
+            "supports": "Menu listing only; current stock not confirmed",
+            "type": "venue",
+            "accessed": "2026-10-03"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "producer",
+          "venue"
+        ],
+        "tastingBasis": "Documented producer sensory notes for the reference product; aroma/body/finish omitted where not documented.",
+        "resolution": "Producer documents gentle bubbles, mineral balance, carbonation acidity and slight bitter finish.",
+        "conflictsFound": "No material conflict in the retained core descriptors.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "primary-reference-reviewed",
+          "summary": "Producer documents gentle bubbles, mineral balance, carbonation acidity and slight bitter finish."
+        }
+      },
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "raw-oysters",
+            "name": "Raw Oysters",
+            "reason": "Water keeps the oyster\u2019s salinity central without sweetness or competing aromas.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "filet",
+            "name": "Filet",
+            "reason": "Gentle bubbles and mineral character offer an editorial contrast between bites of beef; the water is not flavor-neutral.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "watermelon",
+            "name": "Watermelon Salad",
+            "reason": "Water leaves the brunch side\u2019s fruit flavors central. Its current dressing and other ingredients are not specified.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial suggestions based on documented reference flavors or explicitly conditional sensory expectations and the published venue menu; not restaurant endorsements or confirmed inventory.",
+        "conditional": false,
+        "rulesCheckedAt": "2026-10-03"
+      },
+      "signatureTraits": [
+        "mineral character \u00b7 carbonation acidity"
+      ],
+      "tags": [
+        "Water",
+        "mineral character",
+        "carbonation acidity"
+      ]
+    },
+    {
+      "id": "red-bull",
+      "tasting": {
+        "aroma": [],
+        "flavor": [
+          "sweet-tart energy-drink character (sensory expectation)"
+        ],
+        "body": "Carbonated (product style)",
+        "finish": "Not independently documented."
+      },
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Low",
+        "profileLevel": "Identified product/category; conditional sensory expectations",
+        "ambiguityStatus": "The original flavor has no confirmed fruit identity; candy and fruit comparisons are subjective, not ingredients.",
+        "caveats": [
+          "The original flavor has no confirmed fruit identity; candy and fruit comparisons are subjective, not ingredients.",
+          "Sensory profile is conditional; detailed producer tasting evidence is unavailable."
+        ],
+        "sources": [
+          {
+            "url": "https://www.redbull.com/us-en/energydrink/products/red-bull-energy-drink",
+            "title": "Red Bull Energy Drink \u2014 primary reference",
+            "supports": "Producer identifies sugar-containing original energy drink but no formal fruit aroma or finish. Sweet-tart retained only as sensory expectation.",
+            "type": "producer",
+            "accessed": "2026-10-03"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou menu",
+            "supports": "Menu listing only; current stock not confirmed",
+            "type": "venue",
+            "accessed": "2026-10-03"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "producer",
+          "venue"
+        ],
+        "tastingBasis": "Documented identity/components; descriptors marked as expectations are editorial sensory inferences, not producer tasting notes or a tasting of the venue service.",
+        "resolution": "Producer identifies sugar-containing original energy drink but no formal fruit aroma or finish. Sweet-tart retained only as sensory expectation.",
+        "conflictsFound": "The original flavor has no confirmed fruit identity; candy and fruit comparisons are subjective, not ingredients.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "conditional-reference-reviewed",
+          "summary": "Producer identifies sugar-containing original energy drink but no formal fruit aroma or finish. Sweet-tart retained only as sensory expectation."
+        }
+      },
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "gator",
+            "name": "Shakey\u2019s Gator Tail",
+            "reason": "Sweet-tart carbonation contrasts with the fried coating; charred lemon links the acidic flavors.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "burger",
+            "name": "Voodoo Smash Burger",
+            "reason": "The sweet-tart drink cuts through the impression of rich cheddar and aioli.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial suggestions based on documented reference flavors or explicitly conditional sensory expectations and the published venue menu; not restaurant endorsements or confirmed inventory.",
+        "conditional": true,
+        "rulesCheckedAt": "2026-10-03"
+      },
+      "signatureTraits": [
+        "sweet-tart energy-drink character (sensory expectation)"
+      ],
+      "tags": [
+        "Soft Drink",
+        "Energy drink",
+        "sweet-tart energy-drink character (sensory expectation)"
+      ]
+    },
+    {
+      "id": "sugar-free-red-bull",
+      "tasting": {
+        "aroma": [],
+        "flavor": [
+          "sweet-tart energy-drink character (sensory expectation)"
+        ],
+        "body": "Carbonated (product style)",
+        "finish": "Not independently documented."
+      },
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Low",
+        "profileLevel": "Identified product/category; conditional sensory expectations",
+        "ambiguityStatus": "Sugarfree is a sweet-tasting drink; it is not described as unsweetened. Exact sweetener formulation is market-dependent.",
+        "caveats": [
+          "Sugarfree is a sweet-tasting drink; it is not described as unsweetened. Exact sweetener formulation is market-dependent.",
+          "Sensory profile is conditional; detailed producer tasting evidence is unavailable."
+        ],
+        "sources": [
+          {
+            "url": "https://www.redbull.com/us-en/energydrink/products/red-bull-sugarfree",
+            "title": "Red Bull Sugarfree \u2014 primary reference",
+            "supports": "US producer lists sucralose and acesulfame K; sweet tasting is compatible with no sugar, but lingering finish is not documented.",
+            "type": "producer",
+            "accessed": "2026-10-03"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou menu",
+            "supports": "Menu listing only; current stock not confirmed",
+            "type": "venue",
+            "accessed": "2026-10-03"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "producer",
+          "venue"
+        ],
+        "tastingBasis": "Documented identity/components; descriptors marked as expectations are editorial sensory inferences, not producer tasting notes or a tasting of the venue service.",
+        "resolution": "US producer lists sucralose and acesulfame K; sweet tasting is compatible with no sugar, but lingering finish is not documented.",
+        "conflictsFound": "Sugarfree is a sweet-tasting drink; it is not described as unsweetened. Exact sweetener formulation is market-dependent.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "conditional-reference-reviewed",
+          "summary": "US producer lists sucralose and acesulfame K; sweet tasting is compatible with no sugar, but lingering finish is not documented."
+        }
+      },
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "gator",
+            "name": "Shakey\u2019s Gator Tail",
+            "reason": "Sweet-tart carbonation contrasts with the fried coating; charred lemon links the acidic flavors.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "burger",
+            "name": "Voodoo Smash Burger",
+            "reason": "The sweet-tart drink cuts through the impression of rich cheddar and aioli.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial suggestions based on documented reference flavors or explicitly conditional sensory expectations and the published venue menu; not restaurant endorsements or confirmed inventory.",
+        "conditional": true,
+        "rulesCheckedAt": "2026-10-03"
+      },
+      "signatureTraits": [
+        "sweet-tart energy-drink character (sensory expectation)"
+      ],
+      "tags": [
+        "Soft Drink",
+        "Energy drink",
+        "sweet-tart energy-drink character (sensory expectation)"
+      ]
+    },
+    {
+      "id": "red-bull-watermelon",
+      "tasting": {
+        "aroma": [],
+        "flavor": [
+          "watermelon flavor",
+          "sweetness (ingredient expectation)"
+        ],
+        "body": "Carbonated (product style)",
+        "finish": "Not independently documented."
+      },
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Product-specific reference",
+        "ambiguityStatus": "The producer reference confirms watermelon flavor only; nutrition and formulation are market-specific.",
+        "caveats": [
+          "The producer reference confirms watermelon flavor only; nutrition and formulation are market-specific."
+        ],
+        "sources": [
+          {
+            "url": "https://www.redbull.com/us-en/energydrink/products/red-bull-red-edition",
+            "title": "Red Bull Watermelon \u2014 primary reference",
+            "supports": "US producer confirms artificially flavored watermelon and sugar; no precise aroma, tartness or finish documentation.",
+            "type": "producer",
+            "accessed": "2026-10-03"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou menu",
+            "supports": "Menu listing only; current stock not confirmed",
+            "type": "venue",
+            "accessed": "2026-10-03"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "producer",
+          "venue"
+        ],
+        "tastingBasis": "Documented identity/components; descriptors marked as expectations are editorial sensory inferences, not producer tasting notes or a tasting of the venue service.",
+        "resolution": "US producer confirms artificially flavored watermelon and sugar; no precise aroma, tartness or finish documentation.",
+        "conflictsFound": "The producer reference confirms watermelon flavor only; nutrition and formulation are market-specific.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "conditional-reference-reviewed",
+          "summary": "US producer confirms artificially flavored watermelon and sugar; no precise aroma, tartness or finish documentation."
+        }
+      },
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "gator",
+            "name": "Shakey\u2019s Gator Tail",
+            "reason": "Watermelon flavor and sweetness offer a fruit contrast to fried gator; carbonation adds a contrasting sensation alongside the fried coating.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "burger",
+            "name": "Voodoo Smash Burger",
+            "reason": "Watermelon flavor and sweetness offer an editorial contrast to beef and cheddar; the exact sweetness balance is not a measured tasting.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial suggestions based on documented reference flavors or explicitly conditional sensory expectations and the published venue menu; not restaurant endorsements or confirmed inventory.",
+        "conditional": true,
+        "rulesCheckedAt": "2026-10-03"
+      },
+      "signatureTraits": [
+        "watermelon flavor \u00b7 sweetness (ingredient expectation)"
+      ],
+      "tags": [
+        "Soft Drink",
+        "Energy drink",
+        "watermelon flavor",
+        "sweetness (ingredient expectation)"
+      ]
+    }
+  ]
+}

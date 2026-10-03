@@ -1,0 +1,3245 @@
+{
+  "scope": "All 88 Whiskey family records except Bourbon category",
+  "reviewedAt": "2026-10-03",
+  "counts": {
+    "assigned": 88,
+    "evaluated": 88,
+    "referenceNotesReverified": 81,
+    "identityOrFlightUnresolved": 7,
+    "venueBottlesInspected": 0
+  },
+  "entries": [
+    {
+      "id": "bernheim-original-wheat-whiskey",
+      "name": "Bernheim Original Wheat Whiskey",
+      "reviewedAt": "2026-10-03",
+      "status": "reference-reverified",
+      "sources": [
+        {
+          "url": "https://heavenhilldistillery.com/bernheim-straight-wheat-whiskey.php",
+          "title": "Bernheim Original",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "producer",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://heavenhilldistillery.com/bernheim-straight-wheat-whiskey.php",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn40view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Producer-supported vanilla/honey, toffee/berries/spice and toasted-oak finish confirmed; unsupported body adjective removed."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "kavalan-solist-bourbon-cask-strength",
+      "name": "Kavalan Solist Bourbon Cask Strength",
+      "reviewedAt": "2026-10-03",
+      "status": "conditional-reference-reverified",
+      "sources": [
+        {
+          "url": "https://www.thedramble.com/tastings/king-car/kavalan-solist-ex-bourbon-cask/",
+          "title": "Kavalan Solist ex-Bourbon Cask Review",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "published tasting reference",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://www.thedramble.com/tastings/king-car/kavalan-solist-ex-bourbon-cask/",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn33view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Removed unsupported mango; aligned fruit and drying finish to reviewed cask."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [
+        "Confirm bottle label, batch/year, barrel selection and proof against the reference."
+      ],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "kavalan-ex-bourbon-oak-ex-bourbon-matured-expression",
+      "name": "Kavalan Ex-Bourbon Oak / ex-bourbon matured expression",
+      "reviewedAt": "2026-10-03",
+      "status": "conditional-reference-reverified",
+      "sources": [
+        {
+          "url": "https://whiskyanalysis.com/index.php/2017/12/21/kavalan-ex-bourbon-oak/",
+          "title": "Kavalan ex-Bourbon Oak",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "published tasting reference",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://whiskyanalysis.com/index.php/2017/12/21/kavalan-ex-bourbon-oak/",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn35view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Expanded tropical nose; corrected palate to vanilla/caramel/coconut and gentle nutmeg."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [
+        "Confirm bottle label, batch/year, barrel selection and proof against the reference."
+      ],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "mellow-corn",
+      "name": "Mellow Corn",
+      "reviewedAt": "2026-10-03",
+      "status": "reference-reverified",
+      "sources": [
+        {
+          "url": "https://heavenhilldistillery.com/mellow-corn.php",
+          "title": "Mellow Corn",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "producer",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://heavenhilldistillery.com/mellow-corn.php",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn28view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Removed literal corn flavor unsupported by producer tasting notes."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "smooth-ambler-contradiction-bourbon",
+      "name": "Smooth Ambler Contradiction Bourbon",
+      "reviewedAt": "2026-10-03",
+      "status": "conditional-reference-reverified",
+      "sources": [
+        {
+          "url": "https://smoothambler.com/our_spirits/smooth-ambler-contradiction/",
+          "title": "SMOOTH AMBLER CONTRADICTION",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "producer",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://smoothambler.com/our_spirits/smooth-ambler-contradiction/",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn32view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Removed palate caramel and emphasized producer wheat/rye/leather; clarified dried cherry nose."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [
+        "Confirm bottle label, batch/year, barrel selection and proof against the reference."
+      ],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "high-west-bourye",
+      "name": "High West Bourye",
+      "reviewedAt": "2026-10-03",
+      "status": "conditional-reference-reverified",
+      "sources": [
+        {
+          "url": "https://www.bourbonguy.com/blog/2025/4/16/high-west-bourye-2025",
+          "title": "High West Bourye 2025",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "published tasting reference",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://www.bourbonguy.com/blog/2025/4/16/high-west-bourye-2025",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn29view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Added 2025-release restriction; corrected finish from dry spice to tea/char/ginger."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [
+        "Confirm bottle label, batch/year, barrel selection and proof against the reference."
+      ],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "high-west-campfire",
+      "name": "High West Campfire",
+      "reviewedAt": "2026-10-03",
+      "status": "reference-reverified",
+      "sources": [
+        {
+          "url": "https://ship.highwest.com/products/campfire",
+          "title": "Campfire",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "producer",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://ship.highwest.com/products/campfire",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn38view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Separated producer nose from palate; added butterscotch/shortbread and salted caramel."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "jack-daniels-old-no-7-tennessee-whiskey",
+      "name": "Jack Daniel's Old No. 7 Tennessee Whiskey",
+      "reviewedAt": "2026-10-03",
+      "status": "conditional-reference-reverified",
+      "sources": [
+        {
+          "url": "https://thewhiskeywash.com/american-whiskey/whiskey-review-jack-daniels-old-no-7/",
+          "title": "Jack Daniel's Old No. 7 Tennessee Whiskey",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "published tasting reference",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://thewhiskeywash.com/american-whiskey/whiskey-review-jack-daniels-old-no-7/",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn26view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Removed unsupported palate vanilla and literal corn; retained banana, sugar and oak spice."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [
+        "Confirm bottle label, batch/year, barrel selection and proof against the reference."
+      ],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "jack-daniels-single-barrel-select",
+      "name": "Jack Daniel's Single Barrel Select",
+      "reviewedAt": "2026-10-03",
+      "status": "conditional-reference-reverified",
+      "sources": [
+        {
+          "url": "https://thewhiskeywash.com/american-whiskey/jack-daniels-single-barrel-select-review/",
+          "title": "Jack Daniel's Single Barrel Select",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "published tasting reference",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://thewhiskeywash.com/american-whiskey/jack-daniels-single-barrel-select-review/",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn37view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Removed unsupported oak/banana nose; corrected long brown-sugar/coffee finish."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [
+        "Confirm bottle label, batch/year, barrel selection and proof against the reference."
+      ],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "slaughter-house-american-whiskey",
+      "name": "Slaughter House American Whiskey",
+      "reviewedAt": "2026-10-03",
+      "status": "conditional-reference-reverified",
+      "sources": [
+        {
+          "url": "https://distiller.com/spirits/slaughter-house-american-whiskey",
+          "title": "Slaughter House American Whiskey",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "published tasting reference",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://distiller.com/spirits/slaughter-house-american-whiskey",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn30view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Removed unsupported vanilla, caramel and invented finish."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [
+        "Confirm bottle label, batch/year, barrel selection and proof against the reference."
+      ],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "westland-garryana-american-single-malt",
+      "name": "Westland Garryana American Single Malt",
+      "reviewedAt": "2026-10-03",
+      "status": "conditional-reference-reverified",
+      "sources": [
+        {
+          "url": "https://westlanddistillery.com/pages/garryana-edition-9-info",
+          "title": "Garryana Edition 9 producer information",
+          "type": "producer",
+          "supports": "Reference product tasting description only; venue bottle/release not inspected",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://westlanddistillery.com/products/garryana-9th-edition",
+        "originalReadable": false,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn36view0",
+        "originalError": "Internal Error () 【turn36view0】 [wordlim: 200] Source: open({\"ref_id\":\"https://westlanddistillery.com/products/garryana-9th-edition\",\"lineno\":null}); Total lines: 1 L0: Failed to fetch https://westlanddistillery.com/products/garryana-9th-edition: (404) Not Found",
+        "fallbacks": [
+          {
+            "id": "westland-garryana-american-single-malt",
+            "url": "https://westlanddistillery.com/pages/garryana-edition-9-info",
+            "retrieved": true,
+            "ref": "turn145view0"
+          }
+        ]
+      },
+      "corrections": [
+        "Replaced generic Garryana character with explicitly conditional Edition 9 reference."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [
+        "Confirm bottle label, batch/year, barrel selection and proof against the reference.",
+        "Reference expression/edition may differ materially from the venue bottle; source notes remain explicitly conditional."
+      ],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "westland-american-single-malt",
+      "name": "Westland American Single Malt",
+      "reviewedAt": "2026-10-03",
+      "status": "conditional-reference-reverified",
+      "sources": [
+        {
+          "url": "https://www.breakingbourbon.com/tnt/westland-american-single-malt-whiskey-american-oak",
+          "title": "Westland American Single Malt Whiskey “American Oak”",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "published tasting reference",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://www.breakingbourbon.com/tnt/westland-american-single-malt-whiskey-american-oak",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn39view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Marked American Oak-specific reference; removed generic malt/vanilla conflation."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [
+        "Confirm bottle label, batch/year, barrel selection and proof against the reference.",
+        "Reference expression/edition may differ materially from the venue bottle; source notes remain explicitly conditional."
+      ],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "van-winkle-family-reserve-rye-13-year",
+      "name": "Van Winkle Family Reserve Rye 13 Year",
+      "reviewedAt": "2026-10-03",
+      "status": "conditional-reference-reverified",
+      "sources": [
+        {
+          "url": "https://thebourbonculture.com/whiskey-reviews/van-winkle-family-reserve-rye-whiskey-review/",
+          "title": "Van Winkle Family Reserve Rye Whiskey Review",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "published tasting reference",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://thebourbonculture.com/whiskey-reviews/van-winkle-family-reserve-rye-whiskey-review/",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn27view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Marked 2020 release; aligned nose, silky body and spice/fruits."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [
+        "Confirm bottle label, batch/year, barrel selection and proof against the reference."
+      ],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "auchentoshan-12-year",
+      "name": "Auchentoshan 12 Year",
+      "reviewedAt": "2026-10-03",
+      "status": "conditional-reference-reverified",
+      "sources": [
+        {
+          "url": "https://www.auchentoshan.com/core-range/12-year-old-double-cask",
+          "title": "12 year old single malt scotch whisky",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "producer",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://www.auchentoshan.com/core-range/12-year-old-double-cask",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn31view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Added pastry and tangerine; removed asserted toasted-nut aroma precision."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [
+        "Confirm bottle label, batch/year, barrel selection and proof against the reference."
+      ],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "auchentoshan-18-year",
+      "name": "Auchentoshan 18 Year",
+      "reviewedAt": "2026-10-03",
+      "status": "reference-reverified",
+      "sources": [
+        {
+          "url": "https://www.auchentoshan.com/core-range/18-year-old",
+          "title": "18 year old single malt scotch whisky",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "producer",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://www.auchentoshan.com/core-range/18-year-old",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn34view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Removed dry-oak finish assertion; included green tea/almond nose and barley/citrus palate."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "chivas-regal-12-year",
+      "name": "Chivas Regal 12 Year",
+      "reviewedAt": "2026-10-03",
+      "status": "reference-reverified",
+      "sources": [
+        {
+          "url": "https://www.chivas.com/en/collection/chivas-12/",
+          "title": "Chivas 12 Year Old Blended Scotch Whisky",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "producer",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://www.chivas.com/en/collection/chivas-12/",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn52view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Removed palate apple and gentle-spice finish not in current producer section."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "compass-box-peat-monster",
+      "name": "Compass Box Peat Monster",
+      "reviewedAt": "2026-10-03",
+      "status": "reference-reverified",
+      "sources": [
+        {
+          "url": "https://www.compassboxwhisky.com/products/the-peat-monster",
+          "title": "The Peat Monster",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "producer",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://www.compassboxwhisky.com/products/the-peat-monster",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn53view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Removed unsupported sustained-finish claim; added spiced apple/vanilla producer specifics."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "crown-royal-deluxe",
+      "name": "Crown Royal Deluxe",
+      "reviewedAt": "2026-10-03",
+      "status": "conditional-reference-reverified",
+      "sources": [
+        {
+          "url": "https://www.crownroyal.com/canadian-whisky/crown-royal-deluxe",
+          "title": "Crown Royal Deluxe producer notes",
+          "type": "producer",
+          "supports": "Reference product tasting description only; venue bottle/release not inspected",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://www.thebarreltap.com/products/crown-royal-fine-deluxe-canadian-whisky",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn56view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Replaced retailer flavor claims with producer vanilla/oak/fruit and creamy palate."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [
+        "Confirm bottle label, batch/year, barrel selection and proof against the reference."
+      ],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "the-glenlivet-12-year",
+      "name": "The Glenlivet 12 Year",
+      "reviewedAt": "2026-10-03",
+      "status": "reference-reverified",
+      "sources": [
+        {
+          "url": "https://www.theglenlivet.com/en-us/whisky/12-year-old/",
+          "title": "12 Year Old Single Malt Scotch Whisky",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "producer",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://www.theglenlivet.com/en-us/whisky/12-year-old/",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn66view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Moved peach to palate; replaced unsupported malt finish."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "the-glenlivet-14-year-cognac-cask-selection",
+      "name": "The Glenlivet 14 Year Cognac Cask Selection",
+      "reviewedAt": "2026-10-03",
+      "status": "reference-reverified",
+      "sources": [
+        {
+          "url": "https://thewhiskeywash.com/scotch-whiskey/whisky-review-the-glenlivet-14/",
+          "title": "The Glenlivet 14 Year Old Whisky Review",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "published tasting reference",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://thewhiskeywash.com/scotch-whiskey/whisky-review-the-glenlivet-14/",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn64view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Moved cinnamon/almond to nose evidence; corrected light palate and warming finish."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "the-glenlivet-18-year",
+      "name": "The Glenlivet 18 Year",
+      "reviewedAt": "2026-10-03",
+      "status": "reference-reverified",
+      "sources": [
+        {
+          "url": "https://www.theglenlivet.com/en-us/whisky/18-year-old-single-malt-scotch/",
+          "title": "18 Year Old Single Malt Scotch Whisky",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "producer",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://www.theglenlivet.com/en-us/whisky/18-year-old-single-malt-scotch/",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn50view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Expanded to current producer plum/chocolate/cranberry/orange; removed generic oak-heavy palate."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "green-spot",
+      "name": "Green Spot",
+      "reviewedAt": "2026-10-03",
+      "status": "reference-reverified",
+      "sources": [
+        {
+          "url": "https://www.spotwhiskey.com/en-us/whiskeys/greenspot/",
+          "title": "Green Spot – Spotwhiskey",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "producer",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://www.spotwhiskey.com/en-us/whiskeys/greenspot/",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn54view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Corrected body to producer full spicy body."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "jameson-black-barrel",
+      "name": "Jameson Black Barrel",
+      "reviewedAt": "2026-10-03",
+      "status": "reference-reverified",
+      "sources": [
+        {
+          "url": "https://thewhiskeywash.com/irish-whiskey/irish-whiskey-review-jameson-black-barrel/",
+          "title": "Jameson Black Barrel Review + Tasting Notes",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "published tasting reference",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://thewhiskeywash.com/irish-whiskey/irish-whiskey-review-jameson-black-barrel/",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn57view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Added espresso/chocolate and bitter finish observed by reviewer."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "jameson-caskmates-ipa-edition",
+      "name": "Jameson Caskmates IPA Edition",
+      "reviewedAt": "2026-10-03",
+      "status": "reference-reverified",
+      "sources": [
+        {
+          "url": "https://www.jamesonwhiskey.com/en/our-whiskey/jameson-ipa-edition/",
+          "title": "Jameson Caskmates IPA Edition",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "producer",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://www.jamesonwhiskey.com/en/our-whiskey/jameson-ipa-edition/",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn51view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Moved grapefruit/fruit/nuts to aroma and retained general hops/citrus palate."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "jameson-caskmates-stout-edition",
+      "name": "Jameson Caskmates Stout Edition",
+      "reviewedAt": "2026-10-03",
+      "status": "reference-reverified",
+      "sources": [
+        {
+          "url": "https://thewhiskeyramble.com/2021/09/23/jameson-caskmates-stout-edition-scoresheet-review/",
+          "title": "Jameson Caskmates Stout Edition Scoresheet & Review",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "published tasting reference",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://thewhiskeyramble.com/2021/09/23/jameson-caskmates-stout-edition-scoresheet-review/",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn48view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Replaced palate hazelnut with reviewed toffee/praline; noted tannic finish."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "lagavulin-16-year",
+      "name": "Lagavulin 16 Year",
+      "reviewedAt": "2026-10-03",
+      "status": "conditional-reference-reverified",
+      "sources": [
+        {
+          "url": "https://wordsofwhisky.com/lagavulin-16-years-review/",
+          "title": "Review: Lagavulin 16 Years (2023)",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "published tasting reference",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://wordsofwhisky.com/lagavulin-16-years-review/",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn59view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Corrected medium finish and salinity; removed long savory claim."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [
+        "Confirm bottle label, batch/year, barrel selection and proof against the reference."
+      ],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "laphroaig-10-year",
+      "name": "Laphroaig 10 Year",
+      "reviewedAt": "2026-10-03",
+      "status": "reference-reverified",
+      "sources": [
+        {
+          "url": "https://www.laphroaig.com/whiskies/10-year-old",
+          "title": "Buy 10 Year Old Single Malt Scotch Whisky",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "producer",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://www.laphroaig.com/whiskies/10-year-old",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn63view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Removed unsupported licorice/pepper; retained peat, salinity and sweet maritime close."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "the-macallan-12-year",
+      "name": "The Macallan 12 Year",
+      "reviewedAt": "2026-10-03",
+      "status": "unresolved-identity-or-composition",
+      "sources": [
+        {
+          "url": "https://www.themacallan.com/en-us/single-malt-scotch-whisky/double-cask-12-years-old",
+          "title": "Double Cask 12 Years Old",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "producer",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://www.themacallan.com/en-us/single-malt-scotch-whisky/double-cask-12-years-old",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn61view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Retained unresolved cask-range placeholder; Double Cask source is only an example."
+      ],
+      "changedFields": [
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [
+        "Identify bottle expression or flight component pours before assigning specific sensory claims."
+      ],
+      "pairingStatus": "No pairing inferred for unresolved identity/composition",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "monkey-shoulder",
+      "name": "Monkey Shoulder",
+      "reviewedAt": "2026-10-03",
+      "status": "reference-reverified",
+      "sources": [
+        {
+          "url": "https://dram1.com/monkey-shoulder-review/",
+          "title": "Monkey Shoulder Review: A Smooth, Accessible Blended Malt",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "published tasting reference",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://dram1.com/monkey-shoulder-review/",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn60view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Moved pear/apple to aroma; corrected palate vanilla fudge/caramel/chocolate and short finish."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "oban-14-year",
+      "name": "Oban 14 Year",
+      "reviewedAt": "2026-10-03",
+      "status": "reference-reverified",
+      "sources": [
+        {
+          "url": "https://whiskyunplugged.com/2020/04/12/tasting-notes-oban-14-years-old/",
+          "title": "Tasting Notes: Oban – 14 Years Old",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "published tasting reference",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://whiskyunplugged.com/2020/04/12/tasting-notes-oban-14-years-old/",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn47view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Removed literal sea-air nose; retained citrus/honey/smoke, fruit/salt and fading orange finish."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "proper-no-twelve",
+      "name": "Proper No. Twelve",
+      "reviewedAt": "2026-10-03",
+      "status": "reference-reverified",
+      "sources": [
+        {
+          "url": "https://www.properwhiskey.com/products/proper-no-twelve-whiskey-original",
+          "title": "Proper No. Twelve Whiskey | Smooth Irish Whiskey",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "producer",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://www.properwhiskey.com/products/proper-no-twelve-whiskey-original",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn49view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Removed unsupported fruit/honey palate; corrected vanilla/wood and toffee finish."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "redbreast-12-year",
+      "name": "Redbreast 12 Year",
+      "reviewedAt": "2026-10-03",
+      "status": "conditional-reference-reverified",
+      "sources": [
+        {
+          "url": "https://www.redbreastwhiskey.com/en-us/whiskey-collections/redbreast-12-year-old/",
+          "title": "Redbreast 12 producer notes retrieved through search index",
+          "type": "producer",
+          "supports": "Reference product tasting description only; venue bottle/release not inspected",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://www.redbreastwhiskey.com/en-us/whiskey-collections/redbreast-12-year-old/",
+        "originalReadable": false,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn45view0",
+        "originalError": "Internal Error () 【turn45view0】 [wordlim: 200] Source: open({\"ref_id\":\"https://www.redbreastwhiskey.com/en-us/whiskey-collections/redbreast-12-year-old/\",\"lineno\":null}); Total lines: 1 L0: Failed to fetch https://www.redbreastwhiskey.com/en-us/whiskey-collections/redbreast-12-year-old/: (400) Timeout fetching",
+        "fallbacks": [
+          {
+            "id": "redbreast-12-year",
+            "url": "https://www.redbreastwhiskey.com/en/whiskey-collections/redbreast-12-year-old/",
+            "retrieved": false,
+            "ref": "turn146view0"
+          }
+        ]
+      },
+      "corrections": [
+        "Removed unsupported specific dried-fruit/malt precision; retained producer fruit/spice/sherry/toast."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [
+        "Confirm bottle label, batch/year, barrel selection and proof against the reference."
+      ],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "redbreast-15-year",
+      "name": "Redbreast 15 Year",
+      "reviewedAt": "2026-10-03",
+      "status": "reference-reverified",
+      "sources": [
+        {
+          "url": "https://www.redbreastwhiskey.com/en/whiskey-collections/redbreast-15-year-old-whiskey/",
+          "title": "Redbreast 15 Year Old Irish Whiskey",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "producer",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://www.redbreastwhiskey.com/en/whiskey-collections/redbreast-15-year-old-whiskey/",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn46view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Corrected berry/oils nose and non-specific prolonged finish."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "the-sexton",
+      "name": "The Sexton",
+      "reviewedAt": "2026-10-03",
+      "status": "reference-reverified",
+      "sources": [
+        {
+          "url": "https://whiskyforeveryone.com/review-the-sexton-single-malt/",
+          "title": "The Sexton Single Malt review",
+          "type": "published tasting reference",
+          "supports": "Reference product tasting description only; venue bottle/release not inspected",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://thewhiskeyjug.com/irish-whiskey/the-sexton-single-malt-irish-whiskey-review/",
+        "originalReadable": false,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn62view0",
+        "originalError": "Internal Error () 【turn62view0】 [wordlim: 200] Source: open({\"ref_id\":\"https://thewhiskeyjug.com/irish-whiskey/the-sexton-single-malt-irish-whiskey-review/\",\"lineno\":null}); Total lines: 1 L0: Failed to fetch https://thewhiskeyjug.com/irish-whiskey/the-sexton-single-malt-irish-whiskey-review/: (403) Forbidden",
+        "fallbacks": [
+          {
+            "id": "the-sexton",
+            "url": "https://whiskyforeveryone.com/review-the-sexton-single-malt/",
+            "retrieved": true,
+            "ref": "turn147view0"
+          }
+        ]
+      },
+      "corrections": [
+        "Replaced inaccessible prior reference with readable review and source-matched flavor distinctions."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "tullamore-dew-original",
+      "name": "Tullamore D.E.W. Original",
+      "reviewedAt": "2026-10-03",
+      "status": "conditional-reference-reverified",
+      "sources": [
+        {
+          "url": "https://www.tullamoredew.com/en-us/our-whiskey-range/tullamore-original/",
+          "title": "Original Triple Blended Irish Whiskey - Tullamore D.E.W.",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "producer",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://www.tullamoredew.com/en-us/our-whiskey-range/tullamore-original/",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn58view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Reduced claims to retrieved producer broad blend character; aroma/finish now unknown."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [
+        "Confirm bottle label, batch/year, barrel selection and proof against the reference."
+      ],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "yellow-spot-12-year",
+      "name": "Yellow Spot 12 Year",
+      "reviewedAt": "2026-10-03",
+      "status": "reference-reverified",
+      "sources": [
+        {
+          "url": "https://www.spotwhiskey.com/en-us/whiskeys/yellowspot/",
+          "title": "Yellow Spot – Spotwhiskey",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "producer",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://www.spotwhiskey.com/en-us/whiskeys/yellowspot/",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn72view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Replaced unsupported tropical/apricot/toffee notes with hay, pepper, peach, coffee/chocolate/apple and grape/barley finish."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "akashi-white-oak-blended-whisky",
+      "name": "Akashi White Oak Blended Whisky",
+      "reviewedAt": "2026-10-03",
+      "status": "reference-reverified",
+      "sources": [
+        {
+          "url": "https://shingroupcorp.com/products/white-oak-akashi-blended-whisky/",
+          "title": "AKASHI White Oak Blended Whisky - Shin Group",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "published tasting reference",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://shingroupcorp.com/products/white-oak-akashi-blended-whisky/",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn90view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Corrected palate to vanilla/pine nuts and finish to extended malt."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "hakushu-12-year",
+      "name": "Hakushu 12 Year",
+      "reviewedAt": "2026-10-03",
+      "status": "reference-reverified",
+      "sources": [
+        {
+          "url": "https://house.suntory.com/hakushu-whisky/hakushu-12-years-old",
+          "title": "Hakushu® 12 | Japanese Whisky",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "producer",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://house.suntory.com/hakushu-whisky/hakushu-12-years-old",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn82view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Source agrees with retained herb/green-fruit profile; body removed as unsupported."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "hibiki-17-year",
+      "name": "Hibiki 17 Year",
+      "reviewedAt": "2026-10-03",
+      "status": "reference-reverified",
+      "sources": [
+        {
+          "url": "https://whiskyanalysis.com/index.php/2015/07/15/hibiki-17-year-old/",
+          "title": "Hibiki 17 Year Old",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "published tasting reference",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://whiskyanalysis.com/index.php/2015/07/15/hibiki-17-year-old/",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn74view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Corrected generic orchard/citrus to raisin/plum/butterscotch; added long oak/cinnamon finish."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "hibiki-21-year",
+      "name": "Hibiki 21 Year",
+      "reviewedAt": "2026-10-03",
+      "status": "reference-reverified",
+      "sources": [
+        {
+          "url": "https://www.masterofmalt.com/whiskies/hibiki/hibiki-21-year-old-whisky/",
+          "title": "Hibiki 21 Year Old 70cl Whisky",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "published tasting reference",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://www.masterofmalt.com/whiskies/hibiki/hibiki-21-year-old-whisky/",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn80view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Added cherry/wood spice and light smoke; removed unsupported sherry-fruit palate."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "ichiros-malt-grain-world-blended-whisky",
+      "name": "Ichiro's Malt & Grain World Blended Whisky",
+      "reviewedAt": "2026-10-03",
+      "status": "conditional-reference-reverified",
+      "sources": [
+        {
+          "url": "https://whiskyanalysis.com/index.php/2019/10/28/ichiros-malt-grain-world-blended-whisky/",
+          "title": "Ichiro’s Malt & Grain standard white-label review",
+          "type": "published tasting reference",
+          "supports": "Reference product tasting description only; venue bottle/release not inspected",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://www.whiskylifestyle.com/ichiros-malt-grain-2020-world-blended-whisky/",
+        "originalReadable": false,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn75view0",
+        "originalError": "Internal Error () 【turn75view0】 [wordlim: 200] Source: open({\"ref_id\":\"https://www.whiskylifestyle.com/ichiros-malt-grain-2020-world-blended-whisky/\",\"lineno\":null}); Total lines: 1 L0: Failed to fetch https://www.whiskylifestyle.com/ichiros-malt-grain-2020-world-blended-whisky/: (400) Timeout fetching",
+        "fallbacks": [
+          {
+            "id": "ichiros-malt-grain-world-blended-whisky",
+            "url": "https://www.whiskylifestyle.com/ichiros-malt-grain-2020-world-blended-whisky/",
+            "retrieved": false,
+            "ref": null
+          }
+        ]
+      },
+      "corrections": [
+        "Replaced unavailable review with standard white-label review; clarified international blend and editions."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [
+        "Confirm bottle label, batch/year, barrel selection and proof against the reference."
+      ],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "nikka-coffey-grain-whisky",
+      "name": "Nikka Coffey Grain Whisky",
+      "reviewedAt": "2026-10-03",
+      "status": "reference-reverified",
+      "sources": [
+        {
+          "url": "https://nikkawhiskyusa.com/products/nikka-coffey-grain-whisky",
+          "title": "Nikka Coffey Grain Whisky",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "producer",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://nikkawhiskyusa.com/products/nikka-coffey-grain-whisky",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn77view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Corrected nose to tropical/coconut/banana and palate to vanilla wafer; moved honeyed citrus to finish."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "nikka-miyagikyo-single-malt",
+      "name": "Nikka Miyagikyo Single Malt",
+      "reviewedAt": "2026-10-03",
+      "status": "reference-reverified",
+      "sources": [
+        {
+          "url": "https://roadtodram.com/nikka-miyagikyo-single-malt-review/",
+          "title": "A Global Intermission: Nikka Miyagikyo Single Malt Review",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "published tasting reference",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://roadtodram.com/nikka-miyagikyo-single-malt-review/",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn87view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Moved tangerine to palate; corrected thin body and banana/licorice/oak/lemon finish."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "nikka-taketsuru-pure-malt",
+      "name": "Nikka Taketsuru Pure Malt",
+      "reviewedAt": "2026-10-03",
+      "status": "reference-reverified",
+      "sources": [
+        {
+          "url": "https://www.nikka.com/en/brands/taketsuru/",
+          "title": "Taketsuru Pure Malt｜NIKKA WHISKY",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "producer",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://www.nikka.com/en/brands/taketsuru/",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn84view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Aligned fruit/toast nose and dark-chocolate/peat finish to producer."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "nikka-yoichi-single-malt",
+      "name": "Nikka Yoichi Single Malt",
+      "reviewedAt": "2026-10-03",
+      "status": "reference-reverified",
+      "sources": [
+        {
+          "url": "https://roadtodram.com/nikka-yoichi-single-malt-review/",
+          "title": "A Global Intermission: Nikka Yoichi Single Malt Review",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "published tasting reference",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://roadtodram.com/nikka-yoichi-single-malt-review/",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn79view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Aligned fruit/soot nose and nearly oily body; smoke is restrained on finish."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "suntory-toki",
+      "name": "Suntory Toki",
+      "reviewedAt": "2026-10-03",
+      "status": "reference-reverified",
+      "sources": [
+        {
+          "url": "https://house.suntory.com/toki-whisky/suntory-whisky-toki",
+          "title": "Toki Blended Japanese Whisky",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "producer",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://house.suntory.com/toki-whisky/suntory-whisky-toki",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn89view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Corrected finish from herbal-citrus to vanilla oak/pepper/ginger."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "most-likely-hibiki-japanese-harmony-or-a-venue-shorthand-conflating-toki-and-harmony",
+      "name": "Suntory “Toki Harmony” — label unconfirmed",
+      "reviewedAt": "2026-10-03",
+      "status": "unresolved-identity-or-composition",
+      "sources": [
+        {
+          "url": "https://www.bourbonbanter.com/hibiki-japanese-harmony-whisky-review/",
+          "title": "Hibiki Japanese Harmony Whisky Review - Bourbon & Banter",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "published tasting reference",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://www.bourbonbanter.com/hibiki-japanese-harmony-whisky-review/",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn81view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Retained unresolved Toki/Harmony identity; no specific flavor added."
+      ],
+      "changedFields": [
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [
+        "Identify bottle expression or flight component pours before assigning specific sensory claims."
+      ],
+      "pairingStatus": "No pairing inferred for unresolved identity/composition",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "angels-envy-finished-rye",
+      "name": "Angel's Envy Finished Rye",
+      "reviewedAt": "2026-10-03",
+      "status": "reference-reverified",
+      "sources": [
+        {
+          "url": "https://www.angelsenvy.com/us/en/whiskeys/signature-series/rum-cask-finished-rye/",
+          "title": "Angel's Envy Rye Finished in Rum Casks",
+          "supports": "Identity and tasting characteristics",
+          "type": "producer",
+          "accessed": "2026-09-06"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://www.angelsenvy.com/us/en/whiskeys/signature-series/rum-cask-finished-rye/",
+        "originalReadable": false,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": null,
+        "originalError": "ClientResponseError 503, message='Service Unavailable', url='http://search.openai.internal/internal/tool_call/process_session'",
+        "fallbacks": [
+          {
+            "id": "angels-envy-finished-rye",
+            "url": "https://www.angelsenvy.com/us/en/whiskeys/signature-series/rum-cask-finished-rye/",
+            "retrieved": true,
+            "ref": "turn149view0"
+          }
+        ]
+      },
+      "corrections": [
+        "Corrected palate and short mixed sweet/dry finish to producer."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "basil-hayden-dark-rye",
+      "name": "Basil Hayden Dark Rye",
+      "reviewedAt": "2026-10-03",
+      "status": "reference-reverified",
+      "sources": [
+        {
+          "url": "https://www.basilhaydenbourbon.com/whiskies/basil-hayden-dark-rye-whiskey",
+          "title": "Dark Rye Whiskey | Rye & Port Wine Blended",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "producer",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://www.basilhaydenbourbon.com/whiskies/basil-hayden-dark-rye-whiskey",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn76view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Added oak in palate and lingering dried-fruit finish."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "buffalo-trace-rye-expression",
+      "name": "Buffalo Trace rye expression",
+      "reviewedAt": "2026-10-03",
+      "status": "unresolved-identity-or-composition",
+      "sources": [
+        {
+          "url": "https://www.thewhiskeyshelf.com/buffalo-trace-kosher-rye-recipe-bourbon-review/",
+          "title": "Buffalo Trace Kosher Rye Recipe Bourbon Review",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "published tasting reference",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://www.thewhiskeyshelf.com/buffalo-trace-kosher-rye-recipe-bourbon-review/",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn78view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Retained unresolved bourbon-versus-rye distinction; no sensory claims added."
+      ],
+      "changedFields": [
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [
+        "Identify bottle expression or flight component pours before assigning specific sensory claims."
+      ],
+      "pairingStatus": "No pairing inferred for unresolved identity/composition",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "buffalo-trace-straight-rye-whiskey",
+      "name": "Buffalo Trace straight rye whiskey",
+      "reviewedAt": "2026-10-03",
+      "status": "conditional-reference-reverified",
+      "sources": [
+        {
+          "url": "https://www.whiskeyinmyweddingring.com/reviews/buffalo-trace-kosher-whiskey",
+          "title": "Buffalo Trace Kosher Whiskey Reviews and Tasting Notes",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "published tasting reference",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://www.whiskeyinmyweddingring.com/reviews/buffalo-trace-kosher-whiskey",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn73view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Marked all Kosher Straight Rye notes conditional and aligned dill/clove/caramel reference."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [
+        "Confirm bottle label, batch/year, barrel selection and proof against the reference.",
+        "Reference expression/edition may differ materially from the venue bottle; source notes remain explicitly conditional."
+      ],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "bulleit-95-rye",
+      "name": "Bulleit 95 Rye",
+      "reviewedAt": "2026-10-03",
+      "status": "reference-reverified",
+      "sources": [
+        {
+          "url": "https://www.bulleit.com/whiskeys/bulleit-rye-whiskey",
+          "title": "Rye Whiskey",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "producer",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://www.bulleit.com/whiskeys/bulleit-rye-whiskey",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn85view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Removed unsupported pepper and dry finish; producer specifies vanilla/honey/spice and clean extended finish."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "elijah-craig-straight-rye",
+      "name": "Elijah Craig Straight Rye",
+      "reviewedAt": "2026-10-03",
+      "status": "reference-reverified",
+      "sources": [
+        {
+          "url": "https://elijahcraig.com/straight-rye",
+          "title": "Straight Rye",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "producer",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://elijahcraig.com/straight-rye",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn83view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Replaced unsupported mint/cinnamon/almond precision with current producer dark chocolate, baking spice, honey and oak."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "high-west-double-rye",
+      "name": "High West Double Rye",
+      "reviewedAt": "2026-10-03",
+      "status": "reference-reverified",
+      "sources": [
+        {
+          "url": "https://ship.highwest.com/products/double-rye",
+          "title": "Shop Double Rye",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "producer",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://ship.highwest.com/products/double-rye",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn86view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Expanded producer herbal/citrus/honey palate and cinnamon/anise finish."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "high-west-rendezvous-rye",
+      "name": "High West Rendezvous Rye",
+      "reviewedAt": "2026-10-03",
+      "status": "reference-reverified",
+      "sources": [
+        {
+          "url": "https://ship.highwest.com/products/rendezvous-rye",
+          "title": "Rendezvous Rye",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "producer",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://ship.highwest.com/products/rendezvous-rye",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn88view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Clarified orange/apricot nose and molasses/vanilla/oak palate."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "michters-us1-single-barrel-straight-rye",
+      "name": "Michter's US*1 Single Barrel Straight Rye",
+      "reviewedAt": "2026-10-03",
+      "status": "conditional-reference-reverified",
+      "sources": [
+        {
+          "url": "https://bourbonobsessed.com/michters-us1-rye-review/",
+          "title": "Michter's US*1 Rye Review",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "published tasting reference",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://bourbonobsessed.com/michters-us1-rye-review/",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn105view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Preserved supported fruit/sugar/pepper notes with single-barrel caveat; clarified finish."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [
+        "Confirm bottle label, batch/year, barrel selection and proof against the reference."
+      ],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "james-e-pepper-1776-rye-finished-in-sherry-casks",
+      "name": "James E. Pepper 1776 Rye Finished in Sherry Casks",
+      "reviewedAt": "2026-10-03",
+      "status": "conditional-reference-reverified",
+      "sources": [
+        {
+          "url": "https://jamesepepper.com/straight-rye%E2%80%8B-sherry-casks/",
+          "title": "“1776” Straight Rye​ ​Finished in Sherry Casks",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "producer",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://jamesepepper.com/straight-rye%E2%80%8B-sherry-casks/",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn107view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Stopped assigning general producer flavor list to separate aroma/finish."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [
+        "Confirm bottle label, batch/year, barrel selection and proof against the reference."
+      ],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "james-e-pepper-1776-barrel-proof-rye",
+      "name": "James E. Pepper 1776 Barrel Proof Rye",
+      "reviewedAt": "2026-10-03",
+      "status": "conditional-reference-reverified",
+      "sources": [
+        {
+          "url": "https://scotchnoob.com/2016/12/12/james-e-pepper-1776-barrel-proof-rye/",
+          "title": "James E. Pepper 1776 Barrel Proof Rye 2016 review",
+          "type": "published tasting reference",
+          "supports": "Reference product tasting description only; venue bottle/release not inspected",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://thewhiskeyjug.com/rye-whiskey/james-e-pepper-barrel-proof-rye-review/",
+        "originalReadable": false,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn95view0",
+        "originalError": "Internal Error () 【turn95view0】 [wordlim: 200] Source: open({\"ref_id\":\"https://thewhiskeyjug.com/rye-whiskey/james-e-pepper-barrel-proof-rye-review/\",\"lineno\":null}); Total lines: 1 L0: Failed to fetch https://thewhiskeyjug.com/rye-whiskey/james-e-pepper-barrel-proof-rye-review/: (520) Unknown Status Code",
+        "fallbacks": [
+          {
+            "id": "james-e-pepper-1776-barrel-proof-rye",
+            "url": "https://scotchnoob.com/2016/12/12/james-e-pepper-1776-barrel-proof-rye/",
+            "retrieved": true,
+            "ref": "turn144view0"
+          }
+        ]
+      },
+      "corrections": [
+        "Replaced inaccessible prior source with 2016 review; removed mint/cocoa and marked historical batch."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [
+        "Confirm bottle label, batch/year, barrel selection and proof against the reference."
+      ],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "james-e-pepper-1776-straight-rye",
+      "name": "James E. Pepper 1776 Straight Rye",
+      "reviewedAt": "2026-10-03",
+      "status": "conditional-reference-reverified",
+      "sources": [
+        {
+          "url": "https://seelbachs.com/products/james-e-pepper-1776-straight-rye",
+          "title": "James E Pepper 1776 Straight Rye",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "published tasting reference",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://seelbachs.com/products/james-e-pepper-1776-straight-rye",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn99view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Retained documented mint/clove/eucalyptus/chocolate/honey as general flavors; separate nose/finish withheld."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [
+        "Confirm bottle label, batch/year, barrel selection and proof against the reference."
+      ],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "knob-creek-rye",
+      "name": "Knob Creek Rye",
+      "reviewedAt": "2026-10-03",
+      "status": "conditional-reference-reverified",
+      "sources": [
+        {
+          "url": "https://thewhiskeyramble.com/2021/09/07/knob-creek-straight-rye-scoresheet-review/",
+          "title": "Knob Creek Straight Rye Scoresheet & Review",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "published tasting reference",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://thewhiskeyramble.com/2021/09/07/knob-creek-straight-rye-scoresheet-review/",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn101view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Removed unsupported rye/oak palate; retained caramel/pepper/herbs/citrus and historical NAS caveat."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [
+        "Confirm bottle label, batch/year, barrel selection and proof against the reference.",
+        "Reference expression/edition may differ materially from the venue bottle; source notes remain explicitly conditional."
+      ],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "pikesville-straight-rye",
+      "name": "Pikesville Straight Rye",
+      "reviewedAt": "2026-10-03",
+      "status": "reference-reverified",
+      "sources": [
+        {
+          "url": "https://heavenhilldistillery.com/pikesville-straight-rye.php",
+          "title": "Pikesville Rye",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "producer",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://heavenhilldistillery.com/pikesville-straight-rye.php",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn110view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Added documented dry-spice aspect; retained cocoa/smoke/honey/clove and vanilla finish."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "redemption-rye",
+      "name": "Redemption Rye",
+      "reviewedAt": "2026-10-03",
+      "status": "reference-reverified",
+      "sources": [
+        {
+          "url": "https://www.bourbonguy.com/blog/2022/11/3/redemption-rye",
+          "title": "Redemption Rye",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "published tasting reference",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://www.bourbonguy.com/blog/2022/11/3/redemption-rye",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn103view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Moved nutmeg/almond to palate and cinnamon/caramel to finish; removed invented pepper finish.",
+        "Pairing now calls spearmint/dill a herbal contrast rather than an unsupported spice/wood contrast."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "rough-rider-the-big-stick-cask-strength-rye",
+      "name": "Rough Rider The Big Stick Cask Strength Rye",
+      "reviewedAt": "2026-10-03",
+      "status": "conditional-reference-reverified",
+      "sources": [
+        {
+          "url": "https://www.wineenthusiast.com/buying-guide/rough-rider-the-big-stick-rye-whiskey/",
+          "title": "Rough Rider Big Stick 60.5% rye blind review, July 2016",
+          "type": "published tasting reference",
+          "supports": "Reference product tasting description only; venue bottle/release not inspected",
+          "accessed": "2026-10-03"
+        },
+        {
+          "url": "https://www.lispirits.com/spirits/rough-rider-stick/",
+          "title": "Long Island Spirits Big Stick producer page",
+          "type": "producer",
+          "supports": "Producer identity and 121-proof reference cask-strength bottling, not venue inspection",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://www.b-21.com/Rough-Rider-The-Big-Stick-Cask-Strength-Rye-Whisky/productinfo/LWHIRGHRCE/",
+        "originalReadable": false,
+        "redirectWithoutProductEvidence": true,
+        "originalRef": "turn98view0",
+        "originalError": null,
+        "fallbacks": [
+          {
+            "id": "rough-rider-the-big-stick-cask-strength-rye",
+            "url": "https://www.lispirits.com/spirits/rough-rider-stick/",
+            "retrieved": true,
+            "ref": "turn156view0"
+          }
+        ]
+      },
+      "corrections": [
+        "Replaced redirected retailer with producer identity and historical blind tasting; notes explicitly depend on dilution."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [
+        "Confirm bottle label, batch/year, barrel selection and proof against the reference."
+      ],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "rittenhouse-rye-bottled-in-bond",
+      "name": "Rittenhouse Rye Bottled-in-Bond",
+      "reviewedAt": "2026-10-03",
+      "status": "reference-reverified",
+      "sources": [
+        {
+          "url": "https://www.bourbonguy.com/blog/2022/6/21/rittenhouse-rye-bottled-in-bond-revisited",
+          "title": "Rittenhouse Rye Bottled-in-Bond: Revisited",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "published tasting reference",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://www.bourbonguy.com/blog/2022/6/21/rittenhouse-rye-bottled-in-bond-revisited",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn96view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Corrected ginger/rye palate to mint/cedar/ginger/caramel; finish cedar/cinnamon/mint."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "milam-greene-straight-rye-whiskey",
+      "name": "Milam & Greene Straight Rye Whiskey",
+      "reviewedAt": "2026-10-03",
+      "status": "reference-reverified",
+      "sources": [
+        {
+          "url": "https://www.breakingbourbon.com/review/milam-greene-straight-rye-finished-in-port-wine-casks",
+          "title": "Milam & Greene Straight Rye Finished in Port Wine Casks",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "published tasting reference",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://www.breakingbourbon.com/review/milam-greene-straight-rye-finished-in-port-wine-casks",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn104view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Retained supported port-fruit/rye notes; added possible astringency."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "most-likely-milam-greene-straight-rye-finished-in-port-casks",
+      "name": "Most likely Milam & Greene Straight Rye Finished in Port Casks",
+      "reviewedAt": "2026-10-03",
+      "status": "conditional-reference-reverified",
+      "sources": [
+        {
+          "url": "https://www.breakingbourbon.com/review/milam-greene-straight-rye-finished-in-port-wine-casks",
+          "title": "Milam & Greene Straight Rye Finished in Port Wine Casks",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "published tasting reference",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://www.breakingbourbon.com/review/milam-greene-straight-rye-finished-in-port-wine-casks",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn113view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Marked duplicate probable identity and port-finished notes conditional."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [
+        "Confirm bottle label, batch/year, barrel selection and proof against the reference.",
+        "Reference expression/edition may differ materially from the venue bottle; source notes remain explicitly conditional."
+      ],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "old-forester-rye",
+      "name": "Old Forester Rye",
+      "reviewedAt": "2026-10-03",
+      "status": "reference-reverified",
+      "sources": [
+        {
+          "url": "https://www.oldforester.com/products/old-forester-100-proof-rye-whisky/",
+          "title": "Old Forester Rye Whisky",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "producer",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://www.oldforester.com/products/old-forester-100-proof-rye-whisky/",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn108view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Replaced unsupported banana/clove/nutmeg/cocoa/nut profile with current producer sugar/molasses/root beer, blood orange/licorice and pepper/citrus."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "sagamore-spirit-rye-whiskey",
+      "name": "Sagamore Spirit Rye Whiskey",
+      "reviewedAt": "2026-10-03",
+      "status": "conditional-reference-reverified",
+      "sources": [
+        {
+          "url": "https://sagamorespirit.com/spirits/sagamore-small-batch-rye-whiskey/",
+          "title": "Sagamore Small Batch Rye Whiskey",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "producer",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://sagamorespirit.com/spirits/sagamore-small-batch-rye-whiskey/",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn102view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Removed unsupported separate vanilla/fruit aroma and added current Small Batch reference limitation."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [
+        "Confirm bottle label, batch/year, barrel selection and proof against the reference.",
+        "Reference expression/edition may differ materially from the venue bottle; source notes remain explicitly conditional."
+      ],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "sagamore-spirit-double-oak-rye",
+      "name": "Sagamore Spirit Double Oak Rye",
+      "reviewedAt": "2026-10-03",
+      "status": "conditional-reference-reverified",
+      "sources": [
+        {
+          "url": "https://sagamorespirit.com/spirits/double-oak-rye-whiskey/",
+          "title": "Sagamore Double Oak Rye producer notes",
+          "type": "producer",
+          "supports": "Reference product tasting description only; venue bottle/release not inspected",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://bourbonobsessed.com/sagamore-spirit-double-oak-rye-review/",
+        "originalReadable": false,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": null,
+        "originalError": "ClientResponseError 503, message='Service Unavailable', url='http://search.openai.internal/internal/tool_call/process_session'",
+        "fallbacks": [
+          {
+            "id": "sagamore-spirit-double-oak-rye",
+            "url": "https://sagamorespirit.com/spirits/double-oak-rye-whiskey/",
+            "retrieved": true,
+            "ref": "turn150view0"
+          }
+        ]
+      },
+      "corrections": [
+        "Replaced dry-oak/maple/pepper profile with current producer caramel/coconut/hazelnut/pecan; separate aroma/finish withheld."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [
+        "Confirm bottle label, batch/year, barrel selection and proof against the reference."
+      ],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "sazerac-rye-6-year",
+      "name": "Sazerac Rye",
+      "reviewedAt": "2026-10-03",
+      "status": "conditional-reference-reverified",
+      "sources": [
+        {
+          "url": "https://www.breakingbourbon.com/review/sazerac-rye",
+          "title": "Sazerac Rye Review",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "published tasting reference",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://www.breakingbourbon.com/review/sazerac-rye",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn106view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Corrected light body and expanded source orange/clove/raisin and fruit finish."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [
+        "Confirm bottle label, batch/year, barrel selection and proof against the reference."
+      ],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "sazerac-18-year-rye",
+      "name": "Sazerac 18 Year Rye",
+      "reviewedAt": "2026-10-03",
+      "status": "conditional-reference-reverified",
+      "sources": [
+        {
+          "url": "https://thebourbonculture.com/whiskey-reviews/sazerac-18-year-old-rye-whiskey-review/",
+          "title": "Sazerac 18 Year Old Rye Whiskey Review",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "published tasting reference",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://thebourbonculture.com/whiskey-reviews/sazerac-18-year-old-rye-whiskey-review/",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn97view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Added missing 2020-release caveat; removed unsupported caramel-centric palate and wood-only finish."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [
+        "Confirm bottle label, batch/year, barrel selection and proof against the reference."
+      ],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "thomas-h-handy-sazerac-rye",
+      "name": "Thomas H. Handy Sazerac Rye",
+      "reviewedAt": "2026-10-03",
+      "status": "conditional-reference-reverified",
+      "sources": [
+        {
+          "url": "https://thebourbonculture.com/whiskey-reviews/thomas-h-handy-rye-whiskey-2023-124-9-proof-quick-review/",
+          "title": "Thomas H. Handy Rye Whiskey (2023, 124.9 proof) Quick ...",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "published tasting reference",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://thebourbonculture.com/whiskey-reviews/thomas-h-handy-rye-whiskey-2023-124-9-proof-quick-review/",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn100view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Marked 2023-release reference; differentiated aroma from molasses/fruitcake/spice palate."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [
+        "Confirm bottle label, batch/year, barrel selection and proof against the reference."
+      ],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "very-olde-st-nick-rye-expression",
+      "name": "Very Olde St. Nick rye expression",
+      "reviewedAt": "2026-10-03",
+      "status": "unresolved-identity-or-composition",
+      "sources": [
+        {
+          "url": "https://www.bourbonbanter.com/very-olde-st-nick-ancient-cask-rye/",
+          "title": "Very Olde St. Nick Ancient Cask Rye: Faith + Conviction Review",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "published tasting reference",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://www.bourbonbanter.com/very-olde-st-nick-ancient-cask-rye/",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn112view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Retained brand-only unresolved release placeholder."
+      ],
+      "changedFields": [
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [
+        "Identify bottle expression or flight component pours before assigning specific sensory claims."
+      ],
+      "pairingStatus": "No pairing inferred for unresolved identity/composition",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "very-olde-st-nick-summer-rye",
+      "name": "Very Olde St. Nick Summer Rye",
+      "reviewedAt": "2026-10-03",
+      "status": "conditional-reference-reverified",
+      "sources": [
+        {
+          "url": "https://whiskeyconsensus.com/very-olde-st-nick-summer-rye-whiskey-review/",
+          "title": "Very Olde St Nick Summer Rye Review",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "published tasting reference",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://whiskeyconsensus.com/very-olde-st-nick-summer-rye-whiskey-review/",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn109view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Moved orange/cherry emphasis to aroma and stewed berries/biscuit to palate."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [
+        "Confirm bottle label, batch/year, barrel selection and proof against the reference."
+      ],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "very-olde-st-nick-8-year-rye",
+      "name": "Very Olde St. Nick 8 Year Rye",
+      "reviewedAt": "2026-10-03",
+      "status": "conditional-reference-reverified",
+      "sources": [
+        {
+          "url": "https://thebourbonculture.com/whiskey-reviews/old-st-nick-8-year-old-rye-whiskey-review/",
+          "title": "Old St. Nick 8 Year Old Rye Whiskey Review",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "published tasting reference",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://thebourbonculture.com/whiskey-reviews/old-st-nick-8-year-old-rye-whiskey-review/",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn111view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Removed unsupported rye spice, oak and dry wood; reviewer reports very little spice/tannin and brief mint-led finish."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [
+        "Confirm bottle label, batch/year, barrel selection and proof against the reference.",
+        "Reference expression/edition may differ materially from the venue bottle; source notes remain explicitly conditional."
+      ],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "whistlepig-piggyback-6-year-rye",
+      "name": "WhistlePig PiggyBack 6 Year Rye",
+      "reviewedAt": "2026-10-03",
+      "status": "reference-reverified",
+      "sources": [
+        {
+          "url": "https://tastingroom.whistlepigwhiskey.com/products/piggyback-100-rye-750ml",
+          "title": "WhistlePig PiggyBack Rye producer tasting room",
+          "type": "producer",
+          "supports": "Reference product tasting description only; venue bottle/release not inspected",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://www.whistlepigwhiskey.com/whiskeys/piggyback-rye",
+        "originalReadable": false,
+        "redirectWithoutProductEvidence": true,
+        "originalRef": "turn125view0",
+        "originalError": null,
+        "fallbacks": [
+          {
+            "id": "whistlepig-piggyback-6-year-rye",
+            "url": "https://tastingroom.whistlepigwhiskey.com/products/piggyback-100-rye-750ml",
+            "retrieved": true,
+            "ref": "turn148view0"
+          }
+        ]
+      },
+      "corrections": [
+        "Reference confirmed in producer tasting room; body not separately specified."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "whistlepig-10-year",
+      "name": "WhistlePig 10 Year",
+      "reviewedAt": "2026-10-03",
+      "status": "reference-reverified",
+      "sources": [
+        {
+          "url": "https://tastingroom.whistlepigwhiskey.com/products/copy-of-small-batch-rye-aged-10-years-750ml",
+          "title": "WhistlePig 10 Year producer tasting room",
+          "type": "producer",
+          "supports": "Reference product tasting description only; venue bottle/release not inspected",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://www.whistlepigwhiskey.com/whiskeys/10-year",
+        "originalReadable": false,
+        "redirectWithoutProductEvidence": true,
+        "originalRef": "turn122view0",
+        "originalError": null,
+        "fallbacks": [
+          {
+            "id": "whistlepig-10-year",
+            "url": "https://tastingroom.whistlepigwhiskey.com/products/copy-of-small-batch-rye-aged-10-years-750ml",
+            "retrieved": true,
+            "ref": "turn143view0"
+          }
+        ]
+      },
+      "corrections": [
+        "Added documented mint; corrected finish to butterscotch/caramel."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "whistlepig-12-year-private-barrel-old-world-style-rye-selection",
+      "name": "WhistlePig 12 Year private barrel / Old World style rye selection",
+      "reviewedAt": "2026-10-03",
+      "status": "conditional-reference-reverified",
+      "sources": [
+        {
+          "url": "https://www.bourbonguy.com/blog/2022/7/7/whistlepig-old-world-rye-aged-12-years",
+          "title": "WhistlePig Old World Rye, Aged 12 Years",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "published tasting reference",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://www.bourbonguy.com/blog/2022/7/7/whistlepig-old-world-rye-aged-12-years",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn118view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Explicitly marked standard Old World comparison; no venue private barrel assertion."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [
+        "Confirm bottle label, batch/year, barrel selection and proof against the reference.",
+        "Reference expression/edition may differ materially from the venue bottle; source notes remain explicitly conditional."
+      ],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "whistlepig-15-year-estate-oak-rye",
+      "name": "WhistlePig 15 Year Estate Oak Rye",
+      "reviewedAt": "2026-10-03",
+      "status": "reference-reverified",
+      "sources": [
+        {
+          "url": "https://thewhiskystudy.com/ryereviews/whistlepig-15-rye-year-shelf-review",
+          "title": "Whistlepig 15 Year Rye Review - The Whisky Study",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "published tasting reference",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://thewhiskystudy.com/ryereviews/whistlepig-15-rye-year-shelf-review",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn119view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Moved source flowers/tropical/toffee to nose; retained oak/vanilla/lemon/fruit palate."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "whistlepig-18-year-double-malt-rye",
+      "name": "WhistlePig 18 Year Double Malt Rye",
+      "reviewedAt": "2026-10-03",
+      "status": "conditional-reference-reverified",
+      "sources": [
+        {
+          "url": "https://tastingroom.whistlepigwhiskey.com/products/double-malt-rye-aged-18-years-4th-edition-750ml",
+          "title": "Double Malt Rye Aged 18 Years - 4th Edition (750ml)",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "producer",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://tastingroom.whistlepigwhiskey.com/products/double-malt-rye-aged-18-years-4th-edition-750ml",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn127view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Marked fourth-edition PX reference and corrected dried-fruit finish."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [
+        "Confirm bottle label, batch/year, barrel selection and proof against the reference.",
+        "Reference expression/edition may differ materially from the venue bottle; source notes remain explicitly conditional."
+      ],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "whistlepig-farmstock-rye",
+      "name": "WhistlePig FarmStock Rye",
+      "reviewedAt": "2026-10-03",
+      "status": "conditional-reference-reverified",
+      "sources": [
+        {
+          "url": "https://tastingroom.whistlepigwhiskey.com/products/farmstock-rye-750ml",
+          "title": "WhistlePig FarmStock core blend producer tasting room",
+          "type": "producer",
+          "supports": "Reference product tasting description only; venue bottle/release not inspected",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://www.whistlepigwhiskey.com/whiskeys/farmstock",
+        "originalReadable": false,
+        "redirectWithoutProductEvidence": true,
+        "originalRef": "turn123view0",
+        "originalError": null,
+        "fallbacks": [
+          {
+            "id": "whistlepig-farmstock-rye",
+            "url": "https://tastingroom.whistlepigwhiskey.com/products/farmstock-rye-750ml",
+            "retrieved": true,
+            "ref": "turn142view0"
+          }
+        ]
+      },
+      "corrections": [
+        "Core blended FarmStock reference; added chestnut/cigar box and producer warm extended finish."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [
+        "Confirm bottle label, batch/year, barrel selection and proof against the reference."
+      ],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "widow-jane-oak-apple-wood-aged-rye",
+      "name": "Widow Jane Oak & Apple Wood Aged Rye",
+      "reviewedAt": "2026-10-03",
+      "status": "conditional-reference-reverified",
+      "sources": [
+        {
+          "url": "https://www.whiskymonster.com/widow-jane-oak-apple-wood-aged-whiskey-review/",
+          "title": "Widow Jane Oak & Apple Wood Aged",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "published tasting reference",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://www.whiskymonster.com/widow-jane-oak-apple-wood-aged-whiskey-review/",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn120view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Marked historical batch and retained source pepper/apple/caramel finish."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [
+        "Confirm bottle label, batch/year, barrel selection and proof against the reference.",
+        "Reference expression/edition may differ materially from the venue bottle; source notes remain explicitly conditional."
+      ],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "woodford-reserve-rye",
+      "name": "Woodford Reserve Rye",
+      "reviewedAt": "2026-10-03",
+      "status": "reference-reverified",
+      "sources": [
+        {
+          "url": "https://www.woodfordreserve.com/whiskey/rye-whiskey/",
+          "title": "Rye Whiskey",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "producer",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://www.woodfordreserve.com/whiskey/rye-whiskey/",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn126view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Added cassia/marzipan nose; corrected finish to long sweet-toned spice."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "heaven-hill-heritage-collection-20-year-bourbon",
+      "name": "Heaven Hill Heritage Collection 20 Year Corn Whiskey",
+      "reviewedAt": "2026-10-03",
+      "status": "conditional-reference-reverified",
+      "sources": [
+        {
+          "url": "https://blog.heavenhilldistillery.com/detail.php?post_name=heaven-hill-heritage-collections-latest-release",
+          "title": "Heaven Hill Heritage Collection's Latest Release",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "producer",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://blog.heavenhilldistillery.com/detail.php?post_name=heaven-hill-heritage-collections-latest-release",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn124view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Removed unsupported vanilla/caramel; added producer walnut palate and corn-sweet finish."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [
+        "Confirm bottle label, batch/year, barrel selection and proof against the reference."
+      ],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "membership-flight",
+      "name": "Membership Flight",
+      "reviewedAt": "2026-10-03",
+      "status": "unresolved-identity-or-composition",
+      "sources": [],
+      "retrievalAttempts": {
+        "originalUrl": null,
+        "originalReadable": false,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": null,
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Flight composition unresolved; no flavor/ABV inferred."
+      ],
+      "changedFields": [
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [
+        "Identify bottle expression or flight component pours before assigning specific sensory claims."
+      ],
+      "pairingStatus": "No pairing inferred for unresolved identity/composition",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "private-barrel-flight",
+      "name": "Private Barrel Flight",
+      "reviewedAt": "2026-10-03",
+      "status": "unresolved-identity-or-composition",
+      "sources": [],
+      "retrievalAttempts": {
+        "originalUrl": null,
+        "originalReadable": false,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": null,
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Flight composition unresolved; no flavor/ABV inferred."
+      ],
+      "changedFields": [
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [
+        "Identify bottle expression or flight component pours before assigning specific sensory claims."
+      ],
+      "pairingStatus": "No pairing inferred for unresolved identity/composition",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "pappy-flight",
+      "name": "Pappy Flight",
+      "reviewedAt": "2026-10-03",
+      "status": "unresolved-identity-or-composition",
+      "sources": [],
+      "retrievalAttempts": {
+        "originalUrl": null,
+        "originalReadable": false,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": null,
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Flight composition unresolved; no flavor/ABV inferred."
+      ],
+      "changedFields": [
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [
+        "Identify bottle expression or flight component pours before assigning specific sensory claims."
+      ],
+      "pairingStatus": "No pairing inferred for unresolved identity/composition",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    },
+    {
+      "id": "high-west-american-prairie",
+      "name": "High West American Prairie Bourbon",
+      "reviewedAt": "2026-10-03",
+      "status": "conditional-reference-reverified",
+      "sources": [
+        {
+          "url": "https://breakingbourbon.com/review/high-west-bourbon",
+          "title": "High West Bourbon Review",
+          "supports": "Reference product/edition description only; does not verify venue bottle, release or inventory",
+          "type": "published tasting reference",
+          "accessed": "2026-10-03"
+        }
+      ],
+      "retrievalAttempts": {
+        "originalUrl": "https://breakingbourbon.com/review/high-west-bourbon",
+        "originalReadable": true,
+        "redirectWithoutProductEvidence": false,
+        "originalRef": "turn121view0",
+        "originalError": null,
+        "fallbacks": []
+      },
+      "corrections": [
+        "Removed unsupported palate caramel; added reviewed oak/orange and dry-oak/nut finish."
+      ],
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "openQuestions": [
+        "Confirm bottle label, batch/year, barrel selection and proof against the reference."
+      ],
+      "pairingStatus": "Existing dishes retained as conditional editorial suggestions; venue menu not rechecked by this worker",
+      "evidenceScope": "Source-supported reference; no actual venue bottle or inventory confirmation"
+    }
+  ]
+}

@@ -1,5 +1,17 @@
 # Drink and pairing audit — September 6, 2026
 
+## October 3 follow-up — complete category evaluation
+
+The [October 3 category reports](audits/2026-10-03/README.md) account for every one of the 359 stored records (358 distinct profiles). Each active `research.flavorCheck` identifies the type and limits of the latest check. Some checks support exact product notes; others establish only an identity, a reference vintage/release, partial sensory stages or recipe-based expectations. Indexed-only and inaccessible evidence remain identified rather than being counted as fully verified.
+
+This pass corrects aroma/palate transfers, unsupported body and finish precision, reference-vintage ambiguity, recipe-version conflicts and pairing explanations that relied on removed notes. The previous audit is preserved in `audits/2026-10-03/baseline-flavor-audit.json`; the September 18 figures below are historical.
+
+The [venue menu](https://voodoobayou.com/menu/) was retrieved October 3. Corn Ribs now specifies cane vinegar aioli, Parmesan and blackening, replacing its historical cheddar/crema/pork topping. Both linked drink-pairing reasons were updated. The blackening blend and heat level are not specified. Other food source dates are preserved; this does not represent an exhaustive new food or inventory audit.
+
+Supplied training recipes support expected cocktail flavors, not measured finished-drink balance. Differences between the sheet and menu, incomplete batches, unnamed ingredients and unconfirmed served versions remain explicit. Historical recipe lists are retained in the category evidence when active ingredient lists are corrected.
+
+No firsthand tasting, venue bottle-label inspection, current stock confirmation or measured cocktail ABV is claimed. Existing IDs, strengths, dish destinations and pairing counts remain stable. The app's cache version changes so installed clients can refresh the reviewed data.
+
 ## September 18 follow-up — flavor and pairing sweep
 
 Completed a structural and editorial-rule sweep of all 359 stored records (358 distinct profiles) and 696 visible pairing suggestions. This is **not** independent re-verification of every tasting claim. Six profiles received targeted fresh source checks; 353 stored records retain earlier evidence and are explicitly marked as not independently reverified in this pass. No confidence ratings were promoted. All 11 unresolved profiles/flights remain unpaired.

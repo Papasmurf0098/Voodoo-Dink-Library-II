@@ -15,6 +15,12 @@ A drink reference for Voodoo Bayou, Palm Beach Gardens: tasting profiles, qualif
 
 Read [the research audit](RESEARCH_AUDIT.md) for verification limits and corrections. Read [photo credits](ASSET_CREDITS.md) for sources and licenses. The photography does not depict the restaurant or certify individual drinks.
 
+## October 3 category flavor review
+
+All 359 stored records were evaluated by category before the review commit. The [category evidence reports](audits/2026-10-03/README.md) distinguish directly supported reference notes, partial sensory evidence, recipe expectations, source-access limitations and unresolved identities. Evaluation is not a claim that every tasting assertion or venue bottle was verified.
+
+Aroma and palate notes were reconciled, unsupported texture/finish precision was removed or qualified, reference releases and wine vintages were made explicit, and pairing explanations were checked against retained notes and documented dish components. Cocktail recipe conflicts remain visible. Corn Ribs now uses the October 3 menu components; other food item source dates remain intact. No finished-drink ABV or current inventory is inferred.
+
 ## Internal release iterations · September 18, 2026
 
 - Predictable profile Back/Forward and close behavior, including restored collection and reading positions.

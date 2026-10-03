@@ -1,0 +1,4471 @@
+{
+  "checkedAt": "2026-09-18",
+  "scope": "Full structural and editorial-rule sweep, targeted fresh source checks. Not exhaustive independent verification of all tasting claims.",
+  "venueScope": "The menu linked from Palm Beach Gardens was re-read. Online listings are not inventory confirmation. Food source dates remain those of the prior item-level audit.",
+  "counts": {
+    "records": 359,
+    "distinctProfiles": 358,
+    "pairings": 696,
+    "unpaired": 11,
+    "freshlyCheckedProfiles": 6,
+    "retainedEvidenceProfiles": 353,
+    "lowConfidenceProfiles": 30
+  },
+  "profiles": [
+    {
+      "id": "angels-envy-kentucky-straight-bourbon-finished-in-port-wine-barrels",
+      "duplicateOf": null,
+      "flavorEvidence": "targeted-source-check",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [
+        "Producer describes a lingering sweet impression, not the dry finish previously asserted by the chocolate pairing.",
+        "Removed an unsupported or repetitive pairing assertion."
+      ],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": []
+    },
+    {
+      "id": "balcones-texas-pot-still-bourbon",
+      "duplicateOf": null,
+      "flavorEvidence": "targeted-source-check",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [
+        "Restored the published review’s distinction between nose, palate and finish; one reviewed sample is not every venue pour.",
+        "Removed an unsupported or repetitive pairing assertion."
+      ],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": []
+    },
+    {
+      "id": "belle-meade-sour-mash-straight-bourbon-whiskey",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "blantons-single-barrel-voodoo-private-barrel-selection",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Conditional product reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 3,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "blantons-gold-edition",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "bernheim-original-wheat-whiskey",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "buffalo-trace-wheated-bourbon-wheat-recipe-bourbon",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Conditional product reference",
+      "corrections": [],
+      "pairingCount": 0,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Menu says Buffalo Trace Wheated. Kosher Wheat Recipe is a possible match, not a confirmed identification."
+      ]
+    },
+    {
+      "id": "colonel-eh-taylor-jr-barrel-proof",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Conditional product reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 3,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "colonel-eh-taylor-jr-small-batch",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "colonel-eh-taylor-jr-single-barrel",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Conditional product reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 3,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "eagle-rare-10-year",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [
+        "Removed an unsupported or repetitive pairing assertion."
+      ],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "elijah-craig-small-batch",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "elijah-craig-barrel-proof",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Conditional product reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "elijah-craig-toasted-barrel",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "evan-williams-bottled-in-bond-100-proof",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "evan-williams-1783-small-batch",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "evan-williams-black-label",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "four-roses-private-selection",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Conditional product reference",
+      "corrections": [],
+      "pairingCount": 0,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Private selection recipe code, barrel and proof are not published. No single tasting profile applies to all ten recipes."
+      ]
+    },
+    {
+      "id": "george-t-stagg",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Conditional product reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 4,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "heaven-hill-bottled-in-bond-7-year",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "henry-mckenna-single-barrel-bottled-in-bond-10-year",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Conditional product reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 3,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "kavalan-solist-bourbon-cask-strength",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Conditional product reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "kavalan-ex-bourbon-oak-ex-bourbon-matured-expression",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Conditional product reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 4,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "mellow-corn",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "old-charter-oak-chinkapin-oak",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "old-fitzgerald-9-year-bottled-in-bond",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Conditional product reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 4,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "rock-hill-farms-single-barrel-bourbon",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Conditional product reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 3,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "stagg-formerly-stagg-jr",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Conditional product reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "straight-edge-bourbon",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "widow-jane-10-year",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "wild-turkey-rare-breed",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "bardstown-bourbon-company-cabernet-finished-bourbon",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Conditional product reference",
+      "corrections": [],
+      "pairingCount": 0,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Several Bardstown collaborations use Cabernet barrels. The menu does not establish which release is poured."
+      ]
+    },
+    {
+      "id": "belle-meade-single-barrel-bourbon",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Conditional product reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 4,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "breckenridge-bourbon-whiskey",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Conditional product reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "smooth-ambler-contradiction-bourbon",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Conditional product reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 3,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "few-straight-bourbon",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Conditional product reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 3,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "high-west-bourye",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "high-west-campfire",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "horse-soldier-straight-bourbon-whiskey",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "horse-soldier-small-batch-bourbon-whiskey",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "horse-soldier-barrel-strength-bourbon-whiskey",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Conditional product reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 3,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "iron-smoke-straight-bourbon-whiskey",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "jack-daniels-old-no-7-tennessee-whiskey",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Conditional product reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "jack-daniels-single-barrel-select",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Conditional product reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "redemption-high-rye-bourbon",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Conditional product reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "rough-rider-bourbon",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "rough-rider-happy-warrior-straight-bourbon-cask-strength",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Conditional product reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "slaughter-house-american-whiskey",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "tx-straight-bourbon",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "westland-garryana-american-single-malt",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Conditional product reference",
+      "corrections": [],
+      "pairingCount": 0,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Garryana is an annual series. The linked 9th edition is a reference, not confirmation of the venue edition."
+      ]
+    },
+    {
+      "id": "westland-american-single-malt",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Conditional product reference",
+      "corrections": [
+        "Removed an unsupported or repetitive pairing assertion."
+      ],
+      "pairingCount": 2,
+      "pairingCautionCount": 4,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "The older American Oak bottling and current Flagship are distinct. Menu naming does not establish which bottle is stocked."
+      ]
+    },
+    {
+      "id": "wl-weller-special-reserve",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "wl-weller-antique-107",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "old-rip-van-winkle-10-year",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "van-winkle-special-reserve-12-year-lot-b",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "van-winkle-family-reserve-rye-13-year",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "pappy-van-winkle-family-reserve-15-year",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "pappy-van-winkle-family-reserve-20-year",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [
+        "Removed an unsupported or repetitive pairing assertion."
+      ],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "pappy-van-winkle-family-reserve-23-year",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [
+        "Removed an unsupported or repetitive pairing assertion."
+      ],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "auchentoshan-12-year",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "auchentoshan-18-year",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "chivas-regal-12-year",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "compass-box-peat-monster",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "crown-royal-deluxe",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Conditional product reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 3,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "the-glenlivet-12-year",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "the-glenlivet-14-year-cognac-cask-selection",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "the-glenlivet-18-year",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "green-spot",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "jameson-black-barrel",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "jameson-caskmates-ipa-edition",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "jameson-caskmates-stout-edition",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [
+        "Removed an unsupported or repetitive pairing assertion."
+      ],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "lagavulin-16-year",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "laphroaig-10-year",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "the-macallan-12-year",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Conditional product reference",
+      "corrections": [],
+      "pairingCount": 0,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Macallan 12 exists in different cask ranges. Neither Double Cask nor Sherry Oak is confirmed by the menu."
+      ]
+    },
+    {
+      "id": "monkey-shoulder",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "oban-14-year",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "proper-no-twelve",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "redbreast-12-year",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "redbreast-15-year",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "the-sexton",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "tullamore-dew-original",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "yellow-spot-12-year",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "akashi-white-oak-blended-whisky",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "hakushu-12-year",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "hibiki-17-year",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "hibiki-21-year",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "ichiros-malt-grain-world-blended-whisky",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "nikka-coffey-grain-whisky",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "nikka-miyagikyo-single-malt",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [
+        "Removed an unsupported or repetitive pairing assertion."
+      ],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "nikka-taketsuru-pure-malt",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "nikka-yoichi-single-malt",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "suntory-toki",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "most-likely-hibiki-japanese-harmony-or-a-venue-shorthand-conflating-toki-and-harmony",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Conditional product reference",
+      "corrections": [],
+      "pairingCount": 0,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "The menu combines the names Toki and Harmony. Toki and Hibiki Japanese Harmony are separate whiskies; neither is confirmed here."
+      ]
+    },
+    {
+      "id": "angels-envy-finished-rye",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "basil-hayden-dark-rye",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "buffalo-trace-rye-expression",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Conditional product reference",
+      "corrections": [],
+      "pairingCount": 0,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "The menu says Buffalo Trace Rye. Kosher Rye Recipe is bourbon, whereas Kosher Straight Rye is rye whiskey. Bottle identification is unresolved."
+      ]
+    },
+    {
+      "id": "buffalo-trace-straight-rye-whiskey",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Conditional product reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Kosher Straight Rye is only a possible match for this abbreviated menu entry. Its notes do not establish bottle identity."
+      ]
+    },
+    {
+      "id": "bulleit-95-rye",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "elijah-craig-straight-rye",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "high-west-double-rye",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "high-west-rendezvous-rye",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "michters-us1-single-barrel-straight-rye",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Conditional product reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "james-e-pepper-1776-rye-finished-in-sherry-casks",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "james-e-pepper-1776-barrel-proof-rye",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Conditional product reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "james-e-pepper-1776-straight-rye",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "knob-creek-rye",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "pikesville-straight-rye",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "redemption-rye",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "rough-rider-the-big-stick-cask-strength-rye",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Conditional product reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "The catalog calls this cask strength; the standard Big Stick bottling is a different reference. Check the label before using a fixed proof."
+      ]
+    },
+    {
+      "id": "rittenhouse-rye-bottled-in-bond",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "milam-greene-straight-rye-whiskey",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "most-likely-milam-greene-straight-rye-finished-in-port-casks",
+      "duplicateOf": "milam-greene-straight-rye-whiskey",
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "old-forester-rye",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "sagamore-spirit-rye-whiskey",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "sagamore-spirit-double-oak-rye",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "sazerac-rye-6-year",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "sazerac-18-year-rye",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "thomas-h-handy-sazerac-rye",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Conditional product reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "very-olde-st-nick-rye-expression",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Conditional product reference",
+      "corrections": [],
+      "pairingCount": 0,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "The menu gives a brand-level name. Age, release and proof are unresolved."
+      ]
+    },
+    {
+      "id": "very-olde-st-nick-summer-rye",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Conditional product reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "very-olde-st-nick-8-year-rye",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "whistlepig-piggyback-6-year-rye",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [
+        "Removed an unsupported or repetitive pairing assertion."
+      ],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "whistlepig-10-year",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "whistlepig-12-year-private-barrel-old-world-style-rye-selection",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Conditional product reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 4,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "The venue private barrel is not the standard 12-year Old World blend. Standard-product notes are only a tentative comparison."
+      ]
+    },
+    {
+      "id": "whistlepig-15-year-estate-oak-rye",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "whistlepig-18-year-double-malt-rye",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Conditional product reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 3,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "whistlepig-farmstock-rye",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "widow-jane-oak-apple-wood-aged-rye",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Conditional product reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Oak & Apple Wood Aged and newer Applewood Rye releases differ in naming and strength. The exact release is unconfirmed."
+      ]
+    },
+    {
+      "id": "woodford-reserve-rye",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "1792-small-batch",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "amador-double-barrel-bourbon",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Conditional product reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 3,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Amador is abbreviated on the menu; the linked Double Barrel bottling is a provisional match."
+      ]
+    },
+    {
+      "id": "bakers-7-year-single-barrel-bourbon",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Conditional product reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "basil-hayden",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "bookers-bourbon",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Conditional product reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "buffalo-trace-bourbon",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "duke-kentucky-straight-bourbon",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "four-roses-bourbon-formerly-yellow-label",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "four-roses-single-barrel",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Conditional product reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 3,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "four-roses-small-batch",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "garrison-brothers-cowboy-bourbon",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Conditional product reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "garrison-brothers-honeydew-bourbon",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "garrison-brothers-small-batch-bourbon",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "heaven-hill-heritage-collection-20-year-bourbon",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "james-e-pepper-1776-bourbon",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "jeffersons-ocean-aged-at-sea",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "jeffersons-reserve-very-small-batch",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Conditional product reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Venue bottle/release not inspected"
+      ]
+    },
+    {
+      "id": "jeffersons-reserve-very-old-very-small-batch-style-bottling",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Conditional product reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Venue bottle/release not inspected"
+      ]
+    },
+    {
+      "id": "jim-beam-black",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Conditional product reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 3,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Jim Beam Black changed to a 7-year, 90-proof release. Older Extra-Aged bottles have different labeling and strength."
+      ]
+    },
+    {
+      "id": "jim-beam-bonded",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "knob-creek-bourbon",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Conditional product reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 3,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "larceny-small-batch",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "makers-mark",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "makers-mark-46",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "michters-us1-small-batch-bourbon",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "milam-greene-triple-cask-straight-bourbon-whiskey",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "old-fitzgerald-bottled-in-bond-19-year",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "old-forester-1870-original-batch",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "old-forester-1897-bottled-in-bond",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "old-forester-1910-old-fine-whisky",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [
+        "Removed an unsupported or repetitive pairing assertion."
+      ],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "old-forester-1920-prohibition-style",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "old-forester-house-bourbon",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Conditional product reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "The menu does not distinguish 86-proof Old Forester from 100-proof. These notes describe the 86-proof reference."
+      ]
+    },
+    {
+      "id": "rabbit-hole-cavehill-bourbon",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Conditional product reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "russells-reserve-single-barrel-bourbon",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Conditional product reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 3,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "russells-reserve-10-year-old-bourbon",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "woodford-reserve-kentucky-straight-bourbon-whiskey",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "widow-jane-decadence",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "widow-jane-lucky-thirteen",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Conditional product reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "wild-turkey-longbranch",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "yellowstone-select",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "membership-flight",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Menu listing only",
+      "corrections": [],
+      "pairingCount": 0,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Flight composition not published"
+      ]
+    },
+    {
+      "id": "private-barrel-flight",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Menu listing only",
+      "corrections": [],
+      "pairingCount": 0,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Flight composition not published"
+      ]
+    },
+    {
+      "id": "pappy-flight",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Menu listing only",
+      "corrections": [],
+      "pairingCount": 0,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Flight composition not published"
+      ]
+    },
+    {
+      "id": "belvedere-organic-vodka",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "chopin-potato-vodka",
+      "duplicateOf": null,
+      "flavorEvidence": "targeted-source-check",
+      "evidenceBasis": "Conditional product reference",
+      "corrections": [
+        "Removed unsupported grain note from the Potato reference. Venue expression remains unidentified."
+      ],
+      "pairingCount": 2,
+      "pairingCautionCount": 4,
+      "openQuestions": [
+        "Chopin produces potato, rye and wheat vodkas. The menu does not confirm Potato; these notes are conditional."
+      ]
+    },
+    {
+      "id": "grey-goose-vodka",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "svedka-vodka",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "ketel-one-vodka",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "skyy-vodka",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "elit-vodka-by-stoli",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "stoli-vanil",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "titos-handmade-vodka",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "wheatley-vodka",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "amaro-di-angostura",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "amaro-montenegro",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "amaro-nonino-quintessentia",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "aperol",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "campari",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "green-chartreuse",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "yellow-chartreuse",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "cointreau-lunique",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "cynar-70-proof",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "fernet-branca",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "branca-menta",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Conditional product reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 4,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Brancamenta is the probable match for menu “Fernet-Menta”; exact bottle strength needs confirmation."
+      ]
+    },
+    {
+      "id": "grand-marnier-cordon-rouge",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "licor-43-original",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "luxardo-amaretto-di-saschira",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "luxardo-maraschino-originale",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "pernod-absinthe-superieure",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "pimms-no-1-cup",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "stgermain-elderflower-liqueur",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "appleton-estate-12-year-old-rare-casks",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "bacardi-superior-rum",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Conditional product reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 4,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "The menu only says Bacardi; Superior is the reference expression, not a confirmed bottle identification."
+      ]
+    },
+    {
+      "id": "brugal-anejo",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Conditional product reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 3,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "The menu only says Brugal. Añejo and 1888 are distinct; Añejo is a provisional reference and ABV varies by market."
+      ]
+    },
+    {
+      "id": "captain-morgan-original-spiced-rum",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "rhum-clement-canne-bleue",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "cruzan-black-strap-rum",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "diplomatico-reserva-exclusiva",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "goslings-black-seal-rum",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "planteray-3-stars",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "planteray-original-dark",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "planteray-stiggins-fancy-pineapple",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "the-real-mccoy-5-year-aged-rum",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "ron-zacapa-no-23",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Conditional product reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 3,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "“23” is a solera designation, not a statement that all the rum is 23 years old. The menu says Zacapa Centenario without a number."
+      ]
+    },
+    {
+      "id": "santa-teresa-1796",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "sailor-jerry-spiced-rum",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "wray-nephew-white-overproof-rum",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "tequila-avion-reserva-44",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "casamigos-blanco",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 3,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "casamigos-reposado",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "casamigos-anejo",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "clase-azul-tequila-reposado",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "clase-azul-tequila-plata",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 3,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "corazon-tequila-blanco",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 3,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "don-fulano-blanco",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 3,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "don-fulano-reposado",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "don-fulano-anejo",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "don-julio-blanco",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 3,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "don-julio-reposado",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "don-julio-70-cristalino",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "don-julio-1942",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "espolon-blanco",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 3,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "fortaleza-blanco",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 3,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "fortaleza-reposado",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "fortaleza-anejo",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "ghost-blanco-tequila",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Conditional product reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 5,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "The menu says Ghost Tequila. The newer unflavored Blanco and Ghost Spicy are distinct; this Blanco reference does not confirm ghost-pepper infusion."
+      ]
+    },
+    {
+      "id": "herradura-blanco",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 3,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "herradura-reposado",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "herradura-anejo",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "patron-silver",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 3,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "patron-extra-anejo",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "siete-leguas-blanco",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 3,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "siete-leguas-reposado",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "siete-leguas-anejo",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "tapatio-reposado",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "teremana-blanco",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 3,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "teremana-reposado",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "casa-san-matias-gran-reserva-extra-anejo",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "casamigos-mezcal-joven",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "del-maguey-chichicapa",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "del-maguey-tobala",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "del-maguey-vida",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "los-vecinos-del-campo-espadin",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [
+        "Revised pairing rationale to use retained reference characteristics."
+      ],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "aviation-american-gin",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 3,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "beefeater-london-dry-gin",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 3,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "empress-1908-indigo-gin",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 3,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "gray-whale-gin",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 3,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "hendricks-gin",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 3,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "monkey-47-schwarzwald-dry-gin",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 3,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "plymouth-gin",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 3,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Reference drink was not found on the previously retrieved menu; current availability needs confirmation."
+      ]
+    },
+    {
+      "id": "plymouth-sloe-gin",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Reference drink was not found on the previously retrieved menu; current availability needs confirmation."
+      ]
+    },
+    {
+      "id": "sipsmith-london-dry-gin",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 3,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "st-george-botanivore",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 3,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "st-george-terroir-gin",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "the-botanist-islay-dry-gin",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 3,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "laurent-perrier-brut-champagne",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Confirm cuvée and vintage; sweetness, body and tannin can vary."
+      ]
+    },
+    {
+      "id": "opera-prima",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Confirm cuvée and vintage; sweetness, body and tannin can vary."
+      ]
+    },
+    {
+      "id": "perrier-jouet",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Confirm cuvée and vintage; sweetness, body and tannin can vary."
+      ]
+    },
+    {
+      "id": "taittinger",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Confirm cuvée and vintage; sweetness, body and tannin can vary."
+      ]
+    },
+    {
+      "id": "veuve-clicquot-yellow-label",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Confirm cuvée and vintage; sweetness, body and tannin can vary."
+      ]
+    },
+    {
+      "id": "veuve-clicquot-rose",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Confirm cuvée and vintage; sweetness, body and tannin can vary."
+      ]
+    },
+    {
+      "id": "laurent-perrier-rose-brut",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Confirm cuvée and vintage; sweetness, body and tannin can vary."
+      ]
+    },
+    {
+      "id": "moet-chandon",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Confirm cuvée and vintage; sweetness, body and tannin can vary."
+      ]
+    },
+    {
+      "id": "thomas-schmitt",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 3,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Confirm cuvée and vintage; sweetness, body and tannin can vary."
+      ]
+    },
+    {
+      "id": "fleurs-de-prairie",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Confirm cuvée and vintage; sweetness, body and tannin can vary."
+      ]
+    },
+    {
+      "id": "whispering-angel",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Confirm cuvée and vintage; sweetness, body and tannin can vary."
+      ]
+    },
+    {
+      "id": "cave-de-lugny-les-charmes",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Confirm cuvée and vintage; sweetness, body and tannin can vary."
+      ]
+    },
+    {
+      "id": "proverb",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Confirm cuvée and vintage; sweetness, body and tannin can vary."
+      ]
+    },
+    {
+      "id": "chalk-hill",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Confirm cuvée and vintage; sweetness, body and tannin can vary."
+      ]
+    },
+    {
+      "id": "barone-fini",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Confirm cuvée and vintage; sweetness, body and tannin can vary."
+      ]
+    },
+    {
+      "id": "santa-margherita",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Confirm cuvée and vintage; sweetness, body and tannin can vary."
+      ]
+    },
+    {
+      "id": "kim-crawford",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Confirm cuvée and vintage; sweetness, body and tannin can vary."
+      ]
+    },
+    {
+      "id": "wither-hills",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Confirm cuvée and vintage; sweetness, body and tannin can vary."
+      ]
+    },
+    {
+      "id": "far-niente",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Confirm cuvée and vintage; sweetness, body and tannin can vary."
+      ]
+    },
+    {
+      "id": "mannequin",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Confirm cuvée and vintage; sweetness, body and tannin can vary."
+      ]
+    },
+    {
+      "id": "beeker",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [
+        "Removed an unsupported or repetitive pairing assertion.",
+        "Removed an unsupported or repetitive pairing assertion."
+      ],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Confirm cuvée and vintage; sweetness, body and tannin can vary."
+      ]
+    },
+    {
+      "id": "meiomi",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [
+        "Removed an unsupported or repetitive pairing assertion.",
+        "Replaced a generic light-Pinot/fish assumption with a richer dish matching the retained body description."
+      ],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Confirm cuvée and vintage; sweetness, body and tannin can vary."
+      ]
+    },
+    {
+      "id": "belle-glos-clark-telephone",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [
+        "Removed an unsupported or repetitive pairing assertion.",
+        "Replaced a generic light-Pinot/fish assumption with a richer dish matching the retained body description."
+      ],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Confirm cuvée and vintage; sweetness, body and tannin can vary."
+      ]
+    },
+    {
+      "id": "sterling-vintners",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Confirm cuvée and vintage; sweetness, body and tannin can vary."
+      ]
+    },
+    {
+      "id": "terrazas",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Confirm cuvée and vintage; sweetness, body and tannin can vary."
+      ]
+    },
+    {
+      "id": "boneshaker",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Confirm cuvée and vintage; sweetness, body and tannin can vary."
+      ]
+    },
+    {
+      "id": "8-years-in-the-desert",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Confirm cuvée and vintage; sweetness, body and tannin can vary."
+      ]
+    },
+    {
+      "id": "abstract",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Confirm cuvée and vintage; sweetness, body and tannin can vary."
+      ]
+    },
+    {
+      "id": "3-finger-jack",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Confirm cuvée and vintage; sweetness, body and tannin can vary."
+      ]
+    },
+    {
+      "id": "josh-cellars",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Confirm cuvée and vintage; sweetness, body and tannin can vary."
+      ]
+    },
+    {
+      "id": "martin-ray",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Confirm cuvée and vintage; sweetness, body and tannin can vary."
+      ]
+    },
+    {
+      "id": "mise-en-place",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Confirm cuvée and vintage; sweetness, body and tannin can vary."
+      ]
+    },
+    {
+      "id": "silver-oak",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Confirm cuvée and vintage; sweetness, body and tannin can vary."
+      ]
+    },
+    {
+      "id": "caymus",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Confirm cuvée and vintage; sweetness, body and tannin can vary."
+      ]
+    },
+    {
+      "id": "darioush",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Confirm cuvée and vintage; sweetness, body and tannin can vary."
+      ]
+    },
+    {
+      "id": "black-magic-lemonade",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Ingredient-based expectation",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Recipe quantities, dilution and finished-drink balance are unmeasured."
+      ]
+    },
+    {
+      "id": "saint-vallencourt",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Ingredient-based expectation",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Recipe quantities, dilution and finished-drink balance are unmeasured."
+      ]
+    },
+    {
+      "id": "pimp-chalice",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Ingredient-based expectation",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Recipe quantities, dilution and finished-drink balance are unmeasured.",
+        "Reference drink was not found on the previously retrieved menu; current availability needs confirmation."
+      ]
+    },
+    {
+      "id": "voodoo-child",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Ingredient-based expectation",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Recipe quantities, dilution and finished-drink balance are unmeasured.",
+        "Reference drink was not found on the previously retrieved menu; current availability needs confirmation."
+      ]
+    },
+    {
+      "id": "snake-oil-saloon",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Ingredient-based expectation",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Recipe quantities, dilution and finished-drink balance are unmeasured."
+      ]
+    },
+    {
+      "id": "blanche-devereaux-vol-2",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Ingredient-based expectation",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Recipe quantities, dilution and finished-drink balance are unmeasured.",
+        "Reference drink was not found on the previously retrieved menu; current availability needs confirmation."
+      ]
+    },
+    {
+      "id": "lavender-love",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Ingredient-based expectation",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Recipe quantities, dilution and finished-drink balance are unmeasured."
+      ]
+    },
+    {
+      "id": "depeache-mode",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Ingredient-based expectation",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Recipe quantities, dilution and finished-drink balance are unmeasured.",
+        "Reference drink was not found on the previously retrieved menu; current availability needs confirmation."
+      ]
+    },
+    {
+      "id": "turbo-lover-espresso-martini",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Ingredient-based expectation",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Recipe quantities, dilution and finished-drink balance are unmeasured."
+      ]
+    },
+    {
+      "id": "the-mixtress",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Ingredient-based expectation",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Recipe quantities, dilution and finished-drink balance are unmeasured."
+      ]
+    },
+    {
+      "id": "voodoo-smoked-old-fashioned",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Ingredient-based expectation",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Recipe quantities, dilution and finished-drink balance are unmeasured."
+      ]
+    },
+    {
+      "id": "fortunate-son",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Ingredient-based expectation",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Recipe quantities, dilution and finished-drink balance are unmeasured."
+      ]
+    },
+    {
+      "id": "blantons-private-barrel-old-fashioned",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Ingredient-based expectation",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 3,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Base bottle choice unresolved",
+        "Recipe quantities, dilution and finished-drink balance are unmeasured."
+      ]
+    },
+    {
+      "id": "frozen-bourbon-milk-punch",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Ingredient-based expectation",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Recipe quantities, dilution and finished-drink balance are unmeasured."
+      ]
+    },
+    {
+      "id": "frozen-hurricane",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Ingredient-based expectation",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Recipe quantities, dilution and finished-drink balance are unmeasured."
+      ]
+    },
+    {
+      "id": "stella",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "singin-in-havana",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "funky-buddha-floridian",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "abita-purple-haze",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "funky-buddha-hop-gun",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [
+        "Revised pairing rationale to use retained reference characteristics."
+      ],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "spearfish-amber",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "la-fin-du-monde",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "voodoo-ranger",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "bud-light",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "michelob-ultra",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "corona-light",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "victory-golden-monkey",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "abita-andygator",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "high-noon-black-cherry",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "vicki-vallencourt",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Ingredient-based expectation",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Recipe quantities, dilution and finished-drink balance are unmeasured."
+      ]
+    },
+    {
+      "id": "blackberry-lemonade",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Ingredient-based expectation",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Recipe quantities, dilution and finished-drink balance are unmeasured."
+      ]
+    },
+    {
+      "id": "iced-tea",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "southern-sweet-tea",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "bottled-coca-cola",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "abita-root-beer",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "aqua-panna",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 3,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "san-pellegrino",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 3,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "red-bull",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "sugar-free-red-bull",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "eric-louis-pinot-noir",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [
+        "Removed an unsupported or repetitive pairing assertion.",
+        "Removed an unsupported or repetitive pairing assertion."
+      ],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Confirm cuvée and vintage; sweetness, body and tannin can vary."
+      ]
+    },
+    {
+      "id": "the-big-lebowski",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Ingredient-based expectation",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Recipe quantities, dilution and finished-drink balance are unmeasured."
+      ]
+    },
+    {
+      "id": "grasshopper",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Ingredient-based expectation",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Recipe quantities, dilution and finished-drink balance are unmeasured."
+      ]
+    },
+    {
+      "id": "hooo-lawd",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Ingredient-based expectation",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Recipe quantities, dilution and finished-drink balance are unmeasured."
+      ]
+    },
+    {
+      "id": "shakeys-cajun-bloody-mary",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Ingredient-based expectation",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Recipe quantities, dilution and finished-drink balance are unmeasured."
+      ]
+    },
+    {
+      "id": "breakfast-old-fashioned",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Ingredient-based expectation",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Recipe quantities, dilution and finished-drink balance are unmeasured."
+      ]
+    },
+    {
+      "id": "bellini",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Ingredient-based expectation",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Recipe quantities, dilution and finished-drink balance are unmeasured."
+      ]
+    },
+    {
+      "id": "aperol-spritz",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Ingredient-based expectation",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Recipe quantities, dilution and finished-drink balance are unmeasured."
+      ]
+    },
+    {
+      "id": "bottomless-mimosa",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Ingredient-based expectation",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Recipe quantities, dilution and finished-drink balance are unmeasured."
+      ]
+    },
+    {
+      "id": "boujie-mimosa",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Ingredient-based expectation",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Recipe quantities, dilution and finished-drink balance are unmeasured."
+      ]
+    },
+    {
+      "id": "endless-bloody-mary",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Ingredient-based expectation",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Recipe quantities, dilution and finished-drink balance are unmeasured."
+      ]
+    },
+    {
+      "id": "happy-hour-margarita",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Category reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 3,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Menu lists the drink but does not publish a recipe; this is only a category reference.",
+        "Recipe quantities, dilution and finished-drink balance are unmeasured."
+      ]
+    },
+    {
+      "id": "house-old-fashioned",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Category reference",
+      "corrections": [
+        "Removed an unsupported or repetitive pairing assertion."
+      ],
+      "pairingCount": 2,
+      "pairingCautionCount": 3,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Menu lists the drink but does not publish a recipe; this is only a category reference.",
+        "Recipe quantities, dilution and finished-drink balance are unmeasured."
+      ]
+    },
+    {
+      "id": "red-bull-watermelon",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "high-west-american-prairie",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Product-specific reference",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding."
+      ]
+    },
+    {
+      "id": "bourbon-peach-tea",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Ingredient-based expectation",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Recipe quantities, dilution and finished-drink balance are unmeasured."
+      ]
+    },
+    {
+      "id": "verdita",
+      "duplicateOf": null,
+      "flavorEvidence": "targeted-source-check",
+      "evidenceBasis": "Ingredient-based expectation",
+      "corrections": [
+        "Added gin and aromatized-wine contributions as ingredient-led expectations, without inventing their intensity."
+      ],
+      "pairingCount": 2,
+      "pairingCautionCount": 1,
+      "openQuestions": [
+        "Recipe quantities, dilution and finished-drink balance are unmeasured."
+      ]
+    },
+    {
+      "id": "gris-gris-rita",
+      "duplicateOf": null,
+      "flavorEvidence": "targeted-source-check",
+      "evidenceBasis": "Ingredient-based expectation",
+      "corrections": [
+        "Included Munyon’s botanical contribution as an expectation; strength and bitterness remain recipe-dependent."
+      ],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Recipe quantities, dilution and finished-drink balance are unmeasured."
+      ]
+    },
+    {
+      "id": "jameoretto-sour",
+      "duplicateOf": null,
+      "flavorEvidence": "targeted-source-check",
+      "evidenceBasis": "Ingredient-based expectation",
+      "corrections": [
+        "Included Munyon’s botanical contribution as an expectation; strength and bitterness remain recipe-dependent."
+      ],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Recipe quantities, dilution and finished-drink balance are unmeasured."
+      ]
+    },
+    {
+      "id": "blanche-devereaux-vol-3",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Ingredient-based expectation",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 0,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Recipe quantities, dilution and finished-drink balance are unmeasured."
+      ]
+    },
+    {
+      "id": "espresso-old-fashioned",
+      "duplicateOf": null,
+      "flavorEvidence": "inherited-evidence-not-reverified",
+      "evidenceBasis": "Ingredient-based expectation",
+      "corrections": [],
+      "pairingCount": 2,
+      "pairingCautionCount": 2,
+      "openQuestions": [
+        "Independent re-verification of the retained tasting evidence is outstanding.",
+        "Recipe quantities, dilution and finished-drink balance are unmeasured."
+      ]
+    }
+  ]
+}

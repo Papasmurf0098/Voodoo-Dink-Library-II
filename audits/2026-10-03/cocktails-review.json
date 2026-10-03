@@ -1,0 +1,1109 @@
+{
+  "reviewedAt": "2026-10-03",
+  "scope": "All 33 cocktail profiles; 25 supplied build sheets plus fresh venue menu. No finished-drink tasting or current inventory verification.",
+  "entries": [
+    {
+      "id": "black-magic-lemonade",
+      "name": "Black Magic Lemonade",
+      "reviewedAt": "2026-10-03",
+      "status": "ingredient-expectation-reviewed",
+      "confidence": "Medium",
+      "evidence": [
+        {
+          "type": "user-supplied-training-sheet",
+          "path": "assets/build-sheets/black-magic-lemonade.pdf",
+          "sourceDocument": "25 Update lates 9-18.pdf",
+          "extractionChecked": true,
+          "supports": "Named recipe/build and service description; not a firsthand tasting, current stock check or complete batch formulation"
+        },
+        {
+          "type": "venue",
+          "url": "https://voodoobayou.com/menu/",
+          "accessed": "2026-10-03",
+          "supports": "Fresh menu identity/ingredients or absence only; does not confirm current service"
+        }
+      ],
+      "decision": "Blackberries and lemon remain central; rosemary syrup and torched garnish are supported by the supplied sheet. A smoky presentation does not establish smoky bourbon.",
+      "remainingUncertainty": "Ingredient totals and infusion pour differ; do not infer a batch ratio or ABV.",
+      "corrections": [
+        "tasting",
+        "signatureTraits",
+        "tags",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "pairingStatus": "Ingredient-based editorial suggestion; not tested",
+      "directTasting": false
+    },
+    {
+      "id": "saint-vallencourt",
+      "name": "Saint Vallencourt",
+      "reviewedAt": "2026-10-03",
+      "status": "ingredient-expectation-reviewed",
+      "confidence": "Medium",
+      "evidence": [
+        {
+          "type": "user-supplied-training-sheet",
+          "path": "assets/build-sheets/saint-vallencourt.pdf",
+          "sourceDocument": "25 Update lates 9-18.pdf",
+          "extractionChecked": true,
+          "supports": "Named recipe/build and service description; not a firsthand tasting, current stock check or complete batch formulation"
+        },
+        {
+          "type": "venue",
+          "url": "https://voodoobayou.com/menu/",
+          "accessed": "2026-10-03",
+          "supports": "Fresh menu identity/ingredients or absence only; does not confirm current service"
+        }
+      ],
+      "decision": "Strawberry puree, lemon, honey syrup and muddled basil support a fruit/citrus profile with a subtle herbal accent.",
+      "remainingUncertainty": "Menu specifies orange-blossom honey; the sheet says honey syrup without identifying the honey. Batch pour differs from summed measures.",
+      "corrections": [
+        "tasting",
+        "signatureTraits",
+        "tags",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "pairingStatus": "Ingredient-based editorial suggestion; not tested",
+      "directTasting": false
+    },
+    {
+      "id": "pimp-chalice",
+      "name": "Pimp Chalice",
+      "reviewedAt": "2026-10-03",
+      "status": "conditional-source-conflict",
+      "confidence": "Low",
+      "evidence": [
+        {
+          "type": "user-supplied-training-sheet",
+          "path": "assets/build-sheets/pimp-chalice.pdf",
+          "sourceDocument": "25 Update lates 9-18.pdf",
+          "extractionChecked": true,
+          "supports": "Named recipe/build and service description; not a firsthand tasting, current stock check or complete batch formulation"
+        },
+        {
+          "type": "venue",
+          "url": "https://voodoobayou.com/menu/",
+          "accessed": "2026-10-03",
+          "supports": "Fresh menu identity/ingredients or absence only; does not confirm current service"
+        }
+      ],
+      "decision": "Active ingredients now reflect the user-supplied historical training recipe: green apple and yuzu, with honey, egg white and unnamed Pimp Bitters. Removed earlier menu-derived lemon and bergamot rather than combining conflicting recipes.",
+      "remainingUncertainty": "Historical menu-based profile says lemon and bergamot; supplied sheet says yuzu and unnamed Pimp Bitters. Chartreuse color and bitters composition remain unconfirmed.",
+      "corrections": [
+        "tasting",
+        "signatureTraits",
+        "tags",
+        "research",
+        "pairings",
+        "pairingReview",
+        "ingredients"
+      ],
+      "pairingStatus": "Conditional editorial suggestion",
+      "directTasting": false,
+      "priorIngredients": [
+        "Gray Whale Gin",
+        "Grey Goose Vodka",
+        "Chartreuse",
+        "lemon",
+        "green apple",
+        "honey",
+        "egg white",
+        "bergamot"
+      ],
+      "activeRecipeVersion": "Historical supplied training sheet",
+      "replacementIngredients": [
+        "Gray Whale Gin (sheet spells Grey Whale)",
+        "Grey Goose Vodka",
+        "Chartreuse (expression unspecified)",
+        "green apple juice",
+        "yuzu juice",
+        "honey",
+        "egg white",
+        "Pimp Bitters (composition unspecified)"
+      ]
+    },
+    {
+      "id": "voodoo-child",
+      "name": "Voodoo Child",
+      "reviewedAt": "2026-10-03",
+      "status": "historical-recipe-reviewed",
+      "confidence": "Medium",
+      "evidence": [
+        {
+          "type": "user-supplied-training-sheet",
+          "path": "assets/build-sheets/voodoo-child.pdf",
+          "sourceDocument": "25 Update lates 9-18.pdf",
+          "extractionChecked": true,
+          "supports": "Named recipe/build and service description; not a firsthand tasting, current stock check or complete batch formulation"
+        },
+        {
+          "type": "venue",
+          "url": "https://voodoobayou.com/menu/",
+          "accessed": "2026-10-03",
+          "supports": "Fresh menu identity/ingredients or absence only; does not confirm current service"
+        }
+      ],
+      "decision": "Retain yuzu, pomegranate, blood orange, cinnamon and whiskey expectations; egg-white foam is supported. Charcoal is a color ingredient, not smoke evidence.",
+      "remainingUncertainty": "Macallan expression is not specified beyond 12, and its measure lacks a unit. Historical menu absence is not discontinuation.",
+      "corrections": [
+        "tasting",
+        "signatureTraits",
+        "tags",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "pairingStatus": "Conditional editorial suggestion",
+      "directTasting": false
+    },
+    {
+      "id": "snake-oil-saloon",
+      "name": "Snake Oil Salesman",
+      "reviewedAt": "2026-10-03",
+      "status": "ingredient-expectation-reviewed",
+      "confidence": "Medium",
+      "evidence": [
+        {
+          "type": "user-supplied-training-sheet",
+          "path": "assets/build-sheets/snake-oil-saloon.pdf",
+          "sourceDocument": "25 Update lates 9-18.pdf",
+          "extractionChecked": true,
+          "supports": "Named recipe/build and service description; not a firsthand tasting, current stock check or complete batch formulation"
+        },
+        {
+          "type": "venue",
+          "url": "https://voodoobayou.com/menu/",
+          "accessed": "2026-10-03",
+          "supports": "Fresh menu identity/ingredients or absence only; does not confirm current service"
+        }
+      ],
+      "decision": "Ancho Reyes Verde is identified on the sheet. Lime, jalapeño and agave support a spicy sour; mint and Fresno are garnishes.",
+      "remainingUncertainty": "Batch and juice measures cannot be reconciled from this sheet alone; chile heat cannot be quantified. The menu only says Ancho Reyes.",
+      "corrections": [
+        "tasting",
+        "signatureTraits",
+        "tags",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "pairingStatus": "Ingredient-based editorial suggestion; not tested",
+      "directTasting": false
+    },
+    {
+      "id": "blanche-devereaux-vol-2",
+      "name": "Blanche Devereaux Vol. 2",
+      "reviewedAt": "2026-10-03",
+      "status": "historical-recipe-reviewed",
+      "confidence": "Medium",
+      "evidence": [
+        {
+          "type": "user-supplied-training-sheet",
+          "path": "assets/build-sheets/blanche-devereaux-vol-2.pdf",
+          "sourceDocument": "25 Update lates 9-18.pdf",
+          "extractionChecked": true,
+          "supports": "Named recipe/build and service description; not a firsthand tasting, current stock check or complete batch formulation"
+        },
+        {
+          "type": "venue",
+          "url": "https://voodoobayou.com/menu/",
+          "accessed": "2026-10-03",
+          "supports": "Fresh menu identity/ingredients or absence only; does not confirm current service"
+        }
+      ],
+      "decision": "Keep historical Vol. 2 separate: elderflower, grapefruit and cinnamon-vanilla demerara, with lemon identified in the sheet.",
+      "remainingUncertainty": "The build lists grapefruit juice separately from ingredient list. Vol. 2 is absent from the fresh menu; Vol. 3 is a separate recipe.",
+      "corrections": [
+        "tasting",
+        "signatureTraits",
+        "tags",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "pairingStatus": "Conditional editorial suggestion",
+      "directTasting": false
+    },
+    {
+      "id": "lavender-love",
+      "name": "Lavender Love Spell",
+      "reviewedAt": "2026-10-03",
+      "status": "ingredient-expectation-reviewed",
+      "confidence": "Medium",
+      "evidence": [
+        {
+          "type": "user-supplied-training-sheet",
+          "path": "assets/build-sheets/lavender-love.pdf",
+          "sourceDocument": "25 Update lates 9-18.pdf",
+          "extractionChecked": true,
+          "supports": "Named recipe/build and service description; not a firsthand tasting, current stock check or complete batch formulation"
+        },
+        {
+          "type": "venue",
+          "url": "https://voodoobayou.com/menu/",
+          "accessed": "2026-10-03",
+          "supports": "Fresh menu identity/ingredients or absence only; does not confirm current service"
+        }
+      ],
+      "decision": "Lavender, lemon, botanical gin and sparkling wine remain supported. Removed edible rose from active ingredients because it is absent from the fresh menu and supplied training sheet; Love Powder on the sheet is not identified as rose.",
+      "remainingUncertainty": "Empress expression, Champagne bottle and Love Powder composition are unspecified. Measures are supplied but do not establish finished balance.",
+      "corrections": [
+        "tasting",
+        "signatureTraits",
+        "tags",
+        "research",
+        "pairings",
+        "pairingReview",
+        "ingredients"
+      ],
+      "pairingStatus": "Ingredient-based editorial suggestion; not tested",
+      "directTasting": false,
+      "priorIngredients": [
+        "Empress Gin",
+        "lemon",
+        "lavender syrup",
+        "Champagne Brut",
+        "edible rose"
+      ],
+      "activeRecipeVersion": "Fresh menu ingredients; training garnish separately documented",
+      "replacementIngredients": [
+        "Empress Gin",
+        "lemon",
+        "lavender syrup",
+        "Champagne Brut"
+      ]
+    },
+    {
+      "id": "depeache-mode",
+      "name": "DePeache Mode",
+      "reviewedAt": "2026-10-03",
+      "status": "historical-recipe-reviewed",
+      "confidence": "Medium",
+      "evidence": [
+        {
+          "type": "user-supplied-training-sheet",
+          "path": "assets/build-sheets/depeache-mode.pdf",
+          "sourceDocument": "25 Update lates 9-18.pdf",
+          "extractionChecked": true,
+          "supports": "Named recipe/build and service description; not a firsthand tasting, current stock check or complete batch formulation"
+        },
+        {
+          "type": "venue",
+          "url": "https://voodoobayou.com/menu/",
+          "accessed": "2026-10-03",
+          "supports": "Fresh menu identity/ingredients or absence only; does not confirm current service"
+        }
+      ],
+      "decision": "Peach puree, tea infusion, bourbon, pineapple and lemon support fruit-tea expectations; retain historical status.",
+      "remainingUncertainty": "The sheet sums to a different volume from the 4.5 oz batch build; no invented batch correction. This is not the newer Bourbon Peach Tea recipe.",
+      "corrections": [
+        "tasting",
+        "signatureTraits",
+        "tags",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "pairingStatus": "Conditional editorial suggestion",
+      "directTasting": false
+    },
+    {
+      "id": "turbo-lover-espresso-martini",
+      "name": "Turbo Lover Espresso Martini",
+      "reviewedAt": "2026-10-03",
+      "status": "ingredient-expectation-reviewed",
+      "confidence": "Medium",
+      "evidence": [
+        {
+          "type": "user-supplied-training-sheet",
+          "path": "assets/build-sheets/turbo-lover-espresso-martini.pdf",
+          "sourceDocument": "25 Update lates 9-18.pdf",
+          "extractionChecked": true,
+          "supports": "Named recipe/build and service description; not a firsthand tasting, current stock check or complete batch formulation"
+        },
+        {
+          "type": "venue",
+          "url": "https://voodoobayou.com/menu/",
+          "accessed": "2026-10-03",
+          "supports": "Fresh menu identity/ingredients or absence only; does not confirm current service"
+        }
+      ],
+      "decision": "Coffee liqueur, fresh espresso, chai syrup and creme de cacao support coffee/chocolate/spice expectations. Hard shaking is specified, with no cream in the liquid recipe.",
+      "remainingUncertainty": "Borghetti measure lacks its unit, espresso pull volume and dilution are unspecified. Beignet garnish is not evidence that the liquid is dairy-free or allergen-free.",
+      "corrections": [
+        "tasting",
+        "signatureTraits",
+        "tags",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "pairingStatus": "Ingredient-based editorial suggestion; not tested",
+      "directTasting": false
+    },
+    {
+      "id": "the-mixtress",
+      "name": "The Mistress",
+      "reviewedAt": "2026-10-03",
+      "status": "ingredient-expectation-reviewed",
+      "confidence": "Medium",
+      "evidence": [
+        {
+          "type": "user-supplied-training-sheet",
+          "path": "assets/build-sheets/the-mixtress.pdf",
+          "sourceDocument": "25 Update lates 9-18.pdf",
+          "extractionChecked": true,
+          "supports": "Named recipe/build and service description; not a firsthand tasting, current stock check or complete batch formulation"
+        },
+        {
+          "type": "venue",
+          "url": "https://voodoobayou.com/menu/",
+          "accessed": "2026-10-03",
+          "supports": "Fresh menu identity/ingredients or absence only; does not confirm current service"
+        }
+      ],
+      "decision": "The training description explicitly supports passion fruit; this is not inferred solely from the unspecified Chinola expression. Mint garnish may add aroma.",
+      "remainingUncertainty": "Chinola expression and Li Hing Mua preparation are unspecified. Do not invent extra juices or exact salinity.",
+      "corrections": [
+        "tasting",
+        "signatureTraits",
+        "tags",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "pairingStatus": "Ingredient-based editorial suggestion; not tested",
+      "directTasting": false
+    },
+    {
+      "id": "voodoo-smoked-old-fashioned",
+      "name": "Voodoo Smoked Old Fashioned",
+      "reviewedAt": "2026-10-03",
+      "status": "ingredient-expectation-reviewed",
+      "confidence": "Medium",
+      "evidence": [
+        {
+          "type": "user-supplied-training-sheet",
+          "path": "assets/build-sheets/voodoo-smoked-old-fashioned.pdf",
+          "sourceDocument": "25 Update lates 9-18.pdf",
+          "extractionChecked": true,
+          "supports": "Named recipe/build and service description; not a firsthand tasting, current stock check or complete batch formulation"
+        },
+        {
+          "type": "venue",
+          "url": "https://voodoobayou.com/menu/",
+          "accessed": "2026-10-03",
+          "supports": "Fresh menu identity/ingredients or absence only; does not confirm current service"
+        }
+      ],
+      "decision": "Spirit-led bourbon with cinnamon-vanilla demerara and bitters; smoke is a serving aroma, orange peel a garnish.",
+      "remainingUncertainty": "The 4 oz batch build differs from the component measures. Smoke fuel and Voodoo Bitters composition are unspecified.",
+      "corrections": [
+        "tasting",
+        "signatureTraits",
+        "tags",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "pairingStatus": "Ingredient-based editorial suggestion; not tested",
+      "directTasting": false
+    },
+    {
+      "id": "fortunate-son",
+      "name": "Fortunate Son",
+      "reviewedAt": "2026-10-03",
+      "status": "ingredient-expectation-reviewed",
+      "confidence": "Medium",
+      "evidence": [
+        {
+          "type": "user-supplied-training-sheet",
+          "path": "assets/build-sheets/fortunate-son.pdf",
+          "sourceDocument": "25 Update lates 9-18.pdf",
+          "extractionChecked": true,
+          "supports": "Named recipe/build and service description; not a firsthand tasting, current stock check or complete batch formulation"
+        },
+        {
+          "type": "venue",
+          "url": "https://voodoobayou.com/menu/",
+          "accessed": "2026-10-03",
+          "supports": "Fresh menu identity/ingredients or absence only; does not confirm current service"
+        }
+      ],
+      "decision": "Lemon and almond orgeat at equal listed measures support a bourbon sour, with an Angostura float and orange garnish.",
+      "remainingUncertainty": "Menu placement under Spirit Forward is not evidence that the drink is an Old Fashioned or that its sweetness is low.",
+      "corrections": [
+        "tasting",
+        "signatureTraits",
+        "tags",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "pairingStatus": "Ingredient-based editorial suggestion; not tested",
+      "directTasting": false
+    },
+    {
+      "id": "blantons-private-barrel-old-fashioned",
+      "name": "Voodoo Private Barrel Old Fashioned",
+      "reviewedAt": "2026-10-03",
+      "status": "ingredient-expectation-reviewed",
+      "confidence": "Medium",
+      "evidence": [
+        {
+          "type": "venue",
+          "url": "https://voodoobayou.com/menu/",
+          "accessed": "2026-10-03",
+          "supports": "Fresh menu identity/ingredients or absence only; does not confirm current service"
+        }
+      ],
+      "decision": "Fresh menu confirms bitters and sugar cube with alternative private barrels; do not attach a single Blanton's barrel tasting profile.",
+      "remainingUncertainty": "Bottle choice, barrel identity, measures and dilution remain unknown. No corresponding training sheet.",
+      "corrections": [
+        "tasting",
+        "signatureTraits",
+        "tags",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "pairingStatus": "Ingredient-based editorial suggestion; not tested",
+      "directTasting": false
+    },
+    {
+      "id": "frozen-bourbon-milk-punch",
+      "name": "Frozen Bourbon Milk Punch",
+      "reviewedAt": "2026-10-03",
+      "status": "ingredient-expectation-reviewed",
+      "confidence": "Medium",
+      "evidence": [
+        {
+          "type": "user-supplied-training-sheet",
+          "path": "assets/build-sheets/frozen-bourbon-milk-punch.pdf",
+          "sourceDocument": "25 Update lates 9-18.pdf",
+          "extractionChecked": true,
+          "supports": "Named recipe/build and service description; not a firsthand tasting, current stock check or complete batch formulation"
+        },
+        {
+          "type": "venue",
+          "url": "https://voodoobayou.com/menu/",
+          "accessed": "2026-10-03",
+          "supports": "Fresh menu identity/ingredients or absence only; does not confirm current service"
+        }
+      ],
+      "decision": "Milk, sugar, vanilla paste, bourbon and Licor 43 are specified; frozen service and nutmeg garnish support a creamy sweet expectation.",
+      "remainingUncertainty": "Training sheet has no batch quantities. Do not infer ice cream or an exact fat content from milkshake wording.",
+      "corrections": [
+        "tasting",
+        "signatureTraits",
+        "tags",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "pairingStatus": "Ingredient-based editorial suggestion; not tested",
+      "directTasting": false
+    },
+    {
+      "id": "frozen-hurricane",
+      "name": "Frozen Hurricane",
+      "reviewedAt": "2026-10-03",
+      "status": "ingredient-expectation-reviewed",
+      "confidence": "Medium",
+      "evidence": [
+        {
+          "type": "user-supplied-training-sheet",
+          "path": "assets/build-sheets/frozen-hurricane.pdf",
+          "sourceDocument": "25 Update lates 9-18.pdf",
+          "extractionChecked": true,
+          "supports": "Named recipe/build and service description; not a firsthand tasting, current stock check or complete batch formulation"
+        },
+        {
+          "type": "venue",
+          "url": "https://voodoobayou.com/menu/",
+          "accessed": "2026-10-03",
+          "supports": "Fresh menu identity/ingredients or absence only; does not confirm current service"
+        }
+      ],
+      "decision": "Rum and an unspecified Hurricane Mix support fruity/tangy frozen expectations; fresh menu adds broad citrus/tropical/grenadine description.",
+      "remainingUncertainty": "The mix formula and machine batch quantities are not supplied. Do not name passion fruit, pineapple or other specific juices as established ingredients.",
+      "corrections": [
+        "tasting",
+        "signatureTraits",
+        "tags",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "pairingStatus": "Ingredient-based editorial suggestion; not tested",
+      "directTasting": false
+    },
+    {
+      "id": "the-big-lebowski",
+      "name": "The Big Lebowski",
+      "reviewedAt": "2026-10-03",
+      "status": "conditional-source-conflict",
+      "confidence": "Low",
+      "evidence": [
+        {
+          "type": "user-supplied-training-sheet",
+          "path": "assets/build-sheets/the-big-lebowski.pdf",
+          "sourceDocument": "25 Update lates 9-18.pdf",
+          "extractionChecked": true,
+          "supports": "Named recipe/build and service description; not a firsthand tasting, current stock check or complete batch formulation"
+        },
+        {
+          "type": "venue",
+          "url": "https://voodoobayou.com/menu/",
+          "accessed": "2026-10-03",
+          "supports": "Fresh menu identity/ingredients or absence only; does not confirm current service"
+        }
+      ],
+      "decision": "Common supported core is vodka plus coffee liqueur and a cream component; coconut flavor is conditional on the menu version.",
+      "remainingUncertainty": "Fresh menu lists coconut cream while training sheet lists whipped cream. Keep versions explicit and do not claim a single confirmed cream recipe.",
+      "corrections": [
+        "tasting",
+        "signatureTraits",
+        "tags",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "pairingStatus": "Conditional editorial suggestion",
+      "directTasting": false
+    },
+    {
+      "id": "grasshopper",
+      "name": "Grasshopper",
+      "reviewedAt": "2026-10-03",
+      "status": "ingredient-expectation-reviewed",
+      "confidence": "Medium",
+      "evidence": [
+        {
+          "type": "user-supplied-training-sheet",
+          "path": "assets/build-sheets/grasshopper.pdf",
+          "sourceDocument": "25 Update lates 9-18.pdf",
+          "extractionChecked": true,
+          "supports": "Named recipe/build and service description; not a firsthand tasting, current stock check or complete batch formulation"
+        },
+        {
+          "type": "venue",
+          "url": "https://voodoobayou.com/menu/",
+          "accessed": "2026-10-03",
+          "supports": "Fresh menu identity/ingredients or absence only; does not confirm current service"
+        }
+      ],
+      "decision": "Training sheet supports cacao, mint and whipped cream, stirred and layered rather than assuming a classic shaken equal-parts build.",
+      "remainingUncertainty": "Brand-specific cream liqueurs are not present; creme de cacao and creme de menthe do not themselves imply dairy. Finished balance is not tasted.",
+      "corrections": [
+        "tasting",
+        "signatureTraits",
+        "tags",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "pairingStatus": "Ingredient-based editorial suggestion; not tested",
+      "directTasting": false
+    },
+    {
+      "id": "hooo-lawd",
+      "name": "Hooo Lawd",
+      "reviewedAt": "2026-10-03",
+      "status": "ingredient-expectation-reviewed",
+      "confidence": "Medium",
+      "evidence": [
+        {
+          "type": "user-supplied-training-sheet",
+          "path": "assets/build-sheets/hooo-lawd.pdf",
+          "sourceDocument": "25 Update lates 9-18.pdf",
+          "extractionChecked": true,
+          "supports": "Named recipe/build and service description; not a firsthand tasting, current stock check or complete batch formulation"
+        },
+        {
+          "type": "venue",
+          "url": "https://voodoobayou.com/menu/",
+          "accessed": "2026-10-03",
+          "supports": "Fresh menu identity/ingredients or absence only; does not confirm current service"
+        }
+      ],
+      "decision": "Fernet, mint amaro, Borghetti and layered whipped cream support herbal/mint/coffee expectations. Remove unsupported duration claim.",
+      "remainingUncertainty": "The exact mint product is written Fernet Menta on the sheet and Fernet Mentha on the menu. No specific bitterness or sweetness intensity is established.",
+      "corrections": [
+        "tasting",
+        "signatureTraits",
+        "tags",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "pairingStatus": "Ingredient-based editorial suggestion; not tested",
+      "directTasting": false
+    },
+    {
+      "id": "shakeys-cajun-bloody-mary",
+      "name": "Shakey's Cajun Bloody Mary",
+      "reviewedAt": "2026-10-03",
+      "status": "ingredient-expectation-reviewed",
+      "confidence": "Medium",
+      "evidence": [
+        {
+          "type": "user-supplied-training-sheet",
+          "path": "assets/build-sheets/shakeys-cajun-bloody-mary.pdf",
+          "sourceDocument": "25 Update lates 9-18.pdf",
+          "extractionChecked": true,
+          "supports": "Named recipe/build and service description; not a firsthand tasting, current stock check or complete batch formulation"
+        },
+        {
+          "type": "venue",
+          "url": "https://voodoobayou.com/menu/",
+          "accessed": "2026-10-03",
+          "supports": "Fresh menu identity/ingredients or absence only; does not confirm current service"
+        }
+      ],
+      "decision": "Sheet describes mild spice and supports bacon, andouille, shrimp, celery, olives, citrus and Tajin garnish; avoid assigning a high heat level.",
+      "remainingUncertainty": "Bloody Mary mix volume is top-to-glass, not measured. Garnishes are accompaniments and can change perceived aroma; do not treat their solids as blended ingredients.",
+      "corrections": [
+        "tasting",
+        "signatureTraits",
+        "tags",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "pairingStatus": "Ingredient-based editorial suggestion; not tested",
+      "directTasting": false
+    },
+    {
+      "id": "breakfast-old-fashioned",
+      "name": "Breakfast Old Fashioned",
+      "reviewedAt": "2026-10-03",
+      "status": "conditional-source-conflict",
+      "confidence": "Low",
+      "evidence": [
+        {
+          "type": "user-supplied-training-sheet",
+          "path": "assets/build-sheets/breakfast-old-fashioned.pdf",
+          "sourceDocument": "25 Update lates 9-18.pdf",
+          "extractionChecked": true,
+          "supports": "Named recipe/build and service description; not a firsthand tasting, current stock check or complete batch formulation"
+        },
+        {
+          "type": "venue",
+          "url": "https://voodoobayou.com/menu/",
+          "accessed": "2026-10-03",
+          "supports": "Fresh menu identity/ingredients or absence only; does not confirm current service"
+        }
+      ],
+      "decision": "Bacon-infused bourbon, Nonino, orange and aromatic bitters are shared; maple is conditional on menu, brown sugar is the sheet version.",
+      "remainingUncertainty": "Fresh menu lists maple syrup and double-smoked bacon while training sheet uses a brown-sugar cube and thick bacon. Current sweetener requires confirmation.",
+      "corrections": [
+        "tasting",
+        "signatureTraits",
+        "tags",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "pairingStatus": "Conditional editorial suggestion",
+      "directTasting": false
+    },
+    {
+      "id": "bellini",
+      "name": "Bellini",
+      "reviewedAt": "2026-10-03",
+      "status": "ingredient-expectation-reviewed",
+      "confidence": "Medium",
+      "evidence": [
+        {
+          "type": "venue",
+          "url": "https://voodoobayou.com/menu/",
+          "accessed": "2026-10-03",
+          "supports": "Fresh menu identity/ingredients or absence only; does not confirm current service"
+        }
+      ],
+      "decision": "Peach nectar, peach liqueur and sparkling wine support peach/sweet-fruit/bubbles expectations; do not replace Champagne with Prosecco.",
+      "remainingUncertainty": "House proportions and Champagne bottle are unspecified; no matching training sheet.",
+      "corrections": [
+        "tasting",
+        "signatureTraits",
+        "tags",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "pairingStatus": "Ingredient-based editorial suggestion; not tested",
+      "directTasting": false
+    },
+    {
+      "id": "aperol-spritz",
+      "name": "Aperol Spritz",
+      "reviewedAt": "2026-10-03",
+      "status": "ingredient-expectation-reviewed",
+      "confidence": "Medium",
+      "evidence": [
+        {
+          "type": "venue",
+          "url": "https://voodoobayou.com/menu/",
+          "accessed": "2026-10-03",
+          "supports": "Fresh menu identity/ingredients or absence only; does not confirm current service"
+        }
+      ],
+      "decision": "Aperol, sparkling wine and water support bittersweet citrus and bubbles; do not assign a traditional 3:2:1 ratio.",
+      "remainingUncertainty": "Menu specifies Champagne Brut, but no bottle or recipe measures. No matching training sheet.",
+      "corrections": [
+        "tasting",
+        "signatureTraits",
+        "tags",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "pairingStatus": "Ingredient-based editorial suggestion; not tested",
+      "directTasting": false
+    },
+    {
+      "id": "bottomless-mimosa",
+      "name": "Mimosa",
+      "reviewedAt": "2026-10-03",
+      "status": "ingredient-expectation-reviewed",
+      "confidence": "Medium",
+      "evidence": [
+        {
+          "type": "venue",
+          "url": "https://voodoobayou.com/menu/",
+          "accessed": "2026-10-03",
+          "supports": "Fresh menu identity/ingredients or absence only; does not confirm current service"
+        }
+      ],
+      "decision": "Orange juice and Champagne support citrus and bubbles; distinguish ordinary Mimosa from Boujie version.",
+      "remainingUncertainty": "Sparkling wine identity, measures and juice ratio are unknown. Bottomless is a service offer, not an ABV specification.",
+      "corrections": [
+        "tasting",
+        "signatureTraits",
+        "tags",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "pairingStatus": "Ingredient-based editorial suggestion; not tested",
+      "directTasting": false
+    },
+    {
+      "id": "boujie-mimosa",
+      "name": "Boujie Mimosa",
+      "reviewedAt": "2026-10-03",
+      "status": "ingredient-expectation-reviewed",
+      "confidence": "Medium",
+      "evidence": [
+        {
+          "type": "venue",
+          "url": "https://voodoobayou.com/menu/",
+          "accessed": "2026-10-03",
+          "supports": "Fresh menu identity/ingredients or absence only; does not confirm current service"
+        }
+      ],
+      "decision": "Orange juice and named Champagne producer support citrus and sparkling-wine expectations without a cuvee-specific tasting.",
+      "remainingUncertainty": "Moet & Chandon cuvee and house proportions are unspecified. No matching training sheet.",
+      "corrections": [
+        "tasting",
+        "signatureTraits",
+        "tags",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "pairingStatus": "Ingredient-based editorial suggestion; not tested",
+      "directTasting": false
+    },
+    {
+      "id": "endless-bloody-mary",
+      "name": "Endless Bloody Mary",
+      "reviewedAt": "2026-10-03",
+      "status": "ingredient-expectation-reviewed",
+      "confidence": "Medium",
+      "evidence": [
+        {
+          "type": "venue",
+          "url": "https://voodoobayou.com/menu/",
+          "accessed": "2026-10-03",
+          "supports": "Fresh menu identity/ingredients or absence only; does not confirm current service"
+        }
+      ],
+      "decision": "Tomato-style mix and spiced rim support savory/tangy expectations; remove precise fullness assignment.",
+      "remainingUncertainty": "No garnish detail or heat level is specified. Irvine Vodka spelling is retained as venue wording; exact product identity is not resolved.",
+      "corrections": [
+        "tasting",
+        "signatureTraits",
+        "tags",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "pairingStatus": "Ingredient-based editorial suggestion; not tested",
+      "directTasting": false
+    },
+    {
+      "id": "happy-hour-margarita",
+      "name": "Happy Hour Margarita",
+      "reviewedAt": "2026-10-03",
+      "status": "conditional-source-conflict",
+      "confidence": "Low",
+      "evidence": [
+        {
+          "type": "venue",
+          "url": "https://voodoobayou.com/menu/",
+          "accessed": "2026-10-03",
+          "supports": "Fresh menu identity/ingredients or absence only; does not confirm current service"
+        }
+      ],
+      "decision": "Name-only menu listing permits a conditional tequila/citrus style reference; every pairing must be conditional.",
+      "remainingUncertainty": "No house ingredient list or training sheet. Do not borrow Snake Oil or Gris-Gris Rita recipe, or assume orange liqueur.",
+      "corrections": [
+        "tasting",
+        "signatureTraits",
+        "tags",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "pairingStatus": "Conditional editorial suggestion",
+      "directTasting": false
+    },
+    {
+      "id": "house-old-fashioned",
+      "name": "Old Fashioned",
+      "reviewedAt": "2026-10-03",
+      "status": "conditional-source-conflict",
+      "confidence": "Low",
+      "evidence": [
+        {
+          "type": "venue",
+          "url": "https://voodoobayou.com/menu/",
+          "accessed": "2026-10-03",
+          "supports": "Fresh menu identity/ingredients or absence only; does not confirm current service"
+        }
+      ],
+      "decision": "Name-only menu listing permits a conditional whiskey/sugar/bitters style reference; pairings remain conditional.",
+      "remainingUncertainty": "No house recipe or training sheet. Do not borrow the Smoked or Private Barrel builds, bourbon brand or proof.",
+      "corrections": [
+        "tasting",
+        "signatureTraits",
+        "tags",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "pairingStatus": "Conditional editorial suggestion",
+      "directTasting": false
+    },
+    {
+      "id": "bourbon-peach-tea",
+      "name": "Bourbon Peach Tea",
+      "reviewedAt": "2026-10-03",
+      "status": "ingredient-expectation-reviewed",
+      "confidence": "Medium",
+      "evidence": [
+        {
+          "type": "user-supplied-training-sheet",
+          "path": "assets/build-sheets/bourbon-peach-tea.pdf",
+          "sourceDocument": "25 Update lates 9-18.pdf",
+          "extractionChecked": true,
+          "supports": "Named recipe/build and service description; not a firsthand tasting, current stock check or complete batch formulation"
+        },
+        {
+          "type": "venue",
+          "url": "https://voodoobayou.com/menu/",
+          "accessed": "2026-10-03",
+          "supports": "Fresh menu identity/ingredients or absence only; does not confirm current service"
+        }
+      ],
+      "decision": "Supplied sheet supports peach-infused bourbon, peach oleo, peach tea syrup, tea cordial, brewed tea and saline. Do not equate Orchard Solution with a known citrus-juice recipe.",
+      "remainingUncertainty": "House tea, oleo, cordial and Orchard Solution recipes are missing. Measures are supplied, but batch composition and solution strength are not.",
+      "corrections": [
+        "tasting",
+        "signatureTraits",
+        "tags",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "pairingStatus": "Ingredient-based editorial suggestion; not tested",
+      "directTasting": false
+    },
+    {
+      "id": "verdita",
+      "name": "Verdita",
+      "reviewedAt": "2026-10-03",
+      "status": "ingredient-expectation-reviewed",
+      "confidence": "Medium",
+      "evidence": [
+        {
+          "type": "user-supplied-training-sheet",
+          "path": "assets/build-sheets/verdita.pdf",
+          "sourceDocument": "25 Update lates 9-18.pdf",
+          "extractionChecked": true,
+          "supports": "Named recipe/build and service description; not a firsthand tasting, current stock check or complete batch formulation"
+        },
+        {
+          "type": "venue",
+          "url": "https://voodoobayou.com/menu/",
+          "accessed": "2026-10-03",
+          "supports": "Fresh menu identity/ingredients or absence only; does not confirm current service"
+        }
+      ],
+      "decision": "Training sheet identifies Chareau aloe liqueur and pear preparation; current menu supports herbs and vanilla. Keep expectation herbal/citrus/pear, not a precise juniper intensity.",
+      "remainingUncertainty": "Pear Verdita and Lady Creme Syrup formulations are not supplied; the sheet does not independently spell out cilantro, mint or vanilla. Ingredient measures and batched build differ.",
+      "corrections": [
+        "tasting",
+        "signatureTraits",
+        "tags",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "pairingStatus": "Ingredient-based editorial suggestion; not tested",
+      "directTasting": false
+    },
+    {
+      "id": "gris-gris-rita",
+      "name": "Gris-Gris Rita",
+      "reviewedAt": "2026-10-03",
+      "status": "ingredient-expectation-reviewed",
+      "confidence": "Medium",
+      "evidence": [
+        {
+          "type": "user-supplied-training-sheet",
+          "path": "assets/build-sheets/gris-gris-rita.pdf",
+          "sourceDocument": "25 Update lates 9-18.pdf",
+          "extractionChecked": true,
+          "supports": "Named recipe/build and service description; not a firsthand tasting, current stock check or complete batch formulation"
+        },
+        {
+          "type": "venue",
+          "url": "https://voodoobayou.com/menu/",
+          "accessed": "2026-10-03",
+          "supports": "Fresh menu identity/ingredients or absence only; does not confirm current service"
+        }
+      ],
+      "decision": "Roasted bell pepper, lime, tequila and pepper-pineapple cordial support savory/tart/fruit expectations. Bell pepper alone does not establish chile heat.",
+      "remainingUncertainty": "Rim composition is unspecified in the sheet; current menu specifies Tony Chachere's. Corn Ribs pairing must reflect fresh Parmesan/aioli/blackening rather than old cheddar/crema/pork components.",
+      "corrections": [
+        "tasting",
+        "signatureTraits",
+        "tags",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "pairingStatus": "Ingredient-based editorial suggestion; not tested",
+      "directTasting": false
+    },
+    {
+      "id": "jameoretto-sour",
+      "name": "Jameo’retto Sour",
+      "reviewedAt": "2026-10-03",
+      "status": "ingredient-expectation-reviewed",
+      "confidence": "Medium",
+      "evidence": [
+        {
+          "type": "user-supplied-training-sheet",
+          "path": "assets/build-sheets/jameoretto-sour.pdf",
+          "sourceDocument": "25 Update lates 9-18.pdf",
+          "extractionChecked": true,
+          "supports": "Named recipe/build and service description; not a firsthand tasting, current stock check or complete batch formulation"
+        },
+        {
+          "type": "venue",
+          "url": "https://voodoobayou.com/menu/",
+          "accessed": "2026-10-03",
+          "supports": "Fresh menu identity/ingredients or absence only; does not confirm current service"
+        }
+      ],
+      "decision": "Amaretto, citrus, whiskey and thyme are supported; smoked thyme garnish contributes aroma, not smoky whiskey. No egg white is in the supplied build.",
+      "remainingUncertainty": "Citrus Sherbet is an unspecified house preparation; do not infer frozen dairy or an allergen-free recipe. No exact sweet-tart balance is established.",
+      "corrections": [
+        "tasting",
+        "signatureTraits",
+        "tags",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "pairingStatus": "Ingredient-based editorial suggestion; not tested",
+      "directTasting": false
+    },
+    {
+      "id": "blanche-devereaux-vol-3",
+      "name": "Blanche Devereaux Vol. 3",
+      "reviewedAt": "2026-10-03",
+      "status": "ingredient-expectation-reviewed",
+      "confidence": "Medium",
+      "evidence": [
+        {
+          "type": "user-supplied-training-sheet",
+          "path": "assets/build-sheets/blanche-devereaux-vol-3.pdf",
+          "sourceDocument": "25 Update lates 9-18.pdf",
+          "extractionChecked": true,
+          "supports": "Named recipe/build and service description; not a firsthand tasting, current stock check or complete batch formulation"
+        },
+        {
+          "type": "venue",
+          "url": "https://voodoobayou.com/menu/",
+          "accessed": "2026-10-03",
+          "supports": "Fresh menu identity/ingredients or absence only; does not confirm current service"
+        }
+      ],
+      "decision": "Grapefruit, lime, amaretto and orgeat support a tequila sour; smoked-cinnamon glass supplies aroma and named bitters add aromatic accents.",
+      "remainingUncertainty": "Vol. 3 bitters are Angostura, black walnut and cherry; their intensity is not known. Batched pour and ingredient measures differ. Do not import Vol. 2 elderflower.",
+      "corrections": [
+        "tasting",
+        "signatureTraits",
+        "tags",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "pairingStatus": "Ingredient-based editorial suggestion; not tested",
+      "directTasting": false
+    },
+    {
+      "id": "espresso-old-fashioned",
+      "name": "Espresso Old Fashioned",
+      "reviewedAt": "2026-10-03",
+      "status": "ingredient-expectation-reviewed",
+      "confidence": "Medium",
+      "evidence": [
+        {
+          "type": "user-supplied-training-sheet",
+          "path": "assets/build-sheets/espresso-old-fashioned.pdf",
+          "sourceDocument": "25 Update lates 9-18.pdf",
+          "extractionChecked": true,
+          "supports": "Named recipe/build and service description; not a firsthand tasting, current stock check or complete batch formulation"
+        },
+        {
+          "type": "venue",
+          "url": "https://voodoobayou.com/menu/",
+          "accessed": "2026-10-03",
+          "supports": "Fresh menu identity/ingredients or absence only; does not confirm current service"
+        }
+      ],
+      "decision": "Training sheet identifies Hoodoo chicory liqueur, orange bitters, saline and Lady Creme Tea Syrup alongside cognac, rye, Licor 43 and espresso.",
+      "remainingUncertainty": "Espresso pull and dilution are not measured; Lady Creme Tea Syrup composition is not provided. The menu's vanilla note is not a separately documented vanilla measure.",
+      "corrections": [
+        "tasting",
+        "signatureTraits",
+        "tags",
+        "research",
+        "pairings",
+        "pairingReview"
+      ],
+      "pairingStatus": "Ingredient-based editorial suggestion; not tested",
+      "directTasting": false
+    }
+  ]
+}

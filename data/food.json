@@ -399,15 +399,23 @@
     {
       "id": "corn-ribs",
       "name": "Corn Ribs",
-      "components": "Chipotle cheddar sauce, smoked pork belly, crispy garlic, Mexican crema and green onion",
+      "components": "Cane vinegar aioli, Parmesan and blackening",
       "service": "Lunch / Dinner",
       "sourceUrl": "https://voodoobayou.com/menu/",
-      "checkedAt": "2026-09-07",
+      "checkedAt": "2026-10-03",
       "status": "listed",
       "addedAt": "2026-09-07",
       "aliases": [
         "SCorn Ribs"
-      ]
+      ],
+      "menuHistory": [
+        {
+          "replacedAt": "2026-10-03",
+          "components": "Chipotle cheddar sauce, smoked pork belly, crispy garlic, Mexican crema and green onion",
+          "checkedAt": "2026-09-07"
+        }
+      ],
+      "note": "Menu rechecked October 3, 2026; prior cheddar, crema and pork topping is historical. Blackening seasoning composition and heat level are unspecified."
     },
     {
       "id": "cajun-crab-hushpuppies",
