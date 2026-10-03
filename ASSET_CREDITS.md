@@ -17,3 +17,11 @@ Downloaded September 6, 2026. Atmospheric stock crops are decorative and exclude
 Generation prompt:
 
 > Use case: product-mockup. Asset type: photographic website hero, landscape 3:2 composition. Create a photorealistic luxury bar still life: exactly four separate drinking vessels on one polished dark silver oval serving tray, all fully visible. Left to right: tall stemmed wine glass containing red wine at x22%; small clear shot glass with clear spirit at x40%; heavy faceted old fashioned tumbler with amber bourbon, one large ice cube and orange twist at x60%; elegant stemmed coupe cocktail glass with pale golden green cocktail and lime garnish at x80%. Keep glasses distinct with no overlapping silhouettes, tray spans bottom 25%, all glasses within central 85% width. Backdrop near-black obsidian purple, soft violet atmospheric light, precise yellow-gold and emerald-green rim highlights and rich real glass reflections. Dramatic premium studio photography with razor-sharp glass edges and convincing transparent refraction, subtle condensation, no people. Background clean and dark for web overlays. No text, no labels, no buttons, no symbols, no watermarks, no additional glasses. Front three-quarter camera view slightly above the tray. This is an image asset not a screenshot or complete website.
+
+## Amethyst marble — October 3, 2026
+
+`assets/amethyst-marble.webp` is a generated decorative stone texture, encoded as WebP at 1536 × 1024 (approximately 284 KB). It is not venue photography.
+
+Generation direction: polished natural amethyst marble in aubergine, violet, plum and indigo; irregular mineral veins, restrained champagne-gold seams and a broad soft reflection; dark enough for the site's layered reading surfaces. No lettering, objects or logos. Gloss and glowing accents are added separately in CSS.
+
+The rotary drink index reuses the illustrative photographs credited above and the generated drink tray. Its labels and navigation are HTML, not baked into the imagery.
