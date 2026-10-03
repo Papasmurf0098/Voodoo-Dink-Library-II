@@ -9,13 +9,13 @@ const desserts = new Set(['chocolate', 'date-cake', 'elvis', 'beignets', 'holy-s
 const sweetDishes = new Set([...desserts, 'waffles']);
 const delicateDishes = new Set(['raw-oysters', 'wood-oysters', 'garden-district-ceviche', 'salmon-tartare', 'pear', 'roasted-peach-salad', 'eggs', 'crab']);
 // These dishes explicitly list chile-bearing components; this is not an exhaustive heat rating.
-const chileDishes = new Set(['gator', 'wings', 'corn-ribs', 'garden-district-ceviche', 'fried-chicken', 'etouffee', 'redfish', 'filet', 'ribeye', 'wood-oysters']);
+const chileDishes = new Set(['gator', 'wings', 'garden-district-ceviche', 'fried-chicken', 'etouffee', 'redfish', 'filet', 'ribeye', 'wood-oysters']);
 
 export function pairingGuidance(entry, pair) {
   const notes = [];
   const spirit = ['Whiskey', 'Spirit'].includes(entry.family);
   const alcoholic = ['Whiskey', 'Spirit', 'Wine', 'Cocktail', 'Beer', 'RTD'].includes(entry.family);
-  const hoppy = entry.family === 'Beer' && /\bIPA\b|\bhops?\b/i.test([entry.subtype, ...(entry.tasting?.flavor || [])].join(' '));
+  const hoppy = entry.family === 'Beer' && /\bIPA\b|\bindia pale ale\b|\bhops?\b/i.test([entry.subtype, ...(entry.tasting?.flavor || [])].join(' '));
   if (entry.pairingReview?.conditional || pair.conditional) notes.push('Confirm the bottle or recipe first; this match uses the reference profile.');
   if (spirit && delicateDishes.has(pair.dishId)) notes.push('A neat spirit may overpower this dish. Consider a small taste with water or ice; dilution changes the profile.');
   if (alcoholic && chileDishes.has(pair.dishId)) notes.push(hoppy

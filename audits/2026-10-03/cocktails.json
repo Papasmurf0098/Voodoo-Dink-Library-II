@@ -1,0 +1,3105 @@
+{
+  "reviewedAt": "2026-10-03",
+  "entries": [
+    {
+      "id": "black-magic-lemonade",
+      "tasting": {
+        "aroma": [
+          "Blackberry",
+          "lemon",
+          "torched rosemary garnish"
+        ],
+        "flavor": [
+          "Blackberry",
+          "tart lemon",
+          "rosemary syrup",
+          "bourbon"
+        ],
+        "body": "Expected from the documented ingredients/build: juicy; balance depends on the house proportions.",
+        "finish": "Citrus and herbal aroma, with bourbon warmth."
+      },
+      "signatureTraits": [
+        "Expected: Blackberry · tart lemon · rosemary syrup"
+      ],
+      "tags": [
+        "Cocktail",
+        "Blackberry",
+        "tart lemon",
+        "rosemary syrup",
+        "bourbon"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Ingredient/build-based expectation",
+        "ambiguityStatus": "Ingredient totals and infusion pour differ; do not infer a batch ratio or ABV.",
+        "caveats": [
+          "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+          "Ingredient totals and infusion pour differ; do not infer a batch ratio or ABV."
+        ],
+        "sources": [
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou — menu linked from Palm Beach Gardens",
+            "supports": "Menu identity and ingredients only; flavor and texture are editorial inferences",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou live menu",
+            "supports": "Cocktail identity, ingredients and historical absence; no current service or finished tasting guarantee",
+            "type": "venue",
+            "accessed": "2026-10-03"
+          },
+          {
+            "url": "https://github.com/Papasmurf0098/Voodoo-Dink-Library-II/blob/main/assets/build-sheets/black-magic-lemonade.pdf",
+            "title": "User-supplied training build — Black Magic Lemonade",
+            "supports": "Recipe ingredients/build; recipe-version caveats apply; not firsthand tasting or current service",
+            "type": "user-supplied-recipe",
+            "accessed": "2026-10-03"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "venue",
+          "user-supplied-recipe"
+        ],
+        "tastingBasis": "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+        "resolution": "Blackberries and lemon remain central; rosemary syrup and torched garnish are supported by the supplied sheet. A smoky presentation does not establish smoky bourbon.",
+        "conflictsFound": "Ingredient totals and infusion pour differ; do not infer a batch ratio or ABV.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "recipe-and-menu-source-check",
+          "summary": "Blackberries and lemon remain central; rosemary syrup and torched garnish are supported by the supplied sheet. A smoky presentation does not establish smoky bourbon."
+        }
+      },
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "roast-chicken",
+            "name": "Brick Oven Roasted Chicken",
+            "reason": "Rosemary and bourbon meet the herb butter and bourbon jus; blackberry and lemon add contrast.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "pear",
+            "name": "Pear & Pecan Salad",
+            "reason": "Blackberry connects with black cherry, while lemon meets the goat cheese’s tang.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial pairing suggestions, not restaurant endorsements or tested pairings. Menu components checked October 3; availability and recipe version require confirmation.",
+        "conditional": false,
+        "rulesCheckedAt": "2026-10-03"
+      }
+    },
+    {
+      "id": "saint-vallencourt",
+      "tasting": {
+        "aroma": [
+          "Strawberry",
+          "basil",
+          "citrus"
+        ],
+        "flavor": [
+          "Strawberry puree",
+          "tart lemon",
+          "honey sweetness",
+          "subtle basil expected from training description"
+        ],
+        "body": "Expected from the documented ingredients/build: fruit-led and rounded by honey.",
+        "finish": "Lemon and basil; vodka contributes warmth rather than oak flavor."
+      },
+      "signatureTraits": [
+        "Expected: Strawberry puree · tart lemon · honey sweetness"
+      ],
+      "tags": [
+        "Cocktail",
+        "Strawberry puree",
+        "tart lemon",
+        "honey sweetness",
+        "subtle basil expected from training description"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Ingredient/build-based expectation",
+        "ambiguityStatus": "Menu specifies orange-blossom honey; the sheet says honey syrup without identifying the honey. Batch pour differs from summed measures.",
+        "caveats": [
+          "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+          "Menu specifies orange-blossom honey; the sheet says honey syrup without identifying the honey. Batch pour differs from summed measures."
+        ],
+        "sources": [
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou — menu linked from Palm Beach Gardens",
+            "supports": "Menu identity and ingredients only; flavor and texture are editorial inferences",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou live menu",
+            "supports": "Cocktail identity, ingredients and historical absence; no current service or finished tasting guarantee",
+            "type": "venue",
+            "accessed": "2026-10-03"
+          },
+          {
+            "url": "https://github.com/Papasmurf0098/Voodoo-Dink-Library-II/blob/main/assets/build-sheets/saint-vallencourt.pdf",
+            "title": "User-supplied training build — Saint Vallencourt",
+            "supports": "Recipe ingredients/build; recipe-version caveats apply; not firsthand tasting or current service",
+            "type": "user-supplied-recipe",
+            "accessed": "2026-10-03"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "venue",
+          "user-supplied-recipe"
+        ],
+        "tastingBasis": "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+        "resolution": "Strawberry puree, lemon, honey syrup and muddled basil support a fruit/citrus profile with a subtle herbal accent.",
+        "conflictsFound": "Menu specifies orange-blossom honey; the sheet says honey syrup without identifying the honey. Batch pour differs from summed measures.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "recipe-and-menu-source-check",
+          "summary": "Strawberry puree, lemon, honey syrup and muddled basil support a fruit/citrus profile with a subtle herbal accent."
+        }
+      },
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "roasted-peach-salad",
+            "name": "Roasted Peach Salad",
+            "reason": "Fruit notes complement roasted peach; lemon-thyme vinaigrette adds brightness against the drink and creamy ricotta.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "crab",
+            "name": "Jumbo Lump Crab Cake",
+            "reason": "Lemon freshness offsets the crab cake’s richness without strong tannin.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial pairing suggestions, not restaurant endorsements or tested pairings. Menu components checked October 3; availability and recipe version require confirmation.",
+        "conditional": false,
+        "rulesCheckedAt": "2026-10-03"
+      }
+    },
+    {
+      "id": "pimp-chalice",
+      "tasting": {
+        "aroma": [
+          "Green apple",
+          "yuzu",
+          "herbal botanicals"
+        ],
+        "flavor": [
+          "Green apple",
+          "tart yuzu",
+          "honey sweetness",
+          "herbal liqueur"
+        ],
+        "body": "Expected egg-white foam from the dry/wet shaken training build.",
+        "finish": "Citrus and herbal character expected; no established bergamot or lemon in the supplied recipe."
+      },
+      "signatureTraits": [
+        "Expected: Green apple · tart yuzu · honey sweetness"
+      ],
+      "tags": [
+        "Cocktail",
+        "Green apple",
+        "tart yuzu",
+        "honey sweetness",
+        "herbal liqueur"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Low",
+        "profileLevel": "Conditional recipe reference",
+        "ambiguityStatus": "Historical menu-based profile says lemon and bergamot; supplied sheet says yuzu and unnamed Pimp Bitters. Chartreuse color and bitters composition remain unconfirmed.",
+        "caveats": [
+          "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+          "Historical menu-based profile says lemon and bergamot; supplied sheet says yuzu and unnamed Pimp Bitters. Chartreuse color and bitters composition remain unconfirmed.",
+          "Historical training-sheet recipe is the active reference; this drink is absent from the menu checked October 3. The sheet spells Grey Whale; the established brand spelling Gray Whale is retained with that transcription discrepancy explicit."
+        ],
+        "sources": [
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou — menu linked from Palm Beach Gardens",
+            "supports": "Menu identity and ingredients only; flavor and texture are editorial inferences",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou live menu",
+            "supports": "Cocktail identity, ingredients and historical absence; no current service or finished tasting guarantee",
+            "type": "venue",
+            "accessed": "2026-10-03"
+          },
+          {
+            "url": "https://github.com/Papasmurf0098/Voodoo-Dink-Library-II/blob/main/assets/build-sheets/pimp-chalice.pdf",
+            "title": "User-supplied training build — Pimp Chalice",
+            "supports": "Recipe ingredients/build; recipe-version caveats apply; not firsthand tasting or current service",
+            "type": "user-supplied-recipe",
+            "accessed": "2026-10-03"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "venue",
+          "user-supplied-recipe"
+        ],
+        "tastingBasis": "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+        "resolution": "Active ingredients now reflect the user-supplied historical training recipe: green apple and yuzu, with honey, egg white and unnamed Pimp Bitters. Removed earlier menu-derived lemon and bergamot rather than combining conflicting recipes.",
+        "conflictsFound": "Historical menu-based profile says lemon and bergamot; supplied sheet says yuzu and unnamed Pimp Bitters. Chartreuse color and bitters composition remain unconfirmed.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "recipe-and-menu-source-check",
+          "summary": "Supplied historical recipe uses green apple and yuzu; remove lemon and bergamot from the recipe-based tasting and pairings."
+        }
+      },
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "eggs",
+            "name": "Deviled Eggs",
+            "reason": "If the supplied yuzu/green-apple recipe is used, its citrus and herbal notes could contrast with creamy egg and complement Dijon and chive.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "garden-district-ceviche",
+            "name": "Garden District Ceviche",
+            "reason": "If the supplied yuzu/green-apple recipe is used, citrus and herbs could accompany the citrus tomato water and vegetables; the strong botanical liqueur may dominate delicate fish.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial pairing suggestions, not restaurant endorsements or tested pairings. Menu components checked October 3; availability and recipe version require confirmation.",
+        "conditional": true,
+        "rulesCheckedAt": "2026-10-03"
+      },
+      "ingredients": [
+        "Gray Whale Gin (sheet spells Grey Whale)",
+        "Grey Goose Vodka",
+        "Chartreuse (expression unspecified)",
+        "green apple juice",
+        "yuzu juice",
+        "honey",
+        "egg white",
+        "Pimp Bitters (composition unspecified)"
+      ]
+    },
+    {
+      "id": "voodoo-child",
+      "tasting": {
+        "aroma": [
+          "Citrus",
+          "cinnamon",
+          "whiskey"
+        ],
+        "flavor": [
+          "Tart yuzu",
+          "pomegranate",
+          "blood orange",
+          "cinnamon demerara",
+          "whiskey"
+        ],
+        "body": "Expected from the documented ingredients/build: egg-white foam softens the citrus-driven whiskey sour structure.",
+        "finish": "Citrus, cinnamon and whiskey warmth. Charcoal alone does not establish smoky flavor."
+      },
+      "signatureTraits": [
+        "Expected: Tart yuzu · pomegranate · blood orange"
+      ],
+      "tags": [
+        "Cocktail",
+        "Tart yuzu",
+        "pomegranate",
+        "blood orange",
+        "cinnamon demerara",
+        "whiskey"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Ingredient/build-based expectation",
+        "ambiguityStatus": "Macallan expression is not specified beyond 12, and its measure lacks a unit. Historical menu absence is not discontinuation.",
+        "caveats": [
+          "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+          "Macallan expression is not specified beyond 12, and its measure lacks a unit. Historical menu absence is not discontinuation."
+        ],
+        "sources": [
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou — menu linked from Palm Beach Gardens",
+            "supports": "Menu identity and ingredients only; flavor and texture are editorial inferences",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou live menu",
+            "supports": "Cocktail identity, ingredients and historical absence; no current service or finished tasting guarantee",
+            "type": "venue",
+            "accessed": "2026-10-03"
+          },
+          {
+            "url": "https://github.com/Papasmurf0098/Voodoo-Dink-Library-II/blob/main/assets/build-sheets/voodoo-child.pdf",
+            "title": "User-supplied training build — Voodoo Child",
+            "supports": "Recipe ingredients/build; recipe-version caveats apply; not firsthand tasting or current service",
+            "type": "user-supplied-recipe",
+            "accessed": "2026-10-03"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "venue",
+          "user-supplied-recipe"
+        ],
+        "tastingBasis": "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+        "resolution": "Retain yuzu, pomegranate, blood orange, cinnamon and whiskey expectations; egg-white foam is supported. Charcoal is a color ingredient, not smoke evidence.",
+        "conflictsFound": "Macallan expression is not specified beyond 12, and its measure lacks a unit. Historical menu absence is not discontinuation.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "recipe-and-menu-source-check",
+          "summary": "Retain yuzu, pomegranate, blood orange, cinnamon and whiskey expectations; egg-white foam is supported. Charcoal is a color ingredient, not smoke evidence."
+        }
+      },
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "tomato",
+            "name": "Fried Green Tomato",
+            "reason": "If this historical recipe is served: tart citrus and pomegranate contrast with rich pork belly and pimento cheese.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "roast-chicken",
+            "name": "Brick Oven Roasted Chicken",
+            "reason": "If this historical recipe is served: cinnamon and whiskey link to bourbon jus, while citrus adds brightness.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial pairing suggestions, not restaurant endorsements or tested pairings. Menu components checked October 3; availability and recipe version require confirmation.",
+        "conditional": true,
+        "rulesCheckedAt": "2026-10-03"
+      }
+    },
+    {
+      "id": "snake-oil-saloon",
+      "tasting": {
+        "aroma": [
+          "Lime",
+          "jalapeño",
+          "mint garnish"
+        ],
+        "flavor": [
+          "Lime tartness",
+          "green chile",
+          "agave sweetness",
+          "chile seasoning"
+        ],
+        "body": "Expected sour structure rounded by agave and jalapeño syrup; pellet ice changes dilution.",
+        "finish": "Chile and citrus expected; heat is not measured. Training sheet identifies Ancho Reyes Verde."
+      },
+      "signatureTraits": [
+        "Expected: Lime tartness · green chile · agave sweetness"
+      ],
+      "tags": [
+        "Cocktail",
+        "Lime tartness",
+        "green chile",
+        "agave sweetness",
+        "chile seasoning"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Ingredient/build-based expectation",
+        "ambiguityStatus": "Batch and juice measures cannot be reconciled from this sheet alone; chile heat cannot be quantified. The menu only says Ancho Reyes.",
+        "caveats": [
+          "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+          "Batch and juice measures cannot be reconciled from this sheet alone; chile heat cannot be quantified. The menu only says Ancho Reyes."
+        ],
+        "sources": [
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou — menu linked from Palm Beach Gardens",
+            "supports": "Menu identity and ingredients only; flavor and texture are editorial inferences",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou live menu",
+            "supports": "Cocktail identity, ingredients and historical absence; no current service or finished tasting guarantee",
+            "type": "venue",
+            "accessed": "2026-10-03"
+          },
+          {
+            "url": "https://github.com/Papasmurf0098/Voodoo-Dink-Library-II/blob/main/assets/build-sheets/snake-oil-saloon.pdf",
+            "title": "User-supplied training build — Snake Oil Salesman",
+            "supports": "Recipe ingredients/build; recipe-version caveats apply; not firsthand tasting or current service",
+            "type": "user-supplied-recipe",
+            "accessed": "2026-10-03"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "venue",
+          "user-supplied-recipe"
+        ],
+        "tastingBasis": "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+        "resolution": "Ancho Reyes Verde is identified on the sheet. Lime, jalapeño and agave support a spicy sour; mint and Fresno are garnishes.",
+        "conflictsFound": "Batch and juice measures cannot be reconciled from this sheet alone; chile heat cannot be quantified. The menu only says Ancho Reyes.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "recipe-and-menu-source-check",
+          "summary": "Ancho Reyes Verde is identified on the sheet. Lime, jalapeño and agave support a spicy sour; mint and Fresno are garnishes."
+        }
+      },
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "gator",
+            "name": "Shakey’s Gator Tail",
+            "reason": "Lime meets charred lemon, while chile seasoning echoes chipotle aioli; choose this only if you enjoy combined heat.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "voodoo-krewe-snapper",
+            "name": "Voodoo Krewe Snapper",
+            "reason": "Lime could contrast with the cornbread stuffing while chile echoes Creole seasoning; choose it only if you enjoy combined heat.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial pairing suggestions, not restaurant endorsements or tested pairings. Menu components checked October 3; availability and recipe version require confirmation.",
+        "conditional": false,
+        "rulesCheckedAt": "2026-10-03"
+      }
+    },
+    {
+      "id": "blanche-devereaux-vol-2",
+      "tasting": {
+        "aroma": [
+          "Grapefruit",
+          "elderflower",
+          "cinnamon and vanilla"
+        ],
+        "flavor": [
+          "Grapefruit and lemon citrus",
+          "elderflower sweetness",
+          "cinnamon-vanilla syrup",
+          "reposado tequila"
+        ],
+        "body": "Expected shaken citrus/tequila structure; exact batch proportions remain unresolved.",
+        "finish": "Citrus, elderflower and warm spice expected from the historical Vol. 2 build."
+      },
+      "signatureTraits": [
+        "Expected: Grapefruit and lemon citrus · elderflower sweetness · cinnamon-vanilla syrup"
+      ],
+      "tags": [
+        "Cocktail",
+        "Grapefruit and lemon citrus",
+        "elderflower sweetness",
+        "cinnamon-vanilla syrup",
+        "reposado tequila"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Ingredient/build-based expectation",
+        "ambiguityStatus": "The build lists grapefruit juice separately from ingredient list. Vol. 2 is absent from the fresh menu; Vol. 3 is a separate recipe.",
+        "caveats": [
+          "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+          "The build lists grapefruit juice separately from ingredient list. Vol. 2 is absent from the fresh menu; Vol. 3 is a separate recipe."
+        ],
+        "sources": [
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou — menu linked from Palm Beach Gardens",
+            "supports": "Menu identity and ingredients only; flavor and texture are editorial inferences",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou live menu",
+            "supports": "Cocktail identity, ingredients and historical absence; no current service or finished tasting guarantee",
+            "type": "venue",
+            "accessed": "2026-10-03"
+          },
+          {
+            "url": "https://github.com/Papasmurf0098/Voodoo-Dink-Library-II/blob/main/assets/build-sheets/blanche-devereaux-vol-2.pdf",
+            "title": "User-supplied training build — Blanche Devereaux Vol. 2",
+            "supports": "Recipe ingredients/build; recipe-version caveats apply; not firsthand tasting or current service",
+            "type": "user-supplied-recipe",
+            "accessed": "2026-10-03"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "venue",
+          "user-supplied-recipe"
+        ],
+        "tastingBasis": "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+        "resolution": "Keep historical Vol. 2 separate: elderflower, grapefruit and cinnamon-vanilla demerara, with lemon identified in the sheet.",
+        "conflictsFound": "The build lists grapefruit juice separately from ingredient list. Vol. 2 is absent from the fresh menu; Vol. 3 is a separate recipe.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "recipe-and-menu-source-check",
+          "summary": "Keep historical Vol. 2 separate: elderflower, grapefruit and cinnamon-vanilla demerara, with lemon identified in the sheet."
+        }
+      },
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "salmon",
+            "name": "Creole Mustard Salmon",
+            "reason": "If this historical recipe is served: grapefruit freshness contrasts with rich salmon and connects with tangy mustard.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "garden-district-ceviche",
+            "name": "Garden District Ceviche",
+            "reason": "If the historical Vol. 2 recipe is served, grapefruit, lemon and elderflower could accompany the citrus tomato water; confirm the version first.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial pairing suggestions, not restaurant endorsements or tested pairings. Menu components checked October 3; availability and recipe version require confirmation.",
+        "conditional": true,
+        "rulesCheckedAt": "2026-10-03"
+      }
+    },
+    {
+      "id": "lavender-love",
+      "tasting": {
+        "aroma": [
+          "Lavender",
+          "citrus",
+          "gin botanicals"
+        ],
+        "flavor": [
+          "Lemon",
+          "floral lavender",
+          "gin herbs",
+          "sparkling-wine fruit"
+        ],
+        "body": "Expected from the documented ingredients/build: bubbly; syrup adds sweetness while lemon brings tartness.",
+        "finish": "Floral citrus and fizz."
+      },
+      "signatureTraits": [
+        "Expected: Lemon · floral lavender · gin herbs"
+      ],
+      "tags": [
+        "Cocktail",
+        "Lemon",
+        "floral lavender",
+        "gin herbs",
+        "sparkling-wine fruit"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Ingredient/build-based expectation",
+        "ambiguityStatus": "Empress expression, Champagne bottle and Love Powder composition are unspecified. Measures are supplied but do not establish finished balance.",
+        "caveats": [
+          "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+          "Empress expression, Champagne bottle and Love Powder composition are unspecified. Measures are supplied but do not establish finished balance.",
+          "Earlier catalog ingredients included edible rose. This prior ingredient is archived in the October 3 review, not established by the checked menu or training sheet."
+        ],
+        "sources": [
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou — menu linked from Palm Beach Gardens",
+            "supports": "Menu identity and ingredients only; flavor and texture are editorial inferences",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou live menu",
+            "supports": "Cocktail identity, ingredients and historical absence; no current service or finished tasting guarantee",
+            "type": "venue",
+            "accessed": "2026-10-03"
+          },
+          {
+            "url": "https://github.com/Papasmurf0098/Voodoo-Dink-Library-II/blob/main/assets/build-sheets/lavender-love.pdf",
+            "title": "User-supplied training build — Lavender Love Spell",
+            "supports": "Recipe ingredients/build; recipe-version caveats apply; not firsthand tasting or current service",
+            "type": "user-supplied-recipe",
+            "accessed": "2026-10-03"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "venue",
+          "user-supplied-recipe"
+        ],
+        "tastingBasis": "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+        "resolution": "Lavender, lemon, botanical gin and sparkling wine remain supported. Removed edible rose from active ingredients because it is absent from the fresh menu and supplied training sheet; Love Powder on the sheet is not identified as rose.",
+        "conflictsFound": "Empress expression, Champagne bottle and Love Powder composition are unspecified. Measures are supplied but do not establish finished balance.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "recipe-and-menu-source-check",
+          "summary": "Lavender, lemon, botanical gin and sparkling wine remain supported. Remove edible rose from active ingredient list; it is absent from the fresh menu and training sheet."
+        }
+      },
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "crab",
+            "name": "Jumbo Lump Crab Cake",
+            "reason": "Lemon and bubbles offset the crab cake’s richness; floral lavender adds an aromatic contrast.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "garden-district-ceviche",
+            "name": "Garden District Ceviche",
+            "reason": "Lemon and sparkling wine could accompany citrus tomato water and vegetables; lavender intensity may overwhelm a delicate catch.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial pairing suggestions, not restaurant endorsements or tested pairings. Menu components checked October 3; availability and recipe version require confirmation.",
+        "conditional": false,
+        "rulesCheckedAt": "2026-10-03"
+      },
+      "ingredients": [
+        "Empress Gin",
+        "lemon",
+        "lavender syrup",
+        "Champagne Brut"
+      ]
+    },
+    {
+      "id": "depeache-mode",
+      "tasting": {
+        "aroma": [
+          "Peach tea",
+          "pineapple",
+          "lemon"
+        ],
+        "flavor": [
+          "Peach puree",
+          "tea",
+          "pineapple",
+          "lemon",
+          "bourbon"
+        ],
+        "body": "Expected from the documented ingredients/build: juicy and tea-based; sweetness depends on the tea and recipe.",
+        "finish": "Tea and peach expected with bourbon; exact sweetness and finish duration are unmeasured."
+      },
+      "signatureTraits": [
+        "Expected: Peach puree · tea · pineapple"
+      ],
+      "tags": [
+        "Cocktail",
+        "Peach puree",
+        "tea",
+        "pineapple",
+        "lemon",
+        "bourbon"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Ingredient/build-based expectation",
+        "ambiguityStatus": "The sheet sums to a different volume from the 4.5 oz batch build; no invented batch correction. This is not the newer Bourbon Peach Tea recipe.",
+        "caveats": [
+          "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+          "The sheet sums to a different volume from the 4.5 oz batch build; no invented batch correction. This is not the newer Bourbon Peach Tea recipe."
+        ],
+        "sources": [
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou — menu linked from Palm Beach Gardens",
+            "supports": "Menu identity and ingredients only; flavor and texture are editorial inferences",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou live menu",
+            "supports": "Cocktail identity, ingredients and historical absence; no current service or finished tasting guarantee",
+            "type": "venue",
+            "accessed": "2026-10-03"
+          },
+          {
+            "url": "https://github.com/Papasmurf0098/Voodoo-Dink-Library-II/blob/main/assets/build-sheets/depeache-mode.pdf",
+            "title": "User-supplied training build — DePeache Mode",
+            "supports": "Recipe ingredients/build; recipe-version caveats apply; not firsthand tasting or current service",
+            "type": "user-supplied-recipe",
+            "accessed": "2026-10-03"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "venue",
+          "user-supplied-recipe"
+        ],
+        "tastingBasis": "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+        "resolution": "Peach puree, tea infusion, bourbon, pineapple and lemon support fruit-tea expectations; retain historical status.",
+        "conflictsFound": "The sheet sums to a different volume from the 4.5 oz batch build; no invented batch correction. This is not the newer Bourbon Peach Tea recipe.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "recipe-and-menu-source-check",
+          "summary": "Peach puree, tea infusion, bourbon, pineapple and lemon support fruit-tea expectations; retain historical status."
+        }
+      },
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "waffles",
+            "name": "Chicken and Waffles",
+            "reason": "If this historical recipe is served: peach, tea and bourbon connect with bourbon maple syrup and browned waffle.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "fried-chicken",
+            "name": "Chicken and Biscuit",
+            "reason": "If this historical recipe is served: peach sweetness complements hot honey; pineapple and lemon add acidity.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial pairing suggestions, not restaurant endorsements or tested pairings. Menu components checked October 3; availability and recipe version require confirmation.",
+        "conditional": true,
+        "rulesCheckedAt": "2026-10-03"
+      }
+    },
+    {
+      "id": "turbo-lover-espresso-martini",
+      "tasting": {
+        "aroma": [
+          "Coffee",
+          "cacao",
+          "chai spice"
+        ],
+        "flavor": [
+          "Roasted coffee",
+          "chocolate",
+          "warm chai spices",
+          "liqueur sweetness"
+        ],
+        "body": "Expected hard-shaken espresso texture; no cream is listed in the liquid build.",
+        "finish": "Coffee, cacao and chai expected; the garnish and house preparations need separate ingredient confirmation."
+      },
+      "signatureTraits": [
+        "Expected: Roasted coffee · chocolate · warm chai spices"
+      ],
+      "tags": [
+        "Cocktail",
+        "Roasted coffee",
+        "chocolate",
+        "warm chai spices",
+        "liqueur sweetness"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Ingredient/build-based expectation",
+        "ambiguityStatus": "Borghetti measure lacks its unit, espresso pull volume and dilution are unspecified. Beignet garnish is not evidence that the liquid is dairy-free or allergen-free.",
+        "caveats": [
+          "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+          "Borghetti measure lacks its unit, espresso pull volume and dilution are unspecified. Beignet garnish is not evidence that the liquid is dairy-free or allergen-free."
+        ],
+        "sources": [
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou — menu linked from Palm Beach Gardens",
+            "supports": "Menu identity and ingredients only; flavor and texture are editorial inferences",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou live menu",
+            "supports": "Cocktail identity, ingredients and historical absence; no current service or finished tasting guarantee",
+            "type": "venue",
+            "accessed": "2026-10-03"
+          },
+          {
+            "url": "https://github.com/Papasmurf0098/Voodoo-Dink-Library-II/blob/main/assets/build-sheets/turbo-lover-espresso-martini.pdf",
+            "title": "User-supplied training build — Turbo Lover Espresso Martini",
+            "supports": "Recipe ingredients/build; recipe-version caveats apply; not firsthand tasting or current service",
+            "type": "user-supplied-recipe",
+            "accessed": "2026-10-03"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "venue",
+          "user-supplied-recipe"
+        ],
+        "tastingBasis": "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+        "resolution": "Coffee liqueur, fresh espresso, chai syrup and creme de cacao support coffee/chocolate/spice expectations. Hard shaking is specified, with no cream in the liquid recipe.",
+        "conflictsFound": "Borghetti measure lacks its unit, espresso pull volume and dilution are unspecified. Beignet garnish is not evidence that the liquid is dairy-free or allergen-free.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "recipe-and-menu-source-check",
+          "summary": "Coffee liqueur, fresh espresso, chai syrup and creme de cacao support coffee/chocolate/spice expectations. Hard shaking is specified, with no cream in the liquid recipe."
+        }
+      },
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "chocolate",
+            "name": "Midnight Fortune",
+            "reason": "Espresso and cacao mirror the dessert’s chocolate and coffee ice cream.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "elvis",
+            "name": "The Elvis",
+            "reason": "Coffee bitterness contrasts with banana pudding and peanut butter caramel.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial pairing suggestions, not restaurant endorsements or tested pairings. Menu components checked October 3; availability and recipe version require confirmation.",
+        "conditional": false,
+        "rulesCheckedAt": "2026-10-03"
+      }
+    },
+    {
+      "id": "the-mixtress",
+      "tasting": {
+        "aroma": [
+          "Tropical fruit",
+          "hibiscus",
+          "citrus"
+        ],
+        "flavor": [
+          "Passion fruit expectation supported by training description",
+          "tart lime",
+          "hibiscus infusion",
+          "honey",
+          "li hing mui"
+        ],
+        "body": "Expected from the documented ingredients/build: juicy and rounded, with aged-rum depth.",
+        "finish": "Tropical fruit and tart/salty plum character expected; exact Chinola expression and house preparation remain unspecified."
+      },
+      "signatureTraits": [
+        "Expected: Passion fruit expectation supported by training description · tart lime · hibiscus infusion"
+      ],
+      "tags": [
+        "Cocktail",
+        "Passion fruit expectation supported by training description",
+        "tart lime",
+        "hibiscus infusion",
+        "honey",
+        "li hing mui"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Ingredient/build-based expectation",
+        "ambiguityStatus": "Chinola expression and Li Hing Mua preparation are unspecified. Do not invent extra juices or exact salinity.",
+        "caveats": [
+          "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+          "Chinola expression and Li Hing Mua preparation are unspecified. Do not invent extra juices or exact salinity."
+        ],
+        "sources": [
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou — menu linked from Palm Beach Gardens",
+            "supports": "Menu identity and ingredients only; flavor and texture are editorial inferences",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou live menu",
+            "supports": "Cocktail identity, ingredients and historical absence; no current service or finished tasting guarantee",
+            "type": "venue",
+            "accessed": "2026-10-03"
+          },
+          {
+            "url": "https://github.com/Papasmurf0098/Voodoo-Dink-Library-II/blob/main/assets/build-sheets/the-mixtress.pdf",
+            "title": "User-supplied training build — The Mistress",
+            "supports": "Recipe ingredients/build; recipe-version caveats apply; not firsthand tasting or current service",
+            "type": "user-supplied-recipe",
+            "accessed": "2026-10-03"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "venue",
+          "user-supplied-recipe"
+        ],
+        "tastingBasis": "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+        "resolution": "The training description explicitly supports passion fruit; this is not inferred solely from the unspecified Chinola expression. Mint garnish may add aroma.",
+        "conflictsFound": "Chinola expression and Li Hing Mua preparation are unspecified. Do not invent extra juices or exact salinity.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "recipe-and-menu-source-check",
+          "summary": "The training description explicitly supports passion fruit; this is not inferred solely from the unspecified Chinola expression. Mint garnish may add aroma."
+        }
+      },
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "gator",
+            "name": "Shakey’s Gator Tail",
+            "reason": "Lime and tropical fruit contrast with the fried coating; salted plum links to savory seasoning.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "roasted-peach-salad",
+            "name": "Roasted Peach Salad",
+            "reason": "Fruit notes complement roasted peach; lemon-thyme vinaigrette adds brightness against the drink and creamy ricotta.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial pairing suggestions, not restaurant endorsements or tested pairings. Menu components checked October 3; availability and recipe version require confirmation.",
+        "conditional": false,
+        "rulesCheckedAt": "2026-10-03"
+      }
+    },
+    {
+      "id": "voodoo-smoked-old-fashioned",
+      "tasting": {
+        "aroma": [
+          "Bourbon",
+          "cinnamon",
+          "vanilla",
+          "serving smoke"
+        ],
+        "flavor": [
+          "Bourbon",
+          "cinnamon-vanilla demerara sweetness",
+          "house bitters"
+        ],
+        "body": "Expected from the documented ingredients/build: spirit-forward; changes as ice melts.",
+        "finish": "Whiskey spice, bitters and aromatic smoke. Smoking material is not specified."
+      },
+      "signatureTraits": [
+        "Expected: Bourbon · cinnamon-vanilla demerara sweetness · house bitters"
+      ],
+      "tags": [
+        "Cocktail",
+        "Bourbon",
+        "cinnamon-vanilla demerara sweetness",
+        "house bitters"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Ingredient/build-based expectation",
+        "ambiguityStatus": "The 4 oz batch build differs from the component measures. Smoke fuel and Voodoo Bitters composition are unspecified.",
+        "caveats": [
+          "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+          "The 4 oz batch build differs from the component measures. Smoke fuel and Voodoo Bitters composition are unspecified."
+        ],
+        "sources": [
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou — menu linked from Palm Beach Gardens",
+            "supports": "Menu identity and ingredients only; flavor and texture are editorial inferences",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou live menu",
+            "supports": "Cocktail identity, ingredients and historical absence; no current service or finished tasting guarantee",
+            "type": "venue",
+            "accessed": "2026-10-03"
+          },
+          {
+            "url": "https://github.com/Papasmurf0098/Voodoo-Dink-Library-II/blob/main/assets/build-sheets/voodoo-smoked-old-fashioned.pdf",
+            "title": "User-supplied training build — Voodoo Smoked Old Fashioned",
+            "supports": "Recipe ingredients/build; recipe-version caveats apply; not firsthand tasting or current service",
+            "type": "user-supplied-recipe",
+            "accessed": "2026-10-03"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "venue",
+          "user-supplied-recipe"
+        ],
+        "tastingBasis": "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+        "resolution": "Spirit-led bourbon with cinnamon-vanilla demerara and bitters; smoke is a serving aroma, orange peel a garnish.",
+        "conflictsFound": "The 4 oz batch build differs from the component measures. Smoke fuel and Voodoo Bitters composition are unspecified.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "recipe-and-menu-source-check",
+          "summary": "Spirit-led bourbon with cinnamon-vanilla demerara and bitters; smoke is a serving aroma, orange peel a garnish."
+        }
+      },
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "ribeye",
+            "name": "Cajun Ribeye",
+            "reason": "Bourbon, smoke and bitters suit wood-fired beef and bourbon jus.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "waffles",
+            "name": "Chicken and Waffles",
+            "reason": "Cinnamon and vanilla connect directly with bourbon maple syrup.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial pairing suggestions, not restaurant endorsements or tested pairings. Menu components checked October 3; availability and recipe version require confirmation.",
+        "conditional": false,
+        "rulesCheckedAt": "2026-10-03"
+      }
+    },
+    {
+      "id": "fortunate-son",
+      "tasting": {
+        "aroma": [
+          "Citrus",
+          "almond-like orgeat",
+          "bitters"
+        ],
+        "flavor": [
+          "Lemon tartness",
+          "orgeat sweetness",
+          "bourbon",
+          "aromatic spice"
+        ],
+        "body": "Expected from the documented ingredients/build: a bourbon sour structure rounded by orgeat.",
+        "finish": "Citrus and bitters; the published ingredients fit a sour despite its Spirit Forward menu placement."
+      },
+      "signatureTraits": [
+        "Expected: Lemon tartness · orgeat sweetness · bourbon"
+      ],
+      "tags": [
+        "Cocktail",
+        "Lemon tartness",
+        "orgeat sweetness",
+        "bourbon",
+        "aromatic spice"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Ingredient/build-based expectation",
+        "ambiguityStatus": "Menu placement under Spirit Forward is not evidence that the drink is an Old Fashioned or that its sweetness is low.",
+        "caveats": [
+          "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+          "Menu placement under Spirit Forward is not evidence that the drink is an Old Fashioned or that its sweetness is low."
+        ],
+        "sources": [
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou — menu linked from Palm Beach Gardens",
+            "supports": "Menu identity and ingredients only; flavor and texture are editorial inferences",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou live menu",
+            "supports": "Cocktail identity, ingredients and historical absence; no current service or finished tasting guarantee",
+            "type": "venue",
+            "accessed": "2026-10-03"
+          },
+          {
+            "url": "https://github.com/Papasmurf0098/Voodoo-Dink-Library-II/blob/main/assets/build-sheets/fortunate-son.pdf",
+            "title": "User-supplied training build — Fortunate Son",
+            "supports": "Recipe ingredients/build; recipe-version caveats apply; not firsthand tasting or current service",
+            "type": "user-supplied-recipe",
+            "accessed": "2026-10-03"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "venue",
+          "user-supplied-recipe"
+        ],
+        "tastingBasis": "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+        "resolution": "Lemon and almond orgeat at equal listed measures support a bourbon sour, with an Angostura float and orange garnish.",
+        "conflictsFound": "Menu placement under Spirit Forward is not evidence that the drink is an Old Fashioned or that its sweetness is low.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "recipe-and-menu-source-check",
+          "summary": "Lemon and almond orgeat at equal listed measures support a bourbon sour, with an Angostura float and orange garnish."
+        }
+      },
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "gator",
+            "name": "Shakey’s Gator Tail",
+            "reason": "Lemon contrasts with the fried coating and meets charred lemon; orgeat softens the drink’s edge.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "cornbread",
+            "name": "Famous Cornbread",
+            "reason": "Orgeat and bourbon complement honey butter.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial pairing suggestions, not restaurant endorsements or tested pairings. Menu components checked October 3; availability and recipe version require confirmation.",
+        "conditional": false,
+        "rulesCheckedAt": "2026-10-03"
+      }
+    },
+    {
+      "id": "blantons-private-barrel-old-fashioned",
+      "tasting": {
+        "aroma": [
+          "Bourbon",
+          "aromatic bitters"
+        ],
+        "flavor": [
+          "Bourbon",
+          "sugar sweetness",
+          "bitters spice"
+        ],
+        "body": "Expected spirit-forward structure; the chosen private barrel and dilution vary.",
+        "finish": "Bourbon and bitters expected; no barrel-specific notes assigned."
+      },
+      "signatureTraits": [
+        "Expected: Bourbon · sugar sweetness · bitters spice"
+      ],
+      "tags": [
+        "Cocktail",
+        "Bourbon",
+        "sugar sweetness",
+        "bitters spice"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Ingredient/build-based expectation",
+        "ambiguityStatus": "Bottle choice, barrel identity, measures and dilution remain unknown. No corresponding training sheet.",
+        "caveats": [
+          "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+          "Bottle choice, barrel identity, measures and dilution remain unknown. No corresponding training sheet.",
+          "Blanton’s, Jefferson Ocean and Woodford Double Oak are menu alternatives, not a confirmed blend."
+        ],
+        "sources": [
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou refreshed location-linked menu",
+            "supports": "Listing and ingredients; sensory descriptions are editorial inferences",
+            "type": "venue",
+            "accessed": "2026-09-07"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou live menu",
+            "supports": "Cocktail identity, ingredients and historical absence; no current service or finished tasting guarantee",
+            "type": "venue",
+            "accessed": "2026-10-03"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "venue"
+        ],
+        "tastingBasis": "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+        "resolution": "Fresh menu confirms bitters and sugar cube with alternative private barrels; do not attach a single Blanton's barrel tasting profile.",
+        "conflictsFound": "Bottle choice, barrel identity, measures and dilution remain unknown. No corresponding training sheet.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "menu-source-check",
+          "summary": "Fresh menu confirms bitters and sugar cube with alternative private barrels; do not attach a single Blanton's barrel tasting profile."
+        }
+      },
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "ribeye",
+            "name": "Cajun Ribeye",
+            "reason": "If prepared as a whiskey-and-bitters Old Fashioned, barrel notes fit beef and bourbon jus.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "cornbread",
+            "name": "Famous Cornbread",
+            "reason": "The listed bourbon, sugar and bitters recipe could accompany honey butter; intensity varies with the chosen private barrel.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial pairing suggestions, not restaurant endorsements or tested pairings. Menu components checked October 3; availability and recipe version require confirmation.",
+        "conditional": false,
+        "rulesCheckedAt": "2026-10-03"
+      }
+    },
+    {
+      "id": "frozen-bourbon-milk-punch",
+      "tasting": {
+        "aroma": [
+          "Vanilla",
+          "nutmeg"
+        ],
+        "flavor": [
+          "Vanilla milk",
+          "sugar and liqueur sweetness",
+          "bourbon",
+          "nutmeg garnish"
+        ],
+        "body": "Expected frozen, creamy milk-based texture; the sheet lists milk, sugar and vanilla rather than a specified ice-cream formula.",
+        "finish": "Sweet vanilla and nutmeg with bourbon warmth."
+      },
+      "signatureTraits": [
+        "Expected: Vanilla milk · sugar and liqueur sweetness · bourbon"
+      ],
+      "tags": [
+        "Cocktail",
+        "Vanilla milk",
+        "sugar and liqueur sweetness",
+        "bourbon",
+        "nutmeg garnish"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Ingredient/build-based expectation",
+        "ambiguityStatus": "Training sheet has no batch quantities. Do not infer ice cream or an exact fat content from milkshake wording.",
+        "caveats": [
+          "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+          "Training sheet has no batch quantities. Do not infer ice cream or an exact fat content from milkshake wording."
+        ],
+        "sources": [
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou — menu linked from Palm Beach Gardens",
+            "supports": "Menu identity and ingredients only; flavor and texture are editorial inferences",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou live menu",
+            "supports": "Cocktail identity, ingredients and historical absence; no current service or finished tasting guarantee",
+            "type": "venue",
+            "accessed": "2026-10-03"
+          },
+          {
+            "url": "https://github.com/Papasmurf0098/Voodoo-Dink-Library-II/blob/main/assets/build-sheets/frozen-bourbon-milk-punch.pdf",
+            "title": "User-supplied training build — Frozen Bourbon Milk Punch",
+            "supports": "Recipe ingredients/build; recipe-version caveats apply; not firsthand tasting or current service",
+            "type": "user-supplied-recipe",
+            "accessed": "2026-10-03"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "venue",
+          "user-supplied-recipe"
+        ],
+        "tastingBasis": "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+        "resolution": "Milk, sugar, vanilla paste, bourbon and Licor 43 are specified; frozen service and nutmeg garnish support a creamy sweet expectation.",
+        "conflictsFound": "Training sheet has no batch quantities. Do not infer ice cream or an exact fat content from milkshake wording.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "recipe-and-menu-source-check",
+          "summary": "Milk, sugar, vanilla paste, bourbon and Licor 43 are specified; frozen service and nutmeg garnish support a creamy sweet expectation."
+        }
+      },
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "elvis",
+            "name": "The Elvis",
+            "reason": "Vanilla milkshake and nutmeg connect with banana pudding and vanilla cream; this is a rich, sweet pairing.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "chocolate",
+            "name": "Midnight Fortune",
+            "reason": "Vanilla cream offsets the dessert’s chocolate and coffee bitterness.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial pairing suggestions, not restaurant endorsements or tested pairings. Menu components checked October 3; availability and recipe version require confirmation.",
+        "conditional": false,
+        "rulesCheckedAt": "2026-10-03"
+      }
+    },
+    {
+      "id": "frozen-hurricane",
+      "tasting": {
+        "aroma": [
+          "Citrus",
+          "tropical fruit"
+        ],
+        "flavor": [
+          "Tropical fruit",
+          "citrus",
+          "grenadine sweetness",
+          "rum"
+        ],
+        "body": "Expected from the documented ingredients/build: frozen and slushy; dilution changes as it melts.",
+        "finish": "Fruit and citrus. Exact juices and pour measures are not published."
+      },
+      "signatureTraits": [
+        "Expected: Tropical fruit · citrus · grenadine sweetness"
+      ],
+      "tags": [
+        "Cocktail",
+        "Tropical fruit",
+        "citrus",
+        "grenadine sweetness",
+        "rum"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Ingredient/build-based expectation",
+        "ambiguityStatus": "The mix formula and machine batch quantities are not supplied. Do not name passion fruit, pineapple or other specific juices as established ingredients.",
+        "caveats": [
+          "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+          "The mix formula and machine batch quantities are not supplied. Do not name passion fruit, pineapple or other specific juices as established ingredients."
+        ],
+        "sources": [
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou — menu linked from Palm Beach Gardens",
+            "supports": "Menu identity and ingredients only; flavor and texture are editorial inferences",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou live menu",
+            "supports": "Cocktail identity, ingredients and historical absence; no current service or finished tasting guarantee",
+            "type": "venue",
+            "accessed": "2026-10-03"
+          },
+          {
+            "url": "https://github.com/Papasmurf0098/Voodoo-Dink-Library-II/blob/main/assets/build-sheets/frozen-hurricane.pdf",
+            "title": "User-supplied training build — Frozen Hurricane",
+            "supports": "Recipe ingredients/build; recipe-version caveats apply; not firsthand tasting or current service",
+            "type": "user-supplied-recipe",
+            "accessed": "2026-10-03"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "venue",
+          "user-supplied-recipe"
+        ],
+        "tastingBasis": "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+        "resolution": "Rum and an unspecified Hurricane Mix support fruity/tangy frozen expectations; fresh menu adds broad citrus/tropical/grenadine description.",
+        "conflictsFound": "The mix formula and machine batch quantities are not supplied. Do not name passion fruit, pineapple or other specific juices as established ingredients.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "recipe-and-menu-source-check",
+          "summary": "Rum and an unspecified Hurricane Mix support fruity/tangy frozen expectations; fresh menu adds broad citrus/tropical/grenadine description."
+        }
+      },
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "gator",
+            "name": "Shakey’s Gator Tail",
+            "reason": "Tropical fruit and citrus contrast with fried gator and connect with charred lemon.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "fried-chicken",
+            "name": "Chicken and Biscuit",
+            "reason": "Fruit sweetness complements hot honey and offsets savory fried chicken.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial pairing suggestions, not restaurant endorsements or tested pairings. Menu components checked October 3; availability and recipe version require confirmation.",
+        "conditional": false,
+        "rulesCheckedAt": "2026-10-03"
+      }
+    },
+    {
+      "id": "the-big-lebowski",
+      "tasting": {
+        "aroma": [
+          "Coffee",
+          "cream component; coconut only in menu version"
+        ],
+        "flavor": [
+          "Coffee liqueur",
+          "sweet cream",
+          "coconut if menu recipe is used"
+        ],
+        "body": "Expected creamy layer; menu specifies coconut cream, training sheet specifies whipped cream.",
+        "finish": "Coffee and cream expected; coconut depends on which recipe is being served."
+      },
+      "signatureTraits": [
+        "Expected: Coffee liqueur · sweet cream · coconut if menu recipe is used"
+      ],
+      "tags": [
+        "Cocktail",
+        "Coffee liqueur",
+        "sweet cream",
+        "coconut if menu recipe is used"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Low",
+        "profileLevel": "Conditional recipe reference",
+        "ambiguityStatus": "Fresh menu lists coconut cream while training sheet lists whipped cream. Keep versions explicit and do not claim a single confirmed cream recipe.",
+        "caveats": [
+          "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+          "Fresh menu lists coconut cream while training sheet lists whipped cream. Keep versions explicit and do not claim a single confirmed cream recipe."
+        ],
+        "sources": [
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou — menu linked from Palm Beach Gardens",
+            "supports": "Menu identity and ingredients only; flavor and texture are editorial inferences",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou live menu",
+            "supports": "Cocktail identity, ingredients and historical absence; no current service or finished tasting guarantee",
+            "type": "venue",
+            "accessed": "2026-10-03"
+          },
+          {
+            "url": "https://github.com/Papasmurf0098/Voodoo-Dink-Library-II/blob/main/assets/build-sheets/the-big-lebowski.pdf",
+            "title": "User-supplied training build — The Big Lebowski",
+            "supports": "Recipe ingredients/build; recipe-version caveats apply; not firsthand tasting or current service",
+            "type": "user-supplied-recipe",
+            "accessed": "2026-10-03"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "venue",
+          "user-supplied-recipe"
+        ],
+        "tastingBasis": "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+        "resolution": "Common supported core is vodka plus coffee liqueur and a cream component; coconut flavor is conditional on the menu version.",
+        "conflictsFound": "Fresh menu lists coconut cream while training sheet lists whipped cream. Keep versions explicit and do not claim a single confirmed cream recipe.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "recipe-and-menu-source-check",
+          "summary": "Common supported core is vodka plus coffee liqueur and a cream component; coconut flavor is conditional on the menu version."
+        }
+      },
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "chocolate",
+            "name": "Midnight Fortune",
+            "reason": "Coffee liqueur could echo coffee ice cream and contrast with chocolate; a coconut link is conditional on the menu version, not the whipped-cream training build.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "elvis",
+            "name": "The Elvis",
+            "reason": "Coffee and cream could accompany banana and peanut butter caramel; coconut is conditional on the menu recipe.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial pairing suggestions, not restaurant endorsements or tested pairings. Menu components checked October 3; availability and recipe version require confirmation.",
+        "conditional": true,
+        "rulesCheckedAt": "2026-10-03"
+      }
+    },
+    {
+      "id": "grasshopper",
+      "tasting": {
+        "aroma": [
+          "Mint",
+          "chocolate"
+        ],
+        "flavor": [
+          "Sweet mint",
+          "chocolate",
+          "cream"
+        ],
+        "body": "Expected dessert-style liqueurs with a layered whipped-cream top; training build is stirred and strained.",
+        "finish": "Mint and cocoa expected from the liqueurs; their relative intensity is not established."
+      },
+      "signatureTraits": [
+        "Expected: Sweet mint · chocolate · cream"
+      ],
+      "tags": [
+        "Cocktail",
+        "Sweet mint",
+        "chocolate",
+        "cream"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Ingredient/build-based expectation",
+        "ambiguityStatus": "Brand-specific cream liqueurs are not present; creme de cacao and creme de menthe do not themselves imply dairy. Finished balance is not tasted.",
+        "caveats": [
+          "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+          "Brand-specific cream liqueurs are not present; creme de cacao and creme de menthe do not themselves imply dairy. Finished balance is not tasted."
+        ],
+        "sources": [
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou — menu linked from Palm Beach Gardens",
+            "supports": "Menu identity and ingredients only; flavor and texture are editorial inferences",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou live menu",
+            "supports": "Cocktail identity, ingredients and historical absence; no current service or finished tasting guarantee",
+            "type": "venue",
+            "accessed": "2026-10-03"
+          },
+          {
+            "url": "https://github.com/Papasmurf0098/Voodoo-Dink-Library-II/blob/main/assets/build-sheets/grasshopper.pdf",
+            "title": "User-supplied training build — Grasshopper",
+            "supports": "Recipe ingredients/build; recipe-version caveats apply; not firsthand tasting or current service",
+            "type": "user-supplied-recipe",
+            "accessed": "2026-10-03"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "venue",
+          "user-supplied-recipe"
+        ],
+        "tastingBasis": "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+        "resolution": "Training sheet supports cacao, mint and whipped cream, stirred and layered rather than assuming a classic shaken equal-parts build.",
+        "conflictsFound": "Brand-specific cream liqueurs are not present; creme de cacao and creme de menthe do not themselves imply dairy. Finished balance is not tasted.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "recipe-and-menu-source-check",
+          "summary": "Training sheet supports cacao, mint and whipped cream, stirred and layered rather than assuming a classic shaken equal-parts build."
+        }
+      },
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "chocolate",
+            "name": "Midnight Fortune",
+            "reason": "Mint gives an aromatic contrast to chocolate and coffee; cream softens bitterness.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "beignets",
+            "name": "Beignets",
+            "reason": "Mint-chocolate cream makes a dessert-style accompaniment to the fried pastry.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial pairing suggestions, not restaurant endorsements or tested pairings. Menu components checked October 3; availability and recipe version require confirmation.",
+        "conditional": false,
+        "rulesCheckedAt": "2026-10-03"
+      }
+    },
+    {
+      "id": "hooo-lawd",
+      "tasting": {
+        "aroma": [
+          "Mint",
+          "coffee",
+          "herbal amaro"
+        ],
+        "flavor": [
+          "Bitter herbs",
+          "mint",
+          "coffee",
+          "sweet cream"
+        ],
+        "body": "Expected layered cream over stirred herbal and coffee liqueurs.",
+        "finish": "Herbal mint and coffee expected; neither duration nor bitterness intensity is established."
+      },
+      "signatureTraits": [
+        "Expected: Bitter herbs · mint · coffee"
+      ],
+      "tags": [
+        "Cocktail",
+        "Bitter herbs",
+        "mint",
+        "coffee",
+        "sweet cream"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Ingredient/build-based expectation",
+        "ambiguityStatus": "The exact mint product is written Fernet Menta on the sheet and Fernet Mentha on the menu. No specific bitterness or sweetness intensity is established.",
+        "caveats": [
+          "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+          "The exact mint product is written Fernet Menta on the sheet and Fernet Mentha on the menu. No specific bitterness or sweetness intensity is established."
+        ],
+        "sources": [
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou — menu linked from Palm Beach Gardens",
+            "supports": "Menu identity and ingredients only; flavor and texture are editorial inferences",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou live menu",
+            "supports": "Cocktail identity, ingredients and historical absence; no current service or finished tasting guarantee",
+            "type": "venue",
+            "accessed": "2026-10-03"
+          },
+          {
+            "url": "https://github.com/Papasmurf0098/Voodoo-Dink-Library-II/blob/main/assets/build-sheets/hooo-lawd.pdf",
+            "title": "User-supplied training build — Hooo Lawd",
+            "supports": "Recipe ingredients/build; recipe-version caveats apply; not firsthand tasting or current service",
+            "type": "user-supplied-recipe",
+            "accessed": "2026-10-03"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "venue",
+          "user-supplied-recipe"
+        ],
+        "tastingBasis": "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+        "resolution": "Fernet, mint amaro, Borghetti and layered whipped cream support herbal/mint/coffee expectations. Remove unsupported duration claim.",
+        "conflictsFound": "The exact mint product is written Fernet Menta on the sheet and Fernet Mentha on the menu. No specific bitterness or sweetness intensity is established.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "recipe-and-menu-source-check",
+          "summary": "Fernet, mint amaro, Borghetti and layered whipped cream support herbal/mint/coffee expectations. Remove unsupported duration claim."
+        }
+      },
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "chocolate",
+            "name": "Midnight Fortune",
+            "reason": "Fernet’s bitter mint and espresso reinforce cocoa bitterness and contrast with sweet ice cream.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "date-cake",
+            "name": "Date Night Spell",
+            "reason": "Bitter herbs and coffee counterpoint pecan toffee; the drink remains a sweet, creamy preparation.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial pairing suggestions, not restaurant endorsements or tested pairings. Menu components checked October 3; availability and recipe version require confirmation.",
+        "conditional": false,
+        "rulesCheckedAt": "2026-10-03"
+      }
+    },
+    {
+      "id": "shakeys-cajun-bloody-mary",
+      "tasting": {
+        "aroma": [
+          "Savory vegetable mix",
+          "Cajun spice",
+          "smoky garnish"
+        ],
+        "flavor": [
+          "Savory Bloody Mary mix",
+          "mild spice according to training sheet",
+          "salty meat and seafood garnishes"
+        ],
+        "body": "Expected savory mix texture with substantial garnishes; the top-up volume is not measured.",
+        "finish": "Savory spice; garnish affects aroma and accompanies the drink."
+      },
+      "signatureTraits": [
+        "Expected: Savory Bloody Mary mix · mild spice according to training sheet · salty meat and seafood garnishes"
+      ],
+      "tags": [
+        "Cocktail",
+        "Savory Bloody Mary mix",
+        "mild spice according to training sheet",
+        "salty meat and seafood garnishes"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Ingredient/build-based expectation",
+        "ambiguityStatus": "Bloody Mary mix volume is top-to-glass, not measured. Garnishes are accompaniments and can change perceived aroma; do not treat their solids as blended ingredients.",
+        "caveats": [
+          "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+          "Bloody Mary mix volume is top-to-glass, not measured. Garnishes are accompaniments and can change perceived aroma; do not treat their solids as blended ingredients."
+        ],
+        "sources": [
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou — menu linked from Palm Beach Gardens",
+            "supports": "Menu identity and ingredients only; flavor and texture are editorial inferences",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou live menu",
+            "supports": "Cocktail identity, ingredients and historical absence; no current service or finished tasting guarantee",
+            "type": "venue",
+            "accessed": "2026-10-03"
+          },
+          {
+            "url": "https://github.com/Papasmurf0098/Voodoo-Dink-Library-II/blob/main/assets/build-sheets/shakeys-cajun-bloody-mary.pdf",
+            "title": "User-supplied training build — Shakey's Cajun Bloody Mary",
+            "supports": "Recipe ingredients/build; recipe-version caveats apply; not firsthand tasting or current service",
+            "type": "user-supplied-recipe",
+            "accessed": "2026-10-03"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "venue",
+          "user-supplied-recipe"
+        ],
+        "tastingBasis": "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+        "resolution": "Sheet describes mild spice and supports bacon, andouille, shrimp, celery, olives, citrus and Tajin garnish; avoid assigning a high heat level.",
+        "conflictsFound": "Bloody Mary mix volume is top-to-glass, not measured. Garnishes are accompaniments and can change perceived aroma; do not treat their solids as blended ingredients.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "recipe-and-menu-source-check",
+          "summary": "Sheet describes mild spice and supports bacon, andouille, shrimp, celery, olives, citrus and Tajin garnish; avoid assigning a high heat level."
+        }
+      },
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "steak-eggs",
+            "name": "Wood-Fired Steak & Eggs",
+            "reason": "Savory spices and meat garnishes connect with blackened sirloin and eggs.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "crab-benedict",
+            "name": "Crabcake Benedict",
+            "reason": "Tomato-style acidity offsets hollandaise while seafood garnish connects with crab.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial pairing suggestions, not restaurant endorsements or tested pairings. Menu components checked October 3; availability and recipe version require confirmation.",
+        "conditional": false,
+        "rulesCheckedAt": "2026-10-03"
+      }
+    },
+    {
+      "id": "breakfast-old-fashioned",
+      "tasting": {
+        "aroma": [
+          "Bacon",
+          "orange",
+          "aromatic bitters"
+        ],
+        "flavor": [
+          "Bourbon",
+          "sweetener: maple on menu or brown sugar in training",
+          "orange bitters",
+          "herbal amaro",
+          "savory bacon"
+        ],
+        "body": "Expected spirit-forward bourbon/amaro structure; sweetener differs between sources.",
+        "finish": "Bacon and bitters expected; maple is conditional on the menu recipe."
+      },
+      "signatureTraits": [
+        "Expected: Bourbon · sweetener: maple on menu or brown sugar in training · orange bitters"
+      ],
+      "tags": [
+        "Cocktail",
+        "Bourbon",
+        "sweetener: maple on menu or brown sugar in training",
+        "orange bitters",
+        "herbal amaro",
+        "savory bacon"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Low",
+        "profileLevel": "Conditional recipe reference",
+        "ambiguityStatus": "Fresh menu lists maple syrup and double-smoked bacon while training sheet uses a brown-sugar cube and thick bacon. Current sweetener requires confirmation.",
+        "caveats": [
+          "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+          "Fresh menu lists maple syrup and double-smoked bacon while training sheet uses a brown-sugar cube and thick bacon. Current sweetener requires confirmation."
+        ],
+        "sources": [
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou — menu linked from Palm Beach Gardens",
+            "supports": "Menu identity and ingredients only; flavor and texture are editorial inferences",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou live menu",
+            "supports": "Cocktail identity, ingredients and historical absence; no current service or finished tasting guarantee",
+            "type": "venue",
+            "accessed": "2026-10-03"
+          },
+          {
+            "url": "https://github.com/Papasmurf0098/Voodoo-Dink-Library-II/blob/main/assets/build-sheets/breakfast-old-fashioned.pdf",
+            "title": "User-supplied training build — Breakfast Old Fashioned",
+            "supports": "Recipe ingredients/build; recipe-version caveats apply; not firsthand tasting or current service",
+            "type": "user-supplied-recipe",
+            "accessed": "2026-10-03"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "venue",
+          "user-supplied-recipe"
+        ],
+        "tastingBasis": "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+        "resolution": "Bacon-infused bourbon, Nonino, orange and aromatic bitters are shared; maple is conditional on menu, brown sugar is the sheet version.",
+        "conflictsFound": "Fresh menu lists maple syrup and double-smoked bacon while training sheet uses a brown-sugar cube and thick bacon. Current sweetener requires confirmation.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "recipe-and-menu-source-check",
+          "summary": "Bacon-infused bourbon, Nonino, orange and aromatic bitters are shared; maple is conditional on menu, brown sugar is the sheet version."
+        }
+      },
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "gravy",
+            "name": "Biscuits & Gravy",
+            "reason": "Bacon and herbal bitters could accompany andouille gravy; sweetness depends on whether maple or the training sheet's brown sugar is used.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "steak-eggs",
+            "name": "Wood-Fired Steak & Eggs",
+            "reason": "Bourbon and bacon connect with steak and bourbon jus.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial pairing suggestions, not restaurant endorsements or tested pairings. Menu components checked October 3; availability and recipe version require confirmation.",
+        "conditional": true,
+        "rulesCheckedAt": "2026-10-03"
+      }
+    },
+    {
+      "id": "bellini",
+      "tasting": {
+        "aroma": [
+          "Peach",
+          "sparkling-wine fruit"
+        ],
+        "flavor": [
+          "Peach",
+          "fruit sweetness",
+          "sparkling-wine acidity"
+        ],
+        "body": "Expected from the documented ingredients/build: bubbly and nectar-rounded.",
+        "finish": "Peach and fizz. This is the restaurant's recipe, not an assumed classic Prosecco formula."
+      },
+      "signatureTraits": [
+        "Expected: Peach · fruit sweetness · sparkling-wine acidity"
+      ],
+      "tags": [
+        "Cocktail",
+        "Peach",
+        "fruit sweetness",
+        "sparkling-wine acidity"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Ingredient/build-based expectation",
+        "ambiguityStatus": "House proportions and Champagne bottle are unspecified; no matching training sheet.",
+        "caveats": [
+          "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+          "House proportions and Champagne bottle are unspecified; no matching training sheet."
+        ],
+        "sources": [
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou — menu linked from Palm Beach Gardens",
+            "supports": "Menu identity and ingredients only; flavor and texture are editorial inferences",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou live menu",
+            "supports": "Cocktail identity, ingredients and historical absence; no current service or finished tasting guarantee",
+            "type": "venue",
+            "accessed": "2026-10-03"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "venue"
+        ],
+        "tastingBasis": "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+        "resolution": "Peach nectar, peach liqueur and sparkling wine support peach/sweet-fruit/bubbles expectations; do not replace Champagne with Prosecco.",
+        "conflictsFound": "House proportions and Champagne bottle are unspecified; no matching training sheet.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "menu-source-check",
+          "summary": "Peach nectar, peach liqueur and sparkling wine support peach/sweet-fruit/bubbles expectations; do not replace Champagne with Prosecco."
+        }
+      },
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "crab-benedict",
+            "name": "Crabcake Benedict",
+            "reason": "Peach and sparkling acidity offset rich hollandaise.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "waffles",
+            "name": "Chicken and Waffles",
+            "reason": "Peach gives a fruit counterpoint to maple syrup and cheddar waffle.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial pairing suggestions, not restaurant endorsements or tested pairings. Menu components checked October 3; availability and recipe version require confirmation.",
+        "conditional": false,
+        "rulesCheckedAt": "2026-10-03"
+      }
+    },
+    {
+      "id": "aperol-spritz",
+      "tasting": {
+        "aroma": [
+          "Orange",
+          "herbs"
+        ],
+        "flavor": [
+          "Bittersweet orange",
+          "herbal bitterness",
+          "sparkling-wine fruit"
+        ],
+        "body": "Expected from the documented ingredients/build: light and sparkling.",
+        "finish": "Bittersweet citrus. The menu specifies Champagne Brut."
+      },
+      "signatureTraits": [
+        "Expected: Bittersweet orange · herbal bitterness · sparkling-wine fruit"
+      ],
+      "tags": [
+        "Cocktail",
+        "Bittersweet orange",
+        "herbal bitterness",
+        "sparkling-wine fruit"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Ingredient/build-based expectation",
+        "ambiguityStatus": "Menu specifies Champagne Brut, but no bottle or recipe measures. No matching training sheet.",
+        "caveats": [
+          "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+          "Menu specifies Champagne Brut, but no bottle or recipe measures. No matching training sheet."
+        ],
+        "sources": [
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou — menu linked from Palm Beach Gardens",
+            "supports": "Menu identity and ingredients only; flavor and texture are editorial inferences",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou live menu",
+            "supports": "Cocktail identity, ingredients and historical absence; no current service or finished tasting guarantee",
+            "type": "venue",
+            "accessed": "2026-10-03"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "venue"
+        ],
+        "tastingBasis": "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+        "resolution": "Aperol, sparkling wine and water support bittersweet citrus and bubbles; do not assign a traditional 3:2:1 ratio.",
+        "conflictsFound": "Menu specifies Champagne Brut, but no bottle or recipe measures. No matching training sheet.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "menu-source-check",
+          "summary": "Aperol, sparkling wine and water support bittersweet citrus and bubbles; do not assign a traditional 3:2:1 ratio."
+        }
+      },
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "frenchmen-fried-oysters",
+            "name": "Frenchmen Fried Oysters",
+            "reason": "Freshness and carbonation or acidity contrast with the fried coating; honeydew and green goddess add fruit and herbal notes.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "roasted-peach-salad",
+            "name": "Roasted Peach Salad",
+            "reason": "Fruit notes complement roasted peach; lemon-thyme vinaigrette adds brightness against the drink and creamy ricotta.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial pairing suggestions, not restaurant endorsements or tested pairings. Menu components checked October 3; availability and recipe version require confirmation.",
+        "conditional": false,
+        "rulesCheckedAt": "2026-10-03"
+      }
+    },
+    {
+      "id": "bottomless-mimosa",
+      "tasting": {
+        "aroma": [
+          "Fresh orange"
+        ],
+        "flavor": [
+          "Orange juice",
+          "sparkling-wine fruit and acidity"
+        ],
+        "body": "Expected from the documented ingredients/build: light and sparkling; juice ratio is not published.",
+        "finish": "Orange and gentle wine tartness."
+      },
+      "signatureTraits": [
+        "Expected: Orange juice · sparkling-wine fruit and acidity"
+      ],
+      "tags": [
+        "Cocktail",
+        "Orange juice",
+        "sparkling-wine fruit and acidity"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Ingredient/build-based expectation",
+        "ambiguityStatus": "Sparkling wine identity, measures and juice ratio are unknown. Bottomless is a service offer, not an ABV specification.",
+        "caveats": [
+          "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+          "Sparkling wine identity, measures and juice ratio are unknown. Bottomless is a service offer, not an ABV specification."
+        ],
+        "sources": [
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou — menu linked from Palm Beach Gardens",
+            "supports": "Menu identity and ingredients only; flavor and texture are editorial inferences",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou live menu",
+            "supports": "Cocktail identity, ingredients and historical absence; no current service or finished tasting guarantee",
+            "type": "venue",
+            "accessed": "2026-10-03"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "venue"
+        ],
+        "tastingBasis": "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+        "resolution": "Orange juice and Champagne support citrus and bubbles; distinguish ordinary Mimosa from Boujie version.",
+        "conflictsFound": "Sparkling wine identity, measures and juice ratio are unknown. Bottomless is a service offer, not an ABV specification.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "menu-source-check",
+          "summary": "Orange juice and Champagne support citrus and bubbles; distinguish ordinary Mimosa from Boujie version."
+        }
+      },
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "crab-benedict",
+            "name": "Crabcake Benedict",
+            "reason": "Orange acidity and bubbles offset the hollandaise and fried green tomato.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "waffles",
+            "name": "Chicken and Waffles",
+            "reason": "Orange gives a bright counterpoint to maple syrup.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial pairing suggestions, not restaurant endorsements or tested pairings. Menu components checked October 3; availability and recipe version require confirmation.",
+        "conditional": false,
+        "rulesCheckedAt": "2026-10-03"
+      }
+    },
+    {
+      "id": "boujie-mimosa",
+      "tasting": {
+        "aroma": [
+          "Orange",
+          "Champagne fruit"
+        ],
+        "flavor": [
+          "Orange citrus",
+          "sparkling-wine fruit"
+        ],
+        "body": "Expected from the documented ingredients/build: fresh and sparkling.",
+        "finish": "Orange and Champagne acidity."
+      },
+      "signatureTraits": [
+        "Expected: Orange citrus · sparkling-wine fruit"
+      ],
+      "tags": [
+        "Cocktail",
+        "Orange citrus",
+        "sparkling-wine fruit"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Ingredient/build-based expectation",
+        "ambiguityStatus": "Moet & Chandon cuvee and house proportions are unspecified. No matching training sheet.",
+        "caveats": [
+          "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+          "Moet & Chandon cuvee and house proportions are unspecified. No matching training sheet."
+        ],
+        "sources": [
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou — menu linked from Palm Beach Gardens",
+            "supports": "Menu identity and ingredients only; flavor and texture are editorial inferences",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou live menu",
+            "supports": "Cocktail identity, ingredients and historical absence; no current service or finished tasting guarantee",
+            "type": "venue",
+            "accessed": "2026-10-03"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "venue"
+        ],
+        "tastingBasis": "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+        "resolution": "Orange juice and named Champagne producer support citrus and sparkling-wine expectations without a cuvee-specific tasting.",
+        "conflictsFound": "Moet & Chandon cuvee and house proportions are unspecified. No matching training sheet.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "menu-source-check",
+          "summary": "Orange juice and named Champagne producer support citrus and sparkling-wine expectations without a cuvee-specific tasting."
+        }
+      },
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "crab-benedict",
+            "name": "Crabcake Benedict",
+            "reason": "Orange and Champagne acidity contrast with rich hollandaise.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "eggs",
+            "name": "Deviled Eggs",
+            "reason": "Bubbles and citrus refresh after creamy egg; the exact Champagne cuvée is unspecified.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial pairing suggestions, not restaurant endorsements or tested pairings. Menu components checked October 3; availability and recipe version require confirmation.",
+        "conditional": false,
+        "rulesCheckedAt": "2026-10-03"
+      }
+    },
+    {
+      "id": "endless-bloody-mary",
+      "tasting": {
+        "aroma": [
+          "Tomato-style mix",
+          "savory seasoning"
+        ],
+        "flavor": [
+          "Tomato-style mix",
+          "savory seasoning",
+          "tangy spice"
+        ],
+        "body": "Expected savory mix texture; mix-to-vodka ratio is unspecified.",
+        "finish": "Savory mix and spiced rim expected; heat and duration are not established."
+      },
+      "signatureTraits": [
+        "Expected: Tomato-style mix · savory seasoning · tangy spice"
+      ],
+      "tags": [
+        "Cocktail",
+        "Tomato-style mix",
+        "savory seasoning",
+        "tangy spice"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Ingredient/build-based expectation",
+        "ambiguityStatus": "No garnish detail or heat level is specified. Irvine Vodka spelling is retained as venue wording; exact product identity is not resolved.",
+        "caveats": [
+          "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+          "No garnish detail or heat level is specified. Irvine Vodka spelling is retained as venue wording; exact product identity is not resolved."
+        ],
+        "sources": [
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou — menu linked from Palm Beach Gardens",
+            "supports": "Menu identity and ingredients only; flavor and texture are editorial inferences",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou live menu",
+            "supports": "Cocktail identity, ingredients and historical absence; no current service or finished tasting guarantee",
+            "type": "venue",
+            "accessed": "2026-10-03"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "venue"
+        ],
+        "tastingBasis": "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+        "resolution": "Tomato-style mix and spiced rim support savory/tangy expectations; remove precise fullness assignment.",
+        "conflictsFound": "No garnish detail or heat level is specified. Irvine Vodka spelling is retained as venue wording; exact product identity is not resolved.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "menu-source-check",
+          "summary": "Tomato-style mix and spiced rim support savory/tangy expectations; remove precise fullness assignment."
+        }
+      },
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "gravy",
+            "name": "Biscuits & Gravy",
+            "reason": "Savory tomato and spice work with smoky andouille; acidity contrasts with rich gravy.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "steak-eggs",
+            "name": "Wood-Fired Steak & Eggs",
+            "reason": "Tomato and seasoning accompany blackened steak and eggs.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial pairing suggestions, not restaurant endorsements or tested pairings. Menu components checked October 3; availability and recipe version require confirmation.",
+        "conditional": false,
+        "rulesCheckedAt": "2026-10-03"
+      }
+    },
+    {
+      "id": "happy-hour-margarita",
+      "tasting": {
+        "aroma": [
+          "Tequila/citrus only if a conventional Margarita recipe is used"
+        ],
+        "flavor": [
+          "Conditional tequila and citrus style reference"
+        ],
+        "body": "House recipe is unpublished; texture and sweetness require confirmation.",
+        "finish": "No house finish assigned without its recipe."
+      },
+      "signatureTraits": [
+        "Expected: Conditional tequila and citrus style reference"
+      ],
+      "tags": [
+        "Cocktail",
+        "Conditional tequila and citrus style reference"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Low",
+        "profileLevel": "Conditional recipe reference",
+        "ambiguityStatus": "No house ingredient list or training sheet. Do not borrow Snake Oil or Gris-Gris Rita recipe, or assume orange liqueur.",
+        "caveats": [
+          "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+          "No house ingredient list or training sheet. Do not borrow Snake Oil or Gris-Gris Rita recipe, or assume orange liqueur.",
+          "Menu lists the drink but does not publish a recipe; this is only a category reference."
+        ],
+        "sources": [
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou — menu linked from Palm Beach Gardens",
+            "supports": "Menu identity and ingredients only; flavor and texture are editorial inferences",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou live menu",
+            "supports": "Cocktail identity, ingredients and historical absence; no current service or finished tasting guarantee",
+            "type": "venue",
+            "accessed": "2026-10-03"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "venue"
+        ],
+        "tastingBasis": "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+        "resolution": "Name-only menu listing permits a conditional tequila/citrus style reference; every pairing must be conditional.",
+        "conflictsFound": "No house ingredient list or training sheet. Do not borrow Snake Oil or Gris-Gris Rita recipe, or assume orange liqueur.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "menu-source-check",
+          "summary": "Name-only menu listing permits a conditional tequila/citrus style reference; every pairing must be conditional."
+        }
+      },
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "gator",
+            "name": "Shakey’s Gator Tail",
+            "reason": "If the house Margarita follows a tequila–citrus recipe, its acidity should meet charred lemon and offset the fried coating.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "roasted-peach-salad",
+            "name": "Roasted Peach Salad",
+            "reason": "If the house Margarita follows a tequila-and-citrus recipe, citrus could complement lemon-thyme vinaigrette; sweetness and suitability require the house build.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial pairing suggestions, not restaurant endorsements or tested pairings. Menu components checked October 3; availability and recipe version require confirmation.",
+        "conditional": true,
+        "rulesCheckedAt": "2026-10-03"
+      }
+    },
+    {
+      "id": "house-old-fashioned",
+      "tasting": {
+        "aroma": [
+          "Whiskey/bitters only if a conventional Old Fashioned recipe is used"
+        ],
+        "flavor": [
+          "Conditional whiskey, sweetener and bitters style reference"
+        ],
+        "body": "Spirit-forward reference only; house ingredients and measures are unpublished.",
+        "finish": "No house finish assigned without its recipe."
+      },
+      "signatureTraits": [
+        "Expected: Conditional whiskey, sweetener and bitters style reference"
+      ],
+      "tags": [
+        "Cocktail",
+        "Conditional whiskey, sweetener and bitters style reference"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Low",
+        "profileLevel": "Conditional recipe reference",
+        "ambiguityStatus": "No house recipe or training sheet. Do not borrow the Smoked or Private Barrel builds, bourbon brand or proof.",
+        "caveats": [
+          "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+          "No house recipe or training sheet. Do not borrow the Smoked or Private Barrel builds, bourbon brand or proof.",
+          "Menu lists the drink but does not publish a recipe; this is only a category reference."
+        ],
+        "sources": [
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou — menu linked from Palm Beach Gardens",
+            "supports": "Menu identity and ingredients only; flavor and texture are editorial inferences",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou live menu",
+            "supports": "Cocktail identity, ingredients and historical absence; no current service or finished tasting guarantee",
+            "type": "venue",
+            "accessed": "2026-10-03"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "venue"
+        ],
+        "tastingBasis": "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+        "resolution": "Name-only menu listing permits a conditional whiskey/sugar/bitters style reference; pairings remain conditional.",
+        "conflictsFound": "No house recipe or training sheet. Do not borrow the Smoked or Private Barrel builds, bourbon brand or proof.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "menu-source-check",
+          "summary": "Name-only menu listing permits a conditional whiskey/sugar/bitters style reference; pairings remain conditional."
+        }
+      },
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "ribeye",
+            "name": "Cajun Ribeye",
+            "reason": "If prepared with whiskey, sugar and bitters, oak and spice suit the beef and bourbon jus.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "cornbread",
+            "name": "Famous Cornbread",
+            "reason": "If made with whiskey, sugar and bitters, the drink can echo the cornbread’s honey butter; confirm the house recipe first.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial pairing suggestions, not restaurant endorsements or tested pairings. Menu components checked October 3; availability and recipe version require confirmation.",
+        "conditional": true,
+        "rulesCheckedAt": "2026-10-03"
+      }
+    },
+    {
+      "id": "bourbon-peach-tea",
+      "tasting": {
+        "aroma": [
+          "Peach",
+          "brewed tea",
+          "bourbon"
+        ],
+        "flavor": [
+          "Peach",
+          "tea",
+          "bourbon",
+          "syrup sweetness"
+        ],
+        "body": "Expected tea-based structure rounded by oleo, syrup and cordial; house preparations and dilution remain unspecified.",
+        "finish": "Peach and tea expected with bourbon; Orchard Solution does not identify a particular citrus fruit."
+      },
+      "signatureTraits": [
+        "Expected: Peach · tea · bourbon"
+      ],
+      "tags": [
+        "Cocktail",
+        "Peach",
+        "tea",
+        "bourbon",
+        "syrup sweetness"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Ingredient/build-based expectation",
+        "ambiguityStatus": "House tea, oleo, cordial and Orchard Solution recipes are missing. Measures are supplied, but batch composition and solution strength are not.",
+        "caveats": [
+          "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+          "House tea, oleo, cordial and Orchard Solution recipes are missing. Measures are supplied, but batch composition and solution strength are not.",
+          "Orchard citrus is the menu wording; individual citrus fruits and tea type are not specified. This is distinct from the older DePeache Mode recipe."
+        ],
+        "sources": [
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou refreshed location-linked menu",
+            "supports": "Listing and ingredients; sensory descriptions are editorial inferences",
+            "type": "venue",
+            "accessed": "2026-09-07"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou live menu",
+            "supports": "Cocktail identity, ingredients and historical absence; no current service or finished tasting guarantee",
+            "type": "venue",
+            "accessed": "2026-10-03"
+          },
+          {
+            "url": "https://github.com/Papasmurf0098/Voodoo-Dink-Library-II/blob/main/assets/build-sheets/bourbon-peach-tea.pdf",
+            "title": "User-supplied training build — Bourbon Peach Tea",
+            "supports": "Recipe ingredients/build; recipe-version caveats apply; not firsthand tasting or current service",
+            "type": "user-supplied-recipe",
+            "accessed": "2026-10-03"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "venue",
+          "user-supplied-recipe"
+        ],
+        "tastingBasis": "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+        "resolution": "Supplied sheet supports peach-infused bourbon, peach oleo, peach tea syrup, tea cordial, brewed tea and saline. Do not equate Orchard Solution with a known citrus-juice recipe.",
+        "conflictsFound": "House tea, oleo, cordial and Orchard Solution recipes are missing. Measures are supplied, but batch composition and solution strength are not.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "recipe-and-menu-source-check",
+          "summary": "Supplied sheet supports peach-infused bourbon, peach oleo, peach tea syrup, tea cordial, brewed tea and saline. Do not equate Orchard Solution with a known citrus-juice recipe."
+        }
+      },
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "roasted-peach-salad",
+            "name": "Roasted Peach Salad",
+            "reason": "Peach echoes the roasted fruit; tea and bourbon provide contrast to ricotta and candied pecans.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "cornbread",
+            "name": "Famous Cornbread",
+            "reason": "Peach sweetness and bourbon complement warm cornbread and honey butter.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial pairing suggestions, not restaurant endorsements or tested pairings. Menu components checked October 3; availability and recipe version require confirmation.",
+        "conditional": false,
+        "rulesCheckedAt": "2026-10-03"
+      }
+    },
+    {
+      "id": "verdita",
+      "tasting": {
+        "aroma": [
+          "Mint",
+          "cilantro",
+          "pear",
+          "lime",
+          "gin botanicals"
+        ],
+        "flavor": [
+          "Pear",
+          "fresh herbs",
+          "lime tartness",
+          "vanilla expectation from menu",
+          "aromatized-wine botanicals"
+        ],
+        "body": "Expected shaken herbal/citrus structure with sweet house preparations; finished balance is not tasted.",
+        "finish": "Herbal/citrus character expected; aloe and house syrup contributions depend on their recipe."
+      },
+      "signatureTraits": [
+        "Expected: Pear · fresh herbs · lime tartness"
+      ],
+      "tags": [
+        "Cocktail",
+        "Pear",
+        "fresh herbs",
+        "lime tartness",
+        "vanilla expectation from menu",
+        "aromatized-wine botanicals"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Ingredient/build-based expectation",
+        "ambiguityStatus": "Pear Verdita and Lady Creme Syrup formulations are not supplied; the sheet does not independently spell out cilantro, mint or vanilla. Ingredient measures and batched build differ.",
+        "caveats": [
+          "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+          "Pear Verdita and Lady Creme Syrup formulations are not supplied; the sheet does not independently spell out cilantro, mint or vanilla. Ingredient measures and batched build differ."
+        ],
+        "sources": [
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou location-linked menu",
+            "supports": "Named cocktail ingredients only; measures, dilution and current service unconfirmed",
+            "type": "venue",
+            "accessed": "2026-09-18"
+          },
+          {
+            "url": "https://breckenridgedistillery.com/spirits/breckenridge-gin/",
+            "title": "Breckenridge Gin",
+            "supports": "Juniper-led base spirit; does not establish finished cocktail balance",
+            "type": "producer",
+            "accessed": "2026-09-18"
+          },
+          {
+            "url": "https://www.cocchi.it/en/wines/americano/",
+            "title": "Cocchi Americano",
+            "supports": "Bitter botanical aromatized wine; does not establish cocktail proportions",
+            "type": "producer",
+            "accessed": "2026-09-18"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou live menu",
+            "supports": "Cocktail identity, ingredients and historical absence; no current service or finished tasting guarantee",
+            "type": "venue",
+            "accessed": "2026-10-03"
+          },
+          {
+            "url": "https://github.com/Papasmurf0098/Voodoo-Dink-Library-II/blob/main/assets/build-sheets/verdita.pdf",
+            "title": "User-supplied training build — Verdita",
+            "supports": "Recipe ingredients/build; recipe-version caveats apply; not firsthand tasting or current service",
+            "type": "user-supplied-recipe",
+            "accessed": "2026-10-03"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "producer",
+          "venue",
+          "user-supplied-recipe"
+        ],
+        "tastingBasis": "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+        "resolution": "Training sheet identifies Chareau aloe liqueur and pear preparation; current menu supports herbs and vanilla. Keep expectation herbal/citrus/pear, not a precise juniper intensity.",
+        "conflictsFound": "Pear Verdita and Lady Creme Syrup formulations are not supplied; the sheet does not independently spell out cilantro, mint or vanilla. Ingredient measures and batched build differ.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "recipe-and-menu-source-check",
+          "summary": "Training sheet identifies Chareau aloe liqueur and pear preparation; current menu supports herbs and vanilla. Keep expectation herbal/citrus/pear, not a precise juniper intensity."
+        }
+      },
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "garden-district-ceviche",
+            "name": "Garden District Ceviche",
+            "reason": "Lime and fresh herbs connect with the ceviche’s citrus tomato water, onion and jalapeños. The catch itself is unspecified.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "salmon-tartare",
+            "name": "Salmon Tartare au Citron",
+            "reason": "Herbal notes complement parsley and capers, while lime contrasts with rich salmon and lemon crème fraîche.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial pairing suggestions, not restaurant endorsements or tested pairings. Menu components checked October 3; availability and recipe version require confirmation.",
+        "conditional": false,
+        "rulesCheckedAt": "2026-10-03"
+      }
+    },
+    {
+      "id": "gris-gris-rita",
+      "tasting": {
+        "aroma": [
+          "roasted bell pepper",
+          "lime",
+          "pineapple"
+        ],
+        "flavor": [
+          "savory bell pepper",
+          "lime tartness",
+          "light pineapple",
+          "tequila",
+          "seasoning",
+          "botanical citrus and spice"
+        ],
+        "body": "Expected from the documented ingredients/build: citrus-led with a little fruit sweetness; exact texture is not specified.",
+        "finish": "Savory pepper and citrus with tequila warmth."
+      },
+      "signatureTraits": [
+        "Expected: savory bell pepper · lime tartness · light pineapple"
+      ],
+      "tags": [
+        "Cocktail",
+        "savory bell pepper",
+        "lime tartness",
+        "light pineapple",
+        "tequila",
+        "seasoning",
+        "botanical citrus and spice"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Ingredient/build-based expectation",
+        "ambiguityStatus": "Rim composition is unspecified in the sheet; current menu specifies Tony Chachere's. Corn Ribs pairing must reflect fresh Parmesan/aioli/blackening rather than old cheddar/crema/pork components.",
+        "caveats": [
+          "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+          "Rim composition is unspecified in the sheet; current menu specifies Tony Chachere's. Corn Ribs pairing must reflect fresh Parmesan/aioli/blackening rather than old cheddar/crema/pork components.",
+          "Bell pepper is not evidence of chile heat. The precise Tony Chachere’s product and recipe measures are not stated."
+        ],
+        "sources": [
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou location-linked menu",
+            "supports": "Named cocktail ingredients only; measures, dilution and current service unconfirmed",
+            "type": "venue",
+            "accessed": "2026-09-18"
+          },
+          {
+            "url": "https://munyonspawpaw.com/our-recipe/",
+            "title": "Munyon’s Paw-Paw ingredients",
+            "supports": "Citrus and spice ingredients in the aperitif; finished drink balance is inferred",
+            "type": "producer",
+            "accessed": "2026-09-18"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou live menu",
+            "supports": "Cocktail identity, ingredients and historical absence; no current service or finished tasting guarantee",
+            "type": "venue",
+            "accessed": "2026-10-03"
+          },
+          {
+            "url": "https://github.com/Papasmurf0098/Voodoo-Dink-Library-II/blob/main/assets/build-sheets/gris-gris-rita.pdf",
+            "title": "User-supplied training build — Gris-Gris Rita",
+            "supports": "Recipe ingredients/build; recipe-version caveats apply; not firsthand tasting or current service",
+            "type": "user-supplied-recipe",
+            "accessed": "2026-10-03"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "producer",
+          "venue",
+          "user-supplied-recipe"
+        ],
+        "tastingBasis": "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+        "resolution": "Roasted bell pepper, lime, tequila and pepper-pineapple cordial support savory/tart/fruit expectations. Bell pepper alone does not establish chile heat.",
+        "conflictsFound": "Rim composition is unspecified in the sheet; current menu specifies Tony Chachere's. Corn Ribs pairing must reflect fresh Parmesan/aioli/blackening rather than old cheddar/crema/pork components.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "recipe-and-menu-source-check",
+          "summary": "Roasted bell pepper, lime, tequila and pepper-pineapple cordial support savory/tart/fruit expectations. Bell pepper alone does not establish chile heat."
+        }
+      },
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "garden-district-ceviche",
+            "name": "Garden District Ceviche",
+            "reason": "Savory pepper and lime echo the vegetable and citrus elements without assuming a particular fish species.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "corn-ribs",
+            "name": "Corn Ribs",
+            "reason": "Lime and savory bell pepper could contrast with cane-vinegar aioli and Parmesan and echo the blackening seasoning; this uses the October 3 menu components.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial pairing suggestions, not restaurant endorsements or tested pairings. Menu components checked October 3; availability and recipe version require confirmation.",
+        "conditional": false,
+        "rulesCheckedAt": "2026-10-03"
+      }
+    },
+    {
+      "id": "jameoretto-sour",
+      "tasting": {
+        "aroma": [
+          "Lemon",
+          "almond-like amaretto",
+          "smoked thyme garnish"
+        ],
+        "flavor": [
+          "citrus tartness",
+          "almond-like sweetness",
+          "thyme",
+          "Irish whiskey",
+          "botanical citrus and spice"
+        ],
+        "body": "Expected from the documented ingredients/build: sweet-tart and syrup-rounded; no foaming ingredient is specified.",
+        "finish": "Citrus, almond-like sweetness and thyme expected; garnish smoke does not establish smoky whiskey."
+      },
+      "signatureTraits": [
+        "Expected: citrus tartness · almond-like sweetness · thyme"
+      ],
+      "tags": [
+        "Cocktail",
+        "citrus tartness",
+        "almond-like sweetness",
+        "thyme",
+        "Irish whiskey",
+        "botanical citrus and spice"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Ingredient/build-based expectation",
+        "ambiguityStatus": "Citrus Sherbet is an unspecified house preparation; do not infer frozen dairy or an allergen-free recipe. No exact sweet-tart balance is established.",
+        "caveats": [
+          "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+          "Citrus Sherbet is an unspecified house preparation; do not infer frozen dairy or an allergen-free recipe. No exact sweet-tart balance is established.",
+          "Citrus sherbet is the venue’s term; its composition is unspecified. Do not infer egg white or dairy from the sour name."
+        ],
+        "sources": [
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou location-linked menu",
+            "supports": "Named cocktail ingredients only; measures, dilution and current service unconfirmed",
+            "type": "venue",
+            "accessed": "2026-09-18"
+          },
+          {
+            "url": "https://munyonspawpaw.com/our-recipe/",
+            "title": "Munyon’s Paw-Paw ingredients",
+            "supports": "Citrus and spice ingredients in the aperitif; finished drink balance is inferred",
+            "type": "producer",
+            "accessed": "2026-09-18"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou live menu",
+            "supports": "Cocktail identity, ingredients and historical absence; no current service or finished tasting guarantee",
+            "type": "venue",
+            "accessed": "2026-10-03"
+          },
+          {
+            "url": "https://github.com/Papasmurf0098/Voodoo-Dink-Library-II/blob/main/assets/build-sheets/jameoretto-sour.pdf",
+            "title": "User-supplied training build — Jameo’retto Sour",
+            "supports": "Recipe ingredients/build; recipe-version caveats apply; not firsthand tasting or current service",
+            "type": "user-supplied-recipe",
+            "accessed": "2026-10-03"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "producer",
+          "venue",
+          "user-supplied-recipe"
+        ],
+        "tastingBasis": "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+        "resolution": "Amaretto, citrus, whiskey and thyme are supported; smoked thyme garnish contributes aroma, not smoky whiskey. No egg white is in the supplied build.",
+        "conflictsFound": "Citrus Sherbet is an unspecified house preparation; do not infer frozen dairy or an allergen-free recipe. No exact sweet-tart balance is established.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "recipe-and-menu-source-check",
+          "summary": "Amaretto, citrus, whiskey and thyme are supported; smoked thyme garnish contributes aroma, not smoky whiskey. No egg white is in the supplied build."
+        }
+      },
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "cajun-crab-hushpuppies",
+            "name": "Cajun Crab Hushpuppies",
+            "reason": "Lemon gives a tart contrast to the beer batter and remoulade; thyme adds an herbal link to the savory crab.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "roasted-peach-salad",
+            "name": "Roasted Peach Salad",
+            "reason": "Amaretto’s almond-like character complements pecans, while lemon and thyme connect directly with the vinaigrette.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial pairing suggestions, not restaurant endorsements or tested pairings. Menu components checked October 3; availability and recipe version require confirmation.",
+        "conditional": false,
+        "rulesCheckedAt": "2026-10-03"
+      }
+    },
+    {
+      "id": "blanche-devereaux-vol-3",
+      "tasting": {
+        "aroma": [
+          "Grapefruit",
+          "smoked-cinnamon glass",
+          "almond-like sweetness"
+        ],
+        "flavor": [
+          "grapefruit bitterness",
+          "lime tartness",
+          "amaretto and orgeat sweetness",
+          "cinnamon",
+          "reposado tequila"
+        ],
+        "body": "Expected tequila sour structure rounded by orgeat and amaretto; supplied ingredient measures and batched pour do not reconcile.",
+        "finish": "Grapefruit, cinnamon and nut-like sweetness."
+      },
+      "signatureTraits": [
+        "Expected: grapefruit bitterness · lime tartness · amaretto and orgeat sweetness"
+      ],
+      "tags": [
+        "Cocktail",
+        "grapefruit bitterness",
+        "lime tartness",
+        "amaretto and orgeat sweetness",
+        "cinnamon",
+        "reposado tequila"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Ingredient/build-based expectation",
+        "ambiguityStatus": "Vol. 3 bitters are Angostura, black walnut and cherry; their intensity is not known. Batched pour and ingredient measures differ. Do not import Vol. 2 elderflower.",
+        "caveats": [
+          "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+          "Vol. 3 bitters are Angostura, black walnut and cherry; their intensity is not known. Batched pour and ingredient measures differ. Do not import Vol. 2 elderflower.",
+          "Listed as seasonal, Patrick’s Edition. Vol. 3 has a different ingredient list from Vol. 2; do not carry over the St-Germain claim."
+        ],
+        "sources": [
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou refreshed location-linked menu",
+            "supports": "Listing and ingredients; sensory descriptions are editorial inferences",
+            "type": "venue",
+            "accessed": "2026-09-07"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou live menu",
+            "supports": "Cocktail identity, ingredients and historical absence; no current service or finished tasting guarantee",
+            "type": "venue",
+            "accessed": "2026-10-03"
+          },
+          {
+            "url": "https://github.com/Papasmurf0098/Voodoo-Dink-Library-II/blob/main/assets/build-sheets/blanche-devereaux-vol-3.pdf",
+            "title": "User-supplied training build — Blanche Devereaux Vol. 3",
+            "supports": "Recipe ingredients/build; recipe-version caveats apply; not firsthand tasting or current service",
+            "type": "user-supplied-recipe",
+            "accessed": "2026-10-03"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "venue",
+          "user-supplied-recipe"
+        ],
+        "tastingBasis": "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+        "resolution": "Grapefruit, lime, amaretto and orgeat support a tequila sour; smoked-cinnamon glass supplies aroma and named bitters add aromatic accents.",
+        "conflictsFound": "Vol. 3 bitters are Angostura, black walnut and cherry; their intensity is not known. Batched pour and ingredient measures differ. Do not import Vol. 2 elderflower.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "recipe-and-menu-source-check",
+          "summary": "Grapefruit, lime, amaretto and orgeat support a tequila sour; smoked-cinnamon glass supplies aroma and named bitters add aromatic accents."
+        }
+      },
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "voodoo-krewe-snapper",
+            "name": "Voodoo Krewe Snapper",
+            "reason": "Citrus provides a bright contrast to the Creole sauce and cornbread stuffing; cinnamon adds aromatic warmth.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "roasted-peach-salad",
+            "name": "Roasted Peach Salad",
+            "reason": "Nut-like sweetness and cinnamon complement pecans and roasted peach, with citrus matching the vinaigrette.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial pairing suggestions, not restaurant endorsements or tested pairings. Menu components checked October 3; availability and recipe version require confirmation.",
+        "conditional": false,
+        "rulesCheckedAt": "2026-10-03"
+      }
+    },
+    {
+      "id": "espresso-old-fashioned",
+      "tasting": {
+        "aroma": [
+          "Espresso",
+          "chicory liqueur",
+          "orange"
+        ],
+        "flavor": [
+          "Coffee roast",
+          "chicory liqueur",
+          "Licor 43 sweetness",
+          "orange bitters",
+          "rye and cognac"
+        ],
+        "body": "Expected multi-spirit coffee structure; espresso pull size, syrup formulation and dilution are unspecified.",
+        "finish": "Coffee and orange expected; no exact bitterness or finish duration assigned."
+      },
+      "signatureTraits": [
+        "Expected: Coffee roast · chicory liqueur · Licor 43 sweetness"
+      ],
+      "tags": [
+        "Cocktail",
+        "Coffee roast",
+        "chicory liqueur",
+        "Licor 43 sweetness",
+        "orange bitters",
+        "rye and cognac"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Ingredient/build-based expectation",
+        "ambiguityStatus": "Espresso pull and dilution are not measured; Lady Creme Tea Syrup composition is not provided. The menu's vanilla note is not a separately documented vanilla measure.",
+        "caveats": [
+          "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+          "Espresso pull and dilution are not measured; Lady Creme Tea Syrup composition is not provided. The menu's vanilla note is not a separately documented vanilla measure.",
+          "The menu also labels this Carajillo. It is the venue’s multi-spirit recipe, not an assumed classic two-ingredient build."
+        ],
+        "sources": [
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou refreshed location-linked menu",
+            "supports": "Listing and ingredients; sensory descriptions are editorial inferences",
+            "type": "venue",
+            "accessed": "2026-09-07"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou live menu",
+            "supports": "Cocktail identity, ingredients and historical absence; no current service or finished tasting guarantee",
+            "type": "venue",
+            "accessed": "2026-10-03"
+          },
+          {
+            "url": "https://github.com/Papasmurf0098/Voodoo-Dink-Library-II/blob/main/assets/build-sheets/espresso-old-fashioned.pdf",
+            "title": "User-supplied training build — Espresso Old Fashioned",
+            "supports": "Recipe ingredients/build; recipe-version caveats apply; not firsthand tasting or current service",
+            "type": "user-supplied-recipe",
+            "accessed": "2026-10-03"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "venue",
+          "user-supplied-recipe"
+        ],
+        "tastingBasis": "Ingredient/build-based expectations, not a firsthand tasting. Supplied training recipes and the current menu are evidence of descriptions, not the current venue pour; final balance and dilution are not measured.",
+        "resolution": "Training sheet identifies Hoodoo chicory liqueur, orange bitters, saline and Lady Creme Tea Syrup alongside cognac, rye, Licor 43 and espresso.",
+        "conflictsFound": "Espresso pull and dilution are not measured; Lady Creme Tea Syrup composition is not provided. The menu's vanilla note is not a separately documented vanilla measure.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "recipe-and-menu-source-check",
+          "summary": "Training sheet identifies Hoodoo chicory liqueur, orange bitters, saline and Lady Creme Tea Syrup alongside cognac, rye, Licor 43 and espresso."
+        }
+      },
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "holy-sunday",
+            "name": "Holy Sunday",
+            "reason": "Coffee and vanilla connect with the dessert’s coffee ice cream and cookie; roast offers contrast to its sweetness.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "date-cake",
+            "name": "Date Night Spell",
+            "reason": "Coffee bitterness contrasts with toffee and dates; vanilla connects with the ice cream.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial pairing suggestions, not restaurant endorsements or tested pairings. Menu components checked October 3; availability and recipe version require confirmation.",
+        "conditional": false,
+        "rulesCheckedAt": "2026-10-03"
+      }
+    }
+  ]
+}

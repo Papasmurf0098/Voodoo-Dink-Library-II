@@ -1,0 +1,865 @@
+{
+  "family": "Wine",
+  "reviewedAt": "2026-10-03",
+  "recordsReviewed": 36,
+  "entries": [
+    {
+      "id": "laurent-perrier-brut-champagne",
+      "name": "Laurent-Perrier La Cuvee Brut Champagne NV",
+      "checkedAt": "2026-10-03",
+      "status": "primary-reference-reverified",
+      "webReferences": [
+        "turn3view0"
+      ],
+      "sourceUrl": "https://www.laurent-perrier.com/en/champagnes/la-cuvee/",
+      "evidence": "Producer distinguishes citrus/white flowers on nose, vine peach/white fruit on palate, fine persistent mousse and fruit on finish.",
+      "corrections": [
+        "tasting.flavor",
+        "tasting.finish",
+        "pairings.restaurant reasons"
+      ],
+      "remainingUncertainty": "Venue vintage/release and bottle identity not independently confirmed; reference only.",
+      "pairings": "Reviewed all reasons against revised wine notes and current food components; retained dish IDs and counts, revised unsupported sensory and structural claims. Editorial and conditional; venue availability not confirmed.",
+      "pairingCorrections": [
+        "frenchmen-fried-oysters",
+        "eggs"
+      ]
+    },
+    {
+      "id": "opera-prima",
+      "name": "Opera Prima Brut Sparkling Wine",
+      "checkedAt": "2026-10-03",
+      "status": "primary-indexed-reference",
+      "webReferences": [
+        "turn151search1"
+      ],
+      "sourceUrl": "https://civusa.garciacarrion.com/wine-type/opera-prima-brut/",
+      "evidence": "Fresh indexed producer note confirms pear/citrus aromas, delicate bubbles, rounded palate, crisp finish. Direct fetch timed out; indexed source read only.",
+      "corrections": [
+        "tasting.flavor",
+        "tasting.body",
+        "tasting.finish",
+        "pairings.restaurant reasons"
+      ],
+      "remainingUncertainty": "Brut is a conditional interpretation of the broad Opera Prima listing; confirm label. Direct source fetch timed out.",
+      "pairings": "Reviewed all reasons against revised wine notes and current food components; retained dish IDs and counts, revised unsupported sensory and structural claims. Editorial and conditional; venue availability not confirmed.",
+      "pairingCorrections": [
+        "frenchmen-fried-oysters",
+        "eggs"
+      ]
+    },
+    {
+      "id": "perrier-jouet",
+      "name": "Perrier-Jouet Grand Brut Champagne NV",
+      "checkedAt": "2026-10-03",
+      "status": "primary-reference-reverified",
+      "webReferences": [
+        "turn3view2"
+      ],
+      "sourceUrl": "https://www.perrier-jouet.com/en-us/champagnes/grand-brut",
+      "evidence": "Producer assigns floral, fresh fruit, buttery brioche and vanilla to aroma; palate crisp/light with rich finish, soft supple dense structured texture.",
+      "corrections": [
+        "tasting.aroma",
+        "tasting.flavor",
+        "tasting.body",
+        "tasting.finish",
+        "pairings.restaurant reasons"
+      ],
+      "remainingUncertainty": "Venue vintage/release and bottle identity not independently confirmed; reference only.",
+      "pairings": "Reviewed all reasons against revised wine notes and current food components; retained dish IDs and counts, revised unsupported sensory and structural claims. Editorial and conditional; venue availability not confirmed.",
+      "pairingCorrections": [
+        "frenchmen-fried-oysters",
+        "eggs"
+      ]
+    },
+    {
+      "id": "taittinger",
+      "name": "Taittinger Brut Reserve Champagne NV",
+      "checkedAt": "2026-10-03",
+      "status": "primary-reference-reverified",
+      "webReferences": [
+        "turn7view0"
+      ],
+      "sourceUrl": "https://medias.taittinger.com/files/user-1/en-brut-reserve-6a214cfa2cf46000961037.pdf",
+      "evidence": "Current producer PDF p3 documents acacia, hawthorn, honey, peach, mirabelle, apricot, vanilla on nose; brioche/honey/vanilla palate; supple long almond finish.",
+      "corrections": [
+        "tasting.aroma",
+        "tasting.flavor",
+        "tasting.body",
+        "tasting.finish",
+        "pairings.restaurant reasons"
+      ],
+      "remainingUncertainty": "Venue vintage/release and bottle identity not independently confirmed; reference only.",
+      "pairings": "Reviewed all reasons against revised wine notes and current food components; retained dish IDs and counts, revised unsupported sensory and structural claims. Editorial and conditional; venue availability not confirmed.",
+      "pairingCorrections": [
+        "frenchmen-fried-oysters",
+        "eggs"
+      ]
+    },
+    {
+      "id": "veuve-clicquot-yellow-label",
+      "name": "Veuve Clicquot Yellow Label Brut Champagne NV",
+      "checkedAt": "2026-10-03",
+      "status": "primary-reference-reverified",
+      "webReferences": [
+        "turn3view3"
+      ],
+      "sourceUrl": "https://www.veuveclicquot.com/en-us/veuve-clicquot-yellow-label-brut-champagne-11003681.html",
+      "evidence": "Producer explicitly separates pear/apple/peach, mandarin/grapefruit/brioche aromas from pear/peach/pastry/dried-fruit palate; no specific length stated.",
+      "corrections": [
+        "tasting.aroma",
+        "tasting.flavor",
+        "tasting.finish",
+        "pairings.restaurant reasons"
+      ],
+      "remainingUncertainty": "Venue vintage/release and bottle identity not independently confirmed; reference only.",
+      "pairings": "Reviewed all reasons against revised wine notes and current food components; retained dish IDs and counts, revised unsupported sensory and structural claims. Editorial and conditional; venue availability not confirmed.",
+      "pairingCorrections": [
+        "frenchmen-fried-oysters",
+        "eggs"
+      ]
+    },
+    {
+      "id": "veuve-clicquot-rose",
+      "name": "Veuve Clicquot Rose Brut Champagne NV",
+      "checkedAt": "2026-10-03",
+      "status": "primary-reference-reverified",
+      "webReferences": [
+        "turn3view4"
+      ],
+      "sourceUrl": "https://www.veuveclicquot.com/en-us/veuve-clicquot-rose-champagne-1100471.html",
+      "evidence": "Producer aroma includes cherry/strawberry/raspberry/blueberry, white pepper/saffron/licorice, biscuit/croissant, orange peel/toast/gingerbread; palate red fruit/pastry, long finish.",
+      "corrections": [
+        "tasting.aroma",
+        "tasting.flavor",
+        "tasting.body",
+        "tasting.finish",
+        "pairings.restaurant reasons"
+      ],
+      "remainingUncertainty": "Venue vintage/release and bottle identity not independently confirmed; reference only.",
+      "pairings": "Reviewed all reasons against revised wine notes and current food components; retained dish IDs and counts, revised unsupported sensory and structural claims. Editorial and conditional; venue availability not confirmed.",
+      "pairingCorrections": [
+        "frenchmen-fried-oysters",
+        "eggs"
+      ]
+    },
+    {
+      "id": "laurent-perrier-rose-brut",
+      "name": "Laurent-Perrier Cuvee Rose Brut Champagne NV",
+      "checkedAt": "2026-10-03",
+      "status": "primary-reference-reverified",
+      "webReferences": [
+        "turn70view4"
+      ],
+      "sourceUrl": "https://www.laurent-perrier.com/en/champagnes/cuvee-rose/",
+      "evidence": "Producer black cherry is an aroma; palate red berry basket, fresh sharp attack and supple rounded structure; no distinct finish length.",
+      "corrections": [
+        "tasting.aroma",
+        "tasting.flavor",
+        "tasting.finish",
+        "pairings.restaurant reasons"
+      ],
+      "remainingUncertainty": "Venue vintage/release and bottle identity not independently confirmed; reference only.",
+      "pairings": "Reviewed all reasons against revised wine notes and current food components; retained dish IDs and counts, revised unsupported sensory and structural claims. Editorial and conditional; venue availability not confirmed.",
+      "pairingCorrections": [
+        "frenchmen-fried-oysters",
+        "eggs"
+      ]
+    },
+    {
+      "id": "moet-chandon",
+      "name": "Moet & Chandon Imperial Brut Champagne NV",
+      "checkedAt": "2026-10-03",
+      "status": "primary-reference-reverified",
+      "webReferences": [
+        "turn7view1"
+      ],
+      "sourceUrl": "https://www.moet.com/en-us/moet-imperial",
+      "evidence": "Replaced merchant reference with producer: nose green apple/citrus/white flowers/mineral/brioche/cereal/nuts; palate pear/peach/apple/citrus/gooseberry, fine bubbles.",
+      "corrections": [
+        "tasting.aroma",
+        "tasting.flavor",
+        "tasting.body",
+        "tasting.finish",
+        "pairings.restaurant reasons"
+      ],
+      "remainingUncertainty": "Venue vintage/release and bottle identity not independently confirmed; reference only.",
+      "pairings": "Reviewed all reasons against revised wine notes and current food components; retained dish IDs and counts, revised unsupported sensory and structural claims. Editorial and conditional; venue availability not confirmed.",
+      "pairingCorrections": [
+        "frenchmen-fried-oysters",
+        "eggs"
+      ]
+    },
+    {
+      "id": "thomas-schmitt",
+      "name": "Thomas Schmitt Riesling",
+      "checkedAt": "2026-10-03",
+      "status": "primary-reference-identity-unresolved",
+      "webReferences": [
+        "turn7view2",
+        "turn151search0",
+        "turn151search2"
+      ],
+      "sourceUrl": "https://www.schmitt-soehne.com/products/pi-thomas-schmitt-riesling-qba-estate-bottled-984288547",
+      "evidence": "QbA note supports restrained sweetness/crisp acidity and only fragrant nose; QbA Dry and Kabinett show materially different sweetness. No apple or peach in cited note.",
+      "corrections": [
+        "tasting.aroma",
+        "tasting.flavor",
+        "tasting.body",
+        "tasting.finish",
+        "pairings.restaurant reasons"
+      ],
+      "remainingUncertainty": "QbA, QbA Dry and Kabinett are distinct references; the broad menu name cannot establish sweetness.",
+      "pairings": "Reviewed all reasons against revised wine notes and current food components; retained dish IDs and counts, revised unsupported sensory and structural claims. Editorial and conditional; venue availability not confirmed.",
+      "pairingCorrections": [
+        "salmon",
+        "etouffee"
+      ]
+    },
+    {
+      "id": "fleurs-de-prairie",
+      "name": "Fleurs de Prairie Rose",
+      "checkedAt": "2026-10-03",
+      "status": "primary-reference-reverified",
+      "webReferences": [
+        "turn7view3"
+      ],
+      "sourceUrl": "https://www.deutschfamily.com/brands/fleurs-de-prairie/",
+      "evidence": "Brand owner notes strawberry/rose petals/herbs as flavor and bright acidity; does not separately define aroma/body/finish.",
+      "corrections": [
+        "tasting.aroma",
+        "tasting.flavor",
+        "tasting.body",
+        "tasting.finish",
+        "pairings.restaurant reasons"
+      ],
+      "remainingUncertainty": "Venue vintage/release and bottle identity not independently confirmed; reference only.",
+      "pairings": "Reviewed all reasons against revised wine notes and current food components; retained dish IDs and counts, revised unsupported sensory and structural claims. Editorial and conditional; venue availability not confirmed.",
+      "pairingCorrections": [
+        "salmon",
+        "pear"
+      ]
+    },
+    {
+      "id": "whispering-angel",
+      "name": "Whispering Angel Rose",
+      "checkedAt": "2026-10-03",
+      "status": "primary-reference-reverified",
+      "webReferences": [
+        "turn7view4"
+      ],
+      "sourceUrl": "https://www.esclans.com/en-us/our-wines/whispering-angel",
+      "evidence": "Producer core note supports full/lush bone dry and smooth finish; does not support the inherited berry/citrus/floral specificity.",
+      "corrections": [
+        "tasting.aroma",
+        "tasting.flavor",
+        "tasting.body",
+        "pairings.restaurant reasons"
+      ],
+      "remainingUncertainty": "Venue vintage/release and bottle identity not independently confirmed; reference only.",
+      "pairings": "Reviewed all reasons against revised wine notes and current food components; retained dish IDs and counts, revised unsupported sensory and structural claims. Editorial and conditional; venue availability not confirmed.",
+      "pairingCorrections": [
+        "salmon",
+        "pear"
+      ]
+    },
+    {
+      "id": "cave-de-lugny-les-charmes",
+      "name": "Cave de Lugny Macon-Lugny 'Les Charmes' Chardonnay",
+      "checkedAt": "2026-10-03",
+      "status": "primary-reference-reverified",
+      "webReferences": [
+        "turn134view4"
+      ],
+      "sourceUrl": "https://cave-lugny.com/boutique/produit/14/macon-lugny-les-charmes.html",
+      "evidence": "Replaced retailer with producer: nose hazelnut/honey/acacia/citrus; palate rich broad velvety mildly spicy. No orchard fruit or nutty finish stated.",
+      "corrections": [
+        "tasting.aroma",
+        "tasting.flavor",
+        "tasting.body",
+        "tasting.finish",
+        "pairings.restaurant reasons"
+      ],
+      "remainingUncertainty": "Venue vintage/release and bottle identity not independently confirmed; reference only.",
+      "pairings": "Reviewed all reasons against revised wine notes and current food components; retained dish IDs and counts, revised unsupported sensory and structural claims. Editorial and conditional; venue availability not confirmed.",
+      "pairingCorrections": [
+        "crab",
+        "raw-oysters"
+      ]
+    },
+    {
+      "id": "proverb",
+      "name": "Proverb Chardonnay California",
+      "checkedAt": "2026-10-03",
+      "status": "primary-reference-reverified",
+      "webReferences": [
+        "turn25view0"
+      ],
+      "sourceUrl": "https://www.winesofproverb.com/wine_chardonnay.php",
+      "evidence": "Producer reference is explicitly 2016: baked apple/pineapple/vanilla/caramel. No rounded body or soft finish claim in note.",
+      "corrections": [
+        "tasting.aroma",
+        "tasting.flavor",
+        "tasting.body",
+        "tasting.finish",
+        "pairings.restaurant reasons"
+      ],
+      "remainingUncertainty": "Published note explicitly describes the 2016 vintage; it is a historical reference, not identification of the venue vintage.",
+      "pairings": "Reviewed all reasons against revised wine notes and current food components; retained dish IDs and counts, revised unsupported sensory and structural claims. Editorial and conditional; venue availability not confirmed.",
+      "pairingCorrections": [
+        "voodoo-krewe-snapper",
+        "roast-chicken"
+      ]
+    },
+    {
+      "id": "chalk-hill",
+      "name": "Chalk Hill Chardonnay",
+      "checkedAt": "2026-10-03",
+      "status": "primary-reference-identity-unresolved",
+      "webReferences": [
+        "turn115view1",
+        "turn67search2"
+      ],
+      "sourceUrl": "https://www.chalkhill.com/wine/chardonnay/",
+      "evidence": "Producer Sonoma Coast 2024 differs from Estate Chardonnay. Confirm appellation before applying Fuji apple/lemon curd/honeydew/oak/nutmeg.",
+      "corrections": [
+        "tasting.aroma",
+        "tasting.flavor",
+        "tasting.body",
+        "tasting.finish",
+        "pairings.restaurant reasons"
+      ],
+      "remainingUncertainty": "Sonoma Coast 2024 is the reference only. Russian River, Sonoma Coast and Estate labels cannot be treated as interchangeable.",
+      "pairings": "Reviewed all reasons against revised wine notes and current food components; retained dish IDs and counts, revised unsupported sensory and structural claims. Editorial and conditional; venue availability not confirmed.",
+      "pairingCorrections": [
+        "voodoo-krewe-snapper",
+        "roast-chicken"
+      ]
+    },
+    {
+      "id": "barone-fini",
+      "name": "Barone Fini Pinot Grigio",
+      "checkedAt": "2026-10-03",
+      "status": "primary-reference-identity-unresolved",
+      "webReferences": [
+        "turn25view1"
+      ],
+      "sourceUrl": "https://www.baronefiniwines.com/our-wines/",
+      "evidence": "Valdadige reference floral/lemon nose, honeydew/apple palate, crisp lingering mouthfeel. Brand also offers Alto Adige Pinot Grigio with lychee/herbs/flowers.",
+      "corrections": [
+        "tasting.flavor",
+        "tasting.body",
+        "tasting.finish",
+        "pairings.restaurant reasons"
+      ],
+      "remainingUncertainty": "Producer offers both Valdadige and Alto Adige Pinot Grigio; confirm appellation before using these Valdadige notes.",
+      "pairings": "Reviewed all reasons against revised wine notes and current food components; retained dish IDs and counts, revised unsupported sensory and structural claims. Editorial and conditional; venue availability not confirmed.",
+      "pairingCorrections": [
+        "crab",
+        "raw-oysters"
+      ]
+    },
+    {
+      "id": "santa-margherita",
+      "name": "Santa Margherita Pinot Grigio",
+      "checkedAt": "2026-10-03",
+      "status": "primary-reference-reverified",
+      "webReferences": [
+        "turn25view2"
+      ],
+      "sourceUrl": "https://www.santamargheritawines.com/pinotgrigio",
+      "evidence": "Golden Delicious apples are explicitly aroma; palate bright balanced dry, no specific palate fruit named.",
+      "corrections": [
+        "tasting.aroma",
+        "tasting.flavor",
+        "tasting.body",
+        "tasting.finish",
+        "pairings.restaurant reasons"
+      ],
+      "remainingUncertainty": "Venue vintage/release and bottle identity not independently confirmed; reference only.",
+      "pairings": "Reviewed all reasons against revised wine notes and current food components; retained dish IDs and counts, revised unsupported sensory and structural claims. Editorial and conditional; venue availability not confirmed.",
+      "pairingCorrections": [
+        "crab",
+        "raw-oysters"
+      ]
+    },
+    {
+      "id": "kim-crawford",
+      "name": "Kim Crawford Sauvignon Blanc",
+      "checkedAt": "2026-10-03",
+      "status": "primary-reference-reverified",
+      "webReferences": [
+        "turn25view3"
+      ],
+      "sourceUrl": "https://www.kimcrawfordwines.com/products/sauvignon-blanc",
+      "evidence": "Producer core note specifically identifies passion fruit/melon/grapefruit on palate, vibrant acidity and impressive length.",
+      "corrections": [
+        "tasting.flavor",
+        "tasting.body",
+        "tasting.finish",
+        "pairings.restaurant reasons"
+      ],
+      "remainingUncertainty": "Venue vintage/release and bottle identity not independently confirmed; reference only.",
+      "pairings": "Reviewed all reasons against revised wine notes and current food components; retained dish IDs and counts, revised unsupported sensory and structural claims. Editorial and conditional; venue availability not confirmed.",
+      "pairingCorrections": [
+        "redfish",
+        "caesar"
+      ]
+    },
+    {
+      "id": "wither-hills",
+      "name": "Wither Hills Sauvignon Blanc",
+      "checkedAt": "2026-10-03",
+      "status": "primary-reference-reverified",
+      "webReferences": [
+        "turn25view4"
+      ],
+      "sourceUrl": "https://witherhills.co.nz/products/wairau-valley-sauvignon-blanc",
+      "evidence": "Producer guava/crunchy greens on nose; juicy citrus core and mouthwatering textural acidity. No tropical palate or specific finish cited.",
+      "corrections": [
+        "tasting.aroma",
+        "tasting.flavor",
+        "tasting.body",
+        "tasting.finish",
+        "pairings.restaurant reasons"
+      ],
+      "remainingUncertainty": "Venue vintage/release and bottle identity not independently confirmed; reference only.",
+      "pairings": "Reviewed all reasons against revised wine notes and current food components; retained dish IDs and counts, revised unsupported sensory and structural claims. Editorial and conditional; venue availability not confirmed.",
+      "pairingCorrections": [
+        "redfish",
+        "garden-district-ceviche"
+      ]
+    },
+    {
+      "id": "far-niente",
+      "name": "Far Niente Chardonnay",
+      "checkedAt": "2026-10-03",
+      "status": "primary-indexed-reference",
+      "webReferences": [
+        "turn134search2"
+      ],
+      "sourceUrl": "https://farniente.com/shop/wines/2020-far-niente-estate-etched-bottled-chardonnay-napa-valley-mr-mrs",
+      "evidence": "Fresh producer indexed result identifies 2020 white fig/citrus blossom aroma; honeydew/nectarine/lemon zest silky palate, full toasted oak finish. Page rendered incomplete, indexed content used.",
+      "corrections": [
+        "tasting.finish",
+        "pairings.restaurant reasons"
+      ],
+      "remainingUncertainty": "Producer note is explicitly 2020; direct page rendered incompletely. Indexed primary text supports the historical reference, not venue vintage.",
+      "pairings": "Reviewed all reasons against revised wine notes and current food components; retained dish IDs and counts, revised unsupported sensory and structural claims. Editorial and conditional; venue availability not confirmed.",
+      "pairingCorrections": [
+        "voodoo-krewe-snapper",
+        "carbonara"
+      ]
+    },
+    {
+      "id": "mannequin",
+      "name": "Orin Swift Mannequin Chardonnay",
+      "checkedAt": "2026-10-03",
+      "status": "primary-reference-reverified",
+      "webReferences": [
+        "turn138view6"
+      ],
+      "sourceUrl": "https://www.orinswift.com/product/2022-mannequin/",
+      "evidence": "2022 producer provides peach/creme fraiche/graham cracker aroma, white peach/pear/caramel apple/walnut/lemon pith palate, supple and round toffee close. 2024 differs.",
+      "corrections": [
+        "tasting.aroma",
+        "tasting.flavor",
+        "tasting.body",
+        "tasting.finish",
+        "pairings.restaurant reasons"
+      ],
+      "remainingUncertainty": "Explicit 2022 Chardonnay reference. Venue vintage and white-blend versus Chardonnay label remain unconfirmed.",
+      "pairings": "Reviewed all reasons against revised wine notes and current food components; retained dish IDs and counts, revised unsupported sensory and structural claims. Editorial and conditional; venue availability not confirmed.",
+      "pairingCorrections": [
+        "voodoo-krewe-snapper",
+        "roast-chicken"
+      ]
+    },
+    {
+      "id": "beeker",
+      "name": "The Seeker Pinot Noir",
+      "checkedAt": "2026-10-03",
+      "status": "primary-reference-reverified",
+      "webReferences": [
+        "turn70view0"
+      ],
+      "sourceUrl": "https://www.theseekerwines.com/pinot-noir",
+      "evidence": "Producer supports sweet cherry/earth/spice, fine ripe tannins, silkiness and long smooth finish; absence of oak preserves bright fruit.",
+      "corrections": [
+        "tasting.flavor",
+        "tasting.body",
+        "tasting.finish",
+        "pairings.restaurant reasons"
+      ],
+      "remainingUncertainty": "Venue vintage/release and bottle identity not independently confirmed; reference only.",
+      "pairings": "Reviewed all reasons against revised wine notes and current food components; retained dish IDs and counts, revised unsupported sensory and structural claims. Editorial and conditional; venue availability not confirmed.",
+      "pairingCorrections": [
+        "mushroom",
+        "salmon"
+      ]
+    },
+    {
+      "id": "meiomi",
+      "name": "Meiomi Pinot Noir",
+      "checkedAt": "2026-10-03",
+      "status": "primary-reference-reverified",
+      "webReferences": [
+        "turn154view1"
+      ],
+      "sourceUrl": "https://products.bottlecollective.com/assets/images/products/media/Meiomi-2017-Pinot-Noir-Tasting-Notes.pdf",
+      "evidence": "Freshly read producer-authored 2017 tech sheet hosted by distributor: strawberry/jammy fruit/mocha/vanilla/toast nose; boysenberry/blackberry/dark cherry/strawberry/mocha palate, silky supple texture; no finish defined.",
+      "corrections": [
+        "tasting.aroma",
+        "tasting.flavor",
+        "tasting.body",
+        "tasting.finish",
+        "pairings.restaurant reasons"
+      ],
+      "remainingUncertainty": "Producer-authored 2017 sheet hosted by a distributor; historical reference only. Current brand page returned an age gate.",
+      "pairings": "Reviewed all reasons against revised wine notes and current food components; retained dish IDs and counts, revised unsupported sensory and structural claims. Editorial and conditional; venue availability not confirmed.",
+      "pairingCorrections": [
+        "mushroom",
+        "roast-chicken"
+      ]
+    },
+    {
+      "id": "belle-glos-clark-telephone",
+      "name": "Belle Glos Clark & Telephone Pinot Noir",
+      "checkedAt": "2026-10-03",
+      "status": "identity-only-sensory-unresolved",
+      "webReferences": [
+        "turn151view0",
+        "turn129view4",
+        "turn115view2"
+      ],
+      "sourceUrl": "https://belleglos.com/",
+      "evidence": "Current producer confirms Clark & Telephone identity and Santa Maria Valley, but sensory sheet unavailable and legacy URL 404. Retain earlier sensory notes only as conditional unverified reference.",
+      "corrections": [
+        "tasting.aroma",
+        "tasting.flavor",
+        "tasting.body",
+        "tasting.finish",
+        "pairings.restaurant reasons"
+      ],
+      "remainingUncertainty": "Producer identity checked; primary tasting note could not be retrieved. Earlier sensory descriptors remain conditional and have not been independently confirmed in this pass.",
+      "pairings": "Reviewed all reasons against revised wine notes and current food components; retained dish IDs and counts, revised unsupported sensory and structural claims. Editorial and conditional; venue availability not confirmed.",
+      "pairingCorrections": [
+        "mushroom",
+        "roast-chicken"
+      ]
+    },
+    {
+      "id": "sterling-vintners",
+      "name": "Sterling Vintner's Collection Merlot",
+      "checkedAt": "2026-10-03",
+      "status": "secondary-reference-only",
+      "webReferences": [
+        "turn138view1"
+      ],
+      "sourceUrl": "https://www.purdyswine.com/product/sterling-vineyards-vintners-collection-california-merlot/",
+      "evidence": "Merchant sensory paragraph supports plum/blackberry/oak/vanilla and velvety balanced acidity; no producer confirmation found. Retain merchant reference explicitly.",
+      "corrections": [
+        "tasting.body",
+        "tasting.finish",
+        "pairings.restaurant reasons"
+      ],
+      "remainingUncertainty": "Fresh merchant read only; producer confirmation and venue vintage remain outstanding.",
+      "pairings": "Reviewed all reasons against revised wine notes and current food components; retained dish IDs and counts, revised unsupported sensory and structural claims. Editorial and conditional; venue availability not confirmed.",
+      "pairingCorrections": [
+        "ribeye",
+        "burger"
+      ]
+    },
+    {
+      "id": "terrazas",
+      "name": "Terrazas de los Andes Altos del Plata Malbec",
+      "checkedAt": "2026-10-03",
+      "status": "sensory-source-inaccessible",
+      "webReferences": [
+        "turn138view2"
+      ],
+      "sourceUrl": "https://williamsburgwine.com/product/terrazes-altos-del-plata-malbec/",
+      "evidence": "Original cited merchant blocked by Anubis; official Altos del Plata sensory source not found. Earlier notes retained only as unverified conditional reference.",
+      "corrections": [
+        "tasting.aroma",
+        "tasting.flavor",
+        "tasting.body",
+        "tasting.finish",
+        "pairings.restaurant reasons",
+        "research.sources type: retailer, not producer"
+      ],
+      "remainingUncertainty": "Tasting source could not be read; inherited sensory notes are conditional and independently unverified. Confirm Altos del Plata versus other Terrazas lines.",
+      "pairings": "Reviewed all reasons against revised wine notes and current food components; retained dish IDs and counts, revised unsupported sensory and structural claims. Editorial and conditional; venue availability not confirmed.",
+      "pairingCorrections": [
+        "ribeye",
+        "burger"
+      ]
+    },
+    {
+      "id": "boneshaker",
+      "name": "Boneshaker Old Vine Zinfandel",
+      "checkedAt": "2026-10-03",
+      "status": "primary-indexed-reference",
+      "webReferences": [
+        "turn92search0",
+        "turn115view0"
+      ],
+      "sourceUrl": "https://www.hahnwines.com/boneshaker.html",
+      "evidence": "Indexed producer supports concentrated dark fruit/vanilla/spice and bold profile; direct page now redirects to portfolio without Boneshaker. Plum/licorice/warm finish not documented in primary note.",
+      "corrections": [
+        "tasting.aroma",
+        "tasting.flavor",
+        "tasting.body",
+        "tasting.finish",
+        "pairings.restaurant reasons"
+      ],
+      "remainingUncertainty": "Indexed legacy producer text was read; direct URL redirects to a portfolio with no Boneshaker note. Venue vintage and current formulation are not confirmed.",
+      "pairings": "Reviewed all reasons against revised wine notes and current food components; retained dish IDs and counts, revised unsupported sensory and structural claims. Editorial and conditional; venue availability not confirmed.",
+      "pairingCorrections": [
+        "ribeye",
+        "burger"
+      ]
+    },
+    {
+      "id": "8-years-in-the-desert",
+      "name": "Orin Swift 8 Years in the Desert",
+      "checkedAt": "2026-10-03",
+      "status": "primary-reference-reverified",
+      "webReferences": [
+        "turn141view0"
+      ],
+      "sourceUrl": "https://www.orinswift.com/product/2024-8-years-in-the-desert/",
+      "evidence": "2024 producer separates black plum/boysenberry pastry/pepper/cedar/musk aromas, wild blackberry/pluot/fennel/slate palate; taut supple soft tannins; chocolate raspberry finish.",
+      "corrections": [
+        "tasting.aroma",
+        "tasting.flavor",
+        "tasting.body",
+        "tasting.finish",
+        "pairings.restaurant reasons"
+      ],
+      "remainingUncertainty": "Explicit 2024 reference; no venue vintage inferred.",
+      "pairings": "Reviewed all reasons against revised wine notes and current food components; retained dish IDs and counts, revised unsupported sensory and structural claims. Editorial and conditional; venue availability not confirmed.",
+      "pairingCorrections": [
+        "ribeye",
+        "burger"
+      ]
+    },
+    {
+      "id": "abstract",
+      "name": "Orin Swift Abstract",
+      "checkedAt": "2026-10-03",
+      "status": "primary-reference-reverified",
+      "webReferences": [
+        "turn134view0"
+      ],
+      "sourceUrl": "https://www.orinswift.com/wp-content/uploads/2024/11/2023-Abstract-Fact-Sheet-DSP-Approved-1.pdf",
+      "evidence": "2023 producer PDF gives black plum/blueberry/boysenberry/leather/vanilla aroma, blue and black fruit/blackberry compote/lavender palate, rich broad texture and silky tannin close; removes unsupported chocolate.",
+      "corrections": [
+        "tasting.aroma",
+        "tasting.flavor",
+        "tasting.body",
+        "tasting.finish",
+        "pairings.restaurant reasons"
+      ],
+      "remainingUncertainty": "Explicit 2023 reference; do not transfer precise descriptors to an unconfirmed venue vintage.",
+      "pairings": "Reviewed all reasons against revised wine notes and current food components; retained dish IDs and counts, revised unsupported sensory and structural claims. Editorial and conditional; venue availability not confirmed.",
+      "pairingCorrections": [
+        "ribeye",
+        "burger"
+      ]
+    },
+    {
+      "id": "3-finger-jack",
+      "name": "Three Finger Jack East Side Ridge Cabernet Sauvignon",
+      "checkedAt": "2026-10-03",
+      "status": "primary-indexed-reference",
+      "webReferences": [
+        "turn92search14",
+        "turn92search1"
+      ],
+      "sourceUrl": "https://www.prnewswire.com/news-releases/delicato-family-wines-launches-three-finger-jack-east-side-ridge-cabernet-sauvignon-300792878.html",
+      "evidence": "Producer-issued 2019 launch release describes 2016 East Side Ridge: black cherry/blackberry/cassis/charred oak. 2026 producer release corroborates smooth full body; no primary coffee/pepper support.",
+      "corrections": [
+        "tasting.aroma",
+        "tasting.flavor",
+        "tasting.body",
+        "tasting.finish",
+        "pairings.restaurant reasons"
+      ],
+      "remainingUncertainty": "Detailed tasting reference is producer-issued 2016 vintage launch material; current venue vintage is not established.",
+      "pairings": "Reviewed all reasons against revised wine notes and current food components; retained dish IDs and counts, revised unsupported sensory and structural claims. Editorial and conditional; venue availability not confirmed.",
+      "pairingCorrections": [
+        "ribeye",
+        "burger"
+      ]
+    },
+    {
+      "id": "josh-cellars",
+      "name": "Josh Cellars Cabernet Sauvignon",
+      "checkedAt": "2026-10-03",
+      "status": "primary-reference-reverified",
+      "webReferences": [
+        "turn43view3"
+      ],
+      "sourceUrl": "https://www.joshcellars.com/products/josh-cellars-cabernet-sauvignon",
+      "evidence": "Producer flavor notes blackberry/hazelnut/cinnamon/vanilla/toasted oak; round juicy style. Existing structured tannin and finish unsupported.",
+      "corrections": [
+        "tasting.aroma",
+        "tasting.flavor",
+        "tasting.body",
+        "tasting.finish",
+        "pairings.restaurant reasons"
+      ],
+      "remainingUncertainty": "Venue vintage/release and bottle identity not independently confirmed; reference only.",
+      "pairings": "Reviewed all reasons against revised wine notes and current food components; retained dish IDs and counts, revised unsupported sensory and structural claims. Editorial and conditional; venue availability not confirmed.",
+      "pairingCorrections": [
+        "ribeye",
+        "burger"
+      ]
+    },
+    {
+      "id": "martin-ray",
+      "name": "Martin Ray Cabernet Sauvignon",
+      "checkedAt": "2026-10-03",
+      "status": "primary-reference-reverified",
+      "webReferences": [
+        "turn154view0"
+      ],
+      "sourceUrl": "https://www.martinraywinery.com/wp-content/uploads/2025/05/MR_23_Napa-Valley_Cab-Sauv_Wine-on-Tap_Sell-Sheet.pdf",
+      "evidence": "2023 producer wine-on-tap sell sheet supports black cherry/licorice/smoked bacon/dried herbs opening, richly textured fine chalky tannins. No finish described. Format not inferred.",
+      "corrections": [
+        "tasting.aroma",
+        "tasting.flavor",
+        "tasting.body",
+        "tasting.finish",
+        "pairings.restaurant reasons"
+      ],
+      "remainingUncertainty": "2023 Napa Valley wine-on-tap producer reference; no venue vintage or serving format inferred. Producer also makes distinct appellation Cabernets.",
+      "pairings": "Reviewed all reasons against revised wine notes and current food components; retained dish IDs and counts, revised unsupported sensory and structural claims. Editorial and conditional; venue availability not confirmed.",
+      "pairingCorrections": [
+        "ribeye",
+        "burger"
+      ]
+    },
+    {
+      "id": "mise-en-place",
+      "name": "Textbook 'Mise en Place' Oakville Cabernet Sauvignon",
+      "checkedAt": "2026-10-03",
+      "status": "primary-reference-reverified",
+      "webReferences": [
+        "turn67view1"
+      ],
+      "sourceUrl": "https://textbookvineyards.com/wines/oakville-napa-valley-mise-en-place-cabernet-sauvignon-2023/",
+      "evidence": "2023 producer black currant/cassis/graphite/chocolate/pepper aromas, dark fruit/cocoa palate, refined tannins long polished finish.",
+      "corrections": [
+        "tasting.aroma",
+        "tasting.flavor",
+        "tasting.body",
+        "tasting.finish",
+        "pairings.restaurant reasons"
+      ],
+      "remainingUncertainty": "The producer page is explicitly 2023; venue vintage is unconfirmed.",
+      "pairings": "Reviewed all reasons against revised wine notes and current food components; retained dish IDs and counts, revised unsupported sensory and structural claims. Editorial and conditional; venue availability not confirmed.",
+      "pairingCorrections": [
+        "ribeye",
+        "burger"
+      ]
+    },
+    {
+      "id": "silver-oak",
+      "name": "Silver Oak Alexander Valley Cabernet Sauvignon",
+      "checkedAt": "2026-10-03",
+      "status": "primary-reference-reverified",
+      "webReferences": [
+        "turn141view1"
+      ],
+      "sourceUrl": "https://silveroak.com/pages/tasting-notes/alexander-valley",
+      "evidence": "2019 producer aroma list red cherry/raspberry/blackberry/iris/vanilla/clove, great acidity/lift, blackcurrant/baking spices deep fruity finish. Other vintages differ substantially.",
+      "corrections": [
+        "tasting.aroma",
+        "tasting.flavor",
+        "tasting.body",
+        "tasting.finish",
+        "pairings.restaurant reasons"
+      ],
+      "remainingUncertainty": "Descriptors are specifically the producer 2019 reference; other vintages differ in fruit, texture and tannin.",
+      "pairings": "Reviewed all reasons against revised wine notes and current food components; retained dish IDs and counts, revised unsupported sensory and structural claims. Editorial and conditional; venue availability not confirmed.",
+      "pairingCorrections": [
+        "ribeye",
+        "burger"
+      ]
+    },
+    {
+      "id": "caymus",
+      "name": "Caymus Napa Valley Cabernet Sauvignon",
+      "checkedAt": "2026-10-03",
+      "status": "primary-reference-reverified",
+      "webReferences": [
+        "turn70view3"
+      ],
+      "sourceUrl": "https://www.caymus.com/",
+      "evidence": "Producer supports dark concentrated fruit-driven softness and sufficient tannin; does not separately name aroma or finish. Tannins are texture, not flavor.",
+      "corrections": [
+        "tasting.aroma",
+        "tasting.flavor",
+        "tasting.body",
+        "tasting.finish",
+        "pairings.restaurant reasons"
+      ],
+      "remainingUncertainty": "Venue vintage/release and bottle identity not independently confirmed; reference only.",
+      "pairings": "Reviewed all reasons against revised wine notes and current food components; retained dish IDs and counts, revised unsupported sensory and structural claims. Editorial and conditional; venue availability not confirmed.",
+      "pairingCorrections": [
+        "ribeye",
+        "burger"
+      ]
+    },
+    {
+      "id": "darioush",
+      "name": "Darioush Signature Cabernet Sauvignon",
+      "checkedAt": "2026-10-03",
+      "status": "primary-reference-reverified",
+      "webReferences": [
+        "turn70view2"
+      ],
+      "sourceUrl": "https://www.darioush.com/shop/product/2022-signature-cabernet-sauvignon/",
+      "evidence": "2022 producer blackcurrant/blueberry aromas unfolding fig/raspberry/plum; cocoa/sandalwood/thyme expansive velvety palate; firm polished tannin finish graphite/lavender/orange peel.",
+      "corrections": [
+        "tasting.aroma",
+        "tasting.flavor",
+        "tasting.body",
+        "tasting.finish",
+        "pairings.restaurant reasons"
+      ],
+      "remainingUncertainty": "Detailed descriptors come from the 2022 Signature Cabernet; venue vintage is not established. Do not substitute Darius II.",
+      "pairings": "Reviewed all reasons against revised wine notes and current food components; retained dish IDs and counts, revised unsupported sensory and structural claims. Editorial and conditional; venue availability not confirmed.",
+      "pairingCorrections": [
+        "ribeye",
+        "burger"
+      ]
+    },
+    {
+      "id": "eric-louis-pinot-noir",
+      "name": "Eric Louis Pinot Noir",
+      "checkedAt": "2026-10-03",
+      "status": "primary-reference-reverified",
+      "webReferences": [
+        "turn67view2"
+      ],
+      "sourceUrl": "https://www.sancerre-ericlouis.com/en/wine/pinot-noir-eric-louis/",
+      "evidence": "Producer page explicitly 2025 Vin de France with red-fruit aroma and ripe red fruit palate. No exact body or finish details.",
+      "corrections": [
+        "tasting.aroma",
+        "tasting.flavor",
+        "tasting.body",
+        "tasting.finish",
+        "pairings.restaurant reasons"
+      ],
+      "remainingUncertainty": "2025 Vin de France reference only; broad Eric Louis listing does not establish vintage or appellation.",
+      "pairings": "Reviewed all reasons against revised wine notes and current food components; retained dish IDs and counts, revised unsupported sensory and structural claims. Editorial and conditional; venue availability not confirmed.",
+      "pairingCorrections": [
+        "mushroom",
+        "salmon"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3408 @@
+{
+  "entries": [
+    {
+      "id": "laurent-perrier-brut-champagne",
+      "tasting": {
+        "aroma": [
+          "Citrus",
+          "white flowers"
+        ],
+        "flavor": [
+          "Vine peach",
+          "white fruit"
+        ],
+        "body": "Fine bubbles; fresh and delicate.",
+        "finish": "Fruit remains prominent on the finish."
+      },
+      "tags": [
+        "Wine",
+        "Sparkling wine",
+        "Vine peach",
+        "white fruit"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Product-specific reference",
+        "ambiguityStatus": "Vintage/release not stated on the restaurant menu.",
+        "caveats": [
+          "Vintage/release not stated on the restaurant menu."
+        ],
+        "sources": [
+          {
+            "url": "https://www.laurent-perrier.com/en/champagnes/la-cuvee/",
+            "title": "La Cuv\u00e9e | Champagne Laurent-Perrier | EN",
+            "supports": "Identity and tasting characteristics",
+            "type": "producer",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou location-linked menu",
+            "supports": "Listing/name comparison only; does not verify bottle release or tasting notes",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://www.laurent-perrier.com/en/champagnes/la-cuvee/",
+            "title": "2026-10-03 wine audit reference",
+            "supports": "Producer distinguishes citrus/white flowers on nose, vine peach/white fruit on palate, fine persistent mousse and fruit on finish.",
+            "type": "producer",
+            "accessed": "2026-10-03",
+            "accessStatus": "primary-reference-reverified"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "producer",
+          "venue"
+        ],
+        "tastingBasis": "Published reference descriptions, not a tasting of the venue pour. Exact bottle and vintage are unconfirmed. Any body or finish detail absent from source is explicitly marked.",
+        "resolution": "Producer distinguishes citrus/white flowers on nose, vine peach/white fruit on palate, fine persistent mousse and fruit on finish.",
+        "conflictsFound": "Vintage/release not stated on the restaurant menu.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "primary-reference-reverified",
+          "summary": "Producer distinguishes citrus/white flowers on nose, vine peach/white fruit on palate, fine persistent mousse and fruit on finish."
+        }
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial suggestions conditional on the stated reference bottling and listed dish preparation. Venue bottle, vintage and current menu availability are not confirmed by this flavor pass.",
+        "conditional": true,
+        "rulesCheckedAt": "2026-09-18"
+      },
+      "signatureTraits": [
+        "Reference notes require the exact bottle and vintage. Freshness and white fruit lead; heavy toast is not its defining feature."
+      ],
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "frenchmen-fried-oysters",
+            "name": "Frenchmen Fried Oysters",
+            "reason": "For the stated reference Champagne or sparkling wine, bubbles offer a contrast to the fried coating; the dish adds honeydew and green-goddess flavors.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "eggs",
+            "name": "Deviled Eggs",
+            "reason": "For the stated reference, freshness and bubbles offer a contrast to the creamy egg; caviar supplies a savory accent. This is an editorial suggestion.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "opera-prima",
+      "tasting": {
+        "aroma": [
+          "Pear",
+          "citrus"
+        ],
+        "flavor": [
+          "Rounded fruit character; specific palate fruits are not separately named"
+        ],
+        "body": "Delicate bubbles and a rounded palate.",
+        "finish": "Crisp, refreshing close."
+      },
+      "tags": [
+        "Wine",
+        "Sparkling wine",
+        "Rounded fruit character; specific palate fruits are not separately named"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Product-specific reference",
+        "ambiguityStatus": "Brut is a conditional interpretation of the broad Opera Prima listing; confirm label. Direct source fetch timed out.",
+        "caveats": [
+          "Vintage/release not stated on the restaurant menu.",
+          "Brut is a conditional interpretation of the broad Opera Prima listing; confirm label. Direct source fetch timed out."
+        ],
+        "sources": [
+          {
+            "url": "https://civusa.garciacarrion.com/wine-type/op-brut-sparkling/",
+            "title": "Opera Prima Brut Sparkling",
+            "supports": "Identity and tasting characteristics",
+            "type": "producer",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou location-linked menu",
+            "supports": "Listing/name comparison only; does not verify bottle release or tasting notes",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://civusa.garciacarrion.com/wine-type/opera-prima-brut/",
+            "title": "2026-10-03 wine audit reference",
+            "supports": "Fresh indexed producer note confirms pear/citrus aromas, delicate bubbles, rounded palate, crisp finish. Direct fetch timed out; indexed source read only.",
+            "type": "producer",
+            "accessed": "2026-10-03",
+            "accessStatus": "primary-indexed-reference"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "producer",
+          "venue"
+        ],
+        "tastingBasis": "Published reference descriptions, not a tasting of the venue pour. Exact bottle and vintage are unconfirmed. Brut is a conditional interpretation of the broad Opera Prima listing; confirm label. Direct source fetch timed out.",
+        "resolution": "Fresh indexed producer note confirms pear/citrus aromas, delicate bubbles, rounded palate, crisp finish. Direct fetch timed out; indexed source read only.",
+        "conflictsFound": "Vintage/release not stated on the restaurant menu.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "primary-indexed-reference",
+          "summary": "Fresh indexed producer note confirms pear/citrus aromas, delicate bubbles, rounded palate, crisp finish. Direct fetch timed out; indexed source read only."
+        }
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial suggestions conditional on the stated reference bottling and listed dish preparation. Venue bottle, vintage and current menu availability are not confirmed by this flavor pass.",
+        "conditional": true,
+        "rulesCheckedAt": "2026-09-18"
+      },
+      "signatureTraits": [
+        "Reference notes require the exact bottle and vintage. Brut is a conditional interpretation of the broad Opera Prima listing; confirm label. Direct source fetch timed out."
+      ],
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "frenchmen-fried-oysters",
+            "name": "Frenchmen Fried Oysters",
+            "reason": "For the stated reference Champagne or sparkling wine, bubbles offer a contrast to the fried coating; the dish adds honeydew and green-goddess flavors.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "eggs",
+            "name": "Deviled Eggs",
+            "reason": "For the stated reference, freshness and bubbles offer a contrast to the creamy egg; caviar supplies a savory accent. This is an editorial suggestion.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "perrier-jouet",
+      "tasting": {
+        "aroma": [
+          "Flowers",
+          "fresh fruit",
+          "buttery brioche",
+          "vanilla"
+        ],
+        "flavor": [
+          "Freshness; producer does not name separate palate fruits"
+        ],
+        "body": "Crisp entry; supple texture with a dense, structured feel.",
+        "finish": "Rich and lingering."
+      },
+      "tags": [
+        "Wine",
+        "Sparkling wine",
+        "Freshness; producer does not name separate palate fruits"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Product-specific reference",
+        "ambiguityStatus": "Vintage/release not stated on the restaurant menu.",
+        "caveats": [
+          "Vintage/release not stated on the restaurant menu."
+        ],
+        "sources": [
+          {
+            "url": "https://www.perrier-jouet.com/en-us/champagnes/grand-brut",
+            "title": "GRAND BRUT | Perrier-Jou\u00ebt USA",
+            "supports": "Identity and tasting characteristics",
+            "type": "producer",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou location-linked menu",
+            "supports": "Listing/name comparison only; does not verify bottle release or tasting notes",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://www.perrier-jouet.com/en-us/champagnes/grand-brut",
+            "title": "2026-10-03 wine audit reference",
+            "supports": "Producer assigns floral, fresh fruit, buttery brioche and vanilla to aroma; palate crisp/light with rich finish, soft supple dense structured texture.",
+            "type": "producer",
+            "accessed": "2026-10-03",
+            "accessStatus": "primary-reference-reverified"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "producer",
+          "venue"
+        ],
+        "tastingBasis": "Published reference descriptions, not a tasting of the venue pour. Exact bottle and vintage are unconfirmed. Any body or finish detail absent from source is explicitly marked.",
+        "resolution": "Producer assigns floral, fresh fruit, buttery brioche and vanilla to aroma; palate crisp/light with rich finish, soft supple dense structured texture.",
+        "conflictsFound": "Vintage/release not stated on the restaurant menu.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "primary-reference-reverified",
+          "summary": "Producer assigns floral, fresh fruit, buttery brioche and vanilla to aroma; palate crisp/light with rich finish, soft supple dense structured texture."
+        }
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial suggestions conditional on the stated reference bottling and listed dish preparation. Venue bottle, vintage and current menu availability are not confirmed by this flavor pass.",
+        "conditional": true,
+        "rulesCheckedAt": "2026-09-18"
+      },
+      "signatureTraits": [
+        "Reference notes require the exact bottle and vintage. Floral lift combines with a soft pastry character."
+      ],
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "frenchmen-fried-oysters",
+            "name": "Frenchmen Fried Oysters",
+            "reason": "For the stated reference Champagne or sparkling wine, bubbles offer a contrast to the fried coating; the dish adds honeydew and green-goddess flavors.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "eggs",
+            "name": "Deviled Eggs",
+            "reason": "For the stated reference, freshness and bubbles offer a contrast to the creamy egg; caviar supplies a savory accent. This is an editorial suggestion.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "taittinger",
+      "tasting": {
+        "aroma": [
+          "Acacia and hawthorn",
+          "honey",
+          "yellow peach",
+          "mirabelle plum",
+          "apricot",
+          "vanilla"
+        ],
+        "flavor": [
+          "Brioche",
+          "honey",
+          "vanilla"
+        ],
+        "body": "Fine persistent mousse; lively entry and fluid, balanced middle.",
+        "finish": "Long and supple, with lightly roasted almond."
+      },
+      "tags": [
+        "Wine",
+        "Sparkling wine",
+        "Brioche",
+        "honey",
+        "vanilla"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Product-specific reference",
+        "ambiguityStatus": "Vintage/release not stated on the restaurant menu.",
+        "caveats": [
+          "Vintage/release not stated on the restaurant menu."
+        ],
+        "sources": [
+          {
+            "url": "https://medias.taittinger.com/files/user-1/en-brut-reserve-6a214cfa2cf46000961037.pdf",
+            "title": "BRUT RESERVE",
+            "supports": "Identity and tasting characteristics",
+            "type": "producer",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou location-linked menu",
+            "supports": "Listing/name comparison only; does not verify bottle release or tasting notes",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://medias.taittinger.com/files/user-1/en-brut-reserve-6a214cfa2cf46000961037.pdf",
+            "title": "2026-10-03 wine audit reference",
+            "supports": "Current producer PDF p3 documents acacia, hawthorn, honey, peach, mirabelle, apricot, vanilla on nose; brioche/honey/vanilla palate; supple long almond finish.",
+            "type": "producer",
+            "accessed": "2026-10-03",
+            "accessStatus": "primary-reference-reverified"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "producer",
+          "venue"
+        ],
+        "tastingBasis": "Published reference descriptions, not a tasting of the venue pour. Exact bottle and vintage are unconfirmed. Any body or finish detail absent from source is explicitly marked.",
+        "resolution": "Current producer PDF p3 documents acacia, hawthorn, honey, peach, mirabelle, apricot, vanilla on nose; brioche/honey/vanilla palate; supple long almond finish.",
+        "conflictsFound": "Vintage/release not stated on the restaurant menu.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "primary-reference-reverified",
+          "summary": "Current producer PDF p3 documents acacia, hawthorn, honey, peach, mirabelle, apricot, vanilla on nose; brioche/honey/vanilla palate; supple long almond finish."
+        }
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial suggestions conditional on the stated reference bottling and listed dish preparation. Venue bottle, vintage and current menu availability are not confirmed by this flavor pass.",
+        "conditional": true,
+        "rulesCheckedAt": "2026-09-18"
+      },
+      "signatureTraits": [
+        "Reference notes require the exact bottle and vintage. The producer describes both freshness and pastry richness; honey is a tasting note, not a sweetness measurement."
+      ],
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "frenchmen-fried-oysters",
+            "name": "Frenchmen Fried Oysters",
+            "reason": "For the stated reference Champagne or sparkling wine, bubbles offer a contrast to the fried coating; the dish adds honeydew and green-goddess flavors.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "eggs",
+            "name": "Deviled Eggs",
+            "reason": "For the stated reference, freshness and bubbles offer a contrast to the creamy egg; caviar supplies a savory accent. This is an editorial suggestion.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "veuve-clicquot-yellow-label",
+      "tasting": {
+        "aroma": [
+          "Pear",
+          "apple",
+          "peach",
+          "mandarin",
+          "grapefruit",
+          "brioche"
+        ],
+        "flavor": [
+          "Pear",
+          "peach",
+          "pastry",
+          "dried fruit"
+        ],
+        "body": "Structured, fresh and silky.",
+        "finish": "The producer does not separately specify finish length in its core tasting note."
+      },
+      "tags": [
+        "Wine",
+        "Sparkling wine",
+        "Pear",
+        "peach",
+        "pastry",
+        "dried fruit"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Product-specific reference",
+        "ambiguityStatus": "Vintage/release not stated on the restaurant menu.",
+        "caveats": [
+          "Vintage/release not stated on the restaurant menu."
+        ],
+        "sources": [
+          {
+            "url": "https://www.veuveclicquot.com/en-us/veuve-clicquot-yellow-label-brut-champagne-11003681.html",
+            "title": "Veuve Clicquot Brut Yellow Label",
+            "supports": "Identity and tasting characteristics",
+            "type": "producer",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou location-linked menu",
+            "supports": "Listing/name comparison only; does not verify bottle release or tasting notes",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://www.veuveclicquot.com/en-us/veuve-clicquot-yellow-label-brut-champagne-11003681.html",
+            "title": "2026-10-03 wine audit reference",
+            "supports": "Producer explicitly separates pear/apple/peach, mandarin/grapefruit/brioche aromas from pear/peach/pastry/dried-fruit palate; no specific length stated.",
+            "type": "producer",
+            "accessed": "2026-10-03",
+            "accessStatus": "primary-reference-reverified"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "producer",
+          "venue"
+        ],
+        "tastingBasis": "Published reference descriptions, not a tasting of the venue pour. Exact bottle and vintage are unconfirmed. Any body or finish detail absent from source is explicitly marked.",
+        "resolution": "Producer explicitly separates pear/apple/peach, mandarin/grapefruit/brioche aromas from pear/peach/pastry/dried-fruit palate; no specific length stated.",
+        "conflictsFound": "Vintage/release not stated on the restaurant menu.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "primary-reference-reverified",
+          "summary": "Producer explicitly separates pear/apple/peach, mandarin/grapefruit/brioche aromas from pear/peach/pastry/dried-fruit palate; no specific length stated."
+        }
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial suggestions conditional on the stated reference bottling and listed dish preparation. Venue bottle, vintage and current menu availability are not confirmed by this flavor pass.",
+        "conditional": true,
+        "rulesCheckedAt": "2026-09-18"
+      },
+      "signatureTraits": [
+        "Reference notes require the exact bottle and vintage. Pinot Noir provides structure beneath the orchard fruit and brioche."
+      ],
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "frenchmen-fried-oysters",
+            "name": "Frenchmen Fried Oysters",
+            "reason": "For the stated reference Champagne or sparkling wine, bubbles offer a contrast to the fried coating; the dish adds honeydew and green-goddess flavors.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "eggs",
+            "name": "Deviled Eggs",
+            "reason": "For the stated reference, freshness and bubbles offer a contrast to the creamy egg; caviar supplies a savory accent. This is an editorial suggestion.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "veuve-clicquot-rose",
+      "tasting": {
+        "aroma": [
+          "Cherry",
+          "strawberry",
+          "raspberry",
+          "blueberry",
+          "white pepper",
+          "biscuit and croissant",
+          "orange peel"
+        ],
+        "flavor": [
+          "Red fruit",
+          "biscuit",
+          "pastry"
+        ],
+        "body": "Fresh, rounded and Pinot Noir structured.",
+        "finish": "Long and elegant; no separate finish fruits specified."
+      },
+      "tags": [
+        "Wine",
+        "Sparkling wine",
+        "Red fruit",
+        "biscuit",
+        "pastry"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Product-specific reference",
+        "ambiguityStatus": "Vintage/release not stated on the restaurant menu.",
+        "caveats": [
+          "Vintage/release not stated on the restaurant menu."
+        ],
+        "sources": [
+          {
+            "url": "https://www.veuveclicquot.com/en-us/veuve-clicquot-rose-champagne-1100471.html",
+            "title": "Veuve Clicquot Brut Ros\u00e9",
+            "supports": "Identity and tasting characteristics",
+            "type": "producer",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou location-linked menu",
+            "supports": "Listing/name comparison only; does not verify bottle release or tasting notes",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://www.veuveclicquot.com/en-us/veuve-clicquot-rose-champagne-1100471.html",
+            "title": "2026-10-03 wine audit reference",
+            "supports": "Producer aroma includes cherry/strawberry/raspberry/blueberry, white pepper/saffron/licorice, biscuit/croissant, orange peel/toast/gingerbread; palate red fruit/pastry, long finish.",
+            "type": "producer",
+            "accessed": "2026-10-03",
+            "accessStatus": "primary-reference-reverified"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "producer",
+          "venue"
+        ],
+        "tastingBasis": "Published reference descriptions, not a tasting of the venue pour. Exact bottle and vintage are unconfirmed. Any body or finish detail absent from source is explicitly marked.",
+        "resolution": "Producer aroma includes cherry/strawberry/raspberry/blueberry, white pepper/saffron/licorice, biscuit/croissant, orange peel/toast/gingerbread; palate red fruit/pastry, long finish.",
+        "conflictsFound": "Vintage/release not stated on the restaurant menu.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "primary-reference-reverified",
+          "summary": "Producer aroma includes cherry/strawberry/raspberry/blueberry, white pepper/saffron/licorice, biscuit/croissant, orange peel/toast/gingerbread; palate red fruit/pastry, long finish."
+        }
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial suggestions conditional on the stated reference bottling and listed dish preparation. Venue bottle, vintage and current menu availability are not confirmed by this flavor pass.",
+        "conditional": true,
+        "rulesCheckedAt": "2026-09-18"
+      },
+      "signatureTraits": [
+        "Reference notes require the exact bottle and vintage. Red-fruit depth is accompanied by pastry and spice; ros\u00e9 color does not mean sweet wine."
+      ],
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "frenchmen-fried-oysters",
+            "name": "Frenchmen Fried Oysters",
+            "reason": "For the stated reference Champagne or sparkling wine, bubbles offer a contrast to the fried coating; the dish adds honeydew and green-goddess flavors.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "eggs",
+            "name": "Deviled Eggs",
+            "reason": "For the stated reference, freshness and bubbles offer a contrast to the creamy egg; caviar supplies a savory accent. This is an editorial suggestion.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "laurent-perrier-rose-brut",
+      "tasting": {
+        "aroma": [
+          "Raspberry",
+          "redcurrant",
+          "strawberry",
+          "black cherry"
+        ],
+        "flavor": [
+          "Freshly picked red berries"
+        ],
+        "body": "Fresh on entry, then supple and rounded.",
+        "finish": "Finish length is not separately specified by the producer."
+      },
+      "tags": [
+        "Wine",
+        "Sparkling wine",
+        "Freshly picked red berries"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Product-specific reference",
+        "ambiguityStatus": "Vintage/release not stated on the restaurant menu.",
+        "caveats": [
+          "Vintage/release not stated on the restaurant menu."
+        ],
+        "sources": [
+          {
+            "url": "https://www.laurent-perrier.com/en/champagnes/cuvee-rose/",
+            "title": "Cuv\u00e9e Ros\u00e9",
+            "supports": "Identity and tasting characteristics",
+            "type": "producer",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou location-linked menu",
+            "supports": "Listing/name comparison only; does not verify bottle release or tasting notes",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://www.laurent-perrier.com/en/champagnes/cuvee-rose/",
+            "title": "2026-10-03 wine audit reference",
+            "supports": "Producer black cherry is an aroma; palate red berry basket, fresh sharp attack and supple rounded structure; no distinct finish length.",
+            "type": "producer",
+            "accessed": "2026-10-03",
+            "accessStatus": "primary-reference-reverified"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "producer",
+          "venue"
+        ],
+        "tastingBasis": "Published reference descriptions, not a tasting of the venue pour. Exact bottle and vintage are unconfirmed. Any body or finish detail absent from source is explicitly marked.",
+        "resolution": "Producer black cherry is an aroma; palate red berry basket, fresh sharp attack and supple rounded structure; no distinct finish length.",
+        "conflictsFound": "Vintage/release not stated on the restaurant menu.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "primary-reference-reverified",
+          "summary": "Producer black cherry is an aroma; palate red berry basket, fresh sharp attack and supple rounded structure; no distinct finish length."
+        }
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial suggestions conditional on the stated reference bottling and listed dish preparation. Venue bottle, vintage and current menu availability are not confirmed by this flavor pass.",
+        "conditional": true,
+        "rulesCheckedAt": "2026-09-18"
+      },
+      "signatureTraits": [
+        "Reference notes require the exact bottle and vintage. A Pinot Noir ros\u00e9 built around vivid red fruit."
+      ],
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "frenchmen-fried-oysters",
+            "name": "Frenchmen Fried Oysters",
+            "reason": "For the stated reference Champagne or sparkling wine, bubbles offer a contrast to the fried coating; the dish adds honeydew and green-goddess flavors.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "eggs",
+            "name": "Deviled Eggs",
+            "reason": "For the stated reference, freshness and bubbles offer a contrast to the creamy egg; caviar supplies a savory accent. This is an editorial suggestion.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "moet-chandon",
+      "tasting": {
+        "aroma": [
+          "Green apple",
+          "citrus",
+          "white flowers",
+          "brioche",
+          "cereal and fresh nuts"
+        ],
+        "flavor": [
+          "Pear",
+          "peach",
+          "apple",
+          "citrus",
+          "gooseberry"
+        ],
+        "body": "Fine bubbles, generous fruit and gentle citrus freshness.",
+        "finish": "The producer does not separately describe finish length."
+      },
+      "tags": [
+        "Wine",
+        "Sparkling wine",
+        "Pear",
+        "peach",
+        "apple",
+        "citrus",
+        "gooseberry"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Product-specific reference",
+        "ambiguityStatus": "Vintage/release not stated on the restaurant menu.",
+        "caveats": [
+          "Vintage/release not stated on the restaurant menu."
+        ],
+        "sources": [
+          {
+            "url": "https://www.premierchampagne.com/products/moet-chandon-imperial-brut.html",
+            "title": "Moet & Chandon Imperial Brut",
+            "supports": "Identity and tasting characteristics",
+            "type": "merchant or independent tasting",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou location-linked menu",
+            "supports": "Listing/name comparison only; does not verify bottle release or tasting notes",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://www.moet.com/en-us/moet-imperial",
+            "title": "2026-10-03 wine audit reference",
+            "supports": "Replaced merchant reference with producer: nose green apple/citrus/white flowers/mineral/brioche/cereal/nuts; palate pear/peach/apple/citrus/gooseberry, fine bubbles.",
+            "type": "producer",
+            "accessed": "2026-10-03",
+            "accessStatus": "primary-reference-reverified"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "merchant or independent tasting",
+          "venue"
+        ],
+        "tastingBasis": "Published reference descriptions, not a tasting of the venue pour. Exact bottle and vintage are unconfirmed. Any body or finish detail absent from source is explicitly marked.",
+        "resolution": "Replaced merchant reference with producer: nose green apple/citrus/white flowers/mineral/brioche/cereal/nuts; palate pear/peach/apple/citrus/gooseberry, fine bubbles.",
+        "conflictsFound": "Vintage/release not stated on the restaurant menu.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "primary-reference-reverified",
+          "summary": "Replaced merchant reference with producer: nose green apple/citrus/white flowers/mineral/brioche/cereal/nuts; palate pear/peach/apple/citrus/gooseberry, fine bubbles."
+        }
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial suggestions conditional on the stated reference bottling and listed dish preparation. Venue bottle, vintage and current menu availability are not confirmed by this flavor pass.",
+        "conditional": true,
+        "rulesCheckedAt": "2026-09-18"
+      },
+      "signatureTraits": [
+        "Reference notes require the exact bottle and vintage. Balances fresh fruit with a gentle bread-like maturation character."
+      ],
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "frenchmen-fried-oysters",
+            "name": "Frenchmen Fried Oysters",
+            "reason": "For the stated reference Champagne or sparkling wine, bubbles offer a contrast to the fried coating; the dish adds honeydew and green-goddess flavors.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "eggs",
+            "name": "Deviled Eggs",
+            "reason": "For the stated reference, freshness and bubbles offer a contrast to the creamy egg; caviar supplies a savory accent. This is an editorial suggestion.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "thomas-schmitt",
+      "tasting": {
+        "aroma": [
+          "Subtle fragrance; specific fruits not identified in the QbA producer note"
+        ],
+        "flavor": [
+          "For the QbA reference: restrained sweetness balanced by crisp acidity"
+        ],
+        "body": "Sweetness and texture require the exact QbA, Dry or Kabinett label.",
+        "finish": "QbA reference is sweet-tart; exact finish requires the bottling."
+      },
+      "tags": [
+        "Wine",
+        "White wine",
+        "For the QbA reference: restrained sweetness balanced by crisp acidity"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Product-specific reference",
+        "ambiguityStatus": "QbA, QbA Dry and Kabinett are distinct references; the broad menu name cannot establish sweetness.",
+        "caveats": [
+          "The menu identifies Riesling but does not identify QbA versus Kabinett; sweetness and alcohol must follow the bottle.",
+          "QbA, QbA Dry and Kabinett are distinct references; the broad menu name cannot establish sweetness."
+        ],
+        "sources": [
+          {
+            "url": "https://www.schmitt-soehne.com/products/pi-thomas-schmitt-riesling-qba-estate-bottled-984288547",
+            "title": "Thomas Schmitt Riesling QbA Estate Bottled",
+            "supports": "Identity and tasting characteristics",
+            "type": "producer",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou location-linked menu",
+            "supports": "Listing/name comparison only; does not verify bottle release or tasting notes",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://www.schmitt-soehne.com/products/pi-thomas-schmitt-riesling-qba-estate-bottled-984288547",
+            "title": "2026-10-03 wine audit reference",
+            "supports": "QbA note supports restrained sweetness/crisp acidity and only fragrant nose; QbA Dry and Kabinett show materially different sweetness. No apple or peach in cited note.",
+            "type": "producer",
+            "accessed": "2026-10-03",
+            "accessStatus": "primary-reference-identity-unresolved"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "producer",
+          "venue"
+        ],
+        "tastingBasis": "Published reference descriptions, not a tasting of the venue pour. Exact bottle and vintage are unconfirmed. QbA, QbA Dry and Kabinett are distinct references; the broad menu name cannot establish sweetness.",
+        "resolution": "QbA note supports restrained sweetness/crisp acidity and only fragrant nose; QbA Dry and Kabinett show materially different sweetness. No apple or peach in cited note.",
+        "conflictsFound": "The menu identifies Riesling but does not identify QbA versus Kabinett; sweetness and alcohol must follow the bottle.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "primary-reference-identity-unresolved",
+          "summary": "QbA note supports restrained sweetness/crisp acidity and only fragrant nose; QbA Dry and Kabinett show materially different sweetness. No apple or peach in cited note."
+        }
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial suggestions conditional on the stated reference bottling and listed dish preparation. Venue bottle, vintage and current menu availability are not confirmed by this flavor pass.",
+        "conditional": true,
+        "rulesCheckedAt": "2026-09-18"
+      },
+      "signatureTraits": [
+        "Reference notes require the exact bottle and vintage. QbA, QbA Dry and Kabinett are distinct references; the broad menu name cannot establish sweetness."
+      ],
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "salmon",
+            "name": "Creole Mustard Salmon",
+            "reason": "If the served bottle is the cited QbA, restrained sweetness and crisp acidity offer a contrast to salmon and tangy Creole mustard. Confirm the sweetness level first.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "etouffee",
+            "name": "Shrimp & Crawfish \u00c9touff\u00e9e",
+            "reason": "If the served bottle is the cited QbA, restrained sweetness offers a sweet contrast to spicy Creole sauce. Dry and Kabinett bottlings require a separate assessment.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fleurs-de-prairie",
+      "tasting": {
+        "aroma": [
+          "Aromas are not separately described in the cited brand-owner note"
+        ],
+        "flavor": [
+          "Strawberry",
+          "rose petals",
+          "herbs"
+        ],
+        "body": "Bright, refreshing acidity; body is not separately specified.",
+        "finish": "Finish is not separately described in the cited note."
+      },
+      "tags": [
+        "Wine",
+        "Rose wine",
+        "Strawberry",
+        "rose petals",
+        "herbs"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Product-specific reference",
+        "ambiguityStatus": "Vintage/release not stated on the restaurant menu.",
+        "caveats": [
+          "Vintage/release not stated on the restaurant menu.",
+          "Menu says Provence; current distributor describes South of France sourcing. Check the bottle appellation."
+        ],
+        "sources": [
+          {
+            "url": "https://www.deutschfamily.com/brands/fleurs-de-prairie/",
+            "title": "Fleurs De Prairie",
+            "supports": "Identity and tasting characteristics",
+            "type": "producer",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou location-linked menu",
+            "supports": "Listing/name comparison only; does not verify bottle release or tasting notes",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://www.deutschfamily.com/brands/fleurs-de-prairie/",
+            "title": "2026-10-03 wine audit reference",
+            "supports": "Brand owner notes strawberry/rose petals/herbs as flavor and bright acidity; does not separately define aroma/body/finish.",
+            "type": "producer",
+            "accessed": "2026-10-03",
+            "accessStatus": "primary-reference-reverified"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "producer",
+          "venue"
+        ],
+        "tastingBasis": "Published reference descriptions, not a tasting of the venue pour. Exact bottle and vintage are unconfirmed. Any body or finish detail absent from source is explicitly marked.",
+        "resolution": "Brand owner notes strawberry/rose petals/herbs as flavor and bright acidity; does not separately define aroma/body/finish.",
+        "conflictsFound": "Vintage/release not stated on the restaurant menu.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "primary-reference-reverified",
+          "summary": "Brand owner notes strawberry/rose petals/herbs as flavor and bright acidity; does not separately define aroma/body/finish."
+        }
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial suggestions conditional on the stated reference bottling and listed dish preparation. Venue bottle, vintage and current menu availability are not confirmed by this flavor pass.",
+        "conditional": true,
+        "rulesCheckedAt": "2026-09-18"
+      },
+      "signatureTraits": [
+        "Reference notes require the exact bottle and vintage. A South of France ros\u00e9; do not assume that every release is C\u00f4tes de Provence."
+      ],
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "salmon",
+            "name": "Creole Mustard Salmon",
+            "reason": "The reference ros\u00e9\u2019s strawberry and herbal flavors offer an editorial contrast to rich salmon and tangy Creole mustard.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "pear",
+            "name": "Pear & Pecan Salad",
+            "reason": "Reference strawberry and herbal notes sit beside the salad\u2019s pear and black cherry; bright acidity contrasts with goat-cheese richness.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "whispering-angel",
+      "tasting": {
+        "aroma": [
+          "Specific aromas are not listed in the cited producer note"
+        ],
+        "flavor": [
+          "Dry fruit character; specific fruits are not listed in the cited note"
+        ],
+        "body": "Full, lush texture in a bone-dry style.",
+        "finish": "Smooth and dry."
+      },
+      "tags": [
+        "Wine",
+        "Rose wine",
+        "Dry fruit character; specific fruits are not listed in the cited note"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Product-specific reference",
+        "ambiguityStatus": "Vintage/release not stated on the restaurant menu.",
+        "caveats": [
+          "Vintage/release not stated on the restaurant menu."
+        ],
+        "sources": [
+          {
+            "url": "https://www.esclans.com/en-us/our-wines/whispering-angel",
+            "title": "Whispering Angel",
+            "supports": "Identity and tasting characteristics",
+            "type": "producer",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou location-linked menu",
+            "supports": "Listing/name comparison only; does not verify bottle release or tasting notes",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://www.esclans.com/en-us/our-wines/whispering-angel",
+            "title": "2026-10-03 wine audit reference",
+            "supports": "Producer core note supports full/lush bone dry and smooth finish; does not support the inherited berry/citrus/floral specificity.",
+            "type": "producer",
+            "accessed": "2026-10-03",
+            "accessStatus": "primary-reference-reverified"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "producer",
+          "venue"
+        ],
+        "tastingBasis": "Published reference descriptions, not a tasting of the venue pour. Exact bottle and vintage are unconfirmed. Any body or finish detail absent from source is explicitly marked.",
+        "resolution": "Producer core note supports full/lush bone dry and smooth finish; does not support the inherited berry/citrus/floral specificity.",
+        "conflictsFound": "Vintage/release not stated on the restaurant menu.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "primary-reference-reverified",
+          "summary": "Producer core note supports full/lush bone dry and smooth finish; does not support the inherited berry/citrus/floral specificity."
+        }
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial suggestions conditional on the stated reference bottling and listed dish preparation. Venue bottle, vintage and current menu availability are not confirmed by this flavor pass.",
+        "conditional": true,
+        "rulesCheckedAt": "2026-09-18"
+      },
+      "signatureTraits": [
+        "Reference notes require the exact bottle and vintage. The producer explicitly describes a dry wine despite its ripe fruit character."
+      ],
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "salmon",
+            "name": "Creole Mustard Salmon",
+            "reason": "The producer\u2019s full, lush yet bone-dry reference style offers a textural accompaniment to salmon; the mustard remains a tangy accent.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "pear",
+            "name": "Pear & Pecan Salad",
+            "reason": "The reference\u2019s dry style and lush texture offer an accompaniment to goat cheese and pecans; the salad, rather than the source note, supplies specific fruit flavors.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cave-de-lugny-les-charmes",
+      "tasting": {
+        "aroma": [
+          "Hazelnut",
+          "honey",
+          "acacia",
+          "citrus"
+        ],
+        "flavor": [
+          "Subtle spice; specific palate fruits are not separately listed"
+        ],
+        "body": "Broad, rich and velvety.",
+        "finish": "Finish is not separately described by the producer."
+      },
+      "tags": [
+        "Wine",
+        "White wine",
+        "Subtle spice; specific palate fruits are not separately listed"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Product-specific reference",
+        "ambiguityStatus": "Vintage/release not stated on the restaurant menu.",
+        "caveats": [
+          "Vintage/release not stated on the restaurant menu."
+        ],
+        "sources": [
+          {
+            "url": "https://www.marketviewliquor.com/product/wine/cave-de-lugny-macon-lugny-les-charmes-chardonnay-750ml",
+            "title": "Cave De Lugny Macon Lugny Les Charmes Chardonnay / 750mL",
+            "supports": "Identity and tasting characteristics",
+            "type": "merchant or independent tasting",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou location-linked menu",
+            "supports": "Listing/name comparison only; does not verify bottle release or tasting notes",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://cave-lugny.com/boutique/produit/14/macon-lugny-les-charmes.html",
+            "title": "2026-10-03 wine audit reference",
+            "supports": "Replaced retailer with producer: nose hazelnut/honey/acacia/citrus; palate rich broad velvety mildly spicy. No orchard fruit or nutty finish stated.",
+            "type": "producer",
+            "accessed": "2026-10-03",
+            "accessStatus": "primary-reference-reverified"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "merchant or independent tasting",
+          "venue"
+        ],
+        "tastingBasis": "Published reference descriptions, not a tasting of the venue pour. Exact bottle and vintage are unconfirmed. Any body or finish detail absent from source is explicitly marked.",
+        "resolution": "Replaced retailer with producer: nose hazelnut/honey/acacia/citrus; palate rich broad velvety mildly spicy. No orchard fruit or nutty finish stated.",
+        "conflictsFound": "Vintage/release not stated on the restaurant menu.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "primary-reference-reverified",
+          "summary": "Replaced retailer with producer: nose hazelnut/honey/acacia/citrus; palate rich broad velvety mildly spicy. No orchard fruit or nutty finish stated."
+        }
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial suggestions conditional on the stated reference bottling and listed dish preparation. Venue bottle, vintage and current menu availability are not confirmed by this flavor pass.",
+        "conditional": true,
+        "rulesCheckedAt": "2026-09-18"
+      },
+      "signatureTraits": [
+        "Reference notes require the exact bottle and vintage. Creaminess does not establish oak aging; this cuv\u00e9e is commonly documented as unoaked."
+      ],
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "crab",
+            "name": "Jumbo Lump Crab Cake",
+            "reason": "The reference wine\u2019s broad, velvety texture offers an accompaniment to crab cake; citrus and acacia aromas add an aromatic contrast to Creole mustard.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "raw-oysters",
+            "name": "Raw Oysters",
+            "reason": "The reference is rich and broad, making this a fuller accompaniment to oysters rather than a light pairing. Oyster salinity offers contrast; strongly flavored toppings may dominate.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "proverb",
+      "tasting": {
+        "aroma": [
+          "Baked apple",
+          "pineapple",
+          "vanilla",
+          "caramel"
+        ],
+        "flavor": [
+          "Baked apple",
+          "pineapple",
+          "vanilla",
+          "caramel"
+        ],
+        "body": "Body is not specified in the 2016 producer note.",
+        "finish": "Finish is not specified in the 2016 producer note."
+      },
+      "tags": [
+        "Wine",
+        "White wine",
+        "Baked apple",
+        "pineapple",
+        "vanilla",
+        "caramel"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Product-specific reference",
+        "ambiguityStatus": "Published note explicitly describes the 2016 vintage; it is a historical reference, not identification of the venue vintage.",
+        "caveats": [
+          "Vintage/release not stated on the restaurant menu.",
+          "Published note explicitly describes the 2016 vintage; it is a historical reference, not identification of the venue vintage."
+        ],
+        "sources": [
+          {
+            "url": "https://www.winesofproverb.com/wine_chardonnay.php",
+            "title": "Chardonnay - Proverb",
+            "supports": "Identity and tasting characteristics",
+            "type": "producer",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou location-linked menu",
+            "supports": "Listing/name comparison only; does not verify bottle release or tasting notes",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://www.winesofproverb.com/wine_chardonnay.php",
+            "title": "2026-10-03 wine audit reference",
+            "supports": "Producer reference is explicitly 2016: baked apple/pineapple/vanilla/caramel. No rounded body or soft finish claim in note.",
+            "type": "producer",
+            "accessed": "2026-10-03",
+            "accessStatus": "primary-reference-reverified"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "producer",
+          "venue"
+        ],
+        "tastingBasis": "Published reference descriptions, not a tasting of the venue pour. Exact bottle and vintage are unconfirmed. Published note explicitly describes the 2016 vintage; it is a historical reference, not identification of the venue vintage.",
+        "resolution": "Producer reference is explicitly 2016: baked apple/pineapple/vanilla/caramel. No rounded body or soft finish claim in note.",
+        "conflictsFound": "Vintage/release not stated on the restaurant menu.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "primary-reference-reverified",
+          "summary": "Producer reference is explicitly 2016: baked apple/pineapple/vanilla/caramel. No rounded body or soft finish claim in note."
+        }
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial suggestions conditional on the stated reference bottling and listed dish preparation. Venue bottle, vintage and current menu availability are not confirmed by this flavor pass.",
+        "conditional": true,
+        "rulesCheckedAt": "2026-09-18"
+      },
+      "signatureTraits": [
+        "Reference notes require the exact bottle and vintage. Published note explicitly describes the 2016 vintage; it is a historical reference, not identification of the venue vintage."
+      ],
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "voodoo-krewe-snapper",
+            "name": "Voodoo Krewe Snapper",
+            "reason": "In the historical 2016 reference, baked apple and pineapple offer fruit contrast to Creole sauce; vanilla and caramel suggest an aromatic link to cornbread stuffing. Exact venue vintage is unconfirmed.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "roast-chicken",
+            "name": "Brick Oven Roasted Chicken",
+            "reason": "The 2016 reference\u2019s baked apple, vanilla and caramel offer an aromatic accompaniment to roasted chicken and bourbon jus; body and oak-spice intensity are not documented.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "chalk-hill",
+      "tasting": {
+        "aroma": [
+          "If Sonoma Coast 2024: Fuji apple",
+          "lemon curd",
+          "honeydew",
+          "toasty oak",
+          "baking spice"
+        ],
+        "flavor": [
+          "If Sonoma Coast 2024: Fuji apple",
+          "lemon curd",
+          "honeydew",
+          "nutmeg",
+          "flinty mineral impression"
+        ],
+        "body": "Sonoma Coast reference is bright and lively; body requires exact bottling.",
+        "finish": "Finish is not separately specified on the 2024 Sonoma Coast page."
+      },
+      "tags": [
+        "Wine",
+        "White wine",
+        "If Sonoma Coast 2024: Fuji apple",
+        "lemon curd",
+        "honeydew",
+        "nutmeg",
+        "flinty mineral impression"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Product-specific reference",
+        "ambiguityStatus": "Sonoma Coast 2024 is the reference only. Russian River, Sonoma Coast and Estate labels cannot be treated as interchangeable.",
+        "caveats": [
+          "Russian River Valley, Sonoma Coast and Estate Chardonnay are distinct bottlings; the venue label needs confirmation.",
+          "Estate Chardonnay notes were removed from the Russian River menu entry.",
+          "Sonoma Coast 2024 is the reference only. Russian River, Sonoma Coast and Estate labels cannot be treated as interchangeable."
+        ],
+        "sources": [
+          {
+            "url": "https://www.vintagewineshoppe.net/product-page/2024-chalk-hill-russian-river-valley-chardonnay",
+            "title": "2024 Chalk Hill Russian River Valley Chardonnay",
+            "supports": "Identity and tasting characteristics",
+            "type": "merchant or independent tasting",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou location-linked menu",
+            "supports": "Listing/name comparison only; does not verify bottle release or tasting notes",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://www.chalkhill.com/wine/chardonnay/",
+            "title": "2026-10-03 wine audit reference",
+            "supports": "Producer Sonoma Coast 2024 differs from Estate Chardonnay. Confirm appellation before applying Fuji apple/lemon curd/honeydew/oak/nutmeg.",
+            "type": "producer",
+            "accessed": "2026-10-03",
+            "accessStatus": "primary-reference-identity-unresolved"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "merchant or independent tasting",
+          "venue"
+        ],
+        "tastingBasis": "Published reference descriptions, not a tasting of the venue pour. Exact bottle and vintage are unconfirmed. Sonoma Coast 2024 is the reference only. Russian River, Sonoma Coast and Estate labels cannot be treated as interchangeable.",
+        "resolution": "Producer Sonoma Coast 2024 differs from Estate Chardonnay. Confirm appellation before applying Fuji apple/lemon curd/honeydew/oak/nutmeg.",
+        "conflictsFound": "Russian River Valley, Sonoma Coast and Estate Chardonnay are distinct bottlings; the venue label needs confirmation.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "primary-reference-identity-unresolved",
+          "summary": "Producer Sonoma Coast 2024 differs from Estate Chardonnay. Confirm appellation before applying Fuji apple/lemon curd/honeydew/oak/nutmeg."
+        }
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial suggestions conditional on the stated reference bottling and listed dish preparation. Venue bottle, vintage and current menu availability are not confirmed by this flavor pass.",
+        "conditional": true,
+        "rulesCheckedAt": "2026-09-18"
+      },
+      "origin": {
+        "country": "USA",
+        "region": "California; exact appellation unconfirmed",
+        "display": "California, USA; confirm appellation"
+      },
+      "signatureTraits": [
+        "Reference notes require the exact bottle and vintage. Sonoma Coast 2024 is the reference only. Russian River, Sonoma Coast and Estate labels cannot be treated as interchangeable."
+      ],
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "voodoo-krewe-snapper",
+            "name": "Voodoo Krewe Snapper",
+            "reason": "If the bottle is the 2024 Sonoma Coast reference, Fuji apple, lemon curd and baking spice contrast with Creole sauce alongside cornbread stuffing. Exact bottling and body require confirmation.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "roast-chicken",
+            "name": "Brick Oven Roasted Chicken",
+            "reason": "If the bottle is the 2024 Sonoma Coast reference, toasty oak and baking-spice notes offer an aromatic link to roast chicken; lemon-curd flavor contrasts with the rich jus.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "barone-fini",
+      "tasting": {
+        "aroma": [
+          "Flowers",
+          "lemon"
+        ],
+        "flavor": [
+          "For Valdadige: honeydew",
+          "ripe apple",
+          "mineral impression"
+        ],
+        "body": "Valdadige reference: crisp, with bright acidity.",
+        "finish": "Valdadige reference: lingering crispness."
+      },
+      "tags": [
+        "Wine",
+        "White wine",
+        "For Valdadige: honeydew",
+        "ripe apple",
+        "mineral impression"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Product-specific reference",
+        "ambiguityStatus": "Producer offers both Valdadige and Alto Adige Pinot Grigio; confirm appellation before using these Valdadige notes.",
+        "caveats": [
+          "Vintage/release not stated on the restaurant menu.",
+          "Producer offers both Valdadige and Alto Adige Pinot Grigio; confirm appellation before using these Valdadige notes."
+        ],
+        "sources": [
+          {
+            "url": "https://www.baronefiniwines.com/our-wines/",
+            "title": "Our Wines - Pinot Grigio and Merlot Wines",
+            "supports": "Identity and tasting characteristics",
+            "type": "producer",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou location-linked menu",
+            "supports": "Listing/name comparison only; does not verify bottle release or tasting notes",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://www.baronefiniwines.com/our-wines/",
+            "title": "2026-10-03 wine audit reference",
+            "supports": "Valdadige reference floral/lemon nose, honeydew/apple palate, crisp lingering mouthfeel. Brand also offers Alto Adige Pinot Grigio with lychee/herbs/flowers.",
+            "type": "producer",
+            "accessed": "2026-10-03",
+            "accessStatus": "primary-reference-identity-unresolved"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "producer",
+          "venue"
+        ],
+        "tastingBasis": "Published reference descriptions, not a tasting of the venue pour. Exact bottle and vintage are unconfirmed. Producer offers both Valdadige and Alto Adige Pinot Grigio; confirm appellation before using these Valdadige notes.",
+        "resolution": "Valdadige reference floral/lemon nose, honeydew/apple palate, crisp lingering mouthfeel. Brand also offers Alto Adige Pinot Grigio with lychee/herbs/flowers.",
+        "conflictsFound": "Vintage/release not stated on the restaurant menu.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "primary-reference-identity-unresolved",
+          "summary": "Valdadige reference floral/lemon nose, honeydew/apple palate, crisp lingering mouthfeel. Brand also offers Alto Adige Pinot Grigio with lychee/herbs/flowers."
+        }
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial suggestions conditional on the stated reference bottling and listed dish preparation. Venue bottle, vintage and current menu availability are not confirmed by this flavor pass.",
+        "conditional": true,
+        "rulesCheckedAt": "2026-09-18"
+      },
+      "origin": {
+        "country": "Italy",
+        "region": "Valdadige or Alto Adige; confirm label",
+        "display": "Northern Italy; confirm Valdadige or Alto Adige"
+      },
+      "signatureTraits": [
+        "Reference notes require the exact bottle and vintage. Producer offers both Valdadige and Alto Adige Pinot Grigio; confirm appellation before using these Valdadige notes."
+      ],
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "crab",
+            "name": "Jumbo Lump Crab Cake",
+            "reason": "If the bottle is the Valdadige reference, honeydew and ripe apple provide fruit contrast to crab cake; bright acidity contrasts with the sauce\u2019s richness.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "raw-oysters",
+            "name": "Raw Oysters",
+            "reason": "If the bottle is the Valdadige reference, crispness and lemon aroma offer a contrast to oyster salinity. Alto Adige notes require a separate assessment.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "santa-margherita",
+      "tasting": {
+        "aroma": [
+          "Golden Delicious apple"
+        ],
+        "flavor": [
+          "Clean, bright fruit character; specific palate fruit is not separately named"
+        ],
+        "body": "Dry and bright, with balanced acidity.",
+        "finish": "The producer does not separately specify finish length."
+      },
+      "tags": [
+        "Wine",
+        "White wine",
+        "Clean, bright fruit character; specific palate fruit is not separately named"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Product-specific reference",
+        "ambiguityStatus": "Vintage/release not stated on the restaurant menu.",
+        "caveats": [
+          "Vintage/release not stated on the restaurant menu."
+        ],
+        "sources": [
+          {
+            "url": "https://www.santamargheritawines.com/pinotgrigio",
+            "title": "Pinot Grigio - Santa Margherita Wines",
+            "supports": "Identity and tasting characteristics",
+            "type": "producer",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou location-linked menu",
+            "supports": "Listing/name comparison only; does not verify bottle release or tasting notes",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://www.santamargheritawines.com/pinotgrigio",
+            "title": "2026-10-03 wine audit reference",
+            "supports": "Golden Delicious apples are explicitly aroma; palate bright balanced dry, no specific palate fruit named.",
+            "type": "producer",
+            "accessed": "2026-10-03",
+            "accessStatus": "primary-reference-reverified"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "producer",
+          "venue"
+        ],
+        "tastingBasis": "Published reference descriptions, not a tasting of the venue pour. Exact bottle and vintage are unconfirmed. Any body or finish detail absent from source is explicitly marked.",
+        "resolution": "Golden Delicious apples are explicitly aroma; palate bright balanced dry, no specific palate fruit named.",
+        "conflictsFound": "Vintage/release not stated on the restaurant menu.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "primary-reference-reverified",
+          "summary": "Golden Delicious apples are explicitly aroma; palate bright balanced dry, no specific palate fruit named."
+        }
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial suggestions conditional on the stated reference bottling and listed dish preparation. Venue bottle, vintage and current menu availability are not confirmed by this flavor pass.",
+        "conditional": true,
+        "rulesCheckedAt": "2026-09-18"
+      },
+      "signatureTraits": [
+        "Reference notes require the exact bottle and vintage. An apple-led dry Pinot Grigio; avoid suggesting buttery oak richness."
+      ],
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "crab",
+            "name": "Jumbo Lump Crab Cake",
+            "reason": "Golden Delicious apple aroma and the reference\u2019s bright, dry style offer an accompaniment to crab cake and Creole mustard.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "raw-oysters",
+            "name": "Raw Oysters",
+            "reason": "The reference\u2019s bright, dry style offers a contrast to oyster salinity; specific body weight and oak intensity are not asserted.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kim-crawford",
+      "tasting": {
+        "aroma": [
+          "Citrus",
+          "tropical fruit",
+          "crushed herbs"
+        ],
+        "flavor": [
+          "Passion fruit",
+          "melon",
+          "grapefruit"
+        ],
+        "body": "Fresh and juicy, with vibrant acidity.",
+        "finish": "Long; the producer does not name a separate finish flavor."
+      },
+      "tags": [
+        "Wine",
+        "White wine",
+        "Passion fruit",
+        "melon",
+        "grapefruit"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Product-specific reference",
+        "ambiguityStatus": "Vintage/release not stated on the restaurant menu.",
+        "caveats": [
+          "Vintage/release not stated on the restaurant menu."
+        ],
+        "sources": [
+          {
+            "url": "https://www.kimcrawfordwines.com/products/sauvignon-blanc",
+            "title": "Sauvignon Blanc | New Zealand",
+            "supports": "Identity and tasting characteristics",
+            "type": "producer",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou location-linked menu",
+            "supports": "Listing/name comparison only; does not verify bottle release or tasting notes",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://www.kimcrawfordwines.com/products/sauvignon-blanc",
+            "title": "2026-10-03 wine audit reference",
+            "supports": "Producer core note specifically identifies passion fruit/melon/grapefruit on palate, vibrant acidity and impressive length.",
+            "type": "producer",
+            "accessed": "2026-10-03",
+            "accessStatus": "primary-reference-reverified"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "producer",
+          "venue"
+        ],
+        "tastingBasis": "Published reference descriptions, not a tasting of the venue pour. Exact bottle and vintage are unconfirmed. Any body or finish detail absent from source is explicitly marked.",
+        "resolution": "Producer core note specifically identifies passion fruit/melon/grapefruit on palate, vibrant acidity and impressive length.",
+        "conflictsFound": "Vintage/release not stated on the restaurant menu.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "primary-reference-reverified",
+          "summary": "Producer core note specifically identifies passion fruit/melon/grapefruit on palate, vibrant acidity and impressive length."
+        }
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial suggestions conditional on the stated reference bottling and listed dish preparation. Venue bottle, vintage and current menu availability are not confirmed by this flavor pass.",
+        "conditional": true,
+        "rulesCheckedAt": "2026-09-18"
+      },
+      "signatureTraits": [
+        "Reference notes require the exact bottle and vintage. Tropical fruit and green herbal notes coexist; fruit intensity does not establish high residual sugar."
+      ],
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "redfish",
+            "name": "Redfish",
+            "reason": "Reference grapefruit and vibrant acidity offer a link to charred lemon and a contrast to chili butter.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "caesar",
+            "name": "Caesar Salad",
+            "reason": "Reference citrus and crushed-herb aromas offer a link to capers and leafy greens; vibrant acidity contrasts with Parmesan richness.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wither-hills",
+      "tasting": {
+        "aroma": [
+          "Guava",
+          "fresh green vegetables"
+        ],
+        "flavor": [
+          "Juicy citrus"
+        ],
+        "body": "Mouthwatering acidity with a textured feel.",
+        "finish": "Finish length is not separately specified by the producer."
+      },
+      "tags": [
+        "Wine",
+        "White wine",
+        "Juicy citrus"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Product-specific reference",
+        "ambiguityStatus": "A Marlborough reference with guava and green notes; vineyard-specific bottling still needs confirmation.",
+        "caveats": [
+          "A Marlborough reference with guava and green notes; vineyard-specific bottling still needs confirmation."
+        ],
+        "sources": [
+          {
+            "url": "https://witherhills.co.nz/products/wairau-valley-sauvignon-blanc",
+            "title": "Sauvignon Blanc",
+            "supports": "Identity and tasting characteristics",
+            "type": "producer",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou location-linked menu",
+            "supports": "Listing/name comparison only; does not verify bottle release or tasting notes",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://witherhills.co.nz/products/wairau-valley-sauvignon-blanc",
+            "title": "2026-10-03 wine audit reference",
+            "supports": "Producer guava/crunchy greens on nose; juicy citrus core and mouthwatering textural acidity. No tropical palate or specific finish cited.",
+            "type": "producer",
+            "accessed": "2026-10-03",
+            "accessStatus": "primary-reference-reverified"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "producer",
+          "venue"
+        ],
+        "tastingBasis": "Published reference descriptions, not a tasting of the venue pour. Exact bottle and vintage are unconfirmed. Any body or finish detail absent from source is explicitly marked.",
+        "resolution": "Producer guava/crunchy greens on nose; juicy citrus core and mouthwatering textural acidity. No tropical palate or specific finish cited.",
+        "conflictsFound": "A Marlborough reference with guava and green notes; vineyard-specific bottling still needs confirmation.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "primary-reference-reverified",
+          "summary": "Producer guava/crunchy greens on nose; juicy citrus core and mouthwatering textural acidity. No tropical palate or specific finish cited."
+        }
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial suggestions conditional on the stated reference bottling and listed dish preparation. Venue bottle, vintage and current menu availability are not confirmed by this flavor pass.",
+        "conditional": true,
+        "rulesCheckedAt": "2026-09-18"
+      },
+      "signatureTraits": [
+        "Reference notes require the exact bottle and vintage. A Marlborough reference with guava and green notes; vineyard-specific bottling still needs confirmation."
+      ],
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "redfish",
+            "name": "Redfish",
+            "reason": "Reference juicy citrus and mouthwatering acidity offer a link to charred lemon and a contrast to chili butter.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "garden-district-ceviche",
+            "name": "Garden District Ceviche",
+            "reason": "Reference citrus and green-vegetable aromas sit beside citrus tomato water and fresh vegetables; the delicate catch may be overshadowed by a strongly flavored pour.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "far-niente",
+      "tasting": {
+        "aroma": [
+          "White fig",
+          "citrus blossom"
+        ],
+        "flavor": [
+          "Honeydew",
+          "nectarine",
+          "lemon zest"
+        ],
+        "body": "Silky and full, with freshness.",
+        "finish": "2020 reference: full finish supported by toasted oak."
+      },
+      "tags": [
+        "Wine",
+        "White wine",
+        "Honeydew",
+        "nectarine",
+        "lemon zest"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Product-specific reference",
+        "ambiguityStatus": "Producer note is explicitly 2020; direct page rendered incompletely. Indexed primary text supports the historical reference, not venue vintage.",
+        "caveats": [
+          "Vintage/release not stated on the restaurant menu.",
+          "Producer note is explicitly 2020; direct page rendered incompletely. Indexed primary text supports the historical reference, not venue vintage."
+        ],
+        "sources": [
+          {
+            "url": "https://farniente.com/shop/wines/2020-far-niente-estate-etched-bottled-chardonnay-napa-valley-mr-mr",
+            "title": "2020 Far Niente Estate Chardonnay, Napa Valley, Mr & Mr",
+            "supports": "Identity and tasting characteristics",
+            "type": "producer",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou location-linked menu",
+            "supports": "Listing/name comparison only; does not verify bottle release or tasting notes",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://farniente.com/shop/wines/2020-far-niente-estate-etched-bottled-chardonnay-napa-valley-mr-mrs",
+            "title": "2026-10-03 wine audit reference",
+            "supports": "Fresh producer indexed result identifies 2020 white fig/citrus blossom aroma; honeydew/nectarine/lemon zest silky palate, full toasted oak finish. Page rendered incomplete, indexed content used.",
+            "type": "producer",
+            "accessed": "2026-10-03",
+            "accessStatus": "primary-indexed-reference"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "producer",
+          "venue"
+        ],
+        "tastingBasis": "Published reference descriptions, not a tasting of the venue pour. Exact bottle and vintage are unconfirmed. Producer note is explicitly 2020; direct page rendered incompletely. Indexed primary text supports the historical reference, not venue vintage.",
+        "resolution": "Fresh producer indexed result identifies 2020 white fig/citrus blossom aroma; honeydew/nectarine/lemon zest silky palate, full toasted oak finish. Page rendered incomplete, indexed content used.",
+        "conflictsFound": "Vintage/release not stated on the restaurant menu.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "primary-indexed-reference",
+          "summary": "Fresh producer indexed result identifies 2020 white fig/citrus blossom aroma; honeydew/nectarine/lemon zest silky palate, full toasted oak finish. Page rendered incomplete, indexed content used."
+        }
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial suggestions conditional on the stated reference bottling and listed dish preparation. Venue bottle, vintage and current menu availability are not confirmed by this flavor pass.",
+        "conditional": true,
+        "rulesCheckedAt": "2026-09-18"
+      },
+      "signatureTraits": [
+        "Reference notes require the exact bottle and vintage. Producer note is explicitly 2020; direct page rendered incompletely. Indexed primary text supports the historical reference, not venue vintage."
+      ],
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "voodoo-krewe-snapper",
+            "name": "Voodoo Krewe Snapper",
+            "reason": "The 2020 reference\u2019s honeydew, nectarine and lemon zest offer contrast to Creole sauce, while its silky texture accompanies cornbread stuffing.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "carbonara",
+            "name": "Cajun Carbonara",
+            "reason": "The 2020 reference\u2019s silky palate offers a textural link to egg and cheese; lemon-zest flavor contrasts with smoky pork belly.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mannequin",
+      "tasting": {
+        "aroma": [
+          "2022 reference: yellow peach",
+          "creme fraiche",
+          "graham cracker"
+        ],
+        "flavor": [
+          "2022 reference: white peach",
+          "Bosc pear",
+          "caramel apple",
+          "candied walnut",
+          "lemon pith"
+        ],
+        "body": "2022 reference: supple and coating.",
+        "finish": "2022 reference: rounded, with a touch of toffee."
+      },
+      "tags": [
+        "Wine",
+        "White wine",
+        "2022 reference: white peach",
+        "Bosc pear",
+        "caramel apple",
+        "candied walnut",
+        "lemon pith"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Product-specific reference",
+        "ambiguityStatus": "Explicit 2022 Chardonnay reference. Venue vintage and white-blend versus Chardonnay label remain unconfirmed.",
+        "caveats": [
+          "Current releases are labeled Chardonnay; the menu's white-blend wording may refer to an older release.",
+          "Explicit 2022 Chardonnay reference. Venue vintage and white-blend versus Chardonnay label remain unconfirmed."
+        ],
+        "sources": [
+          {
+            "url": "https://corkerywine.com/shop/product/orin-swift-mannequin-chardonnay-california/59faee6afa553644d417fbc2?option-id=e6da671e49a4f79fd8abfe4ca47009176e2777386be97be4d17f213b915172f4&srsltid=AfmBOooPORnzv-DlFQFDfUgqEjf3T8mbhKa7QqDgn0MWcRh6A-78R49K",
+            "title": "Orin Swift Mannequin Chardonnay, California - The Corkery",
+            "supports": "Identity and tasting characteristics",
+            "type": "merchant or independent tasting",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou location-linked menu",
+            "supports": "Listing/name comparison only; does not verify bottle release or tasting notes",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://www.orinswift.com/product/2022-mannequin/",
+            "title": "2026-10-03 wine audit reference",
+            "supports": "2022 producer provides peach/creme fraiche/graham cracker aroma, white peach/pear/caramel apple/walnut/lemon pith palate, supple and round toffee close. 2024 differs.",
+            "type": "producer",
+            "accessed": "2026-10-03",
+            "accessStatus": "primary-reference-reverified"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "merchant or independent tasting",
+          "venue"
+        ],
+        "tastingBasis": "Published reference descriptions, not a tasting of the venue pour. Exact bottle and vintage are unconfirmed. Explicit 2022 Chardonnay reference. Venue vintage and white-blend versus Chardonnay label remain unconfirmed.",
+        "resolution": "2022 producer provides peach/creme fraiche/graham cracker aroma, white peach/pear/caramel apple/walnut/lemon pith palate, supple and round toffee close. 2024 differs.",
+        "conflictsFound": "Current releases are labeled Chardonnay; the menu's white-blend wording may refer to an older release.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "primary-reference-reverified",
+          "summary": "2022 producer provides peach/creme fraiche/graham cracker aroma, white peach/pear/caramel apple/walnut/lemon pith palate, supple and round toffee close. 2024 differs."
+        }
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial suggestions conditional on the stated reference bottling and listed dish preparation. Venue bottle, vintage and current menu availability are not confirmed by this flavor pass.",
+        "conditional": true,
+        "rulesCheckedAt": "2026-09-18"
+      },
+      "signatureTraits": [
+        "Reference notes require the exact bottle and vintage. Explicit 2022 Chardonnay reference. Venue vintage and white-blend versus Chardonnay label remain unconfirmed."
+      ],
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "voodoo-krewe-snapper",
+            "name": "Voodoo Krewe Snapper",
+            "reason": "The 2022 reference\u2019s peach, pear and lemon-pith notes contrast with Creole sauce, while the supple palate accompanies cornbread stuffing.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "roast-chicken",
+            "name": "Brick Oven Roasted Chicken",
+            "reason": "The 2022 reference\u2019s caramel-apple and toffee notes suggest an aromatic accompaniment to roasted chicken and bourbon jus; oak spice is not separately asserted.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "beeker",
+      "tasting": {
+        "aroma": [
+          "Cherry",
+          "red berries",
+          "gentle earth"
+        ],
+        "flavor": [
+          "Sweet cherry",
+          "earth",
+          "spice"
+        ],
+        "body": "Silky texture, fine ripe tannins and balanced acidity.",
+        "finish": "Long and smooth."
+      },
+      "tags": [
+        "Wine",
+        "Red wine",
+        "Sweet cherry",
+        "earth",
+        "spice"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Product-specific reference",
+        "ambiguityStatus": "Vintage not identified; menu spelling is Seeker, not Beeker.",
+        "caveats": [
+          "Vintage not identified; menu spelling is Seeker, not Beeker."
+        ],
+        "sources": [
+          {
+            "url": "https://www.theseekerwines.com/pinot-noir",
+            "title": "Pinot Noir \u2014 The Seeker - Fine Wines Discovered the World ...",
+            "supports": "Identity and tasting characteristics",
+            "type": "producer",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou location-linked menu",
+            "supports": "Listing/name comparison only; does not verify bottle release or tasting notes",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://www.theseekerwines.com/pinot-noir",
+            "title": "2026-10-03 wine audit reference",
+            "supports": "Producer supports sweet cherry/earth/spice, fine ripe tannins, silkiness and long smooth finish; absence of oak preserves bright fruit.",
+            "type": "producer",
+            "accessed": "2026-10-03",
+            "accessStatus": "primary-reference-reverified"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "producer",
+          "venue"
+        ],
+        "tastingBasis": "Published reference descriptions, not a tasting of the venue pour. Exact bottle and vintage are unconfirmed. Any body or finish detail absent from source is explicitly marked.",
+        "resolution": "Producer supports sweet cherry/earth/spice, fine ripe tannins, silkiness and long smooth finish; absence of oak preserves bright fruit.",
+        "conflictsFound": "Vintage not identified; menu spelling is Seeker, not Beeker.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "primary-reference-reverified",
+          "summary": "Producer supports sweet cherry/earth/spice, fine ripe tannins, silkiness and long smooth finish; absence of oak preserves bright fruit."
+        }
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial suggestions conditional on the stated reference bottling and listed dish preparation. Venue bottle, vintage and current menu availability are not confirmed by this flavor pass.",
+        "conditional": true,
+        "rulesCheckedAt": "2026-09-18"
+      },
+      "signatureTraits": [
+        "Reference notes require the exact bottle and vintage. The producer describes tank maturation without oak; do not make vanilla or toast defining notes."
+      ],
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "mushroom",
+            "name": "Mushroom \u201cBolognese\u201d",
+            "reason": "Reference sweet-cherry fruit contrasts with savory mushrooms, while earth and spice offer an aromatic accompaniment to herbs and Grana Padano.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "salmon",
+            "name": "Creole Mustard Salmon",
+            "reason": "Reference cherry fruit and balanced acidity offer contrast to rich salmon and tangy mustard; fine tannins and silky texture suit an editorial red-wine pairing.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "meiomi",
+      "tasting": {
+        "aroma": [
+          "2017 reference: strawberry",
+          "jammy fruit",
+          "mocha",
+          "vanilla",
+          "toasty oak"
+        ],
+        "flavor": [
+          "2017 reference: boysenberry",
+          "blackberry",
+          "dark cherry",
+          "strawberry",
+          "toasty mocha"
+        ],
+        "body": "2017 reference: silky, with supple tannins and balanced acidity.",
+        "finish": "Finish is not separately specified in the 2017 producer sheet."
+      },
+      "tags": [
+        "Wine",
+        "Red wine",
+        "2017 reference: boysenberry",
+        "blackberry",
+        "dark cherry",
+        "strawberry",
+        "toasty mocha"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Product-specific reference",
+        "ambiguityStatus": "Producer-authored 2017 sheet hosted by a distributor; historical reference only. Current brand page returned an age gate.",
+        "caveats": [
+          "Vintage/release not stated on the restaurant menu.",
+          "Producer-authored 2017 sheet hosted by a distributor; historical reference only. Current brand page returned an age gate."
+        ],
+        "sources": [
+          {
+            "url": "https://www.meiomi.com/wine/meiomi-pinot-noir/",
+            "title": "Pinot Noir",
+            "supports": "Identity and tasting characteristics",
+            "type": "producer",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou location-linked menu",
+            "supports": "Listing/name comparison only; does not verify bottle release or tasting notes",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://products.bottlecollective.com/assets/images/products/media/Meiomi-2017-Pinot-Noir-Tasting-Notes.pdf",
+            "title": "2026-10-03 wine audit reference",
+            "supports": "Freshly read producer-authored 2017 tech sheet hosted by distributor: strawberry/jammy fruit/mocha/vanilla/toast nose; boysenberry/blackberry/dark cherry/strawberry/mocha palate, silky supple texture; no finish defined.",
+            "type": "producer",
+            "accessed": "2026-10-03",
+            "accessStatus": "primary-reference-reverified"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "producer",
+          "venue"
+        ],
+        "tastingBasis": "Published reference descriptions, not a tasting of the venue pour. Exact bottle and vintage are unconfirmed. Producer-authored 2017 sheet hosted by a distributor; historical reference only. Current brand page returned an age gate.",
+        "resolution": "Freshly read producer-authored 2017 tech sheet hosted by distributor: strawberry/jammy fruit/mocha/vanilla/toast nose; boysenberry/blackberry/dark cherry/strawberry/mocha palate, silky supple texture; no finish defined.",
+        "conflictsFound": "Vintage/release not stated on the restaurant menu.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "primary-reference-reverified",
+          "summary": "Freshly read producer-authored 2017 tech sheet hosted by distributor: strawberry/jammy fruit/mocha/vanilla/toast nose; boysenberry/blackberry/dark cherry/strawberry/mocha palate, silky supple texture; no finish defined."
+        }
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial suggestions conditional on the stated reference bottling and listed dish preparation. Venue bottle, vintage and current menu availability are not confirmed by this flavor pass.",
+        "conditional": true,
+        "rulesCheckedAt": "2026-09-18"
+      },
+      "signatureTraits": [
+        "Reference notes require the exact bottle and vintage. Producer-authored 2017 sheet hosted by a distributor; historical reference only. Current brand page returned an age gate."
+      ],
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "mushroom",
+            "name": "Mushroom \u201cBolognese\u201d",
+            "reason": "The historical 2017 reference\u2019s berry fruit contrasts with savory mushrooms and Grana Padano; no earthy wine note is assumed.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "roast-chicken",
+            "name": "Brick Oven Roasted Chicken",
+            "reason": "The historical 2017 reference\u2019s berry fruit and toasty mocha offer an aromatic accompaniment to roasted chicken and bourbon jus; the source describes supple tannins.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "belle-glos-clark-telephone",
+      "tasting": {
+        "aroma": [
+          "Conditional, unverified reference: Blackberry",
+          "Conditional, unverified reference: cherry",
+          "Conditional, unverified reference: boysenberry"
+        ],
+        "flavor": [
+          "Conditional, unverified reference: Dark berries",
+          "Conditional, unverified reference: cocoa",
+          "Conditional, unverified reference: baking spice"
+        ],
+        "body": "Conditional, unverified reference: Rich and full for Pinot Noir.",
+        "finish": "Conditional, unverified reference: Dark fruit and cocoa linger."
+      },
+      "tags": [
+        "Wine",
+        "Red wine",
+        "Conditional, unverified reference: Dark berries",
+        "Conditional, unverified reference: cocoa",
+        "Conditional, unverified reference: baking spice"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Low",
+        "profileLevel": "Product-specific reference",
+        "ambiguityStatus": "Producer identity checked; primary tasting note could not be retrieved. Earlier sensory descriptors remain conditional and have not been independently confirmed in this pass.",
+        "caveats": [
+          "Vintage/release not stated on the restaurant menu.",
+          "Producer identity checked; primary tasting note could not be retrieved. Earlier sensory descriptors remain conditional and have not been independently confirmed in this pass."
+        ],
+        "sources": [
+          {
+            "url": "https://www.wineexpress.com/belle-glos-2022-pinot-noir-clark-telephone-vineyard-santa-maria-valley-magnum-1-5l",
+            "title": "Belle Glos 2022 Pinot Noir, Clark & Telephone Vineyard ...",
+            "supports": "Identity and tasting characteristics",
+            "type": "merchant or independent tasting",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou location-linked menu",
+            "supports": "Listing/name comparison only; does not verify bottle release or tasting notes",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://belleglos.com/",
+            "title": "2026-10-03 wine audit reference",
+            "supports": "Current producer confirms Clark & Telephone identity and Santa Maria Valley, but sensory sheet unavailable and legacy URL 404. Retain earlier sensory notes only as conditional unverified reference.",
+            "type": "producer",
+            "accessed": "2026-10-03",
+            "accessStatus": "identity-only-sensory-unresolved"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "merchant or independent tasting",
+          "venue"
+        ],
+        "tastingBasis": "Published reference descriptions, not a tasting of the venue pour. Exact bottle and vintage are unconfirmed. Producer identity checked; primary tasting note could not be retrieved. Earlier sensory descriptors remain conditional and have not been independently confirmed in this pass.",
+        "resolution": "Current producer confirms Clark & Telephone identity and Santa Maria Valley, but sensory sheet unavailable and legacy URL 404. Retain earlier sensory notes only as conditional unverified reference.",
+        "conflictsFound": "Vintage/release not stated on the restaurant menu.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "identity-only-sensory-unresolved",
+          "summary": "Current producer confirms Clark & Telephone identity and Santa Maria Valley, but sensory sheet unavailable and legacy URL 404. Retain earlier sensory notes only as conditional unverified reference."
+        }
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial suggestions conditional on the stated reference bottling and listed dish preparation. Venue bottle, vintage and current menu availability are not confirmed by this flavor pass.",
+        "conditional": true,
+        "rulesCheckedAt": "2026-09-18"
+      },
+      "signatureTraits": [
+        "Reference notes require the exact bottle and vintage. Producer identity checked; primary tasting note could not be retrieved. Earlier sensory descriptors remain conditional and have not been independently confirmed in this pass."
+      ],
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "mushroom",
+            "name": "Mushroom \u201cBolognese\u201d",
+            "reason": "If the bottle shows the earlier unverified berry reference, fruit could contrast with savory mushrooms and Grana Padano. Primary sensory confirmation is still missing.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "roast-chicken",
+            "name": "Brick Oven Roasted Chicken",
+            "reason": "If the bottle shows the earlier unverified rich, spiced reference, it could accompany roasted chicken and bourbon jus. These sensory assumptions require confirmation.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sterling-vintners",
+      "tasting": {
+        "aroma": [
+          "Plum",
+          "blackberry"
+        ],
+        "flavor": [
+          "Dark fruit",
+          "vanilla",
+          "gentle oak"
+        ],
+        "body": "Merchant reference: velvety texture and balanced acidity; body is not specified.",
+        "finish": "Merchant reference: lingering; no separate finish flavor specified."
+      },
+      "tags": [
+        "Wine",
+        "Red wine",
+        "Dark fruit",
+        "vanilla",
+        "gentle oak"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Low",
+        "profileLevel": "Product-specific reference",
+        "ambiguityStatus": "Fresh merchant read only; producer confirmation and venue vintage remain outstanding.",
+        "caveats": [
+          "Vintage/release not stated on the restaurant menu.",
+          "Fresh merchant read only; producer confirmation and venue vintage remain outstanding."
+        ],
+        "sources": [
+          {
+            "url": "https://www.purdyswine.com/product/sterling-vineyards-vintners-collection-california-merlot/",
+            "title": "Buy Sterling Vineyards Vintner's Collection California Merlot",
+            "supports": "Identity and tasting characteristics",
+            "type": "merchant or independent tasting",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou location-linked menu",
+            "supports": "Listing/name comparison only; does not verify bottle release or tasting notes",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://www.purdyswine.com/product/sterling-vineyards-vintners-collection-california-merlot/",
+            "title": "2026-10-03 wine audit reference",
+            "supports": "Merchant sensory paragraph supports plum/blackberry/oak/vanilla and velvety balanced acidity; no producer confirmation found. Retain merchant reference explicitly.",
+            "type": "merchant",
+            "accessed": "2026-10-03",
+            "accessStatus": "secondary-reference-only"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "merchant or independent tasting",
+          "venue"
+        ],
+        "tastingBasis": "Published reference descriptions, not a tasting of the venue pour. Exact bottle and vintage are unconfirmed. Fresh merchant read only; producer confirmation and venue vintage remain outstanding.",
+        "resolution": "Merchant sensory paragraph supports plum/blackberry/oak/vanilla and velvety balanced acidity; no producer confirmation found. Retain merchant reference explicitly.",
+        "conflictsFound": "Vintage/release not stated on the restaurant menu.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "secondary-reference-only",
+          "summary": "Merchant sensory paragraph supports plum/blackberry/oak/vanilla and velvety balanced acidity; no producer confirmation found. Retain merchant reference explicitly."
+        }
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial suggestions conditional on the stated reference bottling and listed dish preparation. Venue bottle, vintage and current menu availability are not confirmed by this flavor pass.",
+        "conditional": true,
+        "rulesCheckedAt": "2026-09-18"
+      },
+      "signatureTraits": [
+        "Reference notes require the exact bottle and vintage. Fresh merchant read only; producer confirmation and venue vintage remain outstanding."
+      ],
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "ribeye",
+            "name": "Cajun Ribeye",
+            "reason": "The merchant reference\u2019s plum, blackberry and velvety texture offer an accompaniment to marbled beef and bourbon jus; tannin firmness is not documented.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "burger",
+            "name": "Voodoo Smash Burger",
+            "reason": "The merchant reference\u2019s dark fruit and vanilla offer contrast to beef and cheddar; pickles add tang. A firmly structured palate is not assumed.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "terrazas",
+      "tasting": {
+        "aroma": [
+          "Conditional, unverified reference: Plum",
+          "Conditional, unverified reference: raspberry",
+          "Conditional, unverified reference: light flowers"
+        ],
+        "flavor": [
+          "Conditional, unverified reference: Ripe red and black fruit",
+          "Conditional, unverified reference: fresh fruit acidity"
+        ],
+        "body": "Conditional, unverified reference: Medium-bodied, youthful and rounded.",
+        "finish": "Conditional, unverified reference: Fresh plum and berry fruit."
+      },
+      "tags": [
+        "Wine",
+        "Red wine",
+        "Conditional, unverified reference: Ripe red and black fruit",
+        "Conditional, unverified reference: fresh fruit acidity"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Low",
+        "profileLevel": "Product-specific reference",
+        "ambiguityStatus": "Tasting source could not be read; inherited sensory notes are conditional and independently unverified. Confirm Altos del Plata versus other Terrazas lines.",
+        "caveats": [
+          "Vintage/release not stated on the restaurant menu.",
+          "Tasting source could not be read; inherited sensory notes are conditional and independently unverified. Confirm Altos del Plata versus other Terrazas lines."
+        ],
+        "sources": [
+          {
+            "url": "https://williamsburgwine.com/product/terrazes-altos-del-plata-malbec/",
+            "title": "Terrazas Altos del Plata Malbec",
+            "supports": "Identity and tasting characteristics",
+            "type": "retailer",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou location-linked menu",
+            "supports": "Listing/name comparison only; does not verify bottle release or tasting notes",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://williamsburgwine.com/product/terrazes-altos-del-plata-malbec/",
+            "title": "2026-10-03 wine audit reference",
+            "supports": "Original cited merchant blocked by Anubis; official Altos del Plata sensory source not found. Earlier notes retained only as unverified conditional reference.",
+            "type": "retailer",
+            "accessed": "2026-10-03",
+            "accessStatus": "sensory-source-inaccessible"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "merchant or independent tasting",
+          "venue"
+        ],
+        "tastingBasis": "Published reference descriptions, not a tasting of the venue pour. Exact bottle and vintage are unconfirmed. Tasting source could not be read; inherited sensory notes are conditional and independently unverified. Confirm Altos del Plata versus other Terrazas lines.",
+        "resolution": "Original cited merchant blocked by Anubis; official Altos del Plata sensory source not found. Earlier notes retained only as unverified conditional reference.",
+        "conflictsFound": "Vintage/release not stated on the restaurant menu.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "sensory-source-inaccessible",
+          "summary": "Original cited merchant blocked by Anubis; official Altos del Plata sensory source not found. Earlier notes retained only as unverified conditional reference."
+        }
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial suggestions conditional on the stated reference bottling and listed dish preparation. Venue bottle, vintage and current menu availability are not confirmed by this flavor pass.",
+        "conditional": true,
+        "rulesCheckedAt": "2026-09-18"
+      },
+      "signatureTraits": [
+        "Reference notes require the exact bottle and vintage. Tasting source could not be read; inherited sensory notes are conditional and independently unverified. Confirm Altos del Plata versus other Terrazas lines."
+      ],
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "ribeye",
+            "name": "Cajun Ribeye",
+            "reason": "If the served Altos del Plata shows the earlier unverified fruit reference, it could contrast with beef and bourbon jus. Primary tasting evidence and tannin structure remain unconfirmed.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "burger",
+            "name": "Voodoo Smash Burger",
+            "reason": "If the served Altos del Plata shows the earlier unverified fruit reference, it could accompany beef and cheddar; pickles add contrast. Body and tannin structure require confirmation.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "boneshaker",
+      "tasting": {
+        "aroma": [
+          "Specific aromas not separated in indexed producer note"
+        ],
+        "flavor": [
+          "Concentrated dark fruit",
+          "vanilla",
+          "spice"
+        ],
+        "body": "Bold and concentrated in the indexed producer reference.",
+        "finish": "Finish is not separately specified in indexed producer text."
+      },
+      "tags": [
+        "Wine",
+        "Red wine",
+        "Concentrated dark fruit",
+        "vanilla",
+        "spice"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Product-specific reference",
+        "ambiguityStatus": "Indexed legacy producer text was read; direct URL redirects to a portfolio with no Boneshaker note. Venue vintage and current formulation are not confirmed.",
+        "caveats": [
+          "Vintage/release not stated on the restaurant menu.",
+          "Indexed legacy producer text was read; direct URL redirects to a portfolio with no Boneshaker note. Venue vintage and current formulation are not confirmed."
+        ],
+        "sources": [
+          {
+            "url": "https://www.reversewinesnob.com/boneshaker-zinfandel",
+            "title": "Boneshaker Zinfandel - Full-Tilt Taste",
+            "supports": "Identity and tasting characteristics",
+            "type": "merchant or independent tasting",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou location-linked menu",
+            "supports": "Listing/name comparison only; does not verify bottle release or tasting notes",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://www.hahnwines.com/boneshaker.html",
+            "title": "2026-10-03 wine audit reference",
+            "supports": "Indexed producer supports concentrated dark fruit/vanilla/spice and bold profile; direct page now redirects to portfolio without Boneshaker. Plum/licorice/warm finish not documented in primary note.",
+            "type": "producer",
+            "accessed": "2026-10-03",
+            "accessStatus": "primary-indexed-reference"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "merchant or independent tasting",
+          "venue"
+        ],
+        "tastingBasis": "Published reference descriptions, not a tasting of the venue pour. Exact bottle and vintage are unconfirmed. Indexed legacy producer text was read; direct URL redirects to a portfolio with no Boneshaker note. Venue vintage and current formulation are not confirmed.",
+        "resolution": "Indexed producer supports concentrated dark fruit/vanilla/spice and bold profile; direct page now redirects to portfolio without Boneshaker. Plum/licorice/warm finish not documented in primary note.",
+        "conflictsFound": "Vintage/release not stated on the restaurant menu.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "primary-indexed-reference",
+          "summary": "Indexed producer supports concentrated dark fruit/vanilla/spice and bold profile; direct page now redirects to portfolio without Boneshaker. Plum/licorice/warm finish not documented in primary note."
+        }
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial suggestions conditional on the stated reference bottling and listed dish preparation. Venue bottle, vintage and current menu availability are not confirmed by this flavor pass.",
+        "conditional": true,
+        "rulesCheckedAt": "2026-09-18"
+      },
+      "signatureTraits": [
+        "Reference notes require the exact bottle and vintage. Indexed legacy producer text was read; direct URL redirects to a portfolio with no Boneshaker note. Venue vintage and current formulation are not confirmed."
+      ],
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "ribeye",
+            "name": "Cajun Ribeye",
+            "reason": "The indexed producer reference\u2019s concentrated dark fruit and spice offer an accompaniment to marbled beef and bourbon jus; tannin intensity is not established.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "burger",
+            "name": "Voodoo Smash Burger",
+            "reason": "The indexed producer reference\u2019s dark fruit and bold concentration offer contrast to beef and cheddar; pickles add tang. Tannin firmness is not asserted.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8-years-in-the-desert",
+      "tasting": {
+        "aroma": [
+          "2024 reference: black plum",
+          "boysenberry pastry",
+          "black pepper",
+          "cedar",
+          "musk"
+        ],
+        "flavor": [
+          "2024 reference: wild blackberry",
+          "pluot",
+          "fennel",
+          "slate-like mineral impression"
+        ],
+        "body": "2024 reference: taut yet supple, with soft framing tannins.",
+        "finish": "2024 reference: milk chocolate and raspberry."
+      },
+      "tags": [
+        "Wine",
+        "Red wine",
+        "2024 reference: wild blackberry",
+        "pluot",
+        "fennel",
+        "slate-like mineral impression"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Product-specific reference",
+        "ambiguityStatus": "Explicit 2024 reference; no venue vintage inferred.",
+        "caveats": [
+          "Vintage/release not stated on the restaurant menu.",
+          "Explicit 2024 reference; no venue vintage inferred."
+        ],
+        "sources": [
+          {
+            "url": "https://www.orinswift.com/wines/8-years-in-the-desert/",
+            "title": "Orin Swift 8 Years in the Desert Zinfandel Blend",
+            "supports": "Identity and tasting characteristics",
+            "type": "producer",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou location-linked menu",
+            "supports": "Listing/name comparison only; does not verify bottle release or tasting notes",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://www.orinswift.com/product/2024-8-years-in-the-desert/",
+            "title": "2026-10-03 wine audit reference",
+            "supports": "2024 producer separates black plum/boysenberry pastry/pepper/cedar/musk aromas, wild blackberry/pluot/fennel/slate palate; taut supple soft tannins; chocolate raspberry finish.",
+            "type": "producer",
+            "accessed": "2026-10-03",
+            "accessStatus": "primary-reference-reverified"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "producer",
+          "venue"
+        ],
+        "tastingBasis": "Published reference descriptions, not a tasting of the venue pour. Exact bottle and vintage are unconfirmed. Explicit 2024 reference; no venue vintage inferred.",
+        "resolution": "2024 producer separates black plum/boysenberry pastry/pepper/cedar/musk aromas, wild blackberry/pluot/fennel/slate palate; taut supple soft tannins; chocolate raspberry finish.",
+        "conflictsFound": "Vintage/release not stated on the restaurant menu.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "primary-reference-reverified",
+          "summary": "2024 producer separates black plum/boysenberry pastry/pepper/cedar/musk aromas, wild blackberry/pluot/fennel/slate palate; taut supple soft tannins; chocolate raspberry finish."
+        }
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial suggestions conditional on the stated reference bottling and listed dish preparation. Venue bottle, vintage and current menu availability are not confirmed by this flavor pass.",
+        "conditional": true,
+        "rulesCheckedAt": "2026-09-18"
+      },
+      "signatureTraits": [
+        "Reference notes require the exact bottle and vintage. Explicit 2024 reference; no venue vintage inferred."
+      ],
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "ribeye",
+            "name": "Cajun Ribeye",
+            "reason": "The 2024 reference\u2019s blackberry, plum-like fruit and soft framing tannins offer an accompaniment to marbled beef and bourbon jus.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "burger",
+            "name": "Voodoo Smash Burger",
+            "reason": "The 2024 reference\u2019s blackberry fruit and supple texture sit beside beef and cheddar; pickles add contrast.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "abstract",
+      "tasting": {
+        "aroma": [
+          "2023 reference: black plum",
+          "blueberry",
+          "boysenberry",
+          "leather",
+          "vanilla"
+        ],
+        "flavor": [
+          "2023 reference: blue and black berries",
+          "blackberry compote",
+          "dried lavender"
+        ],
+        "body": "2023 reference: broad, rich and concentrated.",
+        "finish": "2023 reference: silky tannins and a lifted close."
+      },
+      "tags": [
+        "Wine",
+        "Red wine",
+        "2023 reference: blue and black berries",
+        "blackberry compote",
+        "dried lavender"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Product-specific reference",
+        "ambiguityStatus": "Explicit 2023 reference; do not transfer precise descriptors to an unconfirmed venue vintage.",
+        "caveats": [
+          "Vintage/release not stated on the restaurant menu.",
+          "Explicit 2023 reference; do not transfer precise descriptors to an unconfirmed venue vintage."
+        ],
+        "sources": [
+          {
+            "url": "https://www.orinswift.com/wines/abstract/",
+            "title": "Orin Swift Abstract California Red",
+            "supports": "Identity and tasting characteristics",
+            "type": "producer",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou location-linked menu",
+            "supports": "Listing/name comparison only; does not verify bottle release or tasting notes",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://www.orinswift.com/wp-content/uploads/2024/11/2023-Abstract-Fact-Sheet-DSP-Approved-1.pdf",
+            "title": "2026-10-03 wine audit reference",
+            "supports": "2023 producer PDF gives black plum/blueberry/boysenberry/leather/vanilla aroma, blue and black fruit/blackberry compote/lavender palate, rich broad texture and silky tannin close; removes unsupported chocolate.",
+            "type": "producer",
+            "accessed": "2026-10-03",
+            "accessStatus": "primary-reference-reverified"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "producer",
+          "venue"
+        ],
+        "tastingBasis": "Published reference descriptions, not a tasting of the venue pour. Exact bottle and vintage are unconfirmed. Explicit 2023 reference; do not transfer precise descriptors to an unconfirmed venue vintage.",
+        "resolution": "2023 producer PDF gives black plum/blueberry/boysenberry/leather/vanilla aroma, blue and black fruit/blackberry compote/lavender palate, rich broad texture and silky tannin close; removes unsupported chocolate.",
+        "conflictsFound": "Vintage/release not stated on the restaurant menu.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "primary-reference-reverified",
+          "summary": "2023 producer PDF gives black plum/blueberry/boysenberry/leather/vanilla aroma, blue and black fruit/blackberry compote/lavender palate, rich broad texture and silky tannin close; removes unsupported chocolate."
+        }
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial suggestions conditional on the stated reference bottling and listed dish preparation. Venue bottle, vintage and current menu availability are not confirmed by this flavor pass.",
+        "conditional": true,
+        "rulesCheckedAt": "2026-09-18"
+      },
+      "signatureTraits": [
+        "Reference notes require the exact bottle and vintage. Explicit 2023 reference; do not transfer precise descriptors to an unconfirmed venue vintage."
+      ],
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "ribeye",
+            "name": "Cajun Ribeye",
+            "reason": "The 2023 reference\u2019s concentrated berries and silky tannins offer an accompaniment to marbled beef and bourbon jus.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "burger",
+            "name": "Voodoo Smash Burger",
+            "reason": "The 2023 reference\u2019s broad berry palate offers an accompaniment to beef and cheddar; pickles add contrast.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3-finger-jack",
+      "tasting": {
+        "aroma": [
+          "Specific aromas not separately defined in the producer launch note"
+        ],
+        "flavor": [
+          "2016 reference: black cherry",
+          "blackberry",
+          "cassis",
+          "charred oak"
+        ],
+        "body": "Producer describes the line as smooth and full-bodied; exact vintage tannin is unconfirmed.",
+        "finish": "Finish is not separately specified in producer releases."
+      },
+      "tags": [
+        "Wine",
+        "Red wine",
+        "2016 reference: black cherry",
+        "blackberry",
+        "cassis",
+        "charred oak"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Product-specific reference",
+        "ambiguityStatus": "Detailed tasting reference is producer-issued 2016 vintage launch material; current venue vintage is not established.",
+        "caveats": [
+          "Vintage/release not stated on the restaurant menu.",
+          "Detailed tasting reference is producer-issued 2016 vintage launch material; current venue vintage is not established."
+        ],
+        "sources": [
+          {
+            "url": "https://www.finewineandgoodspirits.com/three-finger-jack-cabernet-sauvignon-lodi/product/000098769",
+            "title": "Three Finger Jack Cabernet Sauvignon Lodi",
+            "supports": "Identity and tasting characteristics",
+            "type": "merchant or independent tasting",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou location-linked menu",
+            "supports": "Listing/name comparison only; does not verify bottle release or tasting notes",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://www.prnewswire.com/news-releases/delicato-family-wines-launches-three-finger-jack-east-side-ridge-cabernet-sauvignon-300792878.html",
+            "title": "2026-10-03 wine audit reference",
+            "supports": "Producer-issued 2019 launch release describes 2016 East Side Ridge: black cherry/blackberry/cassis/charred oak. 2026 producer release corroborates smooth full body; no primary coffee/pepper support.",
+            "type": "producer",
+            "accessed": "2026-10-03",
+            "accessStatus": "primary-indexed-reference"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "merchant or independent tasting",
+          "venue"
+        ],
+        "tastingBasis": "Published reference descriptions, not a tasting of the venue pour. Exact bottle and vintage are unconfirmed. Detailed tasting reference is producer-issued 2016 vintage launch material; current venue vintage is not established.",
+        "resolution": "Producer-issued 2019 launch release describes 2016 East Side Ridge: black cherry/blackberry/cassis/charred oak. 2026 producer release corroborates smooth full body; no primary coffee/pepper support.",
+        "conflictsFound": "Vintage/release not stated on the restaurant menu.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "primary-indexed-reference",
+          "summary": "Producer-issued 2019 launch release describes 2016 East Side Ridge: black cherry/blackberry/cassis/charred oak. 2026 producer release corroborates smooth full body; no primary coffee/pepper support."
+        }
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial suggestions conditional on the stated reference bottling and listed dish preparation. Venue bottle, vintage and current menu availability are not confirmed by this flavor pass.",
+        "conditional": true,
+        "rulesCheckedAt": "2026-09-18"
+      },
+      "signatureTraits": [
+        "Reference notes require the exact bottle and vintage. Detailed tasting reference is producer-issued 2016 vintage launch material; current venue vintage is not established."
+      ],
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "ribeye",
+            "name": "Cajun Ribeye",
+            "reason": "The 2016 reference\u2019s black cherry, blackberry and charred oak suggest an accompaniment to beef and bourbon jus. The current line is described as full-bodied; exact vintage tannin is unconfirmed.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "burger",
+            "name": "Voodoo Smash Burger",
+            "reason": "Reference dark fruit and the line\u2019s full-bodied style offer an accompaniment to beef and cheddar; pickles add contrast. No exact tannin firmness is assumed.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "josh-cellars",
+      "tasting": {
+        "aroma": [
+          "Specific aromas not separated in the cited producer flavor note"
+        ],
+        "flavor": [
+          "Blackberry",
+          "toasted hazelnut",
+          "cinnamon",
+          "vanilla",
+          "toasted oak"
+        ],
+        "body": "Round and juicy; specific tannin firmness is not stated.",
+        "finish": "Finish is not separately specified in the producer note."
+      },
+      "tags": [
+        "Wine",
+        "Red wine",
+        "Blackberry",
+        "toasted hazelnut",
+        "cinnamon",
+        "vanilla",
+        "toasted oak"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Product-specific reference",
+        "ambiguityStatus": "Vintage/release not stated on the restaurant menu.",
+        "caveats": [
+          "Vintage/release not stated on the restaurant menu."
+        ],
+        "sources": [
+          {
+            "url": "https://www.joshcellars.com/products/josh-cellars-cabernet-sauvignon",
+            "title": "Josh Cellars Cabernet Sauvignon, California - 750ml",
+            "supports": "Identity and tasting characteristics",
+            "type": "producer",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou location-linked menu",
+            "supports": "Listing/name comparison only; does not verify bottle release or tasting notes",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://www.joshcellars.com/products/josh-cellars-cabernet-sauvignon",
+            "title": "2026-10-03 wine audit reference",
+            "supports": "Producer flavor notes blackberry/hazelnut/cinnamon/vanilla/toasted oak; round juicy style. Existing structured tannin and finish unsupported.",
+            "type": "producer",
+            "accessed": "2026-10-03",
+            "accessStatus": "primary-reference-reverified"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "producer",
+          "venue"
+        ],
+        "tastingBasis": "Published reference descriptions, not a tasting of the venue pour. Exact bottle and vintage are unconfirmed. Any body or finish detail absent from source is explicitly marked.",
+        "resolution": "Producer flavor notes blackberry/hazelnut/cinnamon/vanilla/toasted oak; round juicy style. Existing structured tannin and finish unsupported.",
+        "conflictsFound": "Vintage/release not stated on the restaurant menu.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "primary-reference-reverified",
+          "summary": "Producer flavor notes blackberry/hazelnut/cinnamon/vanilla/toasted oak; round juicy style. Existing structured tannin and finish unsupported."
+        }
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial suggestions conditional on the stated reference bottling and listed dish preparation. Venue bottle, vintage and current menu availability are not confirmed by this flavor pass.",
+        "conditional": true,
+        "rulesCheckedAt": "2026-09-18"
+      },
+      "signatureTraits": [
+        "Reference notes require the exact bottle and vintage. Blackberry \u00b7 toasted hazelnut \u00b7 oak spice"
+      ],
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "ribeye",
+            "name": "Cajun Ribeye",
+            "reason": "Reference blackberry, toasted oak and cinnamon offer an aromatic accompaniment to beef and bourbon jus; the producer\u2019s round, juicy style does not establish firm tannin.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "burger",
+            "name": "Voodoo Smash Burger",
+            "reason": "Reference blackberry and toasted oak offer an accompaniment to beef and cheddar; pickles contrast with the wine\u2019s round fruit character.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "martin-ray",
+      "tasting": {
+        "aroma": [
+          "2023 reference: black cherry",
+          "licorice",
+          "smoked bacon",
+          "dried herbs"
+        ],
+        "flavor": [
+          "Specific palate flavors are not separately named in the producer sheet"
+        ],
+        "body": "2023 reference: richly textured, with fine chalky tannins.",
+        "finish": "Finish is not separately specified in the producer sheet."
+      },
+      "tags": [
+        "Wine",
+        "Red wine",
+        "Specific palate flavors are not separately named in the producer sheet"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Product-specific reference",
+        "ambiguityStatus": "2023 Napa Valley wine-on-tap producer reference; no venue vintage or serving format inferred. Producer also makes distinct appellation Cabernets.",
+        "caveats": [
+          "Vintage/release not stated on the restaurant menu.",
+          "2023 Napa Valley wine-on-tap producer reference; no venue vintage or serving format inferred. Producer also makes distinct appellation Cabernets."
+        ],
+        "sources": [
+          {
+            "url": "https://www.martinraywinery.com/product/martin-ray-2023-cabernet-sauvignon-napa-valley",
+            "title": "Martin Ray 2023 Cabernet Sauvignon",
+            "supports": "Identity and tasting characteristics",
+            "type": "producer",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou location-linked menu",
+            "supports": "Listing/name comparison only; does not verify bottle release or tasting notes",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://www.martinraywinery.com/wp-content/uploads/2025/05/MR_23_Napa-Valley_Cab-Sauv_Wine-on-Tap_Sell-Sheet.pdf",
+            "title": "2026-10-03 wine audit reference",
+            "supports": "2023 producer wine-on-tap sell sheet supports black cherry/licorice/smoked bacon/dried herbs opening, richly textured fine chalky tannins. No finish described. Format not inferred.",
+            "type": "producer",
+            "accessed": "2026-10-03",
+            "accessStatus": "primary-reference-reverified"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "producer",
+          "venue"
+        ],
+        "tastingBasis": "Published reference descriptions, not a tasting of the venue pour. Exact bottle and vintage are unconfirmed. 2023 Napa Valley wine-on-tap producer reference; no venue vintage or serving format inferred. Producer also makes distinct appellation Cabernets.",
+        "resolution": "2023 producer wine-on-tap sell sheet supports black cherry/licorice/smoked bacon/dried herbs opening, richly textured fine chalky tannins. No finish described. Format not inferred.",
+        "conflictsFound": "Vintage/release not stated on the restaurant menu.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "primary-reference-reverified",
+          "summary": "2023 producer wine-on-tap sell sheet supports black cherry/licorice/smoked bacon/dried herbs opening, richly textured fine chalky tannins. No finish described. Format not inferred."
+        }
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial suggestions conditional on the stated reference bottling and listed dish preparation. Venue bottle, vintage and current menu availability are not confirmed by this flavor pass.",
+        "conditional": true,
+        "rulesCheckedAt": "2026-09-18"
+      },
+      "signatureTraits": [
+        "Reference notes require the exact bottle and vintage. 2023 Napa Valley wine-on-tap producer reference; no venue vintage or serving format inferred. Producer also makes distinct appellation Cabernets."
+      ],
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "ribeye",
+            "name": "Cajun Ribeye",
+            "reason": "The 2023 reference\u2019s fine chalky tannins offer an accompaniment to marbled beef, while black-cherry and dried-herb aromas add contrast to bourbon jus.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "burger",
+            "name": "Voodoo Smash Burger",
+            "reason": "The 2023 reference\u2019s rich texture and fine tannins sit beside beef and cheddar; the black-cherry aroma offers fruit contrast and pickles add tang.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mise-en-place",
+      "tasting": {
+        "aroma": [
+          "2023 reference: blackcurrant",
+          "graphite",
+          "dark chocolate",
+          "subtle pepper"
+        ],
+        "flavor": [
+          "2023 reference: dark fruit",
+          "cocoa"
+        ],
+        "body": "2023 reference: refined tannins provide structure.",
+        "finish": "2023 reference: long and polished."
+      },
+      "tags": [
+        "Wine",
+        "Red wine",
+        "2023 reference: dark fruit",
+        "cocoa"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Product-specific reference",
+        "ambiguityStatus": "The producer page is explicitly 2023; venue vintage is unconfirmed.",
+        "caveats": [
+          "Vintage/release not stated on the restaurant menu.",
+          "The producer page is explicitly 2023; venue vintage is unconfirmed."
+        ],
+        "sources": [
+          {
+            "url": "https://textbookvineyards.com/wines/oakville-napa-valley-mise-en-place-cabernet-sauvignon-2023/",
+            "title": "2023 Mise en Place Cabernet Sauvignon",
+            "supports": "Identity and tasting characteristics",
+            "type": "producer",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou location-linked menu",
+            "supports": "Listing/name comparison only; does not verify bottle release or tasting notes",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://textbookvineyards.com/wines/oakville-napa-valley-mise-en-place-cabernet-sauvignon-2023/",
+            "title": "2026-10-03 wine audit reference",
+            "supports": "2023 producer black currant/cassis/graphite/chocolate/pepper aromas, dark fruit/cocoa palate, refined tannins long polished finish.",
+            "type": "producer",
+            "accessed": "2026-10-03",
+            "accessStatus": "primary-reference-reverified"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "producer",
+          "venue"
+        ],
+        "tastingBasis": "Published reference descriptions, not a tasting of the venue pour. Exact bottle and vintage are unconfirmed. The producer page is explicitly 2023; venue vintage is unconfirmed.",
+        "resolution": "2023 producer black currant/cassis/graphite/chocolate/pepper aromas, dark fruit/cocoa palate, refined tannins long polished finish.",
+        "conflictsFound": "Vintage/release not stated on the restaurant menu.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "primary-reference-reverified",
+          "summary": "2023 producer black currant/cassis/graphite/chocolate/pepper aromas, dark fruit/cocoa palate, refined tannins long polished finish."
+        }
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial suggestions conditional on the stated reference bottling and listed dish preparation. Venue bottle, vintage and current menu availability are not confirmed by this flavor pass.",
+        "conditional": true,
+        "rulesCheckedAt": "2026-09-18"
+      },
+      "signatureTraits": [
+        "Reference notes require the exact bottle and vintage. The producer page is explicitly 2023; venue vintage is unconfirmed."
+      ],
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "ribeye",
+            "name": "Cajun Ribeye",
+            "reason": "The 2023 reference\u2019s dark fruit and refined tannins offer an accompaniment to marbled beef; cocoa and blackcurrant aroma sit beside bourbon jus.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "burger",
+            "name": "Voodoo Smash Burger",
+            "reason": "The 2023 reference\u2019s dark fruit and refined structure offer an accompaniment to beef and cheddar; pickles add contrast.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "silver-oak",
+      "tasting": {
+        "aroma": [
+          "2019 reference: red cherry",
+          "raspberry",
+          "blackberry",
+          "iris",
+          "vanilla",
+          "clove"
+        ],
+        "flavor": [
+          "2019 reference: berry fruit",
+          "blackcurrant",
+          "baking spice"
+        ],
+        "body": "2019 reference: elegant, with fresh acidity and mid-palate lift.",
+        "finish": "2019 reference: deep fruit, blackcurrant and warm baking spice."
+      },
+      "tags": [
+        "Wine",
+        "Red wine",
+        "2019 reference: berry fruit",
+        "blackcurrant",
+        "baking spice"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Product-specific reference",
+        "ambiguityStatus": "Descriptors are specifically the producer 2019 reference; other vintages differ in fruit, texture and tannin.",
+        "caveats": [
+          "Vintage/release not stated on the restaurant menu.",
+          "Producer evidence includes 2019 Alexander Valley notes; the restaurant vintage is unspecified.",
+          "Descriptors are specifically the producer 2019 reference; other vintages differ in fruit, texture and tannin."
+        ],
+        "sources": [
+          {
+            "url": "https://silveroak.com/pages/tasting-notes/alexander-valley",
+            "title": "Alexander Valley - Silver Oak Cellars",
+            "supports": "Identity and tasting characteristics",
+            "type": "producer",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou location-linked menu",
+            "supports": "Listing/name comparison only; does not verify bottle release or tasting notes",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://silveroak.com/pages/tasting-notes/alexander-valley",
+            "title": "2026-10-03 wine audit reference",
+            "supports": "2019 producer aroma list red cherry/raspberry/blackberry/iris/vanilla/clove, great acidity/lift, blackcurrant/baking spices deep fruity finish. Other vintages differ substantially.",
+            "type": "producer",
+            "accessed": "2026-10-03",
+            "accessStatus": "primary-reference-reverified"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "producer",
+          "venue"
+        ],
+        "tastingBasis": "Published reference descriptions, not a tasting of the venue pour. Exact bottle and vintage are unconfirmed. Descriptors are specifically the producer 2019 reference; other vintages differ in fruit, texture and tannin.",
+        "resolution": "2019 producer aroma list red cherry/raspberry/blackberry/iris/vanilla/clove, great acidity/lift, blackcurrant/baking spices deep fruity finish. Other vintages differ substantially.",
+        "conflictsFound": "Vintage/release not stated on the restaurant menu.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "primary-reference-reverified",
+          "summary": "2019 producer aroma list red cherry/raspberry/blackberry/iris/vanilla/clove, great acidity/lift, blackcurrant/baking spices deep fruity finish. Other vintages differ substantially."
+        }
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial suggestions conditional on the stated reference bottling and listed dish preparation. Venue bottle, vintage and current menu availability are not confirmed by this flavor pass.",
+        "conditional": true,
+        "rulesCheckedAt": "2026-09-18"
+      },
+      "signatureTraits": [
+        "Reference notes require the exact bottle and vintage. Descriptors are specifically the producer 2019 reference; other vintages differ in fruit, texture and tannin."
+      ],
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "ribeye",
+            "name": "Cajun Ribeye",
+            "reason": "The 2019 reference\u2019s berry fruit, blackcurrant and warm spice offer an aromatic accompaniment to beef and bourbon jus; fresh acidity adds contrast.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "burger",
+            "name": "Voodoo Smash Burger",
+            "reason": "The 2019 reference\u2019s fruit and fresh acidity offer contrast to beef and cheddar; no exact tannin firmness is assumed.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "caymus",
+      "tasting": {
+        "aroma": [
+          "Specific aromas not listed in the producer overview"
+        ],
+        "flavor": [
+          "Concentrated ripe dark fruit"
+        ],
+        "body": "Fruit-driven softness with underlying tannin and structure.",
+        "finish": "Finish is not separately specified in the producer overview."
+      },
+      "tags": [
+        "Wine",
+        "Red wine",
+        "Concentrated ripe dark fruit"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Product-specific reference",
+        "ambiguityStatus": "Vintage/release not stated on the restaurant menu.",
+        "caveats": [
+          "Vintage/release not stated on the restaurant menu."
+        ],
+        "sources": [
+          {
+            "url": "https://www.caymus.com/",
+            "title": "Caymus Vineyards",
+            "supports": "Identity and tasting characteristics",
+            "type": "producer",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou location-linked menu",
+            "supports": "Listing/name comparison only; does not verify bottle release or tasting notes",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://www.caymus.com/",
+            "title": "2026-10-03 wine audit reference",
+            "supports": "Producer supports dark concentrated fruit-driven softness and sufficient tannin; does not separately name aroma or finish. Tannins are texture, not flavor.",
+            "type": "producer",
+            "accessed": "2026-10-03",
+            "accessStatus": "primary-reference-reverified"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "producer",
+          "venue"
+        ],
+        "tastingBasis": "Published reference descriptions, not a tasting of the venue pour. Exact bottle and vintage are unconfirmed. Any body or finish detail absent from source is explicitly marked.",
+        "resolution": "Producer supports dark concentrated fruit-driven softness and sufficient tannin; does not separately name aroma or finish. Tannins are texture, not flavor.",
+        "conflictsFound": "Vintage/release not stated on the restaurant menu.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "primary-reference-reverified",
+          "summary": "Producer supports dark concentrated fruit-driven softness and sufficient tannin; does not separately name aroma or finish. Tannins are texture, not flavor."
+        }
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial suggestions conditional on the stated reference bottling and listed dish preparation. Venue bottle, vintage and current menu availability are not confirmed by this flavor pass.",
+        "conditional": true,
+        "rulesCheckedAt": "2026-09-18"
+      },
+      "signatureTraits": [
+        "Reference notes require the exact bottle and vintage. The producer emphasizes fruit concentration and softness; do not confuse it with Special Selection or California Cabernet."
+      ],
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "ribeye",
+            "name": "Cajun Ribeye",
+            "reason": "Reference concentrated dark fruit and underlying structure offer an accompaniment to marbled beef and bourbon jus.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "burger",
+            "name": "Voodoo Smash Burger",
+            "reason": "Reference ripe dark fruit and softness sit beside beef and cheddar; pickles add contrast.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "darioush",
+      "tasting": {
+        "aroma": [
+          "2022 reference: blackcurrant",
+          "blueberry",
+          "fig",
+          "black raspberry",
+          "Damson plum"
+        ],
+        "flavor": [
+          "2022 reference: dark fruit",
+          "cocoa",
+          "spiced sandalwood",
+          "smoked thyme"
+        ],
+        "body": "2022 reference: expansive and velvety, with firm polished tannins.",
+        "finish": "2022 reference: graphite, dried lavender and candied orange peel."
+      },
+      "tags": [
+        "Wine",
+        "Red wine",
+        "2022 reference: dark fruit",
+        "cocoa",
+        "spiced sandalwood",
+        "smoked thyme"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Product-specific reference",
+        "ambiguityStatus": "Detailed descriptors come from the 2022 Signature Cabernet; venue vintage is not established. Do not substitute Darius II.",
+        "caveats": [
+          "Vintage/release not stated on the restaurant menu.",
+          "Detailed descriptors come from the 2022 Signature Cabernet; venue vintage is not established. Do not substitute Darius II."
+        ],
+        "sources": [
+          {
+            "url": "https://www.darioush.com/shop/product/2022-signature-cabernet-sauvignon/",
+            "title": "2022 Signature Cabernet Sauvignon",
+            "supports": "Identity and tasting characteristics",
+            "type": "producer",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou location-linked menu",
+            "supports": "Listing/name comparison only; does not verify bottle release or tasting notes",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://www.darioush.com/shop/product/2022-signature-cabernet-sauvignon/",
+            "title": "2026-10-03 wine audit reference",
+            "supports": "2022 producer blackcurrant/blueberry aromas unfolding fig/raspberry/plum; cocoa/sandalwood/thyme expansive velvety palate; firm polished tannin finish graphite/lavender/orange peel.",
+            "type": "producer",
+            "accessed": "2026-10-03",
+            "accessStatus": "primary-reference-reverified"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "producer",
+          "venue"
+        ],
+        "tastingBasis": "Published reference descriptions, not a tasting of the venue pour. Exact bottle and vintage are unconfirmed. Detailed descriptors come from the 2022 Signature Cabernet; venue vintage is not established. Do not substitute Darius II.",
+        "resolution": "2022 producer blackcurrant/blueberry aromas unfolding fig/raspberry/plum; cocoa/sandalwood/thyme expansive velvety palate; firm polished tannin finish graphite/lavender/orange peel.",
+        "conflictsFound": "Vintage/release not stated on the restaurant menu.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "primary-reference-reverified",
+          "summary": "2022 producer blackcurrant/blueberry aromas unfolding fig/raspberry/plum; cocoa/sandalwood/thyme expansive velvety palate; firm polished tannin finish graphite/lavender/orange peel."
+        }
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial suggestions conditional on the stated reference bottling and listed dish preparation. Venue bottle, vintage and current menu availability are not confirmed by this flavor pass.",
+        "conditional": true,
+        "rulesCheckedAt": "2026-09-18"
+      },
+      "signatureTraits": [
+        "Reference notes require the exact bottle and vintage. Detailed descriptors come from the 2022 Signature Cabernet; venue vintage is not established. Do not substitute Darius II."
+      ],
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "ribeye",
+            "name": "Cajun Ribeye",
+            "reason": "The 2022 reference\u2019s dark fruit and firm polished tannins offer an accompaniment to marbled beef; smoked thyme and cocoa add aromatic contrast to bourbon jus.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "burger",
+            "name": "Voodoo Smash Burger",
+            "reason": "The 2022 reference\u2019s expansive texture and dark fruit sit beside beef and cheddar, while pickles add contrast.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "eric-louis-pinot-noir",
+      "tasting": {
+        "aroma": [
+          "2025 reference: red fruit"
+        ],
+        "flavor": [
+          "2025 reference: ripe red fruit"
+        ],
+        "body": "Producer describes an elegant style; body is not separately specified.",
+        "finish": "Finish is not separately specified in the producer note."
+      },
+      "tags": [
+        "Wine",
+        "Red wine",
+        "2025 reference: ripe red fruit"
+      ],
+      "research": {
+        "reviewedAt": "2026-10-03",
+        "confidence": "Medium",
+        "profileLevel": "Product-specific reference",
+        "ambiguityStatus": "2025 Vin de France reference only; broad Eric Louis listing does not establish vintage or appellation.",
+        "caveats": [
+          "Vintage and exact appellation require the venue bottle.",
+          "2025 Vin de France reference only; broad Eric Louis listing does not establish vintage or appellation."
+        ],
+        "sources": [
+          {
+            "url": "https://www.sancerre-ericlouis.com/en/wine/pinot-noir-eric-louis/",
+            "title": "Pinot Noir",
+            "supports": "Identity and tasting characteristics",
+            "type": "producer",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://voodoobayou.com/menu/",
+            "title": "Voodoo Bayou location-linked menu",
+            "supports": "Listing/name comparison only; does not verify bottle release or tasting notes",
+            "type": "venue",
+            "accessed": "2026-09-06"
+          },
+          {
+            "url": "https://www.sancerre-ericlouis.com/en/wine/pinot-noir-eric-louis/",
+            "title": "2026-10-03 wine audit reference",
+            "supports": "Producer page explicitly 2025 Vin de France with red-fruit aroma and ripe red fruit palate. No exact body or finish details.",
+            "type": "producer",
+            "accessed": "2026-10-03",
+            "accessStatus": "primary-reference-reverified"
+          }
+        ],
+        "sourceTypesConsulted": [
+          "producer",
+          "venue"
+        ],
+        "tastingBasis": "Published reference descriptions, not a tasting of the venue pour. Exact bottle and vintage are unconfirmed. 2025 Vin de France reference only; broad Eric Louis listing does not establish vintage or appellation.",
+        "resolution": "Producer page explicitly 2025 Vin de France with red-fruit aroma and ripe red fruit palate. No exact body or finish details.",
+        "conflictsFound": "Vintage and exact appellation require the venue bottle.",
+        "flavorCheck": {
+          "checkedAt": "2026-10-03",
+          "status": "primary-reference-reverified",
+          "summary": "Producer page explicitly 2025 Vin de France with red-fruit aroma and ripe red fruit palate. No exact body or finish details."
+        }
+      },
+      "pairingReview": {
+        "reviewedAt": "2026-10-03",
+        "basis": "Editorial suggestions conditional on the stated reference bottling and listed dish preparation. Venue bottle, vintage and current menu availability are not confirmed by this flavor pass.",
+        "conditional": true,
+        "rulesCheckedAt": "2026-09-18"
+      },
+      "signatureTraits": [
+        "Reference notes require the exact bottle and vintage. 2025 Vin de France reference only; broad Eric Louis listing does not establish vintage or appellation."
+      ],
+      "pairings": {
+        "restaurant": [
+          {
+            "dishId": "mushroom",
+            "name": "Mushroom \u201cBolognese\u201d",
+            "reason": "The 2025 Vin de France reference\u2019s red fruit offers contrast to savory mushrooms and Grana Padano; no earthy or spicy wine note is assumed.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          },
+          {
+            "dishId": "salmon",
+            "name": "Creole Mustard Salmon",
+            "reason": "The 2025 Vin de France reference\u2019s red fruit offers contrast to salmon and tangy mustard; body and tannin intensity are unconfirmed.",
+            "sourceUrl": "https://voodoobayou.com/menu/"
+          }
+        ]
+      }
+    }
+  ]
+}

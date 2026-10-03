@@ -188,11 +188,12 @@ test('tray native links preserve modified-click behavior and route history', asy
 });
 
 test('profile exposes pairing cautions and honest source-check scope', async () => {
-  const ui = await mount('?drink=funky-buddha-hop-gun');
+  const ui = await mount('?drink=voodoo-ranger');
   try {
     await pause();
     assert.match(ui.$('#profilePanel').textContent, /Hop bitterness and alcohol may intensify/);
-    assert.match(ui.$('.research-panel').textContent, /not independently reverified/);
+    assert.match(ui.$('.research-panel').textContent, /2026-10-03/);
+    assert.match(ui.$('.research-panel').textContent, /reference product/);
     assert.equal(ui.$('.pairing-method'), null);
     assert.doesNotMatch(ui.$('#profilePanel').textContent, /How to use these pairings/);
   } finally { ui.close(); }

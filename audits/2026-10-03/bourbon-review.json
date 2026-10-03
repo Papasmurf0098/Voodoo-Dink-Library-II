@@ -1,0 +1,3397 @@
+{
+  "category": "Whiskey / Bourbon",
+  "checkedAt": "2026-10-03",
+  "recordsEvaluated": 85,
+  "identityUnresolved": 3,
+  "partialSensoryEvidence": 2,
+  "records": [
+    {
+      "id": "angels-envy-kentucky-straight-bourbon-finished-in-port-wine-barrels",
+      "name": "Angel's Envy Kentucky Straight Bourbon Finished in Port Wine Barrels",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://www.angelsenvy.com/us/en/whiskeys/signature-series/port-wine-finished-bourbon/"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.angelsenvy.com/us/en/whiskeys/signature-series/port-wine-finished-bourbon/",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "vanilla",
+          "raisin",
+          "maple syrup",
+          "toasted nuts"
+        ],
+        "palate": [
+          "vanilla",
+          "ripe fruit",
+          "maple syrup",
+          "toast",
+          "bitter chocolate"
+        ],
+        "body": "Not established by cited source",
+        "finish": "A lingering sweet impression with a fading wine-like accent; sensory sweetness is not a sugar measurement."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "balcones-texas-pot-still-bourbon",
+      "name": "Balcones Texas Pot Still Bourbon",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://www.breakingbourbon.com/review/balcones-texas-pot-still-bourbon"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.breakingbourbon.com/review/balcones-texas-pot-still-bourbon",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "roasted chestnut",
+          "root beer",
+          "molasses",
+          "dark caramel"
+        ],
+        "palate": [
+          "pecan",
+          "cream soda",
+          "molasses",
+          "gingerbread"
+        ],
+        "body": "Not established by cited source",
+        "finish": "Roasted malt and chocolate impressions lead into toasted oak and a light smoky accent."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "belle-meade-sour-mash-straight-bourbon-whiskey",
+      "name": "Belle Meade Sour Mash Straight Bourbon Whiskey",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://www.bellemeadebourbon.com/classic-bourbon"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.bellemeadebourbon.com/classic-bourbon",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "maple syrup",
+          "caramel",
+          "floral notes",
+          "citrus zest"
+        ],
+        "palate": [
+          "caramel",
+          "vanilla",
+          "rye spice",
+          "apricot"
+        ],
+        "body": "Not established by cited source",
+        "finish": "A sustained fruit-and-spice finish, with cherry, plum and cinnamon reference notes."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "blantons-single-barrel-voodoo-private-barrel-selection",
+      "name": "Blanton's Single Barrel - Voodoo private barrel selection",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://www.blantonsbourbon.com/pages/our-bourbon"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.blantonsbourbon.com/pages/our-bourbon",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "vanilla",
+          "caramel",
+          "butterscotch",
+          "baking spice"
+        ],
+        "palate": [
+          "citrus",
+          "oak"
+        ],
+        "body": "Barrel-dependent",
+        "finish": "Barrel-dependent"
+      },
+      "unresolved": "Exact Voodoo private barrel is unidentified; Original Single Barrel producer notes are conditional only.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "blantons-gold-edition",
+      "name": "Blanton's Gold Edition",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://www.blantonsbourbon.com/pages/our-bourbon"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.blantonsbourbon.com/pages/our-bourbon",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "rye spice",
+          "tobacco",
+          "caramel",
+          "honey",
+          "dark fruit",
+          "citrus"
+        ],
+        "palate": [
+          "rye spice",
+          "tobacco",
+          "honey",
+          "charred oak",
+          "vanilla"
+        ],
+        "body": "Round and bold reference profile",
+        "finish": "Extended oak and vanilla character; barrel variation remains possible."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "buffalo-trace-wheated-bourbon-wheat-recipe-bourbon",
+      "name": "Buffalo Trace wheated bourbon / wheat-recipe bourbon",
+      "checkedAt": "2026-10-03",
+      "status": "source-checked-identity-unresolved",
+      "evidenceUrls": [
+        "https://www.buffalotracedistillery.com/our-brands/buffalo-trace/kosher-whiskey-wheat-recipe/"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.buffalotracedistillery.com/our-brands/buffalo-trace/kosher-whiskey-wheat-recipe/",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "Unconfirmed bottle"
+        ],
+        "palate": [
+          "Wheat-recipe identity requires confirmation"
+        ],
+        "body": "Not established",
+        "finish": "Not established"
+      },
+      "unresolved": "Kosher Wheat Recipe producer page is accessible but does not establish that the ambiguously named venue bottle is that expression.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "research",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "colonel-eh-taylor-jr-barrel-proof",
+      "name": "Colonel E.H. Taylor, Jr. Barrel Proof",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://www.buffalotracedistillery.com/our-brands/e-h-taylor-jr/e-h-taylor-jr-barrel-proof/"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.buffalotracedistillery.com/our-brands/e-h-taylor-jr/e-h-taylor-jr-barrel-proof/",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "cooked berries",
+          "caramel",
+          "flowers"
+        ],
+        "palate": [
+          "toasty vanilla",
+          "dried oak",
+          "pepper",
+          "spice"
+        ],
+        "body": "Bold reference profile",
+        "finish": "Sustained rye spice with lingering fruit; exact intensity depends on release."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "colonel-eh-taylor-jr-small-batch",
+      "name": "Colonel E.H. Taylor, Jr. Small Batch",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://www.buffalotracedistillery.com/our-brands/e-h-taylor-jr/e-h-taylor-jr-small-batch/"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.buffalotracedistillery.com/our-brands/e-h-taylor-jr/e-h-taylor-jr-small-batch/",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "Not separately specified by producer"
+        ],
+        "palate": [
+          "caramel corn",
+          "butterscotch",
+          "licorice"
+        ],
+        "body": "Soft mouthfeel in the reference notes",
+        "finish": "Subtle pepper and tobacco aftertaste."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "colonel-eh-taylor-jr-single-barrel",
+      "name": "Colonel E.H. Taylor, Jr. Single Barrel",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://www.buffalotracedistillery.com/our-brands/e-h-taylor-jr/e-h-taylor-jr-single-barrel/"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.buffalotracedistillery.com/our-brands/e-h-taylor-jr/e-h-taylor-jr-single-barrel/",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "toasted oak",
+          "dried fig",
+          "butterscotch"
+        ],
+        "palate": [
+          "tobacco",
+          "dark spice",
+          "sweet impression"
+        ],
+        "body": "Not established by cited source",
+        "finish": "Producer describes a moderate lingering finish without separate flavor detail; barrel-dependent."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "eagle-rare-10-year",
+      "name": "Eagle Rare 10 Year",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://www.buffalotracedistillery.com/our-brands/eagle-rare/eagle-rare-10/"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.buffalotracedistillery.com/our-brands/eagle-rare/eagle-rare-10/",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "toffee",
+          "orange peel",
+          "herbs",
+          "honey",
+          "leather",
+          "oak"
+        ],
+        "palate": [
+          "candied almond",
+          "cocoa"
+        ],
+        "body": "Not established by cited source",
+        "finish": "Lingering dry impression, rather than a sugar measurement."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "elijah-craig-small-batch",
+      "name": "Elijah Craig Small Batch",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://elijahcraig.com/small-batch"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://elijahcraig.com/small-batch",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "vanilla",
+          "fruit",
+          "mint"
+        ],
+        "palate": [
+          "wood spice",
+          "nutmeg",
+          "light smoke"
+        ],
+        "body": "Smooth and warming reference profile",
+        "finish": "Extended sweetness and gentle toast in the producer's sensory description."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "elijah-craig-barrel-proof",
+      "name": "Elijah Craig Barrel Proof",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://elijahcraig.com/barrel-proof?ref=bourbonbanter.com"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://elijahcraig.com/barrel-proof?ref=bourbonbanter.com",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "caramel",
+          "toasted oak",
+          "apple",
+          "orange"
+        ],
+        "palate": [
+          "vanilla",
+          "caramel",
+          "butterscotch",
+          "black pepper",
+          "cinnamon"
+        ],
+        "body": "Not established by cited source",
+        "finish": "Layered flavors fade gradually; batch-specific strength and intensity remain unconfirmed."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "elijah-craig-toasted-barrel",
+      "name": "Elijah Craig Toasted Barrel",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://elijahcraig.com/toasted-barrel"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://elijahcraig.com/toasted-barrel",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "toasted oak",
+          "caramel"
+        ],
+        "palate": [
+          "spice",
+          "pepper",
+          "milk chocolate",
+          "light smoke"
+        ],
+        "body": "Rich reference profile",
+        "finish": "Warming chocolate and baking spice linger."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "evan-williams-bottled-in-bond-100-proof",
+      "name": "Evan Williams Bottled-in-Bond 100 Proof",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://heavenhilldistillery.com/ew-bottled-in-bond.php"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://heavenhilldistillery.com/ew-bottled-in-bond.php",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "caramel",
+          "vanilla",
+          "oak",
+          "barley"
+        ],
+        "palate": [
+          "citrus",
+          "vanilla",
+          "black pepper"
+        ],
+        "body": "Not established by cited source",
+        "finish": "Long, dry warmth"
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "evan-williams-1783-small-batch",
+      "name": "Evan Williams 1783 Small Batch",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://evanwilliams.com/family-of-bourbons"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://evanwilliams.com/family-of-bourbons",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "oaky vanilla",
+          "buttered corn",
+          "sauteed butter"
+        ],
+        "palate": [
+          "oak",
+          "honey"
+        ],
+        "body": "Not established by cited source",
+        "finish": "Lean, lightly dry sensory impression."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "evan-williams-black-label",
+      "name": "Evan Williams Black Label",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://evanwilliams.com/ew-blacklabel"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://evanwilliams.com/ew-blacklabel",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "vanilla",
+          "mint"
+        ],
+        "palate": [
+          "brown sugar",
+          "caramel",
+          "oak"
+        ],
+        "body": "Not established by cited source",
+        "finish": "Medium-to-long reference finish; producer does not specify separate finish flavors."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "four-roses-private-selection",
+      "name": "Four Roses Private Selection",
+      "checkedAt": "2026-10-03",
+      "status": "source-checked-identity-unresolved",
+      "evidenceUrls": [
+        "https://www.fourrosesbourbon.com/our-recipes"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.fourrosesbourbon.com/our-recipes",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "Recipe-dependent"
+        ],
+        "palate": [
+          "Fruit, floral character and spice depend on recipe code"
+        ],
+        "body": "Barrel-dependent",
+        "finish": "Barrel-dependent"
+      },
+      "unresolved": "Producer confirms ten distinct recipes. Exact private selection recipe, barrel, age and proof remain unidentified.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "research",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "george-t-stagg",
+      "name": "George T. Stagg",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://www.buffalotracedistillery.com/our-brands/george-t-stagg/george-t-stagg-bourbon/"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.buffalotracedistillery.com/our-brands/george-t-stagg/",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.buffalotracedistillery.com/our-brands/george-t-stagg/george-t-stagg-bourbon/",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved-replacement"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "Not separately specified by producer"
+        ],
+        "palate": [
+          "toffee",
+          "dark chocolate",
+          "vanilla",
+          "fudge",
+          "nougat",
+          "molasses",
+          "dates",
+          "tobacco",
+          "dark berries",
+          "spearmint",
+          "coffee"
+        ],
+        "body": "Not established by cited source",
+        "finish": "Not separately specified in the retrieved producer notes; release-dependent."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "heaven-hill-bottled-in-bond-7-year",
+      "name": "Heaven Hill Bottled-in-Bond 7 Year",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://heavenhilldistillery.com/hh-bottled-in-bond.php"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://heavenhilldistillery.com/hh-bottled-in-bond.php",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "vanilla",
+          "honey",
+          "caramel"
+        ],
+        "palate": [
+          "caramel",
+          "honey",
+          "rye spice",
+          "oak",
+          "char"
+        ],
+        "body": "Smooth, warming reference profile",
+        "finish": "Extended lingering finish; producer does not isolate finish flavors."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "henry-mckenna-single-barrel-bottled-in-bond-10-year",
+      "name": "Henry McKenna Single Barrel Bottled-in-Bond 10 Year",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://thebourbonfinder.com/henry-mckenna-single-barrel/"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://thebourbonfinder.com/henry-mckenna-single-barrel/",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "vanilla",
+          "oak",
+          "caramel"
+        ],
+        "palate": [
+          "honey",
+          "sweet fruit",
+          "spice"
+        ],
+        "body": "Barrel-dependent",
+        "finish": "Sustained caramel, honey and spice in the reviewed barrel; other barrels may differ."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "old-charter-oak-chinkapin-oak",
+      "name": "Old Charter Oak Chinkapin Oak",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://www.buffalotracedistillery.com/our-brands/old-charter-oak/old-charter-chinkapin-oak/"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.buffalotracedistillery.com/our-brands/old-charter-oak/old-charter-chinkapin-oak/",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "cherry",
+          "spearmint",
+          "floral notes"
+        ],
+        "palate": [
+          "herbs",
+          "honey"
+        ],
+        "body": "Not established by cited source",
+        "finish": "Baking spice gives way to dark chocolate."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "old-fitzgerald-9-year-bottled-in-bond",
+      "name": "Old Fitzgerald 9 Year Bottled-in-Bond",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://www.amongstthewhiskey.com/post/old-fitzgerald-9-year-bottled-in-bond-wheated-bourbon-review-spring-2025"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.amongstthewhiskey.com/post/old-fitzgerald-9-year-bottled-in-bond-wheated-bourbon-review-spring-2025",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "caramel",
+          "black pepper",
+          "clove",
+          "vanilla",
+          "light floral notes"
+        ],
+        "palate": [
+          "lemon curd",
+          "green tea",
+          "caramel",
+          "vanilla",
+          "chocolate",
+          "cinnamon",
+          "fruit"
+        ],
+        "body": "Lightly oily and creamy in the Spring 2025 review",
+        "finish": "Moderate-to-short in the Spring 2025 review, with a faint mint accent; release-dependent."
+      },
+      "unresolved": "Retained notes describe the Spring 2025 nine-year release only; venue release is unidentified.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "rock-hill-farms-single-barrel-bourbon",
+      "name": "Rock Hill Farms Single Barrel Bourbon",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://www.breakingbourbon.com/review/rock-hill-farms-single-barrel-bourbon"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.breakingbourbon.com/review/rock-hill-farms-single-barrel-bourbon",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "cherry",
+          "berries",
+          "baked apple",
+          "vanilla",
+          "cinnamon",
+          "charred oak"
+        ],
+        "palate": [
+          "leather",
+          "oak",
+          "allspice",
+          "vanilla",
+          "toasted sugar",
+          "light cherry"
+        ],
+        "body": "Creamy in the reviewed single barrel",
+        "finish": "Rye spice, toasted oak and a light vanilla impression persist in the reviewed barrel."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "stagg-formerly-stagg-jr",
+      "name": "Stagg (formerly Stagg Jr.)",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://www.buffalotracedistillery.com/our-brands/george-t-stagg/stagg-bourbon/"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.buffalotracedistillery.com/our-brands/george-t-stagg/stagg-bourbon/",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "Not separately specified by producer"
+        ],
+        "palate": [
+          "chocolate",
+          "brown sugar",
+          "rye spice"
+        ],
+        "body": "Not established by cited source",
+        "finish": "Lingering cherry, clove and smoke impressions; release-dependent."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "straight-edge-bourbon",
+      "name": "Straight Edge Bourbon",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://thewhiskeywash.com/bourbon/whiskey-review-straight-edge-bourbon/"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://thewhiskeywash.com/bourbon/whiskey-review-straight-edge-bourbon/",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "vanilla",
+          "caramel",
+          "brown sugar",
+          "blackberry",
+          "currant",
+          "oak"
+        ],
+        "palate": [
+          "fruit",
+          "caramel",
+          "warm spice"
+        ],
+        "body": "Mouth-filling in the cited review",
+        "finish": "Oak and wine-like character dominate the reviewed finish."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "widow-jane-10-year",
+      "name": "Widow Jane 10 Year",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://www.breakingbourbon.com/review/widow-jane-aged-10-years"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.breakingbourbon.com/review/widow-jane-aged-10-years",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "oak",
+          "leather",
+          "chestnut",
+          "brown sugar",
+          "cinnamon"
+        ],
+        "palate": [
+          "vanilla",
+          "sweet cream",
+          "rye spice",
+          "oak",
+          "white pepper",
+          "honey",
+          "cinnamon"
+        ],
+        "body": "Creamy in the cited review",
+        "finish": "Oak and cinnamon spice linger with leather, tobacco and a trace of vanilla."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "wild-turkey-rare-breed",
+      "name": "Wild Turkey Rare Breed",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://www.breakingbourbon.com/review/wild-turkey-rare-breed-bourbon-116-8-proof"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.breakingbourbon.com/review/wild-turkey-rare-breed-bourbon-116-8-proof",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "caramel",
+          "toffee",
+          "orange zest",
+          "oak"
+        ],
+        "palate": [
+          "rye spice",
+          "maple sugar",
+          "caramel",
+          "leather",
+          "clementine",
+          "light tobacco"
+        ],
+        "body": "Not established by cited source",
+        "finish": "Sustained caramel and maple-sugar impressions temper rye spice, with leather, tobacco, citrus and toffee."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "bardstown-bourbon-company-cabernet-finished-bourbon",
+      "name": "Bardstown Bourbon Company Cabernet-finished bourbon",
+      "checkedAt": "2026-10-03",
+      "status": "source-checked-identity-unresolved",
+      "evidenceUrls": [
+        "https://www.breakingbourbon.com/review/bardstown-bourbon-company-collaborative-series-silver-oak"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.breakingbourbon.com/review/bardstown-bourbon-company-collaborative-series-silver-oak",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "Expression unconfirmed"
+        ],
+        "palate": [
+          "Cabernet-finished release requires bottle confirmation"
+        ],
+        "body": "Not established",
+        "finish": "Not established"
+      },
+      "unresolved": "Silver Oak review is accessible but cannot establish which Cabernet-finished Bardstown expression the menu means.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "research",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "belle-meade-single-barrel-bourbon",
+      "name": "Belle Meade Single Barrel Bourbon",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://www.bourbonbanter.com/belle-meade-single-barrel-bourbon-review/"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.bourbonbanter.com/belle-meade-single-barrel-bourbon-review/",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "apple",
+          "toffee",
+          "oak"
+        ],
+        "palate": [
+          "dark fruit",
+          "vanilla",
+          "baking spice",
+          "light cherry"
+        ],
+        "body": "Barrel-dependent",
+        "finish": "Pepper, cherry and caramel linger in the reviewed barrel; exact venue barrel is unconfirmed."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "breckenridge-bourbon-whiskey",
+      "name": "Breckenridge Bourbon Whiskey",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://www.breakingbourbon.com/review/breckenridge-bourbon"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.breakingbourbon.com/review/breckenridge-bourbon",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "cinnamon",
+          "rye spice",
+          "oak",
+          "vanilla"
+        ],
+        "palate": [
+          "vanilla",
+          "honey",
+          "pepper",
+          "oak"
+        ],
+        "body": "Not established by cited source",
+        "finish": "Moderate lingering warmth in the 2014 bottling review; not a current-batch guarantee."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "few-straight-bourbon",
+      "name": "FEW Straight Bourbon",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://www.breakingbourbon.com/review/few-bourbon-whiskey"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.breakingbourbon.com/review/few-bourbon-whiskey",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "cherry",
+          "caramel",
+          "seasoned wood",
+          "brown sugar",
+          "young grain"
+        ],
+        "palate": [
+          "corn",
+          "spice",
+          "light caramel",
+          "light vanilla"
+        ],
+        "body": "Not established by cited source",
+        "finish": "The cited 2014 barrel review reports tannic bitterness, oak and a slight sweetness; not a current-batch prediction."
+      },
+      "unresolved": "Detailed tasting evidence is a 2014 batch review; producer confirms straight bourbon rye-spice character but not the detailed modern batch profile.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "horse-soldier-straight-bourbon-whiskey",
+      "name": "Horse Soldier Straight Bourbon Whiskey",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://horsesoldierbourbon.com/pages/our-bourbon"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://horsesoldierbourbon.com/pages/our-bourbon",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "toffee",
+          "sweet corn",
+          "apple"
+        ],
+        "palate": [
+          "vanilla",
+          "toasted corn",
+          "honey"
+        ],
+        "body": "Not established by cited source",
+        "finish": "Not separately specified in the retrieved producer notes."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "horse-soldier-small-batch-bourbon-whiskey",
+      "name": "Horse Soldier Small Batch Bourbon Whiskey",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://horsesoldierbourbon.com/pages/signature-bourbon"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.bourbonbanter.com/horse-soldier-small-batch-bourbon-review/",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://horsesoldierbourbon.com/pages/signature-bourbon",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved-replacement"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "butterscotch",
+          "ginger",
+          "cherry"
+        ],
+        "palate": [
+          "caramel",
+          "nutmeg",
+          "oak"
+        ],
+        "body": "Full-bodied producer reference",
+        "finish": "Producer describes a rich finish without isolating finish flavors."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "horse-soldier-barrel-strength-bourbon-whiskey",
+      "name": "Horse Soldier Barrel Strength Bourbon Whiskey",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://horsesoldierbourbon.com/pages/reserve-bourbon"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://horsesoldierbourbon.com/products/barrel-strength-straight-bourbon-whiskey",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://horsesoldierbourbon.com/pages/reserve-bourbon",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved-replacement"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "butterscotch",
+          "ginger",
+          "cherry"
+        ],
+        "palate": [
+          "toffee",
+          "ginger",
+          "stone fruit"
+        ],
+        "body": "Full-bodied producer reference",
+        "finish": "Producer describes a rich finish without isolating finish flavors; proof varies."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "iron-smoke-straight-bourbon-whiskey",
+      "name": "Iron Smoke Straight Bourbon Whiskey",
+      "checkedAt": "2026-10-03",
+      "status": "source-checked-partial-evidence",
+      "evidenceUrls": [
+        "https://ironsmokedistillery.com/products/"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://ironsmokedistillery.com/products/",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "Not separately specified by producer"
+        ],
+        "palate": [
+          "light applewood smoke"
+        ],
+        "body": "Not established by cited source",
+        "finish": "Not separately specified in the retrieved producer product description."
+      },
+      "unresolved": "Producer product description supports subtle applewood smoke, not the previous caramel/toffee/oak/body/finish precision.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "redemption-high-rye-bourbon",
+      "name": "Redemption High Rye Bourbon",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://www.bourbonbanter.com/redemption-high-rye-bourbon-review/"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.bourbonbanter.com/redemption-high-rye-bourbon-review/",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "corn",
+          "vanilla",
+          "dried fruit",
+          "nutmeg"
+        ],
+        "palate": [
+          "corn",
+          "caramel",
+          "rye spice",
+          "char"
+        ],
+        "body": "Creamy in the cited review",
+        "finish": "Moderate-to-long rye spice and char in the reviewed bottling."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "rough-rider-bourbon",
+      "name": "Rough Rider Bourbon",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://greatdrams.com/rough-rider-double-casked-straight-bourbon-whisky-review/"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://greatdrams.com/rough-rider-double-casked-straight-bourbon-whisky-review/",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "cinnamon",
+          "nutmeg",
+          "clove",
+          "caramel",
+          "vanilla",
+          "citrus",
+          "apple",
+          "pear"
+        ],
+        "palate": [
+          "oak",
+          "nuts",
+          "dried fruit",
+          "apricot",
+          "caramel",
+          "vanilla",
+          "spice"
+        ],
+        "body": "Chewy reference profile",
+        "finish": "Extended oak and cinnamon in the cited Double Casked review."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "rough-rider-happy-warrior-straight-bourbon-cask-strength",
+      "name": "Rough Rider Happy Warrior Straight Bourbon Cask Strength",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://www.lispirits.com/spirits/rough-rider-bourbon/"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.winebow.com/system/files/pos/assets/P0010263_RoughRider_HappyWarrior_SS_1128.pdf",
+          "checkedAt": "2026-10-03",
+          "status": "inaccessible-original-reference"
+        },
+        {
+          "url": "https://www.lispirits.com/spirits/rough-rider-bourbon/",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved-replacement"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "floral notes"
+        ],
+        "palate": [
+          "caramel",
+          "vanilla",
+          "sweet impression"
+        ],
+        "body": "Rounded producer reference",
+        "finish": "Warming producer reference; exact duration is not specified."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "tx-straight-bourbon",
+      "name": "TX Straight Bourbon",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://bourbonveach.com/2020/04/22/tasting-notes-tx-texas-straight-bourbon/"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://bourbonveach.com/2020/04/22/tasting-notes-tx-texas-straight-bourbon/",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "corn",
+          "vanilla",
+          "caramel",
+          "pear",
+          "baking spice",
+          "oak"
+        ],
+        "palate": [
+          "caramel",
+          "pear",
+          "pepper",
+          "oak"
+        ],
+        "body": "Not established by cited source",
+        "finish": "Sustained dry oak and pepper in the cited bottling; food-conditioned tasting notes excluded."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "wl-weller-special-reserve",
+      "name": "W.L. Weller Special Reserve",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://www.buffalotracedistillery.com/our-brands/w-l-weller/w-l-weller-special-reserve/"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.buffalotracedistillery.com/our-brands/w-l-weller/w-l-weller-special-reserve/",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "caramel"
+        ],
+        "palate": [
+          "honey",
+          "butterscotch",
+          "light oak"
+        ],
+        "body": "Smooth and delicate producer reference",
+        "finish": "Soft finish with a honeysuckle-like impression."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "wl-weller-antique-107",
+      "name": "W.L. Weller Antique 107",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://www.breakingbourbon.com/review/weller-antique-107"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.breakingbourbon.com/review/weller-antique-107",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "dark fruit",
+          "vanilla",
+          "caramel",
+          "oak",
+          "cinnamon",
+          "light licorice"
+        ],
+        "palate": [
+          "cinnamon",
+          "cherry",
+          "dark fruit",
+          "raw sugar",
+          "oak"
+        ],
+        "body": "Full and oily in the cited review",
+        "finish": "Lingering cinnamon"
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "old-rip-van-winkle-10-year",
+      "name": "Old Rip Van Winkle 10 Year",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://thebourbonculture.com/whiskey-reviews/old-rip-van-winkle-10-year-old-bourbon-review/"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://thebourbonculture.com/whiskey-reviews/old-rip-van-winkle-10-year-old-bourbon-review/",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "seasoned wood",
+          "cinnamon",
+          "cherry cola",
+          "vanilla",
+          "orange"
+        ],
+        "palate": [
+          "seasoned oak",
+          "tobacco",
+          "dried cherry",
+          "apricot",
+          "cinnamon",
+          "molasses"
+        ],
+        "body": "Not established by cited source",
+        "finish": "Cinnamon, oak and cherry-tobacco impressions linger, with vanilla custard and lightly burnt caramel in the cited bottling."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "van-winkle-special-reserve-12-year-lot-b",
+      "name": "Van Winkle Special Reserve 12 Year Lot B",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://thebourbonculture.com/whiskey-reviews/van-winkle-special-reserve-lot-b-12-year-old-bourbon-review/"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://thebourbonculture.com/whiskey-reviews/van-winkle-special-reserve-lot-b-12-year-old-bourbon-review/",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "caramel",
+          "berries",
+          "oak"
+        ],
+        "palate": [
+          "oak",
+          "cherry",
+          "red fruit",
+          "chocolate candy",
+          "cinnamon",
+          "anise",
+          "clove"
+        ],
+        "body": "Not established by cited source",
+        "finish": "Berry-jam and caramel impressions linger with gentle oak and cinnamon in the cited bottling."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "pappy-van-winkle-family-reserve-15-year",
+      "name": "Pappy Van Winkle Family Reserve 15 Year",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://www.buffalotracedistillery.com/our-brands/van-winkle/pappy-van-winkle-15-year/"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.buffalotracedistillery.com/our-brands/van-winkle/pappy-van-winkle-15-year/",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "caramel corn",
+          "vanilla"
+        ],
+        "palate": [
+          "leather",
+          "oak",
+          "fruit"
+        ],
+        "body": "Not established by cited source",
+        "finish": "Smooth spice and oak tannin impressions in the producer reference."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "pappy-van-winkle-family-reserve-20-year",
+      "name": "Pappy Van Winkle Family Reserve 20 Year",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://thebourbonculture.com/whiskey-reviews/pappy-van-winkle-20-year-bourbon-review/"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://thebourbonculture.com/whiskey-reviews/pappy-van-winkle-20-year-bourbon-review/",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "berry fruit",
+          "caramel",
+          "mature oak"
+        ],
+        "palate": [
+          "fruitcake",
+          "blackberry",
+          "cherry",
+          "aged wood",
+          "cinnamon",
+          "allspice"
+        ],
+        "body": "Lush in the cited review",
+        "finish": "Moderate cedar, mature oak, chocolate, cinnamon and spiced fruit in the cited bottling."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "pappy-van-winkle-family-reserve-23-year",
+      "name": "Pappy Van Winkle Family Reserve 23 Year",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://www.buffalotracedistillery.com/our-brands/van-winkle/pappy-van-winkle-23-year/"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.buffalotracedistillery.com/our-brands/van-winkle/pappy-van-winkle-23-year/",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "Not separately specified by producer"
+        ],
+        "palate": [
+          "caramel",
+          "ripe apple",
+          "cherry",
+          "oak",
+          "tobacco",
+          "light chocolate"
+        ],
+        "body": "Not established by cited source",
+        "finish": "Pronounced wood gives way to a sustained caramel impression."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "1792-small-batch",
+      "name": "1792 Small Batch",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://thebourbonculture.com/whiskey-reviews/1792-small-batch-bourbon-review/"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://thebourbonculture.com/whiskey-reviews/1792-small-batch-bourbon-review/",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "cherry",
+          "orange",
+          "cinnamon"
+        ],
+        "palate": [
+          "rye spice",
+          "herbs",
+          "cinnamon",
+          "anise",
+          "cherry",
+          "orange",
+          "caramel"
+        ],
+        "body": "Not established by cited source",
+        "finish": "Light oak with caramel, peppercorn, cinnamon and vanilla in the cited bottling."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "amador-double-barrel-bourbon",
+      "name": "Amador Double Barrel Bourbon",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://thewhiskeycowboy.wordpress.com/2019/08/23/amador-double-barrel-bourbon-whiskey-review/"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://thewhiskeycowboy.wordpress.com/2019/08/23/amador-double-barrel-bourbon-whiskey-review/",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "young grain",
+          "grass",
+          "oak"
+        ],
+        "palate": [
+          "vanilla",
+          "brown sugar",
+          "ripe red fruit"
+        ],
+        "body": "Light in the cited review",
+        "finish": "Moderate mild spice and oak in the cited bottling."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "bakers-7-year-single-barrel-bourbon",
+      "name": "Baker's 7 Year Single Barrel Bourbon",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://www.breakingbourbon.com/review/bakers-bourbon-7-year-single-barrel"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.breakingbourbon.com/review/bakers-bourbon-7-year-single-barrel",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "nuts",
+          "baking spice",
+          "caramel",
+          "vanilla"
+        ],
+        "palate": [
+          "burnt caramel",
+          "spiced vanilla",
+          "green peppercorn",
+          "rye spice",
+          "light syrup-like sweetness"
+        ],
+        "body": "Not established by cited source",
+        "finish": "Moderate dry oak and nuts with warming spice in the reviewed single barrel."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "basil-hayden",
+      "name": "Basil Hayden",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://www.basilhaydenbourbon.com/whiskies/basil-hayden-kentucky-straight-bourbon"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.basilhaydenbourbon.com/whiskies/basil-hayden-kentucky-straight-bourbon",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "charred oak",
+          "vanilla",
+          "caramel",
+          "dried fruit"
+        ],
+        "palate": [
+          "charred oak",
+          "brown sugar",
+          "black pepper",
+          "dried fruit"
+        ],
+        "body": "Not established by cited source",
+        "finish": "Lingering charred oak with a dried-fruit accent."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "bookers-bourbon",
+      "name": "Booker's Bourbon",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://www.breakingbourbon.com/review/bookers-bourbon"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.breakingbourbon.com/review/bookers-bourbon",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "oak",
+          "floral notes",
+          "nuts"
+        ],
+        "palate": [
+          "sweet wood",
+          "vanilla",
+          "raisin",
+          "oak",
+          "light leather"
+        ],
+        "body": "Not established by cited source",
+        "finish": "Light vanilla and wood linger in the cited batch; batch-specific intensity is unconfirmed."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "buffalo-trace-bourbon",
+      "name": "Buffalo Trace Bourbon",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://www.buffalotracedistillery.com/our-brands/buffalo-trace/buffalo-trace-bourbon/"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.buffalotracedistillery.com/our-brands/buffalo-trace/buffalo-trace-bourbon/",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "vanilla",
+          "mint",
+          "molasses"
+        ],
+        "palate": [
+          "brown sugar",
+          "spice",
+          "oak",
+          "toffee",
+          "dark fruit",
+          "anise"
+        ],
+        "body": "Not established by cited source",
+        "finish": "Sustained, smooth producer reference; finish flavors are not separately isolated."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "duke-kentucky-straight-bourbon",
+      "name": "Duke Kentucky Straight Bourbon",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://www.bourbonbanter.com/duke-kentucky-straight-bourbon-review/"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.bourbonbanter.com/duke-kentucky-straight-bourbon-review/",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "green apple",
+          "spice",
+          "black tea",
+          "oak",
+          "honey",
+          "vanilla"
+        ],
+        "palate": [
+          "dry oak",
+          "spice",
+          "corn",
+          "black tea",
+          "vanilla",
+          "honey"
+        ],
+        "body": "Not established by cited source",
+        "finish": "Persistent dry oak and spice; the two reviewers differ on sweetness and tannic balance."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "four-roses-bourbon-formerly-yellow-label",
+      "name": "Four Roses Bourbon (formerly Yellow Label)",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://www.fourrosesbourbon.com/bourbon/four-roses-bourbon"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.fourrosesbourbon.com/bourbon/four-roses-bourbon",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "flowers",
+          "spice",
+          "honey"
+        ],
+        "palate": [
+          "pear",
+          "apple",
+          "fresh fruit"
+        ],
+        "body": "Not established by cited source",
+        "finish": "Sustained gentle producer reference, without separate finish flavors."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "four-roses-single-barrel",
+      "name": "Four Roses Single Barrel",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://www.fourrosesbourbon.com/bourbon/single-barrel"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.fourrosesbourbon.com/bourbon/single-barrel",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "dried spice",
+          "pear",
+          "cocoa",
+          "vanilla",
+          "maple syrup"
+        ],
+        "palate": [
+          "ripe plum",
+          "cherry"
+        ],
+        "body": "Not established by cited source",
+        "finish": "Gently sustained producer reference, without separate finish flavors."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "four-roses-small-batch",
+      "name": "Four Roses Small Batch",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://www.fourrosesbourbon.com/bourbon/small-batch"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.fourrosesbourbon.com/bourbon/small-batch",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "fruit",
+          "oak",
+          "caramel"
+        ],
+        "palate": [
+          "red berries",
+          "dried spice"
+        ],
+        "body": "Not established by cited source",
+        "finish": "Gentle, sustained producer reference, without separate finish flavors."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "garrison-brothers-cowboy-bourbon",
+      "name": "Garrison Brothers Cowboy Bourbon",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://www.garrisonbros.com/our-babies/cowboy-bourbon/"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.garrisonbros.com/our-babies/cowboy-bourbon/",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "toasted marshmallow",
+          "brown sugar",
+          "dried fruit",
+          "cinnamon",
+          "molasses",
+          "leather",
+          "peppercorn",
+          "vanilla",
+          "light campfire smoke"
+        ],
+        "palate": [
+          "toasted caramel",
+          "baking spice",
+          "molasses",
+          "vanilla",
+          "plum",
+          "dark chocolate"
+        ],
+        "body": "Thick and coating in the current producer release",
+        "finish": "Extended toasted sugar, cinnamon, leather and pepper, with chocolate, dried fruit and a light smoky accent; release-specific."
+      },
+      "unresolved": "Current producer page describes a particular Cowboy release; venue release is unidentified.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "garrison-brothers-honeydew-bourbon",
+      "name": "Garrison Brothers HoneyDew Bourbon",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://www.garrisonbros.com/our-babies/honeydew/"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.garrisonbros.com/our-babies/honeydew/",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "caramel",
+          "oak",
+          "toasted brown sugar",
+          "molasses"
+        ],
+        "palate": [
+          "elderberry syrup",
+          "peach",
+          "apricot",
+          "wildflower honey",
+          "light white chocolate"
+        ],
+        "body": "Not established by cited source",
+        "finish": "Warming charred oak and honey impressions linger."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "garrison-brothers-small-batch-bourbon",
+      "name": "Garrison Brothers Small Batch Bourbon",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://www.garrisonbros.com/our-babies/small-batch/"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.whisky.com/whisky-database/details/garrison-brothers-small-batch.html",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.garrisonbros.com/our-babies/small-batch/",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved-replacement"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "apple",
+          "honey",
+          "floral verbena",
+          "fresh grass",
+          "leather",
+          "cinnamon"
+        ],
+        "palate": [
+          "orange candy",
+          "lemon candy",
+          "pound cake",
+          "sugar cookie",
+          "baking spice",
+          "honeysuckle"
+        ],
+        "body": "Not established by cited source",
+        "finish": "Sustained smoky tobacco shifting toward caramel apple, walnut and cinnamon in the current producer reference."
+      },
+      "unresolved": "Producer narrative and current Tasting Notes differ in emphasis; structured Tasting Notes were used, not mixed with aggregate community tags.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "james-e-pepper-1776-bourbon",
+      "name": "James E. Pepper 1776 Bourbon",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://www.amongstthewhiskey.com/post/james-e-pepper-1776-bourbon-review"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.amongstthewhiskey.com/post/james-e-pepper-1776-bourbon-review",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "pepper",
+          "caramel",
+          "strawberry",
+          "plum",
+          "citrus",
+          "herbs",
+          "mint"
+        ],
+        "palate": [
+          "orange zest",
+          "vanilla",
+          "caramel",
+          "cherry",
+          "rye grain"
+        ],
+        "body": "Not established by cited source",
+        "finish": "Short, light vanilla-spice and young-grain aftertaste in the cited bottling."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "jeffersons-ocean-aged-at-sea",
+      "name": "Jefferson's Ocean Aged at Sea",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://jeffersonsbourbon.com/whiskeys/jeffersons-ocean-bourbon/"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://jeffersonsbourbon.com/whiskeys/jeffersons-ocean-bourbon/",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "ginger",
+          "butterscotch",
+          "salt-spray impression"
+        ],
+        "palate": [
+          "salted caramel",
+          "chocolate",
+          "tropical fruit"
+        ],
+        "body": "Not established by cited source",
+        "finish": "Delicate sea-salt impression in the producer reference; voyage-dependent."
+      },
+      "unresolved": "Producer reference notes apply to the Ocean range; venue voyage is unidentified. Sea-salt wording is a sensory impression, not measured salinity.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "jeffersons-reserve-very-small-batch",
+      "name": "Jefferson's Reserve Very Small Batch",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://www.bourbonbanter.com/jeffersons-reserve-very-old-bourbon-review/"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.bourbonbanter.com/jeffersons-reserve-very-old-bourbon-review/",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "butterscotch",
+          "raisin",
+          "vanilla"
+        ],
+        "palate": [
+          "oak",
+          "tobacco",
+          "brown sugar"
+        ],
+        "body": "Not established by cited source",
+        "finish": "Warming reference finish from a 2011 batch review; no verified current duration."
+      },
+      "unresolved": "Both Jefferson Reserve records use the same 2011 review; cannot establish distinct current bottlings.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "jeffersons-reserve-very-old-very-small-batch-style-bottling",
+      "name": "Jefferson's Reserve Very Old / Very Small Batch style bottling",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://www.bourbonbanter.com/jeffersons-reserve-very-old-bourbon-review/"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.bourbonbanter.com/jeffersons-reserve-very-old-bourbon-review/",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "butterscotch",
+          "raisin",
+          "vanilla"
+        ],
+        "palate": [
+          "oak",
+          "tobacco",
+          "brown sugar"
+        ],
+        "body": "Not established by cited source",
+        "finish": "Warming reference finish from a 2011 batch review; exact menu bottling remains unresolved."
+      },
+      "unresolved": "Both Jefferson Reserve records use the same 2011 review; exact Very Old/Very Small Batch menu identity remains unresolved.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "jim-beam-black",
+      "name": "Jim Beam Black",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://www.jimbeam.com/en-us/bourbons/jim-beam-black"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.jimbeam.com/en-us/bourbons/jim-beam-black",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "oak",
+          "brown sugar",
+          "vanilla"
+        ],
+        "palate": [
+          "caramel",
+          "baking spice"
+        ],
+        "body": "Full-bodied producer reference",
+        "finish": "Not separately specified in the current producer tasting notes."
+      },
+      "unresolved": "Current producer source describes seven-year, 90-proof Black; older Extra Aged bottlings can differ.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "jim-beam-bonded",
+      "name": "Jim Beam Bonded",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://bourbonveach.com/2018/10/03/tasting-notes-jim-beam-bonded/"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://bourbonr.com/blog/clash-beam-bonded-bourbons/",
+          "checkedAt": "2026-10-03",
+          "status": "inaccessible-original-reference"
+        },
+        {
+          "url": "https://bourbonveach.com/2018/10/03/tasting-notes-jim-beam-bonded/",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved-replacement"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "cornbread",
+          "vanilla",
+          "light tobacco"
+        ],
+        "palate": [
+          "corn",
+          "vanilla",
+          "white pepper",
+          "oak"
+        ],
+        "body": "Not established by cited source",
+        "finish": "Moderate-to-long dry oak and white pepper in the cited 2018 bottling review."
+      },
+      "unresolved": "Original Bourbonr URL failed. Producer Bonded URL redirects to the general range. Replacement detailed evidence is a 2018 Michael Veach bottling review.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "knob-creek-bourbon",
+      "name": "Knob Creek Bourbon",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://dram1.com/knob-creek-9/"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://dram1.com/knob-creek-9/",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "molasses",
+          "oak",
+          "caramel",
+          "vanilla fudge",
+          "clove",
+          "nutmeg"
+        ],
+        "palate": [
+          "molasses",
+          "cherry",
+          "peanut",
+          "caramel",
+          "spice"
+        ],
+        "body": "Full-bodied in the cited review",
+        "finish": "Moderate molasses, oak, cherry and honey-like impressions, with a slight walnut bitterness."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "larceny-small-batch",
+      "name": "Larceny Small Batch",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://larcenybourbon.com/small-batch"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://larcenybourbon.com/small-batch",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "fresh bread",
+          "toffee",
+          "butterscotch"
+        ],
+        "palate": [
+          "honey",
+          "buttery caramel"
+        ],
+        "body": "Rich producer reference",
+        "finish": "Sustained, gently sweet and savory sensory impression."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "makers-mark",
+      "name": "Maker's Mark",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://www.makersmark.com/en-us/bourbons/makers-mark"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.makersmark.com/en-us/bourbons/makers-mark",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "sweet oak",
+          "vanilla",
+          "bright fruit",
+          "wheat"
+        ],
+        "palate": [
+          "oak",
+          "vanilla",
+          "fruit"
+        ],
+        "body": "Not established by cited source",
+        "finish": "Creamy, clean reference finish with gentle spice."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "makers-mark-46",
+      "name": "Maker's Mark 46",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://www.breakingbourbon.com/review/makers-46-bourbon"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.breakingbourbon.com/review/makers-46-bourbon",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "caramel",
+          "toasted oak",
+          "vanilla",
+          "toffee",
+          "cinnamon bread"
+        ],
+        "palate": [
+          "oak",
+          "caramel",
+          "cinnamon",
+          "wheat bread"
+        ],
+        "body": "Buttery in the cited review",
+        "finish": "Spice and oak lead into light tobacco and leather in the cited bottling."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "michters-us1-small-batch-bourbon",
+      "name": "Michter's US*1 Small Batch Bourbon",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://michters.com/kentucky-straight-bourbon/"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://michters.com/kentucky-straight-bourbon/",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "Not separately specified by producer"
+        ],
+        "palate": [
+          "caramel",
+          "vanilla",
+          "stone fruit",
+          "light smoke"
+        ],
+        "body": "Not established by cited source",
+        "finish": "Oak-led producer reference."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "milam-greene-triple-cask-straight-bourbon-whiskey",
+      "name": "Milam & Greene Triple Cask Straight Bourbon Whiskey",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://www.breakingbourbon.com/review/milam-greene-triple-cask-bourbon"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://milamandgreenewhiskey.com/pages/triple-cask-bourbon",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.breakingbourbon.com/review/milam-greene-triple-cask-bourbon",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved-replacement"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "cinnamon",
+          "cedar",
+          "hazelnut",
+          "tea",
+          "graham cracker",
+          "dried fruit"
+        ],
+        "palate": [
+          "dried fig",
+          "baking spice",
+          "tobacco",
+          "sandalwood"
+        ],
+        "body": "Not established by cited source",
+        "finish": "Moderate chocolate, hazelnut and spicy oak, with lingering cinnamon in the 2023 review."
+      },
+      "unresolved": "Current producer page exposes composition but not detailed tasting notes; search index differs from rendered page. Detailed tasting uses an explicit 2023 reviewer reference.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "old-fitzgerald-bottled-in-bond-19-year",
+      "name": "Old Fitzgerald Bottled-in-Bond 19 Year",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://www.breakingbourbon.com/review/old-fitzgerald-bottled-in-bond-bourbon-fall-2022-edition"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.breakingbourbon.com/review/old-fitzgerald-bottled-in-bond-bourbon-fall-2022-edition",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "cherry chocolate",
+          "tobacco",
+          "dry oak",
+          "cinnamon"
+        ],
+        "palate": [
+          "creamy chocolate",
+          "leather",
+          "dry oak",
+          "peppercorn",
+          "bread",
+          "vanilla"
+        ],
+        "body": "Not established by cited source",
+        "finish": "Markedly dry oak and leather with gentle spice in the Fall 2022 review."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "old-forester-1870-original-batch",
+      "name": "Old Forester 1870 Original Batch",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://shop.oldforester.com/old-forester-1870-original-batc-750-ml/"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://shop.oldforester.com/old-forester-1870-original-batc-750-ml/",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "citrus",
+          "clove",
+          "honeysuckle"
+        ],
+        "palate": [
+          "clove",
+          "cinnamon",
+          "nutmeg",
+          "citrus",
+          "shortbread"
+        ],
+        "body": "Not established by cited source",
+        "finish": "Gentle lingering fruit and spice in the producer reference."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "old-forester-1897-bottled-in-bond",
+      "name": "Old Forester 1897 Bottled in Bond",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://shop.oldforester.com/old-forester-1897-bottled-in-bod-750-ml/"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://shop.oldforester.com/old-forester-1897-bottled-in-bod-750-ml/",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "caramel"
+        ],
+        "palate": [
+          "vanilla",
+          "roasted coffee",
+          "spiced dark fruit",
+          "oak"
+        ],
+        "body": "Mouth-filling producer reference",
+        "finish": "Bold fruit, spice and oak over caramel and vanilla impressions."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "old-forester-1910-old-fine-whisky",
+      "name": "Old Forester 1910 Old Fine Whisky",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://www.oldforester.com/products/old-forester-1910-old-fine-whisky/"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.oldforester.com/products/old-forester-1910-old-fine-whisky/",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "buttercream",
+          "toffee",
+          "baked apple",
+          "roasted coffee"
+        ],
+        "palate": [
+          "oatmeal raisin cookie",
+          "cinnamon",
+          "nutmeg",
+          "mocha"
+        ],
+        "body": "Rounded producer reference",
+        "finish": "Viscous but slightly dry, with peripheral spice and smoky charred oak."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "old-forester-1920-prohibition-style",
+      "name": "Old Forester 1920 Prohibition Style",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://www.oldforester.com/products/old-forester-1920-style-prohibition-whisky/"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.oldforester.com/products/old-forester-1920-style-prohibition-whisky/",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "cherry preserves",
+          "caramel",
+          "dark chocolate",
+          "maple syrup",
+          "spiced nuts"
+        ],
+        "palate": [
+          "dark caramel",
+          "malt nuttiness",
+          "chocolate",
+          "nougat",
+          "rye spice",
+          "cedar"
+        ],
+        "body": "Not established by cited source",
+        "finish": "Extended toasted coconut, dark chocolate, charred marshmallow and seasoned oak spice."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "old-forester-house-bourbon",
+      "name": "Old Forester House Bourbon",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://www.oldforester.com/products/old-forester-86-proof/"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.oldforester.com/products/old-forester-86-proof/",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "citrus",
+          "tropical fruit",
+          "floral notes",
+          "pound cake",
+          "clove",
+          "toasted oak"
+        ],
+        "palate": [
+          "citrus zest",
+          "ripe pear",
+          "mint",
+          "clove"
+        ],
+        "body": "Not established by cited source",
+        "finish": "Spearmint, clove and toasted oak in the 86-proof reference; house bottling unconfirmed."
+      },
+      "unresolved": "86-proof producer notes are a conditional reference; house bourbon bottle/proof remains unidentified.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "rabbit-hole-cavehill-bourbon",
+      "name": "Rabbit Hole Cavehill Bourbon",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://www.rabbitholedistillery.com/products/cavehill-kentucky-straight-bourbon-whiskey"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.rabbitholedistillery.com/products/cavehill-kentucky-straight-bourbon-whiskey",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "spice",
+          "fresh apple"
+        ],
+        "palate": [
+          "honey",
+          "mint",
+          "creamy orange"
+        ],
+        "body": "Not established by cited source",
+        "finish": "Vanilla and custard develop toward the back of the palate in the producer reference."
+      },
+      "unresolved": "Producer page includes both own product description and an attributed Whisky Advocate review. Own description used to avoid mixing different nose/palate emphases.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "russells-reserve-single-barrel-bourbon",
+      "name": "Russell's Reserve Single Barrel Bourbon",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://www.breakingbourbon.com/review/russells-reserve-single-barrel-bourbon"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.breakingbourbon.com/review/russells-reserve-single-barrel-bourbon",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "oak",
+          "caramel",
+          "graham cracker",
+          "light smoke",
+          "cigar box",
+          "leather"
+        ],
+        "palate": [
+          "rye spice",
+          "charred oak",
+          "caramel",
+          "leather",
+          "tobacco",
+          "toffee"
+        ],
+        "body": "Full-bodied in the cited single barrel",
+        "finish": "Extended rye spice, dark fruit, tobacco, leather and oak in the reviewed barrel."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "russells-reserve-10-year-old-bourbon",
+      "name": "Russell's Reserve 10 Year Old Bourbon",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://www.breakingbourbon.com/review/russells-reserve-10-year-bourbon"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.breakingbourbon.com/review/russells-reserve-10-year-bourbon",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "vanilla",
+          "caramel",
+          "oak"
+        ],
+        "palate": [
+          "caramel",
+          "vanilla",
+          "tobacco",
+          "oak",
+          "light rye spice"
+        ],
+        "body": "Slightly thin in the cited review",
+        "finish": "Rye spice fades toward marshmallow, leather, tobacco, caramel and vanilla; lightly dry."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "woodford-reserve-kentucky-straight-bourbon-whiskey",
+      "name": "Woodford Reserve Kentucky Straight Bourbon Whiskey",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://www.woodfordreserve.com/whiskey/straight-bourbon-whiskey/"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.woodfordreserve.com/whiskey/straight-bourbon-whiskey/",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "dried fruit",
+          "mint",
+          "orange",
+          "cocoa",
+          "vanilla",
+          "tobacco spice"
+        ],
+        "palate": [
+          "citrus",
+          "cinnamon",
+          "cocoa",
+          "toffee",
+          "caramel",
+          "chocolate",
+          "spice"
+        ],
+        "body": "Chewy, rounded producer reference",
+        "finish": "Initially creamy, followed by an extended warming tail."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "widow-jane-decadence",
+      "name": "Widow Jane Decadence",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://bourbonveach.com/2020/12/02/tasting-notes-widow-jane-decadence-and-youll-never-walk-alone/"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://bourbonveach.com/2020/12/02/tasting-notes-widow-jane-decadence-and-youll-never-walk-alone/",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "maple syrup",
+          "caramel",
+          "oak"
+        ],
+        "palate": [
+          "maple syrup",
+          "apple",
+          "ginger",
+          "cinnamon",
+          "oak"
+        ],
+        "body": "Not established by cited source",
+        "finish": "Maple and spice lead into drying oak in the reviewed batch; food-conditioned notes excluded."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "widow-jane-lucky-thirteen",
+      "name": "Widow Jane Lucky Thirteen",
+      "checkedAt": "2026-10-03",
+      "status": "source-checked-partial-evidence",
+      "evidenceUrls": [
+        "https://thewhiskeywash.com/bourbon/whiskey-review-widow-jane-lucky-thirteen/"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://thewhiskeywash.com/bourbon/whiskey-review-widow-jane-lucky-thirteen/",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "vanilla",
+          "butterscotch",
+          "cedar"
+        ],
+        "palate": [
+          "caramel corn",
+          "roasted peanut",
+          "spice",
+          "bittersweet impression"
+        ],
+        "body": "Not established by cited source",
+        "finish": "Not separately established by the retrieved review; its palate and finish sections are incomplete."
+      },
+      "unresolved": "Retrieved review lacks its palate and finish sections. Limited palate notes appear in the reviewer conclusion; unsupported black tea/tobacco/citrus/body/finish claims removed.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "wild-turkey-longbranch",
+      "name": "Wild Turkey Longbranch",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://breakingbourbon.com/review/wild-turkey-longbranch"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://breakingbourbon.com/review/wild-turkey-longbranch",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "caramel",
+          "vanilla",
+          "nutmeg"
+        ],
+        "palate": [
+          "honey",
+          "orange",
+          "spice",
+          "oak"
+        ],
+        "body": "Creamy in the cited review",
+        "finish": "Light dryness and warmth, with caramel and spice fading into a brief smoky accent."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ]
+    },
+    {
+      "id": "yellowstone-select",
+      "name": "Yellowstone Select",
+      "checkedAt": "2026-10-03",
+      "status": "independently-reverified-reference",
+      "evidenceUrls": [
+        "https://www.breakingbourbon.com/review/yellowstone-select-bourbon"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.breakingbourbon.com/review/yellowstone-select-bourbon",
+          "checkedAt": "2026-10-03",
+          "status": "retrieved"
+        }
+      ],
+      "claims": {
+        "aroma": [
+          "oak",
+          "vanilla",
+          "caramel"
+        ],
+        "palate": [
+          "oak",
+          "vanilla",
+          "peach",
+          "leather",
+          "caramel",
+          "brown sugar"
+        ],
+        "body": "Lightly creamy in the cited review",
+        "finish": "Brief vanilla and sweet oak shift toward drier oak, leather and white pepper."
+      },
+      "unresolved": "Source-supported reference descriptors reconciled by aroma, palate and finish; venue bottle, release and availability have not been inspected.",
+      "pairingReview": "Specific existing menu-component rationale preserved or corrected. Suggestions remain editorial and conditional. Menu source availability not freshly verified.",
+      "changedFields": [
+        "tasting",
+        "research",
+        "pairings",
+        "pairingReview"
+      ]
+    }
+  ]
+}
