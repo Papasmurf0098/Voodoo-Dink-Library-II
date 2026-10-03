@@ -24,6 +24,16 @@ import {
 
 const app = document.querySelector('#app');
 const PAGE_STEP = 42;
+const ROLODEX = [
+  { family: 'Cocktail', label: 'Cocktails', image: 'citrus-cocktail.jpg', note: 'A little ritual. A little magic.' },
+  { family: 'Whiskey', label: 'Whiskey', image: 'whiskey-rocks.jpg', note: 'Oak, warmth & a story in every pour.' },
+  { family: 'Wine', label: 'Wine', image: 'wine-service.jpg', note: 'Find a glass for the moment.' },
+  { family: 'Spirit', label: 'Spirits', image: 'drink-tray.webp', note: 'Discover the foundations of the bar.' },
+];
+let rolodexIndex = 0;
+let rolodexFamily;
+let pointerStart = null;
+let suppressCardClick = false;
 
 const state = {
   entries: [],
@@ -126,23 +136,36 @@ function renderShell() {
     <div id="storageStatus" class="connection-status" role="status" hidden>Changes are kept for this session. Device storage is unavailable. Back up your saved profiles before leaving.</div>
     <main class="workspace" id="mainContent" tabindex="-1">
       <section class="tray-hero" aria-labelledby="trayTitle">
-        <div class="tray-hero__stars" aria-hidden="true"></div>
         <div class="tray-hero__copy">
-          <p class="tray-eyebrow">Voodoo Bayou</p>
-          <h2 id="trayTitle">The Drink<br> <em>Library.</em></h2>
-          <p class="tray-hero__hint">Choose your glass.</p>
-          <a class="tray-browse" href="#stageTitle">Explore the collection ${icon('arrow-right')}</a>
-          <div class="tray-stats"><div><strong>${stats.total}</strong><span>Drink profiles</span></div><div><strong>${stats.families}</strong><span>Collections</span></div></div>
+          <p class="tray-eyebrow"><span aria-hidden="true">✦</span> Voodoo Bayou · The collection</p>
+          <h2 id="trayTitle">Good spirits.<br><em>Great stories.</em></h2>
+          <p class="tray-hero__hint">Your next favorite is in here.<br>Turn the cards. Follow your taste.</p>
+          <a class="tray-browse" href="#stageTitle">Enter the library ${icon('arrow-right')}</a>
+          <div class="tray-stats"><div><strong>${stats.total}</strong><span>Drink profiles</span></div><div><strong>${stats.families}</strong><span>Collections to explore</span></div></div>
         </div>
-        <div class="tray-hero__visual">
-          <img src="./assets/drink-tray.webp" width="1536" height="1024" fetchpriority="high" alt="A silver tray holding red wine, a clear spirit shot, an old fashioned, and a golden cocktail." />
-          <nav class="tray-hotspots" aria-label="Explore drinks by glass">
-            ${[['Wine', 'Wine', 'wine'], ['Spirit', 'Spirits', 'shot'], ['Whiskey', 'Whiskey', 'rocks'], ['Cocktail', 'Cocktails', 'coupe']].map(([family, label, glass], index) => `
-              <a class="tray-hotspot tray-hotspot--${glass}" href="${escapeAttribute(window.location.pathname)}?family=${family}#stageTitle" data-tray-family="${family}" aria-label="Browse ${label}"><span class="tray-hotspot__dot" aria-hidden="true">${index + 1}</span><span class="tray-hotspot__label">${label}</span></a>`).join('')}
-          </nav>
-        </div>
-        <nav class="tray-mobile-key" aria-label="Drink tray categories">
-          ${[['Wine', 'Wine'], ['Spirit', 'Spirits'], ['Whiskey', 'Whiskey'], ['Cocktail', 'Cocktails']].map(([family, label], index) => `<a href="${escapeAttribute(window.location.pathname)}?family=${family}#stageTitle" data-tray-family="${family}"><span>${index + 1}</span>${label}${icon('arrow-right')}</a>`).join('')}
+        <section class="rolodex" aria-roledescription="carousel" aria-label="Featured drink collections">
+          <div class="rolodex__heading"><span>The drink index</span><span aria-hidden="true">EST. VOODOO</span></div>
+          <div class="rolodex__viewport" tabindex="0" aria-label="Turn collection cards with arrow keys" aria-describedby="rolodexHint">
+            <div class="rolodex__axle" aria-hidden="true"></div>
+            ${ROLODEX.map((card, index) => `
+              <article class="rolodex-card" data-slide="${index}" role="group" aria-roledescription="slide" aria-label="${card.label}, ${index + 1} of ${ROLODEX.length}">
+                <div class="rolodex-card__tab" aria-hidden="true">${String(index + 1).padStart(2, '0')} / ${card.label}</div>
+                <div class="rolodex-card__face">
+                  <img src="./assets/${card.image}" alt="" width="800" height="600" draggable="false" />
+                  <div class="rolodex-card__copy"><p>Collection ${String(index + 1).padStart(2, '0')}</p><h3>${card.label}</h3><span>${card.note}</span>
+                    <a href="${escapeAttribute(window.location.pathname)}?family=${card.family}#stageTitle" data-tray-family="${card.family}">Open ${card.label.toLowerCase()} ${icon('arrow-right')}</a>
+                  </div>
+                </div>
+              </article>`).join('')}
+          </div>
+          <div class="rolodex__controls">
+            <button class="rolodex-arrow" data-spin="-1" aria-label="Previous collection">${icon('arrow-left')}</button>
+            <div class="rolodex__position"><span id="rolodexStatus" aria-live="polite" aria-atomic="true"></span><small id="rolodexHint">Swipe or use the arrows to turn</small></div>
+            <button class="rolodex-arrow" data-spin="1" aria-label="Next collection">${icon('arrow-right')}</button>
+          </div>
+        </section>
+        <nav class="tray-mobile-key" aria-label="Featured collections">
+          ${ROLODEX.map(({ family, label }, index) => `<a href="${escapeAttribute(window.location.pathname)}?family=${family}#stageTitle" data-tray-family="${family}"><span>${String(index + 1).padStart(2, '0')}</span>${label}${icon('arrow-right')}</a>`).join('')}
         </nav>
       </section>
       <aside class="family-rack" aria-label="Drink families">
@@ -155,6 +178,7 @@ function renderShell() {
       </aside>
 
       <section class="library-stage">
+        <nav id="libraryBreadcrumbs" class="breadcrumbs" aria-label="Library breadcrumb"></nav>
         <header class="stage-header">
           <div>
             <p id="stageKicker" class="stage-kicker">Full collection</p>
@@ -289,6 +313,26 @@ function bindEvents() {
     }, 90);
   });
 
+  renderRolodex();
+  const viewport = document.querySelector('.rolodex__viewport');
+  viewport.addEventListener('pointerdown', (event) => {
+    if (!event.isPrimary || event.button !== 0) return;
+    suppressCardClick = false;
+    pointerStart = { x: event.clientX, y: event.clientY, id: event.pointerId };
+  });
+  viewport.addEventListener('pointerup', (event) => {
+    if (!pointerStart || pointerStart.id !== event.pointerId) return;
+    const dx = event.clientX - pointerStart.x;
+    const dy = event.clientY - pointerStart.y;
+    pointerStart = null;
+    if (Math.abs(dx) > 45 && Math.abs(dx) > Math.abs(dy)) {
+      suppressCardClick = true;
+      spinRolodex(dx < 0 ? 1 : -1);
+      setTimeout(() => { suppressCardClick = false; }, 0);
+    }
+  });
+  viewport.addEventListener('pointercancel', () => { pointerStart = null; });
+  viewport.addEventListener('pointerleave', () => { pointerStart = null; });
   document.addEventListener('click', handleClick);
   document.addEventListener('change', handleChange);
   document.addEventListener('keydown', handleKeydown);
@@ -308,6 +352,31 @@ function bindEvents() {
 }
 
 function handleClick(event) {
+  const spinTarget = event.target.closest('[data-spin]');
+  if (spinTarget) { spinRolodex(Number(spinTarget.dataset.spin)); return; }
+  if (suppressCardClick && event.target.closest('.rolodex-card')) { event.preventDefault(); return; }
+  const breadcrumb = event.target.closest('[data-breadcrumb-family]');
+  if (breadcrumb) {
+    if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey || event.button > 0) return;
+    event.preventDefault();
+    clearTimeout(searchTimer);
+    state.selectedId = null;
+    Object.assign(state, FILTER_DEFAULTS, { family: breadcrumb.dataset.breadcrumbFamily, category: breadcrumb.dataset.breadcrumbCategory || 'All', scope: 'all', visible: PAGE_STEP, pendingDish: '' });
+    syncUrl({ push: true, depth: 0 }); renderAll();
+    elements.stageTitle.focus({ preventScroll: true });
+    elements.stageTitle.scrollIntoView?.({ block: 'start', behavior: 'instant' });
+    return;
+  }
+  const sectionLink = event.target.closest('[data-profile-section]');
+  if (sectionLink) {
+    const section = elements.profilePanel.querySelector('#' + sectionLink.dataset.profileSection);
+    if (section) {
+      if (section.tagName === 'DETAILS') section.open = true;
+      section.scrollIntoView?.({ block: 'start', behavior: 'instant' });
+      section.focus({ preventScroll: true });
+    }
+    return;
+  }
   const trayTarget = event.target.closest('[data-tray-family]');
   if (trayTarget) {
     if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey || event.button > 0) return;
@@ -348,7 +417,7 @@ function handleClick(event) {
   if (categoryTarget) {
     state.category = categoryTarget.dataset.category;
     state.visible = PAGE_STEP;
-    syncUrl();
+    syncUrl({ push: true, depth: 0 });
     renderLibrary();
     return;
   }
@@ -449,6 +518,12 @@ function handleChange(event) {
 
 function handleKeydown(event) {
   if (event.metaKey || event.ctrlKey || event.altKey || event.isComposing) return;
+  if (event.target.closest?.('.rolodex') && ['ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown', 'Home', 'End'].includes(event.key)) {
+    event.preventDefault();
+    const next = ['ArrowRight', 'ArrowDown'].includes(event.key);
+    spinRolodex(event.key === 'Home' ? -rolodexIndex : event.key === 'End' ? ROLODEX.length - 1 - rolodexIndex : next ? 1 : -1);
+    return;
+  }
   if (state.selectedId && event.key === 'Tab') {
     const focusable = [...elements.profilePanel.querySelectorAll('button, a[href], summary, input, select, [tabindex="0"]')].filter((node) => node.getClientRects().length);
     const first = focusable[0], last = focusable.at(-1);
@@ -500,6 +575,13 @@ function renderLibrary() {
   renderFamilyTabs();
   renderCategories();
   renderStageHeader();
+  document.querySelector('#libraryBreadcrumbs').innerHTML = breadcrumbMarkup();
+  if (rolodexFamily !== state.family) {
+    const index = ROLODEX.findIndex((card) => card.family === state.family);
+    if (index >= 0) rolodexIndex = index;
+    rolodexFamily = state.family;
+    renderRolodex();
+  }
   renderScopeTabs();
   renderCollectionTools();
   elements.sortSelect.disabled = state.scope === 'recent';
@@ -529,6 +611,7 @@ function renderFamilyTabs() {
 }
 
 function renderCategories() {
+  document.querySelector('.category-browser').hidden = state.family === 'All' && state.category === 'All';
   const categories = getCategories(state.entries, state.family);
   const spiritOrder = ['Vodka', 'Gin', 'Rum', 'Aperitif', 'Tequila', 'Mezcal', 'Liqueur'];
   if (state.family === 'Spirit') categories.sort((a, b) => {
@@ -548,15 +631,15 @@ function renderCategories() {
 function renderStageHeader() {
   const filtered = getFiltered();
   const scopeLabels = { all: 'Full collection', favorites: 'Saved collection', recent: 'Recently viewed' };
-  elements.stageKicker.textContent = scopeLabels[state.scope] || 'Collection';
-  elements.stageTitle.textContent = state.family === 'All' ? 'The Bar' : state.family === 'Spirit' ? 'Spirits' : state.family === 'Cocktail' ? 'Cocktails' : state.family;
+  elements.stageKicker.textContent = state.category !== 'All' ? `${state.family === 'Spirit' ? 'Spirits' : state.family} collection` : scopeLabels[state.scope] || 'Collection';
+  elements.stageTitle.textContent = state.category !== 'All' ? state.category : state.family === 'All' ? 'The Bar' : state.family === 'Spirit' ? 'Spirits' : state.family === 'Cocktail' ? 'Cocktails' : state.family;
 
   const descriptors = [];
   if (state.category !== 'All') descriptors.push(state.category);
   if (state.query) descriptors.push(`“${state.query}”`);
   elements.stageSummary.textContent = descriptors.length
     ? `${filtered.length} matching profile${filtered.length === 1 ? '' : 's'} · ${descriptors.join(' · ')}`
-    : 'Voodoo Bayou · Palm Beach Gardens';
+    : `${filtered.length} profiles · Choose a category, explore a flavor, find your pour.`;
 }
 
 function renderScopeTabs() {
@@ -680,7 +763,13 @@ function renderProfile(id, { fromHistory = false } = {}) {
       <input id="profileLink" type="url" readonly value="${escapeAttribute(profileUrl(location.href, entry.id))}" />
     </div>
     <div class="profile-scroll">
-      <section class="profile-hero">
+      <nav class="breadcrumbs" aria-label="Profile breadcrumb">${breadcrumbMarkup(entry)}</nav>
+      <nav class="profile-chapters" aria-label="Inside this profile">
+        <button data-profile-section="profileOverview">Overview</button>
+        <button data-profile-section="profilePairings">Food pairings</button>
+        <button data-profile-section="profileSources">Accuracy & sources</button>
+      </nav>
+      <section class="profile-hero" id="profileOverview" tabindex="-1">
         <div class="profile-hero__index">${String(entry._index + 1).padStart(3, '0')}</div>
         <div class="profile-hero__copy">
           <p>${escapeHtml(entry.family)} <span>·</span> ${escapeHtml(entry.category)}</p>
@@ -709,7 +798,7 @@ function renderProfile(id, { fromHistory = false } = {}) {
 
         <aside class="profile-aside">
           ${quickReadMarkup(entry)}
-          <details class="research-panel">
+          <details class="research-panel" id="profileSources" tabindex="-1">
             <summary><span>Accuracy & sources</span>${icon('chevron-down')}</summary>
             <div class="research-panel__body">
               <div class="research-status">${researchBadgeMarkup(entry)}</div>
@@ -767,11 +856,48 @@ function hideProfile({ restoreScroll = true } = {}) {
   if (restoreScroll) requestAnimationFrame(() => { window.scrollTo({ top: state.scrollY, behavior: 'auto' }); const trigger = [...elements.catalogDeck.querySelectorAll('.card-open')].find((node) => node.dataset.drinkId === returnId); (returnFocus?.isConnected ? returnFocus : trigger || elements.searchInput)?.focus({ preventScroll: true }); });
 }
 
+function spinRolodex(step) {
+  const deck = document.querySelector('.rolodex');
+  deck.classList.add('has-turned');
+  deck.style.setProperty('--turn-from', step < 0 ? '-48deg' : '48deg');
+  const active = document.activeElement;
+  if (active?.closest('.rolodex-card')) document.querySelector('.rolodex__viewport').focus({ preventScroll: true });
+  rolodexIndex = (rolodexIndex + step + ROLODEX.length) % ROLODEX.length;
+  renderRolodex();
+}
+
+function renderRolodex() {
+  document.querySelectorAll('.rolodex-card').forEach((card, index) => {
+    let offset = (index - rolodexIndex + ROLODEX.length) % ROLODEX.length;
+    if (offset > ROLODEX.length / 2) offset -= ROLODEX.length;
+    card.dataset.offset = String(offset);
+    card.inert = offset !== 0;
+    card.setAttribute('aria-hidden', String(offset !== 0));
+    card.querySelector('a').tabIndex = offset === 0 ? 0 : -1;
+  });
+  document.querySelector('#rolodexStatus').textContent = `${String(rolodexIndex + 1).padStart(2, '0')} / ${String(ROLODEX.length).padStart(2, '0')} · ${ROLODEX[rolodexIndex].label}`;
+}
+
+function breadcrumbMarkup(entry) {
+  const family = entry?.family || state.family;
+  const category = entry?.category || state.category;
+  const label = (name) => name === 'Spirit' ? 'Spirits' : name === 'Cocktail' ? 'Cocktails' : name;
+  const crumbs = [{ label: 'Library', family: 'All', category: 'All' }];
+  if (family !== 'All') crumbs.push({ label: label(family), family, category: 'All' });
+  if (category !== 'All') crumbs.push({ label: category, family, category });
+  if (entry) crumbs.push({ label: entry.name });
+  return '<ol>' + crumbs.map((crumb, index) => {
+    if (index === crumbs.length - 1) return `<li><span aria-current="page">${escapeHtml(crumb.label)}</span></li>`;
+    const url = routeUrl(window.location.pathname, { ...FILTER_DEFAULTS, family: crumb.family, category: crumb.category, scope: 'all' });
+    return `<li><a href="${escapeAttribute(url)}" data-breadcrumb-family="${escapeAttribute(crumb.family)}" data-breadcrumb-category="${escapeAttribute(crumb.category)}">${escapeHtml(crumb.label)}</a></li>`;
+  }).join('') + '</ol>';
+}
+
 function setFamily(family) {
   state.family = FAMILY_ORDER.includes(family) ? family : 'All';
   state.category = 'All';
   state.visible = PAGE_STEP;
-  syncUrl();
+  syncUrl({ push: true, depth: 0 });
   renderLibrary();
 }
 
@@ -938,7 +1064,7 @@ function noteGroup(label, notes) {
 function pairingsMarkup(entry) {
   const pairs = entry.pairings?.restaurant || [];
   return `
-    <section class="content-section">
+    <section class="content-section" id="profilePairings" tabindex="-1">
       <div class="section-heading"><span>02</span><h2>From the kitchen</h2></div>
       <p class="pairing-note">${pairs.length ? 'Suggested Voodoo Bayou pairings' : escapeHtml(entry.pairingReview?.note || 'Pairing pending bottle confirmation.')}${pairs.length && entry.pairingReview?.conditional ? ' · conditional on the reference bottle' : ''}</p>
       <div class="pairing-grid">${pairs.map((pair) => `

@@ -146,12 +146,12 @@ test('spirit subcategory deep links preserve category on opening and closing a p
   } finally { ui.close(); }
 });
 
-test('drink-tray hotspots open complete collections, clear stale filters and focus results', async () => {
+test('rolodex links open complete collections, clear stale filters and focus results', async () => {
   const ui = await mount('?scope=favorites&q=missing&dish=pear&flavor=Smoke');
   try {
-    assert.equal(ui.win.document.querySelectorAll('.tray-hotspot').length, 4);
+    assert.equal(ui.win.document.querySelectorAll('.rolodex-card [data-tray-family]').length, 4);
     for (const [family, title] of [['Wine', 'Wine'], ['Spirit', 'Spirits'], ['Whiskey', 'Whiskey'], ['Cocktail', 'Cocktails']]) {
-      const link = ui.$(`.tray-hotspot[data-tray-family="${family}"]`);
+      const link = ui.$(`.rolodex-card [data-tray-family="${family}"]`);
       assert.equal(new URL(link.href).searchParams.get('family'), family);
       link.click();
       assert.equal(ui.$('#stageTitle').textContent, title);
@@ -173,7 +173,7 @@ test('drink-tray hotspots open complete collections, clear stale filters and foc
 test('tray native links preserve modified-click behavior and route history', async () => {
   const ui = await mount('?family=Beer');
   try {
-    const link = ui.$('.tray-hotspot[data-tray-family="Wine"]');
+    const link = ui.$('.rolodex-card [data-tray-family="Wine"]');
     const modified = new ui.win.MouseEvent('click', { bubbles: true, cancelable: true, ctrlKey: true });
     let intercepted;
     // Observe app behavior, then suppress jsdom's unsupported native new-tab navigation.
@@ -411,4 +411,76 @@ test('ABV selection orders cards numerically, updates the URL, and survives relo
   try { assert.equal(restored.$('#sortSelect').value, 'abv-desc'); } finally { restored.close(); }
   const linked = await mount('?sort=abv-asc');
   try { assert.equal(linked.$('#sortSelect').value, 'abv-asc'); } finally { linked.close(); }
+});
+
+test('rolodex rotation wraps, keeps controls focused and exposes only the active card', async () => {
+  const ui = await mount();
+  try {
+    const active = () => ui.$('.rolodex-card[data-offset="0"]');
+    assert.equal(active().dataset.slide, '0');
+    const next = ui.click('[data-spin="1"]');
+    assert.equal(active().dataset.slide, '1');
+    assert.equal(ui.win.document.activeElement, next);
+    assert.match(ui.$('#rolodexStatus').textContent, /02 \/ 04 · Whiskey/);
+    for (const card of ui.win.document.querySelectorAll('.rolodex-card')) {
+      const current = card.dataset.offset === '0';
+      assert.equal(card.inert, !current);
+      assert.equal(card.getAttribute('aria-hidden'), String(!current));
+      assert.equal(card.querySelector('a').tabIndex, current ? 0 : -1);
+    }
+    const viewport = ui.$('.rolodex__viewport');
+    viewport.focus();
+    const key = (value) => viewport.dispatchEvent(new ui.win.KeyboardEvent('keydown', { key: value, bubbles: true, cancelable: true }));
+    key('End'); assert.equal(active().dataset.slide, '3');
+    key('ArrowRight'); assert.equal(active().dataset.slide, '0');
+    key('ArrowLeft'); assert.equal(active().dataset.slide, '3');
+    key('Home'); assert.equal(active().dataset.slide, '0');
+    active().querySelector('a').focus();
+    ui.win.document.activeElement.dispatchEvent(new ui.win.KeyboardEvent('keydown', { key: 'ArrowDown', bubbles: true, cancelable: true }));
+    assert.equal(ui.win.document.activeElement, viewport);
+    assert.equal(ui.win.location.search, '');
+    ui.click('.rolodex-card[data-offset="0"] a');
+    assert.equal(new URL(ui.win.location.href).searchParams.get('family'), 'Whiskey');
+  } finally { ui.close(); }
+});
+
+test('rolodex horizontal swipe turns cards but vertical gestures and canceled pointers do not', async () => {
+  const ui = await mount();
+  try {
+    const viewport = ui.$('.rolodex__viewport');
+    const pointer = (type, x, y) => {
+      const event = new ui.win.MouseEvent(type, { clientX: x, clientY: y, bubbles: true });
+      Object.defineProperties(event, { pointerId: { value: 1 }, isPrimary: { value: true } });
+      viewport.dispatchEvent(event);
+    };
+    pointer('pointerdown', 220, 100); pointer('pointerup', 110, 105);
+    assert.equal(ui.$('.rolodex-card[data-offset="0"]').dataset.slide, '1');
+    pointer('pointerdown', 220, 100); pointer('pointerup', 205, 250);
+    assert.equal(ui.$('.rolodex-card[data-offset="0"]').dataset.slide, '1');
+    pointer('pointerdown', 220, 100); pointer('pointercancel', 150, 100); pointer('pointerup', 80, 100);
+    assert.equal(ui.$('.rolodex-card[data-offset="0"]').dataset.slide, '1');
+    assert.equal(ui.win.location.search, '');
+  } finally { ui.close(); }
+});
+
+test('breadcrumbs expose nested pages, navigate from a profile and preserve Back', async () => {
+  const ui = await mount('?family=Spirit&category=Tequila');
+  try {
+    assert.deepEqual([...ui.win.document.querySelectorAll('#libraryBreadcrumbs li')].map((el) => el.textContent), ['Library', 'Spirits', 'Tequila']);
+    const name = ui.click('.card-open').textContent;
+    await pause();
+    assert.equal(ui.$('#profilePanel .breadcrumbs [aria-current]').textContent, name);
+    ui.click('[data-profile-section="profileSources"]');
+    assert.equal(ui.$('#profileSources').open, true);
+    assert.equal(ui.win.document.activeElement.id, 'profileSources');
+    ui.click('[data-profile-section="profilePairings"]');
+    assert.equal(ui.win.document.activeElement.id, 'profilePairings');
+    ui.click('#profilePanel [data-breadcrumb-category="Tequila"]');
+    assert.equal(ui.$('#profileLayer').getAttribute('aria-hidden'), 'true');
+    assert.equal(ui.win.document.activeElement.id, 'stageTitle');
+    assert.equal(ui.win.location.search, '?family=Spirit&category=Tequila');
+    ui.win.history.back();
+    await until(() => ui.$('#profileLayer').getAttribute('aria-hidden') === 'false');
+    assert.equal(ui.$('#profileTitle').textContent, name);
+  } finally { ui.close(); }
 });
